@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{f99d1a29-9c20-e811-a95d-000d3a11ec14}" Name="Condition Type is Begins With or Equals" Description="Lock, clear, and require fields for when Condition Type is Begins With or Equals">
+  <XamlFileName>/Workflows/ConditionTypeisBeginsWithorEquals-F99D1A29-9C20-E811-A95D-000D3A11EC14.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.47</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_domdefinitionlogic</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Condition Type is Begins With or Equals" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Lock, clear, and require fields for when Condition Type is Begins With or Equals" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{fa9d1a29-9c20-e811-a95d-000d3a11ec14}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{fb9d1a29-9c20-e811-a95d-000d3a11ec14}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{d379142f-9c20-e811-a95d-000d3a11ec14}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{d479142f-9c20-e811-a95d-000d3a11ec14}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{0b04da5e-9c20-e811-a95d-000d3a11ec14}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{0c04da5e-9c20-e811-a95d-000d3a11ec14}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{0a152b71-5b21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{0b152b71-5b21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{0e162b71-5b21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{0f162b71-5b21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{24b01bcc-5c21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{25b01bcc-5c21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{b17016d2-5c21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{b27016d2-5c21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

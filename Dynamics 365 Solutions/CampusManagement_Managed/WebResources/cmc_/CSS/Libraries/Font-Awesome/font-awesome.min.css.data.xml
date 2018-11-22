@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{af4c9dfb-cd67-e811-a95a-000d3a18c42e}</WebResourceId>
+  <Name>cmc_/CSS/Libraries/Font-Awesome/font-awesome.min.css</Name>
+  <DisplayName>font-awesome.min.css</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0.0.72</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_CSSLibrariesFont-Awesomefont-awesomemincssAF4C9DFB-CD67-E811-A95A-000D3A18C42E</FileName>
+</WebResource>

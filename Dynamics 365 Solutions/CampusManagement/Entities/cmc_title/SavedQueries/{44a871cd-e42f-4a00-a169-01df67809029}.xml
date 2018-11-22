@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{44a871cd-e42f-4a00-a169-01df67809029}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_titlename" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_titleid">
+          <cell name="cmc_titlename" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_title">
+          <attribute name="cmc_titleid" />
+          <attribute name="cmc_titlename" />
+          <order attribute="cmc_titlename" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Title Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

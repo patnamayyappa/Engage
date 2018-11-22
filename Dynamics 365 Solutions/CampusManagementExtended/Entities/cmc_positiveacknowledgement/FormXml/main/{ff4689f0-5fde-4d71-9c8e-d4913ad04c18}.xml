@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ff4689f0-5fde-4d71-9c8e-d4913ad04c18}</formid>
+    <IntroducedVersion>1.0.0.15</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{f379b28e-8a58-4461-a58b-910734b4ede6}" IsUserDefined="1" name="positive_acknowledgement_tab" locklevel="0" expanded="true" showlabel="true" labelid="{c987562d-d570-441e-9fc2-caf97160971e}">
+          <labels>
+            <label description="Positive Acknowledgement" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{aae195e7-7230-44f9-aa4a-f02f5e6bf30b}" name="positive_acknowledgement_section" columns="1" locklevel="0" labelwidth="140" celllabelalignment="Left" celllabelposition="Left" labelid="{8dcbbb5a-3d5d-4d57-b99a-707011d2d00d}">
+                  <labels>
+                    <label description="Positive Acknowledgement" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cc5e421a-bc41-9365-0aa1-4821dadc7d0e}" showlabel="true" locklevel="0" labelid="{c02910c1-f55e-4a47-88ce-ef2b0e1f4227}">
+                        <labels>
+                          <label description="Acknowledgment Reason" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_acknowledgmentreason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_acknowledgmentreason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e53964a-165c-2be7-41ee-c19aba5527de}" showlabel="true" locklevel="0" labelid="{fa965737-3f73-4960-9bfb-497983ab2af5}">
+                        <labels>
+                          <label description="Acknowledgement Detail" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_acknowledgementreasondetail" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_acknowledgementreasondetail" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{86212c57-2e4e-3550-86d9-96a73e3b044e}" showlabel="true" locklevel="0" labelid="{50bfe929-1b29-4b18-b1c2-be9fafff228f}">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_studentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_studentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{657af490-f310-4d50-91db-3a61959d927c}" showlabel="true" locklevel="0" visible="false" labelid="{765273d1-6ec1-4583-a185-e8996f86810c}">
+                        <labels>
+                          <label description="NOT VISIBLE - Positive Acknowledgment Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_positiveacknowledgementname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_positiveacknowledgementname" uniqueid="{90767823-e1ee-05a8-7bc5-91b942bdb37b}" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="Description" showlabel="true" showbar="false" locklevel="0" id="{32a86c67-77ab-a82d-e826-cd0b492bc182}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{cebbeaa5-70d8-4ab5-b6e2-61f12615468d}">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3427e929-ecd4-0cde-9346-2b45cc22e98a}" showlabel="true" locklevel="0" rowspan="5" labelid="{e2751417-9bbf-43a7-8d78-a50cd7dab554}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_description" disabled="false" uniqueid="{e101407e-6328-272a-96da-96a3db4975dd}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{b1b0a2ba-03ca-4df8-a07f-e8b2f8295911}" celllabelposition="Left" columns="111" labelwidth="130" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{20869bbf-44d8-4d19-b590-850fd22d09f1}" showlabel="false" labelid="{44f57cd7-d996-4ef0-a978-101b602295ab}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ad39644e-d19d-7ae2-1dba-0723e598d554}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{429b60a8-83ee-ed0b-9e03-23b8a74b628c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{83280781-59eb-465d-ad54-942bcf885d1a}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{bc704c7a-6076-ce87-0776-355b567ad58b}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{1ae4426e-35de-49ad-4e58-543a914011ed}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{8e2a3324-8754-2539-dc50-2737c5113d0c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{2b73ae8a-70d9-3280-1c56-5acdc30022a0}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="cmc_/dist/app/Forms/cmc_positiveacknowledgement.js" libraryUniqueId="{964d58c6-577b-49d0-961c-1b8482e10726}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="true" active="true">
+          <Handlers>
+            <Handler functionName="CMC.Engage.cmc_positiveacknowledgement.onLoad" libraryName="cmc_/dist/app/Forms/cmc_positiveacknowledgement.js" handlerUniqueId="{c7b91dbe-c849-b372-0664-360758daa4dc}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="4">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Portal Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Portal Form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.cmc_tripactivity.Button2.Button.CustomAction" Location="Mscrm.Form.cmc_tripactivity.MainTab.Save.Controls._children" Sequence="65">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_tripactivity.Button2.Button.Alt" Command="cmc.cmc_tripactivity.SendEmail.Command" Id="cmc.cmc_tripactivity.Button2.Button" Image32by32="$webresource:Service/_imgs/ribbon/SendEmail16.png" Image16by16="$webresource:Service/_imgs/ribbon/SendEmail16.png" LabelText="$LocLabels:cmc.cmc_tripactivity.Button2.Button.LabelText" Sequence="65" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_tripactivity.Button2.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_tripactivity.Button2.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.cmc_tripactivity.SendEmail.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_tripactivity.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.Ribbon.cmc_tripactivity.SendEmail" Library="$webresource:cmc_/dist/app/Ribbon/cmc_tripactivity.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="cmc.cmc_tripactivity.EnableRule">
+        <CustomRule FunctionName="CampusManagement.Ribbon.cmc_tripactivity.showSendEmailButton" Library="$webresource:cmc_/dist/app/Ribbon/cmc_tripactivity.js" Default="true" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.cmc_tripactivity.Button2.Button.Alt">
+      <Titles>
+        <Title description="Send Email" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_tripactivity.Button2.Button.LabelText">
+      <Titles>
+        <Title description="Send Email" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_tripactivity.Button2.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Send an email to staff members and volunteers about the trip activity." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_tripactivity.Button2.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Send Email" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

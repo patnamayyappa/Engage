@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{642897ac-03f6-452e-8b6d-b22dfcbbdc38}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{911f1a0e-3868-49d3-9a8b-7f08f0439fef}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{88731ee1-ac79-467d-8a8e-35016e4fde30}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{80351a90-a6dd-8628-9ec3-396467ccd2ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Decision Definition" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdecisiondefinition" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationdecisiondefinition" disabled="true" uniqueid="{46aa7949-0a84-a91e-6e79-70a4641c9514}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2C0A0DF3-BC1E-4054-8D63-0B8F653FEE94}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f5fb0991-3a0d-4a14-80ab-f565fe10a5b8}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdecisiondefinitiondetailname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationdecisiondefinitiondetailname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{237243ea-21a0-36b8-2d92-51e1e0db56eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Decision Status" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_decisionstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_decisionstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cee6c73f-ce7b-4aec-9778-7bdb45563d45}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

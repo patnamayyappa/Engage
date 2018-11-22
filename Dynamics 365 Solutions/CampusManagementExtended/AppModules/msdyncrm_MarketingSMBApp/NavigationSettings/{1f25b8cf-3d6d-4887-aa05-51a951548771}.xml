@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{1f25b8cf-3d6d-4887-aa05-51a951548771}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a706-a5a011dc8a00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=entitylist&amp;etn=msevtmgt_webinarprovider</PageUrl>
+  <QuickSettingOrder>1</QuickSettingOrder>
+  <SettingType>1</SettingType>
+  <IconResourceId>{aaaa5501-0006-eeee-ffff-000d3a2243c9}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Webinar providers" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Webinar Providers" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

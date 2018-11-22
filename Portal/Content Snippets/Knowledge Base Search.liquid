@@ -1,0 +1,94 @@
+<div class="case-deflection">
+    <div class="content-panel panel panel-default">
+        <div class="panel-heading">
+            <h4><span aria-hidden="true" class="fa fa-search"></span> {% editable snippets 'KnowledgeBase/SearchText' type: 'text', default: 'Search the Knowledge Base', escape: true , tag: 'span'%}</h4>
+        </div>
+        <div class="panel-body">
+            <div class="input-group">
+                <div class="input-group-btn search-clear-container">
+                    <button type="button" class="btn btn-default search-clear kb-search-clear" title="{{ snippets['CustomerService/Support/ClearButton'] | default: resx['CustomerService_Support_ClearButton'] | h }}">
+                        <span aria-hidden="true" class="fa fa-times"></span>
+                    </button>
+                </div>
+                <input type="text" class="form-control subject case-deflection kb-search" data-container=".case-deflection" data-target="#case-deflection-topics" data-template="#case-deflection-results" data-itemtemplate="#case-deflection-results" data-case-deflection-pagesize="5" data-case-deflection-logicalnames="knowledgearticle,kbarticle" data-case-deflection-query="" data-case-deflection-filter="" data-noresultstext="{{ snippets['CustomerService/Support/NoResults'] | default: resx['CustomerService_Support_NoResults'] | h }}" placeholder="{{ snippets['CustomerService/Support/FailedLogin'] | default: resx['CustomerService_Support_FailedLogin'] | h }}" />
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default search-apply kb-search-apply" title="{{ snippets['CustomerService/Support/SearchButton'] | default: resx['CustomerService_Support_SearchButton'] | h }}">
+                        <span aria-hidden="true" class="fa fa-search"></span>
+                    </button>
+                </div>
+            </div>
+            <div id="kb-search-error-text" style="display:none;"><h5 class='text-danger'>{% editable snippets 'KnowledgeBase/SearchError' type: 'text', default: 'Please enter a minimum of 4 characters.', escape: true %}</h5></div>
+        </div> 
+        <ul class="list-group" id="case-deflection-topics"></ul>
+        <div class='panel-footer paging clearfix'>
+            <button type="button" class="btn btn-default search-more pull-right"><span class='fa fa-plus'></span>
+                {% editable snippets 'CustomerService/Support/ShowMore' type: 'text', default: resx['CustomerService_Support_ShowMore'], escape: true, tag: 'span' %}
+            </button>
+        </div>
+    </div>
+    {% raw %}
+    <script id="case-deflection-results" type="text/x-handlebars-template">
+     {{# each items}}
+      <li class="list-group-item">
+        <h4 class="list-group-item-heading"><a href="{{ url }}">{{ title }}</a></h4>
+        <p class="list-group-item-text search-results fragment">{{{ fragment }}}</p>
+        <div>
+         {{#label entityLogicalName 'kbarticle'}}
+            <span class='label label-primary'>{% endraw %} {{ resx['Knowledge_Base_Label'] }} {% raw %}</span>
+            {{/label}}
+            {{#label entityLogicalName 'knowledgearticle'}}
+            <span class='label label-primary'>{% endraw %} {{ resx['Knowledge_Base_Label']}} {% raw %}</span>
+            {{/label}}
+        </div> 
+      </li>
+     {{/each}}
+    </script>
+  {% endraw %}
+    <script type="text/javascript">
+        (function(global) {
+            'use strict';
+             var _enterKey = 13;
+
+            $(function() {
+                var $search = $('input.kb-search');
+                
+                $search.blur(validateKbSearch)
+                    .keyup(function (e) {
+                        if (e.which === _enterKey) {
+                            validateKbSearch(e);
+                        }
+                        else if ($('#kb-search-error-text').is(":visible") && $search.val() && $search.val().length >= 4) {
+                            hideError($search);
+                        }
+                    });
+
+                $('button.kb-search-apply').click(validateKbSearch);
+
+                $('button.kb-search-clear').click(function () {
+                    hideError($search);
+                });
+            });
+
+            function validateKbSearch(e) {
+                var $search = $('input.kb-search');
+
+                if (!$search) {
+                    return;
+                }
+                else if ((!$search.val() && e.type !== 'click' && e.type !== 'keyup' && e.which !== _enterKey) || $search.val().length >= 4) {
+                    hideError($search);
+                    return;
+                }
+
+                $search.addClass('has-error');
+                $('#kb-search-error-text').show();
+            }
+
+            function hideError($search) {
+                $search.removeClass('has-error');
+                $('#kb-search-error-text').hide();
+            }
+
+        }(this));
+    </script>
+</div>

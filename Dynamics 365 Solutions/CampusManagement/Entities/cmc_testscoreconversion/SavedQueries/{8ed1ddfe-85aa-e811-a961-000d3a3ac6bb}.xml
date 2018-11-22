@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8ed1ddfe-85aa-e811-a961-000d3a3ac6bb}</savedqueryid>
+    <querytype>8192</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" output-format="xml-platform">
+        <entity name="cmc_testscoreconversion">
+          <attribute name="cmc_testscoreconversionid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.004</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Test Score Conversions" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Active Test Score Conversions owned by me" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

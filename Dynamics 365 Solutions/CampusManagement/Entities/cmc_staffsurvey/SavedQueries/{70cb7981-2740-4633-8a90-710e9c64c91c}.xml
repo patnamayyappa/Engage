@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{70cb7981-2740-4633-8a90-710e9c64c91c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_staffsurveyname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_staffsurveyid">
+          <cell name="cmc_staffsurveyname" width="300" />
+          <cell name="cmc_startdate" width="100" />
+          <cell name="cmc_duedate" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="cmc_userid" width="100" />
+          <cell name="a_cd5f5c3898cfe811a958000d3a4e7806.mshied_courseid" width="100" disableSorting="1" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_staffsurvey">
+          <attribute name="cmc_staffsurveyname" />
+          <order attribute="cmc_staffsurveyname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="statecode" />
+          <attribute name="cmc_startdate" />
+          <attribute name="modifiedon" />
+          <attribute name="cmc_userid" />
+          <attribute name="statuscode" />
+          <attribute name="cmc_duedate" />
+          <link-entity alias="a_cd5f5c3898cfe811a958000d3a4e7806" name="mshied_coursesection" from="mshied_coursesectionid" to="cmc_coursesectionid" link-type="outer" visible="false">
+            <attribute name="mshied_courseid" />
+          </link-entity>
+          <attribute name="cmc_staffsurveyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Campus Surveys" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="All Active Campus Surveys." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

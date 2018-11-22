@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f6db7e1b-b435-4306-9a34-2441162c9bed}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_sourcecategoryname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_sourcecategoryid">
+          <cell name="cmc_sourcecategoryname" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_sourcecategory">
+          <attribute name="cmc_sourcecategoryname" />
+          <order attribute="cmc_sourcecategoryname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_sourcecategoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.49</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Source Categories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

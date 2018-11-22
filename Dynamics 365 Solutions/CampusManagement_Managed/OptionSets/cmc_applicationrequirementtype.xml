@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_applicationrequirementtype" localizedName="Application Requirement Type" description="Application Requirement Type">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Application Requirement Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Application Requirement Type" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="175490000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="General" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Upload" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Recommendation" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Test Score" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Official Transcript" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Unofficial Transcript" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a708-4dc3dcfb1603}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a708-4dc3dcfb1600}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.SampleDataTControl.SampleDataTControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>1</SettingType>
+  <IconResourceId>{aaaa5501-0006-eeee-ffff-000d3a2243c9}</IconResourceId>
+  <Privileges>0</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Sample data management" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Sample Data Management" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

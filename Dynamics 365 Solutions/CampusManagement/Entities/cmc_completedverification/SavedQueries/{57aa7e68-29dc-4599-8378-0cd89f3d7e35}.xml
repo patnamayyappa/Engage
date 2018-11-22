@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{57aa7e68-29dc-4599-8378-0cd89f3d7e35}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_completedverificationname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_completedverificationid">
+          <cell name="cmc_completedverificationname" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_completedverification">
+          <attribute name="cmc_completedverificationid" />
+          <attribute name="cmc_completedverificationname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="cmc_completedverificationname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Completed Verifications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

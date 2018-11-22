@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SonomaPartners.Xrm.DefaultData.Logic</name>
+    </assembly>
+    <members>
+        <member name="F:SonomaPartners.Xrm.DefaultData.Logic.ParanoidRequester.tries">
+            <summary>
+            This tries field needs to be tracked for each separate request, so it should
+            use ThreadStaticAttribute since requests may be happening on different
+            threads.
+            </summary>
+        </member>
+    </members>
+</doc>

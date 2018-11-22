@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{f37927c5-f956-46a6-ba2c-bca516ba5e0c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{94173fcb-9619-44a3-a34b-c7bd9f644a17}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f2a192a4-588d-4e99-a2d5-8d507e3dcd97}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{783fdfe6-d102-4475-8e4f-59fc0d5b6ae3}">
+                        <labels>
+                          <label description="To Do Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_todoname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_todoname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91629032-cab1-47a6-8757-b17e49e4b4cd}">
+                        <labels>
+                          <label description="Assigned To Staff" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

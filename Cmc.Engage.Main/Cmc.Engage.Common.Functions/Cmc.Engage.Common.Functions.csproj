@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="FunctionExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>    
+    <PackageReference Include="Cmc.Core.Xrm.ServerExtension.Functions" Version="2.0.15" />    
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cmc.Engage.Common.Contracts\Cmc.Engage.Common.Contracts.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.Common.Utilities\Cmc.Engage.Common.Utilities.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.Common\Cmc.Engage.Common.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.FunctionExtensions\Cmc.Engage.FunctionExtensions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

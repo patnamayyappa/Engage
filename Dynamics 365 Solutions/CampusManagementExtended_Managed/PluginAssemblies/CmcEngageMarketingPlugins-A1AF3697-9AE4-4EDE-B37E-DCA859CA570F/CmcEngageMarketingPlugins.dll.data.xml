@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Marketing.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f09da32b13e1936f" PluginAssemblyId="a1af3697-9ae4-4ede-b37e-dca859ca570f" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageMarketingPlugins-A1AF3697-9AE4-4EDE-B37E-DCA859CA570F/CmcEngageMarketingPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Marketing.Plugins.UpdateEventDetailsPlugin, Cmc.Engage.Marketing.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f09da32b13e1936f" PluginTypeId="ca36dd68-5b81-4a0d-87fd-8447d298c4fc" Name="Cmc.Engage.Marketing.Plugins.UpdateEventDetailsPlugin">
+      <FriendlyName>f13c1e6f-4d2c-4567-bfa0-bb05cdbc141a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Marketing.Plugins.UpdateTripActivityEventDetailsPlugin, Cmc.Engage.Marketing.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f09da32b13e1936f" PluginTypeId="1166805d-db66-49cd-a9a0-f7814c920c71" Name="Cmc.Engage.Marketing.Plugins.UpdateTripActivityEventDetailsPlugin">
+      <FriendlyName>60475fe2-d81b-4f76-bf4c-5fbcb0b5b7ec</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

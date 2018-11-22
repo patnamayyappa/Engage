@@ -1,0 +1,32 @@
+﻿@def_col: #fafafa;
+
+#progressbar-container {
+    font-size: 0.875em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+
+    #progressbar {
+        width: 100%;
+    }
+}
+    .k-widget {
+        color: #444;
+    }
+
+    .k-progressbar {
+        background-color: @def_col;
+        border-color: @def_col;
+
+        .k-state-selected {
+            color: #fff;
+            background-color: #3f51b5;
+            border-color: #3f51b5;
+        }
+
+        > .k-state-selected {
+            position: absolute;
+            border-style: solid;
+            border-width: 1px;
+            overflow: hidden;
+        }
+    }

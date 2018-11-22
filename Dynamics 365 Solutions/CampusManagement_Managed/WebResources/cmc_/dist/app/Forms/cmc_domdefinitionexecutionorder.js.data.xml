@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{2fca1b29-5258-e811-a954-000d3a18c23c}</WebResourceId>
+  <Name>cmc_/dist/app/Forms/cmc_domdefinitionexecutionorder.js</Name>
+  <DisplayName>cmc_domdefinitionexecutionorder.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.66</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/Localization.js" displayName="Localization.js" languagecode="" description="library to retrieve the localized strings" libraryUniqueId="{c72ad841-7159-7e60-39a0-481cd16c4c5d}"/&gt;&lt;Library name="cmc_/dist/app/Common/CommonUiControls.js" displayName="CommonUiControls.js" languagecode="1033" description="" libraryUniqueId="{e9610d68-5767-b011-15d0-5c351c4a1256}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappFormscmc_domdefinitionexecutionorderjs2FCA1B29-5258-E811-A954-000D3A18C23C</FileName>
+</WebResource>

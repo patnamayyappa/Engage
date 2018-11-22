@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Marketing.Plugins.UpdateEventDetailsPlugin: Create of msevtmgt_event" SdkMessageProcessingStepId="{ad57eecc-9faa-e811-a969-000d3a33eb4e}">
+  <PluginTypeName>Cmc.Engage.Marketing.Plugins.UpdateEventDetailsPlugin, Cmc.Engage.Marketing.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f09da32b13e1936f</PluginTypeName>
+  <PluginTypeId>ca36dd68-5b81-4a0d-87fd-8447d298c4fc</PluginTypeId>
+  <PrimaryEntity>msevtmgt_event</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

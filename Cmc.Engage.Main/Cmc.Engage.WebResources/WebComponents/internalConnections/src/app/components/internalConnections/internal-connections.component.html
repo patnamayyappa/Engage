@@ -1,0 +1,6 @@
+<div class="button-div">
+  <button type="button" id="internalconnection" [ngClass]="{'active': !isActiveAll,'buttonConnection':true}" (click)="onClick(connectionTypes[1].id)" [attr.aria-label]="connectionTypes[1].name" [attr.title]="connectionTypes[1].name">{{connectionTypes[1].name}}</button>
+  <button type="button" id="allconnection" [ngClass]="{'active': isActiveAll,'buttonConnection':true}" (click)="onClick(connectionTypes[0].id)" [attr.aria-label]="connectionTypes[0].name" [attr.title]="connectionTypes[0].name">{{connectionTypes[0].name}}</button>
+</div>
+<div  [appNetworkVis]="networkDetails" class="network-container"></div>
+

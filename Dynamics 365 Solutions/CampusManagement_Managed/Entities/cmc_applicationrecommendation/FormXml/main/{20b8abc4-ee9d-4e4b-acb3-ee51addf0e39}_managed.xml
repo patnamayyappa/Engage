@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{20b8abc4-ee9d-4e4b-acb3-ee51addf0e39}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{2316af3b-bcbe-47cf-a781-869464523d8f}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{36cd4b04-7aaa-42ee-bae1-e422e5436d5d}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9ee5b050-6ef3-45b3-b91e-a0c7c9d1ef57}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationrecommendationname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationrecommendationname" uniqueid="{a150ba2b-8dbe-5534-0213-b30da58c29ad}" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8131cc38-9792-d438-a0a3-4d6ac2a94531}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recommendationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_recommendationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b5bba09-587b-5711-4123-d584b58ed6c2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b104ec8-7b49-4e72-1530-8c92598c0c7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Applicant" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_contactid" disabled="true" uniqueid="{cb6c080e-5444-ba83-e41b-286562e417b9}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d657a035-9127-765e-1b7a-305e37c2a2e8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recommendedbyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_recommendedbyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bee4cd84-edc4-3753-ab1c-cd8edcdbc406}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recommendationreceiveddatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_recommendationreceiveddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d88424ae-9528-738d-2ed5-0e8b56b12a3a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recommendationstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_recommendationstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b9949b93-453b-012a-1b16-0b90a34d2619}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_isrecommendationsubmitted" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_isrecommendationsubmitted" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c8c119f-99bb-45ae-93f4-ebdf865ccf37}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{99b6d894-00d5-257b-bb71-6e7a92cc19e1}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recommendation" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_recommendation" disabled="false" uniqueid="{5b310884-68e2-1b13-8758-ba7358051ab8}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="{2316af3b-bcbe-47cf-a781-869464523d8f}_section_2" showlabel="true" showbar="false" locklevel="0" id="{d43b794e-454b-bd30-cca3-6253610ab887}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="ATTACHMENTS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9bcd4cd2-b350-a1c6-b7db-512e1650b614}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{8346a7b6-a692-d65c-a899-80cbce4a7a67}" disabled="false">
+                          <parameters>
+                            <UClientUniqueName>Attachments</UClientUniqueName>
+                            <UClientModules>Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>false</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <DefaultTabId>ActivityFeedsTab</DefaultTabId>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{8012a1f5-84ad-4183-ade5-cbea601bf2e4}" columns="111">
+        <rows>
+          <row>
+            <cell id="{d6603bf1-6cf9-4196-a098-637b5ab7c984}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{756a74b4-ce04-0c73-cd15-5e56857bcc64}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{818a5a49-b0a6-1dd9-d701-bcb00cd083d1}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a0af8bdb-cda9-40f8-8ce1-ad3063141905}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{210211ca-872c-2e78-2eaa-44ca0d2a0de7}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{82740aa9-2b10-3a33-d42b-7325d9b7117d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{a979365d-431c-72cc-82e7-acb19c76c67d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{e66aa3e3-64b3-72b4-4c85-4d7be11cb320}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/Scripts/Libraries/jquery_1.12.3.min.js" libraryUniqueId="{442d0a9d-67c8-a6b6-309d-75e93dd53b10}" />
+        <Library name="cmc_/Scripts/Libraries/sonomaCmc.js" libraryUniqueId="{08ee7649-8b95-c7a3-59d7-a6c311222517}" />
+        <Library name="cmc_/dist/app/Common/XrmSystemInformation.js" libraryUniqueId="{ab8e44b8-5a87-2874-13c0-e540de971672}" />
+        <Library name="cmc_/dist/app/common/utilities.js" libraryUniqueId="{898178cc-d834-2ac6-8035-870207139450}" />
+        <Library name="cmc_/dist/app/Common/CommonUiControls.js" libraryUniqueId="{06b639ad-4511-8558-77e0-de3b67d9695c}" />
+        <Library name="cmc_/dist/app/Common/Localization.js" libraryUniqueId="{cbb1ea96-9959-522b-a74b-111e53c33cd7}" />
+        <Library name="cmc_/dist/app/Ribbon/cmc_apprecommendation.js" libraryUniqueId="{a200a3b8-3431-379d-70b8-e9928db367d6}" />
+      </formLibraries>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

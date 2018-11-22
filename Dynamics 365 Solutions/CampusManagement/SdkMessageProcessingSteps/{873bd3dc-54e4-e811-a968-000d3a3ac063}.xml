@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Application.Plugins.CreateUpdateApplicationRequirementsDefinitionDetailPlugin: Update of cmc_applicationrequirementdefinitiondetail" SdkMessageProcessingStepId="{873bd3dc-54e4-e811-a968-000d3a3ac063}">
+  <PluginTypeName>Cmc.Engage.Application.Plugins.CreateUpdateApplicationRequirementsDefinitionDetailPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d</PluginTypeName>
+  <PluginTypeId>f103043f-e8f5-4049-8526-cb9e1deb78ca</PluginTypeId>
+  <PrimaryEntity>cmc_applicationrequirementdefinitiondetail</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Cmc.Engage.Application.Plugins.CreateUpdateApplicationRequirementsDefinitionDetailPlugin: Update of cmc_applicationrequirementdefinitiondetail</Description>
+  <FilteringAttributes>cmc_applicationrequirementdefinition,cmc_requirementtype</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

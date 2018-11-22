@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{17aa29de-36a1-e811-a958-000d3a3655ec}</WebResourceId>
+  <Name>cmc_/dist/staffSurvey/styles.css</Name>
+  <DisplayName>StaffSurvey Styles css</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>0.6.0.107</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_diststaffSurveystylescss17AA29DE-36A1-E811-A958-000D3A3655EC</FileName>
+</WebResource>

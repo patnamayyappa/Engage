@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b021e0d3-9230-4db4-9c50-6ce1a8cd8216}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{8f3006b1-3ef7-4a08-8ed3-012f8476069c}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d739a1a4-393a-4cf5-9d66-e1806e8deccd}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{43a90039-74c5-440f-ac20-8752945e2d78}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdecisiondefinitionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationdecisiondefinitionname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{137ae116-20c5-15e0-0132-7936b8b9796b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_decisionpublishdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_decisionpublishdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{99d9b479-2ec0-120a-173a-317ea3035d3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enrollmentcutoffdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_enrollmentcutoffdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{290134e3-6392-d68a-9422-61d29a82ed1e}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enrollmentcutoffmessage" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_enrollmentcutoffmessage" disabled="false" uniqueid="{50c3a583-bb3c-6e6b-407a-cb6d6d620e1e}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{bee4ce8e-b755-46c6-9638-d6377b0b617a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{8f3006b1-3ef7-4a08-8ed3-012f8476069c}_section_2" showlabel="false" showbar="false" locklevel="0" id="{414b3974-c0b7-10db-a7c9-0d9cb6e54488}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Decision Definition Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6cc38955-8ed7-2cbe-cabe-99a2d31da022}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="DECISION DEFINITION DETAILS" languagecode="1033" />
+                        </labels>
+                        <control id="decisiondetailgrid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{8938e266-6529-88a0-b3a2-5ee7334cd488}">
+                          <parameters>
+                            <ViewId>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_applicationdecisiondefinition_applicationdecisiondefinitiondetail_applicationdecisiondefinition</RelationshipName>
+                            <TargetEntityType>cmc_applicationdecisiondefinitiondetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{afd24ec0-994f-4f1f-985f-6c79cc1dcfa0}" columns="111">
+        <rows>
+          <row>
+            <cell id="{bb840f54-97bc-4e16-8357-bb4b5a9592a9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9718a065-ee59-caac-5246-72520d9ce8c2}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{5a025906-9a05-8b7e-369c-ea8c000aeea6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{85ddfc67-54c9-4b51-895f-de8311e9b1f5}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{ca1ac2a9-31a9-b34c-43de-2dd11cbed6c4}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{82326c34-6c48-44a7-de09-111992bca98d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{741421e2-30dd-d16d-c927-c70d89130a87}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{a8c72019-1704-6a63-a9b6-88210d3616d2}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{8938e266-6529-88a0-b3a2-5ee7334cd488}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <ViewId>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>cmc_applicationdecisiondefinition_applicationdecisiondefinitiondetail_applicationdecisiondefinition</RelationshipName>
+              <TargetEntityType>cmc_applicationdecisiondefinitiondetail</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+            <parameters>
+              <ViewId>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>cmc_applicationdecisiondefinition_applicationdecisiondefinitiondetail_applicationdecisiondefinition</RelationshipName>
+              <TargetEntityType>cmc_applicationdecisiondefinitiondetail</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="2">
+            <parameters>
+              <ViewId>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>cmc_applicationdecisiondefinition_applicationdecisiondefinitiondetail_applicationdecisiondefinition</RelationshipName>
+              <TargetEntityType>cmc_applicationdecisiondefinitiondetail</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="-1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</ViewId>
+                <columnsDefaultView>
+                  <cell entityName="cmc_applicationdecisiondefinitiondetail" viewId="{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}" attributeName="cmc_invoicedefinition">
+                    <DefaultViewId>{974458B0-6C91-4B1C-BFF9-58F4DB1101CE}</DefaultViewId>
+                    <DependentAttributeType>systemuser</DependentAttributeType>
+                    <AllowFilterOff>false</AllowFilterOff>
+                    <DisableQuickFind>false</DisableQuickFind>
+                  </cell>
+                </columnsDefaultView>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>cmc_applicationdecisiondefinition_applicationdecisiondefinitiondetail_applicationdecisiondefinition</RelationshipName>
+                <TargetEntityType>cmc_applicationdecisiondefinitiondetail</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{A555AD59-8F89-4FD9-91E4-FBEDC06613E1}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

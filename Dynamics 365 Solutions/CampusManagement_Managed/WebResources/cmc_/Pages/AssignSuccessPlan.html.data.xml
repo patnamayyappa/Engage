@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3e93e4b4-a97b-e711-8101-c4346bdc2171}</WebResourceId>
+  <Name>cmc_/Pages/AssignSuccessPlan.html</Name>
+  <DisplayName>AssignSuccessPlan.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_PagesAssignSuccessPlanhtml3E93E4B4-A97B-E711-8101-C4346BDC2171</FileName>
+</WebResource>

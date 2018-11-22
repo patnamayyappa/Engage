@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginAssemblyId="0b5488b1-db39-4599-81e4-e1610b55eb76" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageLifecyclePlugins-0B5488B1-DB39-4599-81E4-E1610B55EB76/CmcEngageLifecyclePlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.AssociateDisassociateStaffmembersPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="7ba4506d-326d-45f6-af03-a7d7f565c799" Name="Cmc.Engage.Lifecycle.Plugins.AssociateDisassociateStaffmembersPlugin">
+      <FriendlyName>bdcaa7d0-1bfa-4c85-aaed-99d7873ca6f6</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.CompleteOrCancelTripPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="8bcd77b7-83e5-44e5-ad80-3c9430fef396" Name="Cmc.Engage.Lifecycle.Plugins.CompleteOrCancelTripPlugin">
+      <FriendlyName>e5fbc0bc-2446-4b30-9d5f-bd69bbdaa790</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.CreateUpdateTripPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="ef174901-819e-418c-99ef-bc84e8cf44b1" Name="Cmc.Engage.Lifecycle.Plugins.CreateUpdateTripPlugin">
+      <FriendlyName>6630cbfc-0595-42a5-8f32-d1b96b941353</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.OverrideInitialSourceDetailsForContactPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="2f1a4aa3-b3c8-4c7b-9baa-c63d09ada7f8" Name="Cmc.Engage.Lifecycle.Plugins.OverrideInitialSourceDetailsForContactPlugin">
+      <FriendlyName>728b5cba-320a-47ea-9c59-0d2b2443a9c9</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.TripActivityUpdateLatitudeLongitudePlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="1b56e380-9472-4593-98e1-a77712a92a34" Name="Cmc.Engage.Lifecycle.Plugins.TripActivityUpdateLatitudeLongitudePlugin">
+      <FriendlyName>17720f0f-f5b9-47d8-88f6-f7445600fc98</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.TripApprovalBusinessProcessFlowOnStageChange, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="958d1b33-3b24-4945-b5f1-74c503480c13" Name="Cmc.Engage.Lifecycle.Plugins.TripApprovalBusinessProcessFlowOnStageChange">
+      <FriendlyName>8cd6f487-44b6-4d7b-b199-955844011d59</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionExecutionOrderPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="677350ac-2d4e-4256-b9c2-264b36aaa7cd" Name="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionExecutionOrderPlugin">
+      <FriendlyName>be3b5ef9-728b-4d86-91e4-aaffdef9a778</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionLogicPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="5f487d0f-df70-485a-9eec-2ffde7a28288" Name="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionLogicPlugin">
+      <FriendlyName>1ecd30ba-ddcb-4a2c-9737-53a3dd7ab634</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="f3ed5b00-85d7-4ecf-a850-76e474f5dd9d" Name="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionPlugin">
+      <FriendlyName>b9876431-8b7b-4916-be32-da8495f6694d</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Plugins.ValidateDomMasterPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" PluginTypeId="6435fc0a-3e60-4af6-bfca-50153be9de2e" Name="Cmc.Engage.Lifecycle.Plugins.ValidateDomMasterPlugin">
+      <FriendlyName>1196096f-bac6-4acd-9bd1-6a23d8c44912</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

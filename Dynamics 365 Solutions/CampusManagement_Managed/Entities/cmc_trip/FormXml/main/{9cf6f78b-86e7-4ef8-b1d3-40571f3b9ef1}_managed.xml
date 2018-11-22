@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{9cf6f78b-86e7-4ef8-b1d3-40571f3b9ef1}</formid>
+    <IntroducedVersion>1.0.0.68</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{3ae3ddcb-7d56-4c3c-a7b2-1201b2d99c3f}" IsUserDefined="1" name="General" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="trip_activities_section_1" showlabel="false" showbar="false" locklevel="0" id="{9341967d-6188-9b62-0909-99186ca8d54d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" availableforphone="false">
+                  <labels>
+                    <label description="TRIP ACTIVITIES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{75cc4a36-6c2d-3151-ce8a-c0dd68935c14}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="TRIP ACTIVITIES" languagecode="1033" />
+                        </labels>
+                        <control id="trip_activities" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{dd99ae6d-0e66-d00e-95e4-7408315b2a6e}">
+                          <parameters>
+                            <ViewId>{66BBBDFD-4B00-4A30-B0E7-FB687706CC34}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_trip_cmc_tripactivity_trip</RelationshipName>
+                            <TargetEntityType>cmc_tripactivity</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{66BBBDFD-4B00-4A30-B0E7-FB687706CC34}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{da773fff-a436-4e19-b32e-085df2bddbf4}" name="TripDetails" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="TRIP DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f2d9b412-1f3f-4574-baa5-8ff391d248b3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_tripname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_tripname" uniqueid="{8885e1de-0ed3-4e56-9502-234357b1d242}" disabled="false" />
+                      </cell>
+                      <cell id="{6ec6dbb2-dd2b-7344-7065-397c95ae3203}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_approvedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_approvedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ba7a4ae8-d3b8-2577-44d1-e638b37b5a43}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_department" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_department" disabled="true" uniqueid="{9208698d-063a-5005-a8b8-118e4ac7223a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{5E59F939-086B-4837-8129-62E5BF40C9E6}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{c655249b-a0cc-5e55-2634-09c36660da14}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_approvaldate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_approvaldate" disabled="false" uniqueid="{05d33445-b3b4-e027-6879-3469a5a0d19a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c4126b61-0ebd-6891-5bd4-144418032b0e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_startdate" disabled="false" uniqueid="{23451bab-a180-e758-7187-62bb8c1d8712}" />
+                      </cell>
+                      <cell id="{4e136ed0-806b-a324-3689-962a4c9eb892}" showlabel="true" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_estexpense" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cmc_estexpense" disabled="false" uniqueid="{9463e552-a052-4143-8104-03c375d84272}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68ce21bc-ee56-b421-b5de-8cd64bd4c98a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_enddate" disabled="false" uniqueid="{aeeb92ec-7cd3-1914-ee63-1636b98ea038}" />
+                      </cell>
+                      <cell id="{8828763d-e9d6-31ac-82e0-5a4ea372d9e4}" showlabel="true" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_actexpense" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cmc_actexpense" disabled="false" uniqueid="{818189c4-86b5-6cd4-97a3-4c905cd79e17}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ac87649-33e3-37bb-56ac-eb62ce34835d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_status" disabled="false" uniqueid="{6434903e-4594-81ab-6aaa-5d620390c3d7}" />
+                      </cell>
+                      <cell id="{3bdbaba6-3cb3-2460-5236-56976e8cb019}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_reviewerteam" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_reviewerteam" disabled="false" uniqueid="{d35083ec-7ac2-74e1-c0e8-3d1c880e8648}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{57E39843-404C-48E5-B1D9-1889098FB65C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{984e1d1b-5303-686b-d76d-262d9869ee8e}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_tripdescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_tripdescription" disabled="false" uniqueid="{24de740c-e635-702d-baa9-b3b1e405311a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ebc51671-9aa4-b59d-1087-6de7ea5b9da1}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" uniqueid="{e6ca994b-2cb5-097d-e9d5-279e6dc28856}" />
+                      </cell>
+                      <cell id="{ec71d3a2-8ec4-ccb0-b7a8-ee13247c951c}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" uniqueid="{4cecd9e8-a1d9-bcb1-929a-a16e3e874970}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="map_view_section" showlabel="true" showbar="false" locklevel="0" id="{9eada121-a4ec-9895-da0d-66a8e1b6b83d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="MAP" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bd11030b-4461-06a0-be00-eebe8815a0ba}" showlabel="false" colspan="1" auto="false" rowspan="18">
+                        <labels>
+                          <label description="TRIP MAP" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_tripmaps" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/tripMaps/index.html</Url>
+                            <Data>component=tripMaps</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>true</Border>
+                            <WebResourceId>{F8D4BA1B-48A1-E811-A954-000D3A3AB637}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="StaffVolunteers" id="{bbc9cc1e-628c-83d2-aec2-4e00847886c0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Staff and Volunteers" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="AdditionalStaffMembers" showlabel="true" showbar="false" locklevel="0" id="{cdd68c50-4b5b-39c3-e6c3-6ca9a7883185}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="ADDITIONAL STAFF MEMBERS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{00d6cbd3-ab3c-550e-ba5e-23560d4cb5eb}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Users" languagecode="1033" />
+                        </labels>
+                        <control id="SupportingStaffMembers" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{85b3c60a-69e8-9ab9-20da-5812506031ab}">
+                          <parameters>
+                            <ViewId>{00000000-0000-0000-00AA-000010001019}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_trip_systemuser</RelationshipName>
+                            <TargetEntityType>systemuser</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001019}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="VolunteersSection" showlabel="true" showbar="false" locklevel="0" id="{760a489d-38be-546d-4cec-2116ea12ccb3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="VOLUNTEERS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cbe12237-dc81-c06c-42ca-82478d04021b}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Volunteers" languagecode="1033" />
+                        </labels>
+                        <control id="TripVolunteers" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{b359bb90-d868-62a6-35a0-9c4512259678}">
+                          <parameters>
+                            <ViewId>{0D5D377B-5E7C-47B5-BAB1-A5CB8B4AC105}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_trip_contact</RelationshipName>
+                            <TargetEntityType>contact</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{0D5D377B-5E7C-47B5-BAB1-A5CB8B4AC105},{00000000-0000-0000-00AA-000010001003}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{237da67b-3f38-43cb-ba90-03e5cfda8d61}" columns="111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{76bb1b40-d8b8-b241-0209-80e83dbca1a6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{0b796cd1-b131-c4c0-91d8-e9e538397525}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_cmc_status" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_status" disabled="true" uniqueid="{a120966a-ea2e-0601-d5ce-300837c424b0}" />
+            </cell>
+            <cell id="{9e2821e3-31d4-012c-432b-39b9c2661dea}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_cmc_tripratings" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_tripratings" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{5d966558-d4c5-48a3-a299-22797d241572}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{12b1de24-d219-c642-86b0-02aada4c25e8}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{ca27a323-8d1c-7586-15ee-ccea370926bd}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{c8e50886-4607-a2b3-a28a-3d6dc730c6e9}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{391567c0-76cd-2eb9-6d7d-4bad66d556b1}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/Scripts/Libraries/jquery_1.12.3.min.js" libraryUniqueId="{00ba4c21-2938-66b4-4d3c-5ec8b650c7e4}" />
+        <Library name="cmc_/Scripts/Libraries/sonomaCmc.js" libraryUniqueId="{040e387b-d80d-629b-a5b7-c37176b3809b}" />
+        <Library name="cmc_/dist/app/Forms/cmc_trip.js" libraryUniqueId="{d6ac352a-51ce-1d59-82a6-376bdc116c63}" />
+        <Library name="cmc_/dist/app/Common/XrmSystemInformation.js" libraryUniqueId="{3945a49e-59e7-a6b6-804e-56e6aa247673}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_trip.onLoad" libraryName="cmc_/dist/app/Forms/cmc_trip.js" handlerUniqueId="{88d0a609-eb23-6a32-500d-6c41a96e00d2}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_trip.onSave" libraryName="cmc_/dist/app/Forms/cmc_trip.js" handlerUniqueId="{9c414e30-dca1-ba51-7e52-8cad03b3c889}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

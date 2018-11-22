@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{9c656df6-d0ac-e811-a965-000d3af24950}</WebResourceId>
+  <Name>cmc_/WebComponents/assets/images/othersPushPin.svg</Name>
+  <DisplayName>othersPushPin.svg</DisplayName>
+  <Description>othersPushPin.svg</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>0.7.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_WebComponentsassetsimagesothersPushPinsvg9C656DF6-D0AC-E811-A965-000D3AF24950</FileName>
+</WebResource>

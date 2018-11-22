@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c86d61c8-9f41-4a1a-8ed6-930564cbfb32}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_successnetworkname" select="1" icon="1" preview="0">
+        <row name="cmc_successnetwork" id="cmc_successnetworkid">
+          <cell name="cmc_successnetworkname" width="300" />
+          <cell name="cmc_staffmemberid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_staffroleid" width="100" />
+          <cell name="cmc_studentid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_successnetwork">
+          <attribute name="cmc_successnetworkid" />
+          <attribute name="cmc_successnetworkname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_studentid" />
+          <attribute name="cmc_staffmemberid" />
+          <attribute name="cmc_staffroleid" />
+          <order attribute="cmc_successnetworkname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Success Network Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

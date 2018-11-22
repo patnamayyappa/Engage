@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{aee1e5f0-e45e-e811-a957-000d3a18c23c}" Name="Condition Type is Null or Not Null" Description="If Condition Type equals Null or equals Not Null, then Clear, make not Business Required and Lock the following fields: Minimum, Maximum and Value.">
+  <XamlFileName>/Workflows/ConditionTypeisNullorNotNull-AEE1E5F0-E45E-E811-A957-000D3A18C23C.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.69</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_domdefinitionlogic</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Condition Type is Null or Not Null" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="If Condition Type equals Null or equals Not Null, then Clear, make not Business Required and Lock the following fields: Minimum, Maximum and Value." />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{eca93e29-e55e-e811-a957-000d3a18c23c}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{eda93e29-e55e-e811-a957-000d3a18c23c}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

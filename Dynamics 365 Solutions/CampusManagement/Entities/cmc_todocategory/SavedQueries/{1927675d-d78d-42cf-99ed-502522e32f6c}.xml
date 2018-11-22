@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{1927675d-d78d-42cf-99ed-502522e32f6c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_todocategoryname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_todocategoryid">
+          <cell name="cmc_todocategoryname" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_todocategory">
+          <attribute name="cmc_todocategoryid" />
+          <attribute name="cmc_todocategoryname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <order attribute="cmc_todocategoryname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive To Do Categories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

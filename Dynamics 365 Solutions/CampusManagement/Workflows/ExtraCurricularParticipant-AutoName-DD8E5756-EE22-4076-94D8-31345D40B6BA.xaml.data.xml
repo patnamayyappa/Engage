@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{dd8e5756-ee22-4076-94d8-31345d40b6ba}" Name="Extra Curricular Participant - Auto Name">
+  <XamlFileName>/Workflows/ExtraCurricularParticipant-AutoName-DD8E5756-EE22-4076-94D8-31345D40B6BA.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>mshied_contactid,mshied_extracurricularactivityid</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.7.0.050</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>mshied_extracurricularparticipant</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Extra Curricular Participant - Auto Name" />
+  </LocalizedNames>
+</Workflow>

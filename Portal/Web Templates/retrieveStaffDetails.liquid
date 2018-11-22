@@ -1,0 +1,24 @@
+{% assign stopCache = request.params['stopCache'] %}
+{% assign successNetworkId = request.params['successNetworkId'] %}
+
+{% if user %}
+{% assign contactId = user.id %}
+{% else %}
+{% assign contactId = '' %}
+{% endif %}
+
+{% fetchxml my_query %}
+  <fetch version="1.0" mapping="logical">
+      <entity name="cmc_portalaction">
+          <attribute name="cmc_data" />
+          <filter> 
+              <condition attribute="cmc_data" operator="eq" value="{'StudentId':'{{contactId}}', 'SuccessNetworkId':'{{successNetworkId}}'}" />
+              <condition attribute="cmc_logicclassname" operator="eq" value="Cmc.Engage.Common.RetrieveStaffDetailsPortalLogic" />
+              <condition attribute="cmc_stopcache" operator="eq" value="{{stopCache}}" />
+          </filter>
+      </entity>
+  </fetch>
+{% endfetchxml %}
+{% for result in my_query.results.entities %}
+    {{ result.cmc_data }}
+{% endfor %}

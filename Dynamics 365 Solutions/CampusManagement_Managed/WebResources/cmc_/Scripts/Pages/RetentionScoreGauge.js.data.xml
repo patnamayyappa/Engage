@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{44047719-5983-e711-8101-c4346bdc3221}</WebResourceId>
+  <Name>cmc_/Scripts/Pages/RetentionScoreGauge.js</Name>
+  <DisplayName>RetentionScoreGauge.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_ScriptsPagesRetentionScoreGaugejs44047719-5983-E711-8101-C4346BDC3221</FileName>
+</WebResource>

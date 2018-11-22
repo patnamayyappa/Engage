@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Common.Plugins.RetrieveMultiLingualValuesActionPlugin: cmc_RetrieveMultiLingualValues of  any Entity" SdkMessageProcessingStepId="{be2c3628-4b53-e811-a95c-000d3af28a0d}">
+  <PluginTypeName>Cmc.Engage.Common.Plugins.RetrieveMultiLingualValuesActionPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538</PluginTypeName>
+  <PluginTypeId>0dfa0403-1ed1-4800-8ffd-e6b153dd0629</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{310b9072-017f-e711-8100-c4346bdc42d1}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

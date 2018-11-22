@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_applicationstatus" localizedName="Application Status" description="Application status">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Application Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Application status" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="175490000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Started" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="In-Progress" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Canceled by Applicant" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Under Review" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pending" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Complete" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Incomplete" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="Incomplete -  additional information required" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Deffered" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

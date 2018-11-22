@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b76bdbfc-8187-4b26-b070-72fad952034d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_domdefinitionlogicname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_domdefinitionlogicid">
+          <cell name="cmc_domdefinitionlogicname" width="300" />
+          <cell name="cmc_attribute" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_conditiontype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_value" width="100" />
+          <cell name="cmc_minimum" width="100" />
+          <cell name="cmc_maximum" width="100" />
+          <cell name="cmc_domdefinitionid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_domdefinitionlogic">
+          <attribute name="cmc_domdefinitionlogicname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_domdefinitionlogicname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_value" operator="like" value="{0}" />
+            <condition attribute="cmc_minimum" operator="like" value="{0}" />
+            <condition attribute="cmc_maximum" operator="like" value="{0}" />
+            <condition attribute="cmc_domdefinitionlogicname" operator="like" value="{0}" />
+            <condition attribute="cmc_domdefinitionid" operator="like" value="{0}" />
+            <condition attribute="cmc_conditiontype" operator="like" value="{0}" />
+            <condition attribute="cmc_attribute" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cmc_value" />
+          <attribute name="cmc_minimum" />
+          <attribute name="cmc_maximum" />
+          <attribute name="cmc_domdefinitionid" />
+          <attribute name="cmc_conditiontype" />
+          <attribute name="cmc_attribute" />
+          <attribute name="cmc_domdefinitionlogicid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active DOM Definition Logic" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

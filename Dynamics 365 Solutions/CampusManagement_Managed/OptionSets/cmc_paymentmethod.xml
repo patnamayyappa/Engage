@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_paymentmethod" localizedName="Payment Method" description="Payment Methods">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Payment Method" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Payment Methods" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="175490000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Cash" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Check" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Online" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

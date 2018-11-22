@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" PluginAssemblyId="c550d2dd-6dfe-4069-b789-79d61778aa33" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageApplicationPlugins-C550D2DD-6DFE-4069-B789-79D61778AA33/CmcEngageApplicationPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Application.Plugins.AddApplicationFeesToInvoicePlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" PluginTypeId="0d9e1d00-d1d7-42cc-9be1-fb8f7e604321" Name="Cmc.Engage.Application.Plugins.AddApplicationFeesToInvoicePlugin">
+      <FriendlyName>4665a302-c4b5-4b3c-91b8-1cc8348c32ed</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Application.Plugins.CreateUpdateApplicationRequirementsDefinitionDetailPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" PluginTypeId="f103043f-e8f5-4049-8526-cb9e1deb78ca" Name="Cmc.Engage.Application.Plugins.CreateUpdateApplicationRequirementsDefinitionDetailPlugin">
+      <FriendlyName>9d4db334-8940-499c-975a-0e4b042169b3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Application.Plugins.RecomendationThankyouEmailPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" PluginTypeId="65130a03-483c-4eed-8bed-4c5684bc402e" Name="Cmc.Engage.Application.Plugins.RecomendationThankyouEmailPlugin">
+      <FriendlyName>2b821e37-f380-47d7-be0e-fd8cef7686b6</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Application.Plugins.SetDefaultFieldsOnApplicationPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" PluginTypeId="9c48cb3b-42e3-4eef-af32-8ff7c4c7c0a1" Name="Cmc.Engage.Application.Plugins.SetDefaultFieldsOnApplicationPlugin">
+      <FriendlyName>cd6a7bec-6e82-48f4-83ec-f3f17b2150b8</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Application.Plugins.SetTestSuperandBestScoresPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" PluginTypeId="4ad0d35b-5aac-4fe5-8af3-10cc628b561f" Name="Cmc.Engage.Application.Plugins.SetTestSuperandBestScoresPlugin">
+      <FriendlyName>68fd28d5-fcdc-496c-b8f6-e40a70312453</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Application.Plugins.SetupApplicationRequirementsOnApplicationPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" PluginTypeId="7eb3178c-34a4-4048-85ac-6b37a67d051a" Name="Cmc.Engage.Application.Plugins.SetupApplicationRequirementsOnApplicationPlugin">
+      <FriendlyName>3397b1f8-79b4-400e-95e5-06d4ee61fa98</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

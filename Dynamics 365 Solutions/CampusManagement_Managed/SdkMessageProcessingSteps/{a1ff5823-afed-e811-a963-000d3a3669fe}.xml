@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Application.Plugins.RecomendationThankyouEmailPlugin: Create of cmc_applicationrecommendation" SdkMessageProcessingStepId="{a1ff5823-afed-e811-a963-000d3a3669fe}">
+  <PluginTypeName>Cmc.Engage.Application.Plugins.RecomendationThankyouEmailPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d</PluginTypeName>
+  <PluginTypeId>65130a03-483c-4eed-8bed-4c5684bc402e</PluginTypeId>
+  <PrimaryEntity>cmc_applicationrecommendation</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Cmc.Engage.Application.Plugins.RecomendationThankyouEmailPlugin: Create of cmc_applicationrecommendation</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="">
+      <SdkMessageProcessingStepImageId>{519ec33d-afed-e811-a963-000d3a3acde0}</SdkMessageProcessingStepImageId>
+      <Attributes>cmc_applicationid,cmc_applicationrecommendationid</Attributes>
+      <EntityAlias>Target</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>id</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

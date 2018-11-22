@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a23940b9-3530-4bbe-b190-e94376d22b67}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_name" select="1" icon="1" preview="1">
+        <row name="cmc_tripactivity" id="cmc_tripactivityid">
+          <cell name="cmc_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_activitytype" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_startdatetime" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_enddatetime" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_551d4d5c9cabe811a961000d3af03194.subject" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_location" width="100" disableSorting="1" />
+          <cell name="cmc_tripactivitystatus" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_tripactivity">
+          <attribute name="cmc_name" />
+          <attribute name="createdon" />
+          <order attribute="cmc_startdatetime" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_activitytype" />
+          <attribute name="cmc_startdatetime" />
+          <attribute name="cmc_location" />
+          <attribute name="cmc_enddatetime" />
+          <link-entity alias="a_551d4d5c9cabe811a961000d3af03194" name="appointment" from="activityid" to="cmc_linkedtoappointment" link-type="outer" visible="false">
+            <attribute name="subject" />
+          </link-entity>
+          <attribute name="cmc_tripactivitystatus" />
+          <attribute name="cmc_tripactivityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.69</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Trip Activity Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

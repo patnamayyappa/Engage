@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e58f64e1-8939-4be9-8b7e-7f1455fe9f96}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_userlocationname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_userlocationid">
+          <cell name="cmc_userlocationname" width="300" />
+          <cell name="cmc_accountid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_userid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_userlocation">
+          <attribute name="cmc_userlocationid" />
+          <attribute name="cmc_userlocationname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_userlocationname" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cmc_userid" />
+          <attribute name="cmc_accountid" />
+          <order attribute="cmc_userlocationname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active User Locations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

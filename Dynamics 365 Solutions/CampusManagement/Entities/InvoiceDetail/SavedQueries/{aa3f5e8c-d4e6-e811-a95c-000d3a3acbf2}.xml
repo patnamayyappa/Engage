@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{aa3f5e8c-d4e6-e811-a95c-000d3a3acbf2}</savedqueryid>
+    <layoutxml>
+      <grid name="invoicedetails" jump="" select="1" icon="1" preview="1">
+        <row name="invoicedetail" id="invoicedetailid" layoutstyle="ProductSubGrid">
+          <cell name="productname" LabelId="query.product.cell.productname.label" width="300" disableSorting="1" imageproviderfunctionname="Sales.ProductTypeImage.getProductTypeImageUrl" imageproviderwebresource="$webresource:Sales/ClientCommon/Sales_ClientCommon.js" />
+          <cell name="productid" ishidden="1" width="200" disableSorting="1" />
+          <cell name="producttypecode" ishidden="1" width="200" disableSorting="1" />
+          <cell name="parentbundleid" ishidden="1" width="200" disableSorting="1" />
+          <cell name="productdescription" ishidden="1" width="200" disableSorting="1" />
+          <cell name="uomid" width="80" ishidden="1" disableSorting="1" LabelId="query.product.cell.unit.label" />
+          <cell name="primaryunit" width="80" disableSorting="1" disableMetaDataBinding="1" LabelId="query.product.cell.unit.label" cellType="Crm.DisplayPrimaryUnit" />
+          <cell name="priceperunit" width="87" disableSorting="1" />
+          <cell name="quantity" width="83" disableSorting="1" />
+          <cell name="manualdiscountamount" LabelId="query.product.cell.productname.discount" width="73" disableSorting="1" />
+          <cell name="extendedamount" width="108" disableSorting="1" />
+          <cell name="isproductoverridden" ishidden="1" />
+          <cell name="ispriceoverridden" ishidden="1" />
+          <cell name="sequencenumber" ishidden="1" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="invoicedetail">
+          <attribute name="productid" />
+          <attribute name="productname" />
+          <attribute name="productdescription" />
+          <attribute name="priceperunit" />
+          <attribute name="quantity" />
+          <attribute name="uomid" />
+          <attribute name="manualdiscountamount" />
+          <attribute name="extendedamount" />
+          <attribute name="sequencenumber" />
+          <attribute name="producttypecode" />
+          <attribute name="parentbundleid" />
+          <attribute name="isproductoverridden" />
+          <attribute name="ispriceoverridden" />
+          <filter type="and">
+            <condition attribute="parentbundleid" operator="null" />
+            <condition attribute="producttypecode" value="0" operator="ge" />
+            <condition attribute="producttypecode" value="4" operator="le" />
+          </filter>
+          <order attribute="sequencenumber" descending="true" />
+          <attribute name="invoicedetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Invoice Product Inline Edit View (Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays information about the products included in an invoice in the detail form of the associated invoice record. This view is in the Products side tab." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

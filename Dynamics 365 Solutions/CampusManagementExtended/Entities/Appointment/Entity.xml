@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Appointment" OriginalName="">Appointment</Name>
+  <EntityInfo>
+    <entity Name="Appointment" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

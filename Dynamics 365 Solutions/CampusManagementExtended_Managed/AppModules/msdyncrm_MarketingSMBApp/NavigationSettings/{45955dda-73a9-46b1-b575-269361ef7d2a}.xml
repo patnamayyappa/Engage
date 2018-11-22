@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{45955dda-73a9-46b1-b575-269361ef7d2a}</NavigationSettingId>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <Privileges>0</Privileges>
+  <AdvancedSettingOrder>5</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="LinkedIn Lead Gen" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="LinkedIn Lead Gen" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

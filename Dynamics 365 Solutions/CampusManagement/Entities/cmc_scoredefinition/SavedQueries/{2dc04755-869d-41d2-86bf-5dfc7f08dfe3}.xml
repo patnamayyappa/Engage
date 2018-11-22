@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2dc04755-869d-41d2-86bf-5dfc7f08dfe3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_scoredefinitionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_scoredefinitionid">
+          <cell name="cmc_scoredefinitionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_scoredefinition">
+          <attribute name="cmc_scoredefinitionid" />
+          <attribute name="cmc_scoredefinitionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_scoredefinitionname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Score Definition Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

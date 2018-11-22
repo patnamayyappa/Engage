@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a700-c636be098a00}</NavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.SummaryPageTailoredControl.SummaryPageTailoredControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>2</SettingType>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Advanced settings" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Settings Overview" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

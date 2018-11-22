@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7d7737d8-1a05-4abb-bebd-843404a83dad}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="listname" select="1" icon="1" preview="1">
+        <row name="result" id="listid">
+          <cell name="listname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdfromcode" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="type" width="100" />
+          <cell name="cmc_expirationdate" width="100" />
+          <cell name="membercount" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="lastusedon" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="modifiedby" width="100" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="list">
+          <attribute name="listname" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="lastusedon" />
+          <attribute name="type" />
+          <attribute name="createdfromcode" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="statecode" />
+          <attribute name="ownerid" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="membercount" />
+          <attribute name="cmc_expirationdate" />
+          <attribute name="createdon" />
+          <attribute name="createdby" />
+          <attribute name="listid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Marketing Lists" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

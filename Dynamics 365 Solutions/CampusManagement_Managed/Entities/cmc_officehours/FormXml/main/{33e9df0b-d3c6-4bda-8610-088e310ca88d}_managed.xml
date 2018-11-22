@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{33e9df0b-d3c6-4bda-8610-088e310ca88d}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{f5cd97d4-f37e-4e10-8459-501872c46a27}" IsUserDefined="1" name="{f5cd97d4-f37e-4e10-8459-501872c46a27}" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{649bd597-8d21-4b50-8a72-87e54d79f892}" name="{649bd597-8d21-4b50-8a72-87e54d79f892}" columns="1" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b8f6b33b-e761-4db4-860a-6d278866a2d1}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{c62a12bb-dd1a-4120-b5b0-b99d6bceb131}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{797e7dc4-8359-7284-a08d-42ba64d6ceb6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_userlocationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_userlocationid" disabled="false" uniqueid="{dbc44029-2716-9962-0a3a-041a19ab74d2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{25E5A7DE-BCAA-E711-8105-5065F38B0191}</DefaultViewId>
+                            <AvailableViewIds>{88E9F956-C56A-4C05-BF64-FE9840E6CF0B},{25E5A7DE-BCAA-E711-8105-5065F38B0191}</AvailableViewIds>
+                            <FilterRelationshipName>cmc_systemuser_userlocation_userid</FilterRelationshipName>
+                            <DependentAttributeName>cmc_officehours.createdby</DependentAttributeName>
+                            <DependentAttributeType>systemuser</DependentAttributeType>
+                            <AllowFilterOff>true</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a11de998-97ba-4ee3-b530-faaffe62ed76}" showlabel="true" locklevel="0" colspan="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_officehoursname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_officehoursname" uniqueid="{2c4016d5-5b81-3621-43d9-91e63b52a65e}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{093e5a9a-0dd1-c95b-a7bb-e40718c18555}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="start_end_date_section" showlabel="true" showbar="true" locklevel="0" id="{cb907765-3085-565c-e1e2-886254945e97}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="START / END DATE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{732c6456-582a-6b29-b7ac-72717d067db5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d594b46-802e-ca20-6d11-ad006ca6c3e9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b948d454-7cba-0c9b-5599-d8cd9c516776}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_starttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_starttime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c30d79eb-0eec-3eb5-2711-9369c01be174}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_endtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_endtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c7d6eac-dad5-32ca-4a97-bc189e621bd1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_duration" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="cmc_duration" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="weekdays_section" showlabel="true" showbar="true" locklevel="0" id="{59165ed1-0b58-1a29-3d64-c3b1d7590d78}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="WEEKDAYS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e58e44e1-5e07-4401-d85b-5c79a432ba58}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_monday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_monday" disabled="false" uniqueid="{dd90012c-a034-c15b-9354-bbaea6ac959c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca52b113-9c23-0531-ecce-b8958cc0bd92}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_tuesday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_tuesday" disabled="false" uniqueid="{ed39263a-6694-e33a-194a-039ea57db6ac}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5683ae0d-c23e-79b4-bced-6137d51ae942}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_wednesday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_wednesday" disabled="false" uniqueid="{0ad10071-2ac2-686a-0650-595c3b2e2389}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c4dbe49-025d-2967-d987-6e19801db7c6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_thursday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_thursday" disabled="false" uniqueid="{b9d44a40-391a-285b-9844-ecd6b00149c1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce830a15-868b-b243-0d37-70b593ec3da5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_friday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_friday" disabled="false" uniqueid="{b8843637-eb44-242a-46cc-92740873b6b4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e424776-2070-0296-bc12-3ab1158c00d2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_saturday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_saturday" disabled="false" uniqueid="{9dc3666d-a612-d334-98a9-2c63c61696a4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c02161e-399c-5e96-e42a-e26833924124}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sunday" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_sunday" disabled="false" uniqueid="{84876ac0-ee5b-d8cb-ce62-d71b55936a1e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{42a3031a-04cf-4d3f-b99c-55d16d5c6cca}" columns="111">
+        <rows>
+          <row>
+            <cell id="{15ac9faf-73c4-4c63-9f4a-2dce3cec604c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2800aedb-14f5-4827-896a-7de3e19f126d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4dd02585-48ee-706e-6058-901ec57ddde9}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{7fdd0d00-d541-4f91-9b66-095efb27578e}" columns="1111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{aa3eb053-c82c-ba2e-a2c1-e1c740743186}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{5ca12c46-5794-961e-28e4-11361bc4e19c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{4d941922-3c67-b4b2-0074-e14d9228754d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{ab4d806c-4875-b11e-78d1-2d80bca80895}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/Scripts/Libraries/sonomaCmc.js" libraryUniqueId="{2e66280a-bec1-6b86-232b-4a0a56e74adc}" />
+        <Library name="cmc_/dist/app/Forms/cmc_officehours.js" libraryUniqueId="{d98b9251-0e0c-978c-d3d2-cda39deb19a5}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_officehours.onLoad" libraryName="cmc_/dist/app/Forms/cmc_officehours.js" handlerUniqueId="{b1315e88-9d9d-8d12-5447-c7a25c6e6b91}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

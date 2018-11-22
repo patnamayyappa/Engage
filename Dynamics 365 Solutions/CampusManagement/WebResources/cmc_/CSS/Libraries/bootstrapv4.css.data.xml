@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{fec276f0-c8a2-e711-8104-c4346bdc2171}</WebResourceId>
+  <Name>cmc_/CSS/Libraries/bootstrapv4.css</Name>
+  <DisplayName>bootstrapv4.css</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_CSSLibrariesbootstrapv4cssFEC276F0-C8A2-E711-8104-C4346BDC2171</FileName>
+</WebResource>

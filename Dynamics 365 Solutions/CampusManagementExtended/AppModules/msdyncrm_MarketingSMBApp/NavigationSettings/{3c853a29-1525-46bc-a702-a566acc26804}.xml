@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a702-a566acc26804}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a702-a566acc26800}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.FiscalSettingTControl.FiscalSettingTControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <IconResourceId>{d4538511-2222-4ed8-b3e0-42f4d839fbe2}</IconResourceId>
+  <Privileges>0</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Fiscal year" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Fiscal Year" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

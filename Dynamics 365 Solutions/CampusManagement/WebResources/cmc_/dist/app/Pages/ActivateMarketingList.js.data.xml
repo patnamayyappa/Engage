@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{6865c665-7e39-e811-a95e-000d3a11fc57}</WebResourceId>
+  <Name>cmc_/dist/app/Pages/ActivateMarketingList.js</Name>
+  <DisplayName>ActivateMarketingList.js</DisplayName>
+  <Description>Activate Marketing List JavaScript </Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.57</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;
+  &lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Forms/marketinglist.js" displayName="marketinglist" languagecode="1033" description="Marketing list file used on load of the main form." libraryUniqueId="{3ca71e8e-1d37-a20d-b496-35c184d59eae}"/&gt;&lt;/Dependency&gt;
+&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappPagesActivateMarketingListjs6865C665-7E39-E811-A95E-000D3A11FC57</FileName>
+</WebResource>

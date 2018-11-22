@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{61a13515-6bd7-e811-a958-000d3a4e75ec}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+        <row name="result" id="opportunityid">
+          <cell name="name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_lifecycletype" width="100" />
+          <cell name="cmc_lifecyclestatus" width="100" />
+          <cell name="cmc_contactid" width="100" />
+          <cell name="cmc_dayssincelastappactivity" width="200" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_expstartdateid" width="100" />
+          <cell name="cmc_prgmid" width="100" />
+          <cell name="cmc_prgmlevelid" width="100" />
+          <cell name="cmc_sourcecategoryid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcemethodid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="opportunity">
+          <attribute name="name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="connection" from="record2id" to="opportunityid" alias="MyConnections">
+            <filter type="and">
+              <condition attribute="record1id" operator="eq-userid" />
+              <condition attribute="statecode" operator="eq" value="0" />
+            </filter>
+            <link-entity name="connectionrole" from="connectionroleid" to="record1roleid" alias="salesteamcategory">
+              <filter type="and">
+                <condition attribute="category" operator="eq" value="1001" />
+              </filter>
+            </link-entity>
+          </link-entity>
+          <attribute name="cmc_sourcemethodid" />
+          <attribute name="cmc_sourcecategoryid" />
+          <attribute name="cmc_lifecycletype" />
+          <attribute name="cmc_lifecyclestatus" />
+          <attribute name="cmc_dayssincelastappactivity" />
+          <attribute name="cmc_contactid" />
+          <order attribute="name" descending="false" />
+          <attribute name="cmc_prgmlevelid" />
+          <attribute name="cmc_prgmid" />
+          <attribute name="cmc_expstartdateid" />
+          <attribute name="opportunityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.00</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Lifecycles I am a member of(Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows all active instances of the lifecycle that the current user is member of" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

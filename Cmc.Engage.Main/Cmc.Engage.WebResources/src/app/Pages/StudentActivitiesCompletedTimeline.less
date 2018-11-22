@@ -1,0 +1,243 @@
+@def_font_Family: Arial, Helvetica, sans-serif;
+@def_padVal: 2px;
+
+#timeline-visualization {
+  font-size: 0.875em;
+  font-family: @def_font_Family;
+}
+
+/* replaces native vis.js vertical scroll */
+.vis-center > .vis-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#commands {
+  font-size: 0.750em;
+  font-family: @def_font_Family;
+  text-align: right;
+  margin-bottom: -0.25em;
+  padding-right: 0;
+}
+
+.menu {
+  margin-bottom: 0.25em;
+}
+
+input {
+  border: 0.1em solid;
+  border-radius: 0.25em;
+  padding: 0.5em;
+  cursor: pointer;
+  color: #a3a3a3;
+  border-color: #a3a3a3;
+  background-color: #f5f5f5;
+}
+
+.button {
+  color: black;
+}
+
+.vis-item.hidden {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  visibility: hidden; /*adding this toggle class to hide the icons on click of the time activities.*/
+}
+
+.item-title {
+  font-size: 0.75em;
+  font-weight: bold;
+
+  .item-details {
+    color: #444;
+    font-weight: lighter;
+    font-style: italic;
+  }
+}
+
+.vis-item, .button {
+  &.phonecall {
+    background-color: #d4ddf8;
+    border-color: #93affe;
+  }
+
+  &.email {
+    background-color: #d2f7f7;
+    border-color: #95baba;
+  }
+
+  &.appointment {
+    background-color: #ffdfbf;
+    border-color: #bfa386;
+  }
+
+  &.event {
+    background-color: #fff7cc;
+    border-color: #c0ba9a;
+  }
+
+  &.to-do {
+    background-color: #daf2da;
+    border-color: #99bf99;
+  }
+
+  &.chat {
+    background-color: #e0e0e0;
+    border-color: #909090;
+  }
+}
+
+.vis-item-content {
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.vis-item-Appointment-icon {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle; /*looks icon is aligned top*/
+  padding-right: @def_padVal; /*space between text and image*/
+}
+
+.vis-item-Email-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  padding-right: @def_padVal;
+}
+
+.vis-item-PhoneCall-icon {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  padding-right: @def_padVal;
+}
+
+.vis-item-ToDo-icon, .vis-item-Event-icon, .vis-item-chat-icon {
+  width: 14px;
+  height: 14px;
+  padding-right: @def_padVal;
+}
+
+.vis-item-common-icon {
+  font-size: x-small;
+  position: absolute;
+  right: 1px;
+}
+
+.vis-item-0-icon {
+  color: red;
+  .vis-item-common-icon
+}
+
+.vis-item-1-icon {
+  color: olive;
+  .vis-item-common-icon
+}
+
+.vis-item-2-icon {
+  color: navy;
+  .vis-item-common-icon
+}
+
+.vis-item-3-icon {
+  color: orange;
+  .vis-item-common-icon
+}
+
+.vis-item-4-icon {
+  color: purple;
+  .vis-item-common-icon
+}
+
+.vis-item-5-icon {
+  color: brown;
+  .vis-item-common-icon
+}
+
+.vis-item-6-icon {
+  color: maroon;
+  .vis-item-common-icon
+}
+
+.vis-item-7-icon {
+  color: teal;
+  .vis-item-common-icon
+}
+
+.vis-item-8-icon {
+  color: yellow;
+  .vis-item-common-icon
+}
+
+.vis-item-9-icon {
+  color: blue;
+  .vis-item-common-icon
+}
+
+.vis-item-10-icon {
+  color: #0f5808;
+  .vis-item-common-icon
+}
+
+.vis-item-11-icon {
+  color: #b57852;
+  .vis-item-common-icon
+}
+
+.vis-item-12-icon {
+  color: #454545;
+  .vis-item-common-icon
+}
+
+.vis-item-13-icon {
+  color: #ff34cd;
+  .vis-item-common-icon
+}
+
+.vis-item-14-icon {
+  color: aqua;
+  .vis-item-common-icon
+}
+
+.vis-item-status {
+  .vis-item-common-icon;
+  &.completed-icon {
+    color: green;
+  }
+  //added color combination for respective status.
+}
+
+.k-popup .k-list .k-item {
+  min-height: 0px !important;
+}
+
+.k-icon {
+  height: 2em;
+}
+
+.k-dropdown-wrap.k-state-default {
+  background-color: beige;
+}
+
+.dropDownList {
+  width: 200px;
+  position: absolute;
+  right: 18px;
+}
+
+.vis-item-MarketingEmail-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.vis-item-MarketingEmail-fontawesome-icon {
+  font-size: xx-small;
+  position: absolute;
+  right: 39%;
+  top: 85%;
+}

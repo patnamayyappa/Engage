@@ -1,0 +1,17 @@
+﻿.k-nav-current > .k-link span + span {
+    max-width: 500px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.k-today, .k-nonwork-hour, .k-today.k-nonwork-hour {
+    background-color: #FFFFFF;
+}
+
+.k-scheduler-table .unavailable, .k-today.k-nonwork-hour.unavailable,
+.availability-key .unavailable {
+    background-color: #eee;
+}

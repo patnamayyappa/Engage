@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{225ceb1f-4d9d-e711-8105-c4346bdc3221}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_positiveacknowledgementname" select="1" preview="1" icon="1">
+        <row name="result" id="cmc_positiveacknowledgementid">
+          <cell name="cmc_positiveacknowledgementname" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_acknowledgmentreason" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="100" />
+          <cell name="createdon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cmc_positiveacknowledgement">
+          <attribute name="cmc_positiveacknowledgementname" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="ownerid" />
+          <attribute name="createdon" />
+          <attribute name="cmc_acknowledgmentreason" />
+          <attribute name="cmc_positiveacknowledgementid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal - Positive Acknowledgements" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

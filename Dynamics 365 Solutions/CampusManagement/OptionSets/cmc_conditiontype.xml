@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_conditiontype" localizedName="Condition Type" description="The type of condition to evaluate the attribute against.">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Condition Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="The type of condition to evaluate the attribute against." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="175490000" Color="#0000ff">
+      <labels>
+        <label description="Range" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490001" Color="#0000ff">
+      <labels>
+        <label description="Equals" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490002" Color="#0000ff">
+      <labels>
+        <label description="Begins With" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Is Not Null" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Is Null" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

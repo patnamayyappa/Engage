@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Common.Plugins.CheckAndValidatePrimaryAddressPlugin: Update of customeraddress" SdkMessageProcessingStepId="{327cf989-69db-e811-a962-000d3a3669fe}">
+  <PluginTypeName>Cmc.Engage.Common.Plugins.CheckAndValidatePrimaryAddressPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538</PluginTypeName>
+  <PluginTypeId>4fd7bb1d-a1af-41f3-9393-6699f8625423</PluginTypeId>
+  <PrimaryEntity>customeraddress</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>mshied_mailtype</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="Target">
+      <SdkMessageProcessingStepImageId>{d42de2a6-69db-e811-a960-000d3a3666c5}</SdkMessageProcessingStepImageId>
+      <Attributes>customeraddressid,addressnumber,parentid</Attributes>
+      <EntityAlias>Target</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

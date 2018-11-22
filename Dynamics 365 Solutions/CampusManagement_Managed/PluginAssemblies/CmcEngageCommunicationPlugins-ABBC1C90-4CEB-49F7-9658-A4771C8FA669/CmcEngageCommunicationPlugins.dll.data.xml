@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90" PluginAssemblyId="abbc1c90-4ceb-49f7-9658-a4771c8fa669" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageCommunicationPlugins-ABBC1C90-4CEB-49F7-9658-A4771C8FA669/CmcEngageCommunicationPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Communication.Plugins.CreateStaffAppointmentActionPlugin, Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90" PluginTypeId="24ac488b-bdbf-4d87-a196-e172d103345a" Name="Cmc.Engage.Communication.Plugins.CreateStaffAppointmentActionPlugin">
+      <FriendlyName>3d990c54-a449-4e02-8fc8-489931896657</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Communication.Plugins.DeleteStaffAppointmentActionPlugin, Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90" PluginTypeId="9f459540-ebe6-4da9-a96b-bdaab2510ff3" Name="Cmc.Engage.Communication.Plugins.DeleteStaffAppointmentActionPlugin">
+      <FriendlyName>2a5956a7-39fc-47cd-8daa-d8d63db78217</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Communication.Plugins.RetrieveStaffAppointmentsActionPlugin, Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90" PluginTypeId="e52e3ab4-7456-46e0-a660-fb0ec7ad3ee7" Name="Cmc.Engage.Communication.Plugins.RetrieveStaffAppointmentsActionPlugin">
+      <FriendlyName>b8e29063-ab90-4cb7-a4da-86c436cf60c0</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Communication.Plugins.RetrieveStaffAvailabilityFromOfficeHoursActionPlugin, Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90" PluginTypeId="09c4d9d3-9b5e-4168-8e53-64eb16659f5d" Name="Cmc.Engage.Communication.Plugins.RetrieveStaffAvailabilityFromOfficeHoursActionPlugin">
+      <FriendlyName>84a15858-ab88-43f9-9ed5-9251d57f8752</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Communication.Plugins.UpdateTripActivityAppointmentDetailsPlugin, Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90" PluginTypeId="006c3891-5069-4288-8f38-687ea968347f" Name="Cmc.Engage.Communication.Plugins.UpdateTripActivityAppointmentDetailsPlugin">
+      <FriendlyName>560fdd7a-817f-418e-9f85-33600b7a02ef</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

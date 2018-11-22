@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entity Name="cmc_todocategory">
+    <Attribute>cmc_todocategoryid</Attribute>
+    <Attribute>cmc_todocategoryname</Attribute>
+  </Entity>
+  <Entity Name="cmc_languagevalue">
+    <Attribute>cmc_keyname</Attribute>
+    <Attribute>cmc_languagecode</Attribute>
+    <Attribute>cmc_languagevalueid</Attribute>
+    <Attribute>cmc_value</Attribute>
+  </Entity>
+  <Entity Name="cmc_country">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_countryid</Attribute>
+    <Attribute>cmc_countryname</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+  </Entity>
+  <Entity Name="cmc_completedverification">
+    <Attribute>cmc_completedverificationid</Attribute>
+    <Attribute>cmc_completedverificationname</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+  </Entity>
+  <Entity Name="cmc_extracurricular">
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_extracurricularid</Attribute>
+    <Attribute>cmc_extracurricularname</Attribute>
+    <Attribute>cmc_code</Attribute>
+  </Entity>
+  <Entity Name="cmc_portofentry">
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_portofentryid</Attribute>
+    <Attribute>cmc_portofentryname</Attribute>
+  </Entity>
+  <Entity Name="cmc_schoolstatus">
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_schoolstatusid</Attribute>
+    <Attribute>cmc_schoolstatusname</Attribute>
+    <Attribute>cmc_code</Attribute>
+  </Entity>
+  <Entity Name="cmc_title">
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_titleid</Attribute>
+    <Attribute>cmc_titlename</Attribute>
+  </Entity>
+  <Entity Name="cmc_usgovernmentagency">
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_usgovernmentagencyid</Attribute>
+    <Attribute>cmc_usgovernmentagencyname</Attribute>
+  </Entity>
+  <Entity Name="cmc_studentclassification">
+    <Attribute>cmc_studentclassificationid</Attribute>
+    <Attribute>cmc_studentclassificationname</Attribute>
+  </Entity>
+  <Entity Name="cmc_studenttype">
+    <Attribute>cmc_studenttypeid</Attribute>
+    <Attribute>cmc_studenttypename</Attribute>
+  </Entity>
+  <Entity Name="cmc_scoredefinition">
+    <Attribute>cmc_scoredefinitionid</Attribute>
+    <Attribute>cmc_scoredefinitionname</Attribute>
+    <Attribute>cmc_greenscorethreshold</Attribute>
+    <Attribute>cmc_redscorethreshold</Attribute>
+    <Attribute>cmc_yellowscorethreshold</Attribute>
+  </Entity>
+  <Entity Name="cmc_scoringfactor">
+    <Attribute>cmc_attributename</Attribute>
+    <Attribute>cmc_conditiontype</Attribute>
+    <Attribute>cmc_scoringfactorid</Attribute>
+    <Attribute>cmc_scoringfactorname</Attribute>
+    <Attribute>cmc_max</Attribute>
+    <Attribute>cmc_min</Attribute>
+    <Attribute>cmc_points</Attribute>
+    <Attribute>cmc_value</Attribute>
+  </Entity>
+  <Entity Name="cmc_configuration">
+    <Attribute>cmc_configurationid</Attribute>
+    <Attribute>cmc_configurationname</Attribute>
+    <Attribute>cmc_value</Attribute>
+  </Entity>
+  <Entity Name="cmc_state">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_countryid</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_stateid</Attribute>
+    <Attribute>cmc_statename</Attribute>
+  </Entity>
+  <Entity Name="cmc_ethnicgroup">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_ethnicgroupid</Attribute>
+    <Attribute>cmc_ethnicgroupname</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+  </Entity>
+  <Entity Name="cmc_addresstype">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_addresstypename</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_addresstypeid</Attribute>
+  </Entity>
+  <Entity Name="subject">
+    <Attribute>description</Attribute>
+    <Attribute>featuremask</Attribute>
+    <Attribute>importsequencenumber</Attribute>
+    <Attribute>parentsubject</Attribute>
+    <Attribute>subjectid</Attribute>
+    <Attribute>title</Attribute>
+  </Entity>
+  <Entity Name="cmc_studentprogramtype">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_studentprogramtypeid</Attribute>
+    <Attribute>cmc_studentprogramtypename</Attribute>
+  </Entity>
+  <Entity Name="cmc_program">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_programid</Attribute>
+    <Attribute>cmc_programname</Attribute>
+  </Entity>
+  <Entity Name="cmc_programlevel">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_programlevelid</Attribute>
+    <Attribute>cmc_programlevelname</Attribute>
+  </Entity>
+  <Entity Name="cmc_programversion">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_programid</Attribute>
+    <Attribute>cmc_programlevelid</Attribute>
+    <Attribute>cmc_programversionid</Attribute>
+    <Attribute>cmc_programversionname</Attribute>
+  </Entity>
+  <Entity Name="cmc_areaofstudy">
+    <Attribute>cmc_areaofstudyid</Attribute>
+    <Attribute>cmc_areaofstudyname</Attribute>
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_minimumcumulativegpa</Attribute>
+    <Attribute>cmc_requiredcreditsforareaofstudy</Attribute>
+    <Attribute>cmc_studentprogramtypeid</Attribute>
+  </Entity>
+  <Entity Name="cmc_areaofinterest">
+    <Attribute>cmc_areaofinterestid</Attribute>
+    <Attribute>cmc_areaofinterestname</Attribute>
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+  </Entity>
+  <Entity Name="cmc_nationality">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_nationalityid</Attribute>
+    <Attribute>cmc_nationalityname</Attribute>
+  </Entity>
+  <Entity Name="cmc_registrationstatus">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+    <Attribute>cmc_registraitonstatusname</Attribute>
+    <Attribute>cmc_registrationstatusid</Attribute>
+  </Entity>
+  <Entity Name="cmc_educationlevel">
+    <Attribute>cmc_code</Attribute>
+    <Attribute>cmc_educationlevelid</Attribute>
+    <Attribute>cmc_educationlevelname</Attribute>
+    <Attribute>cmc_externalsisid</Attribute>
+  </Entity>
+  <Entity Name="cmc_sourcecategory">
+    <Attribute>cmc_sourcecategoryid</Attribute>
+    <Attribute>cmc_sourcecategoryname</Attribute>
+  </Entity>
+  <Entity Name="cmc_sourcesubcategory">
+    <Attribute>cmc_sourcesubcategoryid</Attribute>
+    <Attribute>cmc_sourcesubcategoryname</Attribute>
+  </Entity>
+  <Entity Name="cmc_sourcecategory_sourcesubcategory">
+    <Attribute>cmc_sourcecategory_sourcesubcategoryid</Attribute>
+    <Attribute>cmc_sourcecategoryid</Attribute>
+    <Attribute>cmc_sourcesubcategoryid</Attribute>
+  </Entity>
+  <Entity Name="cmc_sourcemethod">
+    <Attribute>cmc_sourcemethodid</Attribute>
+    <Attribute>cmc_sourcemethodname</Attribute>
+  </Entity>
+</ImportConfiguration>

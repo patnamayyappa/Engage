@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{3966304a-7a91-43b6-a0f1-a5470e814c75}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{c568e586-b175-49be-84e3-f6fc994ebfa2}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ca87aa47-c422-455a-bc7d-f3e37a2a8c70}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{375d81b9-1483-8351-c022-b899d9a2b8d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationregistration" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationregistration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{130b5962-ebef-4f05-998f-8d9c03712b78}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8da7d569-a6e2-8e83-2ae9-4dd91d17866b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_programid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_programid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98267918-c0c2-0665-5580-19a648abc325}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1a5261bd-9193-23c8-a59d-de0e398235b8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_applicationstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1b3b6d7-d545-5c55-7157-5c7198626a42}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_submitteddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_submitteddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c0e59c4-0f34-4fab-bde2-e7dbd60f6660}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

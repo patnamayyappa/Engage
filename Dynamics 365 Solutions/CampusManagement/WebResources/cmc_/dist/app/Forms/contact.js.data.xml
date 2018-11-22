@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{4ff1afa5-9327-e811-a95e-000d3a14b26e}</WebResourceId>
+  <Name>cmc_/dist/App/Forms/contact.js</Name>
+  <DisplayName>contact.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.49</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;
+  &lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/Localization.js" displayName="Localization.js" languagecode="" description="library to retrieve the localized strings" libraryUniqueId="{ea34772d-7428-0bae-1e9e-6b46995a87ea}"/&gt;&lt;Library name="cmc_/dist/app/Common/constants.js" displayName="constants.js" languagecode="1033" description="application constants are maintained here." libraryUniqueId="{3372a450-41e7-bae4-9eb4-965352b4ed2d}"/&gt;&lt;/Dependency&gt;
+&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distAppFormscontactjs4FF1AFA5-9327-E811-A95E-000D3A14B26E</FileName>
+</WebResource>

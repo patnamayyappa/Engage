@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{2fd7a01f-a35d-438a-bea1-bdb61f3bdbdc}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{fd7baab8-5179-4bfc-83a2-6122c2fef619}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{39c651b6-ff75-4958-8d54-8c8d9a3bcc90}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1266a81a-a7a7-b516-19be-62a4c2281d74}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Recommendation Definition" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationrecommendationdefinition" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationrecommendationdefinition" disabled="true" uniqueid="{d2341807-82bd-68d8-edda-d27683e5d3d7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{0C1AB82F-0010-4EED-AA47-2A992DCC82FE}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3401c53b-ee30-4da0-b434-e673e6bdd2dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Recommendation Type" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recommendationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_recommendationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c19c646-6074-4772-958f-b24fc6a6b5d4}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Recommendation Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recommendationdefintiondetailname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_recommendationdefintiondetailname" uniqueid="{697094aa-e344-6985-1185-26669952e465}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e689369-c747-3400-a060-eee6715bbe17}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No of Recommendations" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_noofrecommendations" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_noofrecommendations" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9e4153b-bfb2-4c4b-b918-169be4e0a30e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

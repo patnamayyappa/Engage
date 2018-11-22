@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{56faff6b-ee63-e811-a958-000d3a18c732}</WebResourceId>
+  <Name>cmc_/WebComponents/fontawesome-webfont.fee66e712a8a08eef580.woff</Name>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0.0.71</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_WebComponentsfontawesome-webfontfee66e712a8a0856FAFF6B-EE63-E811-A958-000D3A18C732</FileName>
+</WebResource>

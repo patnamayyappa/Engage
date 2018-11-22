@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{09540bfe-a14c-4a2e-8a0b-574870a4cb01}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_officehoursname" select="1" icon="1" preview="0">
+        <row name="cmc_officehours" id="cmc_officehoursid">
+          <cell name="cmc_officehoursname" width="300" />
+          <cell name="cmc_startdate" width="100" />
+          <cell name="cmc_starttime" width="100" />
+          <cell name="cmc_enddate" width="100" />
+          <cell name="cmc_duration" width="100" />
+          <cell name="cmc_monday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_tuesday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_wednesday" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_thursday" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_friday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_saturday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sunday" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_officehours">
+          <attribute name="cmc_officehoursid" />
+          <attribute name="cmc_officehoursname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_wednesday" />
+          <attribute name="cmc_tuesday" />
+          <attribute name="cmc_thursday" />
+          <attribute name="cmc_sunday" />
+          <attribute name="cmc_starttime" />
+          <attribute name="cmc_startdate" />
+          <attribute name="cmc_saturday" />
+          <attribute name="cmc_monday" />
+          <attribute name="cmc_friday" />
+          <attribute name="cmc_enddate" />
+          <attribute name="cmc_duration" />
+          <order attribute="cmc_officehoursname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Office Hours Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

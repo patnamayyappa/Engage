@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3c82dee3-3be1-e811-a95c-000d3a3acbf2}</WebResourceId>
+  <Name>cmc_/Images/Application/cmc_applicationregistration_16x16.png</Name>
+  <DisplayName>cmc_/Images/Application/cmc_applicationregistration_16x16.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_ImagesApplicationcmc_applicationregistration_13C82DEE3-3BE1-E811-A95C-000D3A3ACBF2</FileName>
+</WebResource>

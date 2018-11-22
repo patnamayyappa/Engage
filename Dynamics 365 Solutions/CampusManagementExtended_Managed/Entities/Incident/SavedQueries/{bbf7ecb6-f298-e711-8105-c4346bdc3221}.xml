@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{bbf7ecb6-f298-e711-8105-c4346bdc3221}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="title" select="1" preview="1" icon="1">
+        <row name="result" id="incidentid">
+          <cell name="ticketnumber" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="title" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="subjectid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="casetypecode" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statuscode" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="incident">
+          <attribute name="title" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="ticketnumber" />
+          <attribute name="statuscode" />
+          <attribute name="subjectid" />
+          <attribute name="casetypecode" />
+          <attribute name="createdon" />
+          <attribute name="incidentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal Cases View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

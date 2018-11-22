@@ -1,0 +1,82 @@
+.k-nav-current > .k-link span + span {
+  max-width: 500px;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: top;
+}
+.k-today,
+.k-nonwork-hour,
+.k-today.k-nonwork-hour {
+  background-color: #FFFFFF;
+}
+.k-today.k-nonwork-hour.unavailable {
+  background-color: #eee;
+}
+.k-scheduler-table .unavailable,
+.availability-key .unavailable {
+  background-color: #eee;
+}
+.k-window {
+  padding-top: 50px !important;
+}
+.k-window-titlebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+.k-window-titlebar .k-window-actions {
+  top: 8px;
+  right: .7em;
+}
+.k-window-titlebar.k-header {
+  margin-top: -50px !important;
+}
+.k-window-title {
+  line-height: 1.4;
+  padding-left: 10px;
+}
+.k-datetimepicker .k-select {
+  width: 5em;
+}
+.k-datetimepicker .k-select .k-link-time {
+  margin-left: 0;
+}
+.k-window > div.k-popup-edit-form {
+  padding-bottom: 0;
+  padding: 1em 15px 30px;
+}
+.k-edit-buttons {
+  padding: .9rem 1rem;
+}
+.k-scheduler-navigation .k-nav-current {
+  margin-left: 20px;
+}
+.k-nav-current .k-icon {
+  margin-right: 8px;
+}
+.k-calendar .k-content .k-link {
+  line-height: 1.8;
+  padding-right: .1em;
+}
+.k-scheduler-monthview .k-scheduler-table td {
+  padding-top: 0.334em;
+}
+@media (max-width: 768px) {
+  .k-scheduler-edit-form .k-edit-form-container {
+    width: auto;
+    margin: 30px auto;
+  }
+}
+.k-widget.k-window {
+  max-height: 100%;
+}
+.k-event-template {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* Fixes label width rendering bug for time column in IE */
+.container .k-scheduler-times .k-scheduler-table {
+  width: 6em;
+}

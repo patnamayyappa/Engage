@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{27394caf-4678-4266-91d2-e946f5ffd798}</formid>
+    <IntroducedVersion>0.7.0.050</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{98bf3d9c-40fb-4326-bc1f-0c7d79750bdf}" IsUserDefined="1" labelid="{08c0ee00-d152-43fe-a838-717ed322dfb9}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1f8f7dc6-cff5-4574-92f5-1fffdec0eb8f}" labelid="{b6ee590d-4d62-4c25-a8cf-8dd32b442336}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{273366a8-79a8-4666-b38e-b1ace325ce16}" labelid="{9f91c260-24e7-4037-b57e-4e209e27f16a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2dba6a37-b288-424e-831d-90da911407b6}" labelid="{5640b55c-ce68-49fa-8665-8d886b1bbe77}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{bc6b6885-6ac4-427e-51a2-ccc7c29c898d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Test Score Conversion Attributes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{3d0bb10e-e46d-95c9-3cd9-26dbbc74ce53}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dece2752-7bdb-4c40-14a9-8a9ed5509866}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_testscoreschemaname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_testscoreschemaname" disabled="false" uniqueid="{e2aba55d-2ec6-ac8d-81de-e9a9d70c590c}" />
+                      </cell>
+                      <cell id="{29ee0332-9b41-4694-4eb0-3aa2b6e088ca}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_equivalentscoreschemaname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_equivalentscoreschemaname" disabled="false" uniqueid="{7e46ae64-d3eb-3618-7bd7-2d290b8a8034}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98e281b2-7277-b940-3d46-152b171de8d8}" showlabel="true" colspan="1" auto="false" rowspan="15">
+                        <labels>
+                          <label description="Source Attribute" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_TestScoreSchemaName" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/attributePicker/index.html</Url>
+                            <Data>component=attributePicker&amp;includeAttributeTypes=5,4,3&amp;entity=mshied_testscore&amp;excludeRelationShips=true&amp;showLabel=false&amp;retrieveMetadataJsonAction=cmc_retrieveattributesandrelationshipsforentities&amp;schemafield=cmc_testscoreschemaname&amp;retrieveMetadataJsonInput={"EntityLogicalNames": "mshied_testscore"}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{1034480F-5FA1-E811-A954-000D3A3AB637}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                      <cell id="{5acbc40a-7595-6480-434e-42314879e98a}" showlabel="true" colspan="1" auto="false" rowspan="15">
+                        <labels>
+                          <label description="Target Attribute" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_EquivalentScoreSchemaName" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/attributePicker/index.html</Url>
+                            <Data>component=attributePicker&amp;includeAttributeTypes=5,4,3&amp;entity=mshied_testscore&amp;excludeRelationShips=true&amp;showLabel=false&amp;retrieveMetadataJsonAction=cmc_retrieveattributesandrelationshipsforentities&amp;schemafield=cmc_equivalentscoreschemaname&amp;retrieveMetadataJsonInput={"EntityLogicalNames": "mshied_testscore"}</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{1034480F-5FA1-E811-A954-000D3A3AB637}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="{070296c9-d119-483d-5ea2-64557db74c40}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Test Score Conversion" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{672d456b-977e-ecd6-d78a-1ba2dac58228}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{06943a91-6b9a-68e3-c8dc-047e3e8873e6}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Test Score Conversions Table" languagecode="1033" />
+                        </labels>
+                        <control id="TestScoreConversions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e91a0067-ad7d-13ab-cc9c-d8dbe0c5e3e3}">
+                          <parameters>
+                            <ViewId>{B6B30CD2-586F-4510-83CC-A4FB27247FA1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_cmc_testtype_cmc_testscoreconversion</RelationshipName>
+                            <TargetEntityType>cmc_testscoreconversion</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B6B30CD2-586F-4510-83CC-A4FB27247FA1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a8d014b5-4ece-418a-9785-5c68c5b86ed6}" columns="111">
+        <rows>
+          <row>
+            <cell id="{8d1f47ba-2e3f-4675-a330-b0525f205b00}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5f1ed2fd-951c-428f-bf99-81d627c00098}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6bb14d60-60e7-0747-e299-83d5ae1a8007}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{9156e3ab-d373-4a81-8084-c43a9c4eef8e}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{4660a260-0181-a4cd-bc09-d54d95776a83}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{2027bd17-6959-0741-14d5-61946aec1754}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{7bb520d8-8c18-bcc6-d455-92421ce1dcc3}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{13a1e79a-ec71-cb6b-eaa9-9d3d51dea375}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/dist/app/Common/Localization.js" libraryUniqueId="{b4b19c89-e28c-98e5-e92b-0e0409ac107a}" />
+      </formLibraries>
+      <DisplayConditions Order="2">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information (Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Information (Engage)" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

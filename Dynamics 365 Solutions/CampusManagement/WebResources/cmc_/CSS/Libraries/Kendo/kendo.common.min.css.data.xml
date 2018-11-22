@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{e4e9bc4c-417d-e711-8100-c4346bdc42d1}</WebResourceId>
+  <Name>cmc_/CSS/Libraries/Kendo/kendo.common.min.css</Name>
+  <DisplayName>kendo.common.min.css</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_CSSLibrariesKendokendocommonmincssE4E9BC4C-417D-E711-8100-C4346BDC42D1</FileName>
+</WebResource>

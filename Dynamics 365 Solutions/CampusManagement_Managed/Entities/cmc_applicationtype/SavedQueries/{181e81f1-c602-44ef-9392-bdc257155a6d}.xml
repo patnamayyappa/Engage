@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{181e81f1-c602-44ef-9392-bdc257155a6d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationtypename" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationtypeid">
+          <cell name="cmc_applicationtypename" width="300" />
+          <cell name="cmc_applicationgroup" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationtype">
+          <attribute name="cmc_applicationtypename" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationtypename" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_applicationtypename" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cmc_applicationgroup" />
+          <attribute name="cmc_applicationtypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Application Types" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Marketing.Plugins.UpdateTripActivityEventDetailsPlugin: Update of msevtmgt_event" SdkMessageProcessingStepId="{53c87e8f-0ba6-e811-a969-000d3a33eb4e}">
+  <PluginTypeName>Cmc.Engage.Marketing.Plugins.UpdateTripActivityEventDetailsPlugin, Cmc.Engage.Marketing.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f09da32b13e1936f</PluginTypeName>
+  <PluginTypeId>1166805d-db66-49cd-a9a0-f7814c920c71</PluginTypeId>
+  <PrimaryEntity>msevtmgt_event</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>cmc_enddatetime,msevtmgt_eventenddate,msevtmgt_name,msevtmgt_eventstartdate,msevtmgt_eventtimezone,msevtmgt_primaryvenue,cmc_startdatetime</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>2</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{607e18e9-0ba6-e811-a968-000d3a33e5a2}</SdkMessageProcessingStepImageId>
+      <Attributes>cmc_enddatetime,msevtmgt_eventid,msevtmgt_eventenddate,msevtmgt_name,msevtmgt_eventstartdate,msevtmgt_eventtimezone,msevtmgt_primaryvenue,cmc_startdatetime</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{9de87cac-0ba6-e811-a965-000d3a33e0b1}</SdkMessageProcessingStepImageId>
+      <Attributes>cmc_enddatetime,msevtmgt_eventenddate,msevtmgt_name,msevtmgt_eventstartdate,msevtmgt_eventtimezone,msevtmgt_primaryvenue,cmc_startdatetime</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

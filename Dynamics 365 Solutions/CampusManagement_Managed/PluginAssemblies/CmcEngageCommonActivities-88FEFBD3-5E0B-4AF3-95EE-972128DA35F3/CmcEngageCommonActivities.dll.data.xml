@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Common.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7fe626994f1a8898" PluginAssemblyId="88fefbd3-5e0b-4af3-95ee-972128da35f3" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageCommonActivities-88FEFBD3-5E0B-4AF3-95EE-972128DA35F3/CmcEngageCommonActivities.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Activities.AssignSuccessPlanActivity, Cmc.Engage.Common.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7fe626994f1a8898" PluginTypeId="8dc70b2a-e42e-48ac-87cb-2bd4c8633099" Name="Assign Success Plan to Student">
+      <FriendlyName>24283c89-14a0-49b2-af8e-b66905d445a1</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Activities.RetrieveConfigurationValueActivity, Cmc.Engage.Common.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7fe626994f1a8898" PluginTypeId="b448c181-f65a-4b4d-8c45-b129650eb40d" Name="Get Configuration">
+      <FriendlyName>d696ca14-95e6-4d92-ab5a-8227459ee36e</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Activities.SharePermissionActivity, Cmc.Engage.Common.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7fe626994f1a8898" PluginTypeId="196c22f7-8925-4f15-90c1-ef41aac80ac1" Name="Grant and Revoke Permissions">
+      <FriendlyName>8dce0f92-3de4-4598-9299-25d027686574</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

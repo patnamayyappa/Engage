@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bb955ab5-c506-4a87-adfe-f7d6b45beeef}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_sourcemethodname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_sourcemethodid">
+          <cell name="cmc_sourcemethodname" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_sourcemethod">
+          <attribute name="cmc_sourcemethodid" />
+          <attribute name="cmc_sourcemethodname" />
+          <order attribute="cmc_sourcemethodname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.49</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Source Method Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

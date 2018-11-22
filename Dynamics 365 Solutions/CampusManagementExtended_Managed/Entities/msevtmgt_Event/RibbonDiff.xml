@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.msevtmgt_event.Check-in.Button.CustomAction" Location="Mscrm.Form.msevtmgt_event.MainTab.Save.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.msevtmgt_event.Check-in.Button.Alt" Command="cmc.msevtmgt_event.checkin.Command" Id="cmc.msevtmgt_event.Check-in.Button" LabelText="$LocLabels:cmc.msevtmgt_event.Check-in.Button.LabelText" Sequence="45" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.msevtmgt_event.Check-in.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.msevtmgt_event.Check-in.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.msevtmgt_event.checkin.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="cmc.msevtmgt_event.checkin.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.checkin.quickCreateCheckin" Library="$webresource:cmc_/dist/app/Ribbon/checkin.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="cmc.msevtmgt_event.checkin.DisplayRule">
+        <FormStateRule State="Existing" Default="false" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.msevtmgt_event.Check-in.Button.Alt">
+      <Titles>
+        <Title description="Check-in" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.msevtmgt_event.Check-in.Button.LabelText">
+      <Titles>
+        <Title description="Check-in" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.msevtmgt_event.Check-in.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Confirm the student's attendance at the event." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.msevtmgt_event.Check-in.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Check-in" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

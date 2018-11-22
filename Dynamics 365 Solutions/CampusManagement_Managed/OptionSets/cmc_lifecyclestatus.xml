@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_lifecyclestatus" localizedName="Lifecycle Status">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.58</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Lifecycle Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="175490003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Incomplete Application" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Admitted with Conditions" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="App Requirements Pending" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490009" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Deposit Pending" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Expressed Interest" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pending Review" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Ready for Decision" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Cancelled" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Not Eligible" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Not Interested" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490010" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Matriculate" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

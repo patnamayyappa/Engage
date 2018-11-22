@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Cmc.Core.Xrm.ServerExtension.Functions</id>
+    <version>1.0.8</version>
+    <title>Cmc.Core.Xrm.ServerExtension.Functions</title>
+    <authors>Product Architecture</authors>
+    <owners>Product Architecture</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.campusmanagement.com/EN-US/aboutUs/Pages/Privacy.aspx</licenseUrl>
+    <description>Cmc Core Xrm ServerExtension Functions, Includes basic logging and Dependency Injection Framework for Azure Functions.</description>
+    <releaseNotes>Updates for CampusNexus products.</releaseNotes>
+    <copyright>Copyright 2015-2016 - Campus Management Corporation</copyright>
+    <tags>Cmc Core Xrm ServerExtension Functions</tags>
+    <dependencies>
+      <dependency id="Cmc.Core.Xrm.ServerExtension" version="1.0.12" />
+      <dependency id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="2.22.302111727" />
+      <dependency id="Microsoft.CrmSdk.CoreAssemblies" version="9.0.2.3" />
+      <dependency id="Microsoft.CrmSdk.XrmTooling.CoreAssembly" version="9.0.2.3" />
+      <dependency id="Microsoft.Azure.WebJobs" version="2.2.0" />
+      <dependency id="Microsoft.Azure.WebJobs.Extensions" version="2.2.0" />
+      <dependency id="Microsoft.CrmSdk.Workflow" version="9.0.2.3" />
+      <dependency id="Microsoft.ApplicationInsights.NLogTarget" version="2.5.0" />
+    </dependencies>
+  </metadata>
+</package>

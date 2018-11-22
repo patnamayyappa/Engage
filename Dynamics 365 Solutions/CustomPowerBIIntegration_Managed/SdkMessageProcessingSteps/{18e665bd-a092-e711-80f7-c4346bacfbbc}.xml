@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="SonomaPartners.PBICRMIntegration.Plugins.SaveConfigurationPasswordPlugin: Update of sonoma_powerbiconfiguration" SdkMessageProcessingStepId="{18e665bd-a092-e711-80f7-c4346bacfbbc}">
+  <PluginTypeName>SonomaPartners.PBICRMIntegration.Plugins.SaveConfigurationPasswordPlugin, PBICRMIntegration.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fb9e5b8c9c72ef3c</PluginTypeName>
+  <PrimaryEntity>sonoma_powerbiconfiguration</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>SonomaPartners.PBICRMIntegration.Plugins.SaveConfigurationPasswordPlugin: Update of sonoma_powerbiconfiguration</Description>
+  <FilteringAttributes>sonoma_servicepassword,sonoma_serviceusername</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

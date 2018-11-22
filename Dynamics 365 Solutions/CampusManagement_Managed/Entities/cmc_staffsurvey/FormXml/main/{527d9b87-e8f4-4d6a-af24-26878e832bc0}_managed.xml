@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{527d9b87-e8f4-4d6a-af24-26878e832bc0}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{4ac6ba03-5dac-4189-bdf6-27c4a3d67d48}" IsUserDefined="1" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7c8d2e39-1c01-4484-b4f3-bd7202cbe256}" name="{7c8d2e39-1c01-4484-b4f3-bd7202cbe256}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7fc32bcf-452a-49d8-bc35-bce1324b7971}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffsurveyname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_staffsurveyname" uniqueid="{1086c32c-bdc3-702e-ea62-c8ca195016ab}" disabled="false" />
+                      </cell>
+                      <cell id="{e0c5a414-2540-9d90-3123-0480a0cbce7e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_startdate" disabled="true" uniqueid="{26a35bd8-676c-7890-6077-c6a7098ee347}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{191e84ed-e312-4620-0c85-8a43636be3e5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_coursesectionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_coursesectionid" disabled="false" />
+                      </cell>
+                      <cell id="{c7891e53-7118-8b22-8ceb-e5e2ab051667}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_duedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_duedate" disabled="true" uniqueid="{cda7a841-a16c-9473-6935-4093759c5c6c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c28ae386-c351-cba8-52a5-915821b60668}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_userid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_userid" disabled="true" uniqueid="{71257d35-24b4-4095-4c95-c5e678814199}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{5b24401d-9188-3b75-023b-b9145257ec26}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_completedcancelleddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_completedcancelleddate" disabled="true" uniqueid="{d1687bb1-30e7-4c46-da68-a1727551c8c8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41d78c68-0b6c-c084-d926-e0a4a0898e1e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffsurveytemplateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_staffsurveytemplateid" disabled="false" uniqueid="{7ead4e40-da97-5ac6-199e-4927176d5c6d}" />
+                      </cell>
+                      <cell id="{81394497-35db-3189-5b29-30a327cb5beb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_cancellationcomment" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_cancellationcomment" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a7794fb7-bd9b-4dbd-a636-e53f144ddfbb}" columns="111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{9e4cd3d1-15b7-0c8a-49bd-2232c2d32b52}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+            <cell id="{2c0e6e0a-96b3-8bea-b1dc-2cc0b26c3935}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{b9e10d3b-6676-a568-a247-916eb7cb4423}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{5898d133-71b7-40e6-80a7-871a9ca386ee}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{727885aa-551c-e7e9-57e9-7a7bee581ccb}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{e5ec614a-1661-c187-a197-8c6d08718986}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{2c82a78c-434c-2db9-5d61-deb7d2946796}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{a56c879c-6177-d027-5280-d14b3b7cdd11}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/Scripts/Libraries/jquery_1.12.3.min.js" libraryUniqueId="{934460b5-3cce-4b31-ee06-cdee12494580}" />
+        <Library name="cmc_/Scripts/Libraries/sonomaCmc.js" libraryUniqueId="{30d654ad-ae33-6930-bcc6-c52bd2513721}" />
+        <Library name="cmc_/dist/App/Forms/cmc_staffsurvey.js" libraryUniqueId="{09537001-b51a-085e-8735-c243e02b1946}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.staffsurvey.onStaffSurveyLoad" libraryName="cmc_/dist/App/Forms/cmc_staffsurvey.js" handlerUniqueId="{6bc45b08-bc69-4210-b282-c5323a1c1759}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions FallbackForm="true" Order="2">
+        <Role Id="{E8FEE62F-83A9-E711-8105-C4346BDC42D1}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

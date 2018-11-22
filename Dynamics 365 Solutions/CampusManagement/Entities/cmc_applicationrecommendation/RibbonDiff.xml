@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.cmc_applicationrecommendation.ResendInviteEmail.CustomAction" Location="Mscrm.Form.cmc_applicationrecommendation.MainTab.Save.Controls._children" Sequence="78">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_applicationrecommendation.ResendInviteEmail.Alt" Command="cmc.cmc_applicationrecommendation.ResendInviteEmail.Command" Id="cmc.cmc_applicationrecommendation.ResendInviteEmail" Image32by32="/_imgs/ribbon/Email_32.png" Image16by16="/_imgs/ribbon/AddEmail_16.png" LabelText="$LocLabels:cmc.cmc_applicationrecommendation.ResendInviteEmail.LabelText" Sequence="78" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_applicationrecommendation.ResendInviteEmail.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_applicationrecommendation.ResendInviteEmail.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.cmc_applicationrecommendation.SendInviteEmail.CustomAction" Location="Mscrm.Form.cmc_applicationrecommendation.MainTab.Save.Controls._children" Sequence="75">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_applicationrecommendation.SendInviteEmail.Alt" Command="cmc.cmc_applicationrecommendation.SendInviteEmail.Command" Id="cmc.cmc_applicationrecommendation.SendInviteEmail" Image32by32="/_imgs/ribbon/Email_32.png" Image16by16="/_imgs/ribbon/AddEmail_16.png" LabelText="$LocLabels:cmc.cmc_applicationrecommendation.SendInviteEmail.LabelText" Sequence="75" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_applicationrecommendation.SendInviteEmail.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_applicationrecommendation.SendInviteEmail.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.cmc_applicationrecommendation.ResendInviteEmail.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_applicationrecommendation.EnableRule1.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.Ribbon.cmc_apprecommendation.FindandExecuteMatchingWorkflow" Library="$webresource:cmc_/dist/app/Ribbon/cmc_apprecommendation.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.cmc_applicationrecommendation.SendInviteEmail.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_applicationrecommendation.EnableRule0.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.Ribbon.cmc_apprecommendation.FindandExecuteMatchingWorkflow" Library="$webresource:cmc_/dist/app/Ribbon/cmc_apprecommendation.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="cmc.cmc_applicationrecommendation.EnableRule0.EnableRule">
+        <CustomRule FunctionName="CampusManagement.Ribbon.cmc_apprecommendation.showSendButton" Library="$webresource:cmc_/dist/app/Ribbon/cmc_apprecommendation.js" Default="false">
+          <StringParameter Value="Send" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="cmc.cmc_applicationrecommendation.EnableRule1.EnableRule">
+        <CustomRule FunctionName="CampusManagement.Ribbon.cmc_apprecommendation.showSendButton" Library="$webresource:cmc_/dist/app/Ribbon/cmc_apprecommendation.js" Default="false">
+          <StringParameter Value="Resend" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.ResendInviteEmail.Alt">
+      <Titles>
+        <Title description="Resend Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.ResendInviteEmail.LabelText">
+      <Titles>
+        <Title description="Resend Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.ResendInviteEmail.ToolTipDescription">
+      <Titles>
+        <Title description="This button will resend request email to Recommender." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.ResendInviteEmail.ToolTipTitle">
+      <Titles>
+        <Title description="Resend Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.SendInviteEmail.Alt">
+      <Titles>
+        <Title description="Send Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.SendInviteEmail.LabelText">
+      <Titles>
+        <Title description="Send Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.SendInviteEmail.ToolTipDescription">
+      <Titles>
+        <Title description="This button will send request email to Recommender." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_applicationrecommendation.SendInviteEmail.ToolTipTitle">
+      <Titles>
+        <Title description="Send Request" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

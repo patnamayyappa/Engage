@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{abd4ae3e-e6cc-4794-ae79-9ac3ad7e66d8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" preview="1" icon="1" select="1" jump="cmc_applicationrequirementname">
+        <row id="cmc_applicationrequirementid" name="result">
+          <cell name="cmc_applicationrequirementname" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="a_e9d6b73805dee811a95c000d3a3acbf2.cmc_contactid" width="100" disableSorting="1" />
+          <cell name="cmc_applicationid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch mapping="logical" version="1.0">
+        <entity name="cmc_applicationrequirement">
+          <attribute name="cmc_applicationrequirementname" />
+          <attribute name="createdon" />
+          <order descending="false" attribute="cmc_applicationrequirementname" />
+          <filter type="and">
+            <condition value="0" attribute="statecode" operator="eq" />
+          </filter>
+          <attribute name="cmc_applicationid" />
+          <link-entity name="cmc_application" alias="a_e9d6b73805dee811a95c000d3a3acbf2" from="cmc_applicationid" to="cmc_applicationid" link-type="outer" visible="false">
+            <attribute name="cmc_contactid" />
+          </link-entity>
+          <attribute name="cmc_applicationrequirementid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Application Requirements" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

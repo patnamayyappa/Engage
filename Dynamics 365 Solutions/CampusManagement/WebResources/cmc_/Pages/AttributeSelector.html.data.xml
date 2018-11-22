@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{581caacc-d069-e811-a957-000d3a18cb47}</WebResourceId>
+  <Name>cmc_/Pages/AttributeSelector.html</Name>
+  <DisplayName>AttributeSelector.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Pages/AttributeSelector.js" displayName="AttributeSelector.js" languagecode="" description="Script to kick off custom action for populating the custom UI dropdown on DOM Execution Order" libraryUniqueId="{2e10510c-9c20-446c-9cb1-473c891a2d5d}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_PagesAttributeSelectorhtml581CAACC-D069-E811-A957-000D3A18CB47</FileName>
+</WebResource>

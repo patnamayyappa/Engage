@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ef80ef88-b315-45aa-8fd3-ed8e1a960e7a}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{89d32d20-31f7-484a-a685-f55696bf049e}" IsUserDefined="1" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bc8ce404-3435-46f5-a6b8-1fe93b4461bc}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c6b3602d-631d-404b-8f1b-6d0ece7dd49a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdefinitionversionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationdefinitionversionname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2284d41e-8b83-0e59-e8d1-a5a3844e4ecd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b59e16a4-a182-b692-8919-cc9bde17c8b8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdefinitionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationdefinitionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7cc88300-4990-eda3-aa84-830c38dd4a35}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb2c7a76-eca6-8c97-38be-ae3e3d53e4c3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6a89757-2a0e-b0d3-70c2-5676b8c152dd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_registrationcutoffdatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_registrationcutoffdatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{373bc5d1-8a3b-d08d-1b1c-43ad2aa84755}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_registrationcutoffmessage" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_registrationcutoffmessage" disabled="false" uniqueid="{ab4ab7d6-ac19-b496-3482-8645ee39d236}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{542ed857-9f3e-4a91-816e-dbcdb7af2d0b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{89d32d20-31f7-484a-a685-f55696bf049e}_section_2" showlabel="false" showbar="false" locklevel="0" id="{acd2c7ac-c2c8-1c2c-8ae1-ce7430e95a4a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="APPLICATION PERIODS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{20e1c323-27c1-9123-8aa8-031174586957}" showlabel="true" colspan="1" auto="false" rowspan="9">
+                        <labels>
+                          <label description="APPLICATION PERIODS" languagecode="1033" />
+                        </labels>
+                        <control id="applicationperiods" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{a6b9ddec-1db8-441e-db4c-c1e982c46ba8}">
+                          <parameters>
+                            <ViewId>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc__applicationdefinitionversion_applicationdefinitionversiondetail_applicationdefinitionversion</RelationshipName>
+                            <TargetEntityType>cmc_applicationdefinitionversiondetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{ed9cdda1-d415-c99e-8cda-e42bb65ac511}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Portal Settings" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{957009e5-ddee-7608-89c9-c84d60410ce6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e58c7961-729e-5a4b-09ae-00eb75cc34db}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_isselfserviceenabled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_isselfserviceenabled" disabled="false" uniqueid="{585be2d0-8700-47ca-4b7c-397e590b426c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1cd025b-d287-d406-292b-1bb4407ceae7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_canmanagerecommendation" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_canmanagerecommendation" disabled="false" uniqueid="{9e0bd578-8729-0e2d-a94c-dd14b7294b0e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17080463-7516-d27b-abbb-7b059e97c137}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_canmanagerequirements" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_canmanagerequirements" disabled="false" uniqueid="{4a0074b6-14de-a5d2-e405-64249d80e141}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3963fbe7-6915-4198-bd42-f16b34e2048a}" columns="111">
+        <rows>
+          <row>
+            <cell id="{08970fe6-b2ea-4306-832c-6b7bddb0d0a5}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ce72066b-e0ca-a060-5a97-227048846eb5}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{708a7850-3a86-bd95-2917-35a339161d43}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{97d885c4-f281-4084-b12e-4f99a0c02487}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{95840c82-33a5-c6c5-8657-210bc7aea310}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{acd80e0d-6ea1-ee9c-c150-2dc0843a5848}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{500c7bc6-b525-b99a-ea69-690cdc7e12a9}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{1b314d35-b807-2917-16b9-21bd4825b732}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{a6b9ddec-1db8-441e-db4c-c1e982c46ba8}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <ViewId>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>cmc__applicationdefinitionversion_applicationdefinitionversiondetail_applicationdefinitionversion</RelationshipName>
+              <TargetEntityType>cmc_applicationdefinitionversiondetail</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>6</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+            <parameters>
+              <ViewId>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>cmc__applicationdefinitionversion_applicationdefinitionversiondetail_applicationdefinitionversion</RelationshipName>
+              <TargetEntityType>cmc_applicationdefinitionversiondetail</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>6</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="2">
+            <parameters>
+              <ViewId>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>cmc__applicationdefinitionversion_applicationdefinitionversiondetail_applicationdefinitionversion</RelationshipName>
+              <TargetEntityType>cmc_applicationdefinitionversiondetail</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>6</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="-1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</ViewId>
+                <columnsDefaultView>
+                  <cell entityName="cmc_applicationdefinitionversiondetail" viewId="{6DF886DA-61DB-4014-ADC1-4995627E0EB1}" attributeName="cmc_applicationperiod">
+                    <DefaultViewId>{4896A9A8-A1A4-46EC-AC3B-2F41409531F3}</DefaultViewId>
+                    <DependentAttributeType>systemuser</DependentAttributeType>
+                    <AllowFilterOff>false</AllowFilterOff>
+                    <DisableQuickFind>false</DisableQuickFind>
+                  </cell>
+                </columnsDefaultView>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>cmc__applicationdefinitionversion_applicationdefinitionversiondetail_applicationdefinitionversion</RelationshipName>
+                <TargetEntityType>cmc_applicationdefinitionversiondetail</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{6DF886DA-61DB-4014-ADC1-4995627E0EB1}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

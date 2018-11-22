@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{0dda45c1-cb0f-42ee-ac6d-14e7bcdf2c5a}" Name="Appointment - Accept Invite">
+  <XamlFileName>/Workflows/Appointment-AcceptInvite-0DDA45C1-CB0F-42EE-AC6D-14E7BCDF2C5A.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{afb38c18-1389-e711-8104-c4346bdc3221}</SdkMessageId>
+  <UniqueName>acceptinvite</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.8</IntroducedVersion>
+  <IsCustomizable>0</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>Appointment</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Appointment - Accept Invite" />
+  </LocalizedNames>
+</Workflow>

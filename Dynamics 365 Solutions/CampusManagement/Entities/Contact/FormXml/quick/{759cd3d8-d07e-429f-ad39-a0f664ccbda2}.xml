@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{759cd3d8-d07e-429f-ad39-a0f664ccbda2}</formid>
+    <IntroducedVersion>1.0.0.56</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{f8c95b1b-d9c4-4f64-98ba-3fd84c393576}" name="tab_1" showlabel="false" locklevel="0" expanded="true">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{4fdf7752-47a2-4795-9f1d-a7b7a49496f5}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{62ce94b5-ce03-85e9-d63d-1c0a8a9690ba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42bb66e6-5129-b867-cbe1-bbbe3b98ed44}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                        </labels>
+                        <control id="mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{484ed9ab-e130-dbe4-035d-8da21d52ce0d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Phone Call Preference" languagecode="1033" />
+                        </labels>
+                        <control id="donotphone" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotphone" disabled="false" uniqueid="{3883574e-e6d5-6204-cc6e-87d56d1138d2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{220d1030-55a9-2d26-2e7c-67684beda4eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email Preference" languagecode="1033" />
+                        </labels>
+                        <control id="donotemail" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotemail" disabled="false" uniqueid="{9eaa8a53-4660-acce-1871-96511540c243}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5cd25096-a70c-88bb-e085-52b56ebab888}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="SMS Text Preference" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_donotsmstext" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_donotsmstext" disabled="false" uniqueid="{a0c33e21-8a9e-d189-d56c-53d729ee3209}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e697bb7-2a44-d507-274a-e8e802a4cae7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Address 1" languagecode="1033" />
+                        </labels>
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Lifecycle Contact Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{8190d95d-5fdc-e811-a959-000d3a369850}</WebResourceId>
+  <Name>cmc_/dist/app/Forms/cmc_applicationrequirementdefinitiondetail.js</Name>
+  <DisplayName>cmc_/dist/app/Forms/cmc_applicationrequirementdefinitiondetail.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappFormscmc_applicationrequirementdefiniti8190D95D-5FDC-E811-A959-000D3A369850</FileName>
+</WebResource>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{17293325-5212-43dd-a5be-edce9011e3b8}" Name="DOM Definition - Auto Name">
+  <XamlFileName>/Workflows/DOMDefinition-AutoName-17293325-5212-43DD-A5BE-EDCE9011E3B8.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>cmc_dommasterid,cmc_domdefinitionforid</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.48</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>cmc_domdefinition</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="DOM Definition - Auto Name" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{d6184404-e7b7-416b-9ce8-2b736fdadb3d}">
+      <label languagecode="1033" description="Stop workflow as succeeded" />
+    </steplabels>
+  </labels>
+</Workflow>

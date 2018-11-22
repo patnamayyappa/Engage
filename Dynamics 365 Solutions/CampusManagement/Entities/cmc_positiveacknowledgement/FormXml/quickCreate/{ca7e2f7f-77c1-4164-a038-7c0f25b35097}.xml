@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ca7e2f7f-77c1-4164-a038-7c0f25b35097}</formid>
+    <IntroducedVersion>1.0.0.24</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{f24ce095-8e89-4ec6-954e-061a80633fbc}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{76ca6529-9153-43ab-93ba-a665c1c1c3e7}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="140" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c12148c3-d0ce-8b8b-53c6-3cdb828e1ea4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Acknowledgment Reason" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_acknowledgmentreason" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_acknowledgmentreason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7ed8704-a2b1-6745-24d4-e4505d8acd51}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Acknowledgement Detail" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_acknowledgementreasondetail" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_acknowledgementreasondetail" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{535ea373-99b7-41ef-9ea5-9fcccbbd9db7}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1b97cb5a-934e-e10d-762c-42619566a4ab}" showlabel="true" locklevel="0" auto="true" rowspan="5">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_description" disabled="false" uniqueid="{50451555-d17d-84c7-17b7-cadc83555698}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{9cbc5725-9de1-40cf-975f-5c089af9fd98}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{15b7d78d-7443-57bc-55ca-8d2b1b22469b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_studentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_studentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd891089-98e9-376c-626c-86a8781bea1c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/dist/app/Forms/cmc_positiveacknowledgement.js" libraryUniqueId="{06872156-9928-d0ee-cbcd-db0d570b5099}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="true" active="true">
+          <Handlers>
+            <Handler functionName="CMC.Engage.cmc_positiveacknowledgement.onLoad" libraryName="cmc_/dist/app/Forms/cmc_positiveacknowledgement.js" handlerUniqueId="{c64a360e-3de9-4531-9cbe-1dd0017aeebc}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Course History" OriginalName="Course History">mshied_coursehistory</Name>
+  <EntityInfo>
+    <entity Name="mshied_coursehistory" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>

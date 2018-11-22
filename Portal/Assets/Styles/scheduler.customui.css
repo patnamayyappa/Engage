@@ -1,0 +1,130 @@
+html {
+	font-size: 14px;
+}
+
+.availability-key {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: flex-end;
+	-ms-flex-pack: flex-end;
+	justify-content: flex-end;
+	margin-top: 30px;
+	list-style: none;
+}
+
+.availability-key li {
+	position: relative;
+	padding: 5px 20px 5px 50px;
+}
+
+.availability-key li + li {
+	padding-right: 0;
+}
+
+.availability-key span {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 40px;
+	height: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,.2);
+	border-radius: 2px;
+}
+
+.availability-key.single-line {
+	margin-top: 0px;
+}
+
+ table:not(.table-bordered) > thead > tr > th,
+.table:not(.table-bordered) > thead > tr > th,
+ table:not(.table-bordered) > tbody > tr > th,
+.table:not(.table-bordered) > tbody > tr > th,
+ table:not(.table-bordered) > tfoot > tr > th,
+.table:not(.table-bordered) > tfoot > tr > th,
+ table:not(.table-bordered) > thead > tr > td,
+.table:not(.table-bordered) > thead > tr > td,
+ table:not(.table-bordered) > tbody > tr > td,
+.table:not(.table-bordered) > tbody > tr > td,
+ table:not(.table-bordered) > tfoot > tr > td,
+.table:not(.table-bordered) > tfoot > tr > td {
+    border-color: inherit;
+}
+
+/* ------------------------------------------------ SCHEDULER ------------------------------------------------ */
+
+.k-window {
+	padding-top: 50px !important;
+}
+
+.k-window-titlebar {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.k-window-titlebar.k-header {
+	margin-top: -50px !important;
+}
+
+.k-window-title {
+	line-height: 1.4;
+	padding-left: 10px;
+}
+
+.k-window-titlebar .k-window-actions {
+	top: 8px;
+	right: .7em;
+}
+
+.k-datetimepicker .k-select {
+	width: 5em;
+}
+
+.k-datetimepicker .k-select .k-link-time {
+	margin-left: 0;
+}
+
+.k-window>div.k-popup-edit-form {
+	padding-bottom: 0;
+	padding: 1em 15px 30px;
+}
+
+.k-edit-buttons {
+	padding: .9rem 1rem;
+}
+
+.k-scheduler-navigation .k-nav-current {
+	margin-left: 20px;
+}
+
+.k-nav-current .k-icon {
+	margin-right: 8px;
+}
+
+.k-calendar .k-content .k-link {
+	line-height: 1.8;
+	padding-right: .1em;
+}
+
+.k-scheduler-monthview .k-scheduler-table td {
+    padding-top: 0.334em;
+}
+
+@media (max-width: 768px) {
+    .k-scheduler-edit-form .k-edit-form-container  {
+        width:auto;
+        margin: 30px auto
+	}
+}
+
+.k-widget.k-window {
+	max-height: 100%;
+}

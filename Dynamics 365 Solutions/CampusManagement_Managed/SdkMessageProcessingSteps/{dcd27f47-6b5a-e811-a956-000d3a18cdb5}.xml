@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Retention.Plugins.ModifyRetrieveToDosPlugin: RetrieveMultiple of cmc_todo" SdkMessageProcessingStepId="{dcd27f47-6b5a-e811-a956-000d3a18cdb5}">
+  <PluginTypeName>Cmc.Engage.Retention.Plugins.ModifyRetrieveToDosPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02</PluginTypeName>
+  <PluginTypeId>ed0b79b7-7114-4b25-a1cc-a4585013691b</PluginTypeId>
+  <PrimaryEntity>cmc_todo</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>2</Rank>
+  <SdkMessageId>{03bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

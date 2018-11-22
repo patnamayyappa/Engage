@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap>
+  <SiteMapUniqueName>cmc_ProjectEngage</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="6.0.0.0">
+    <Area Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" Icon="/_imgs/sales_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Engage" />
+      </Titles>
+      <Group Id="MyWork" ResourceId="Group_MyWork" DescriptionResourceId="My_Work_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="My_Work_ToolTip">
+        <SubArea Id="nav_dashboards" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/area/18_home.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="2701de60-8f2a-48a4-8262-4a35ca7441fa" IntroducedVersion="7.0.0.0" GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_personalwall" ResourceId="Whats_New_Label" DescriptionResourceId="Whats_New_Description" Icon="/WebResources/msdyn_/Images/Wall_16.png" Url="$webresource:msdyn_/PersonalWall.htm?data=HideUserProfile%3D0" IntroducedVersion="7.0.0.0" GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" OutlookShortcutIcon="$webresource:msdyn_/Images/Wall_16.png" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="post" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_activities" DescriptionResourceId="Activities_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/_root/homepage.aspx?etc=4200" IntroducedVersion="7.0.0.0" GetStartedPanePath="Activities_Web_User_Visor.html" GetStartedPanePathAdmin="Activities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Activities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Activities_Outlook_User_Visor.html" Entity="activitypointer" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_cd8949a2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_officehours" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_65fc531f" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Recruitment" />
+        </Titles>
+        <SubArea Id="NewSubArea_cac20838" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="lead" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_54ce97f7" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="opportunity" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_db8e062b8" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_trip" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Trips" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="constituents_group" ResourceId="Group_Customers" DescriptionResourceId="Customers_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Customers_ToolTip">
+        <Titles>
+          <Title LCID="1033" Title="Constituents" />
+        </Titles>
+        <SubArea Id="nav_accts" DescriptionResourceId="Account_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Accounts_Web_User_Visor.html" GetStartedPanePathAdmin="Accounts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Accounts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Accounts_Outlook_User_Visor.html" Entity="account" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_conts" DescriptionResourceId="Contact_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Contacts_Web_User_Visor.html" GetStartedPanePathAdmin="Contacts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Contacts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Contacts_Outlook_User_Visor.html" Entity="contact" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="NewGroup_ce90e2e9" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Student Success" />
+        </Titles>
+        <SubArea Id="NewSubArea_0d521df9" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_successplan" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_16561639" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_todo" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2d2fc4da" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_successnetwork" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="cmc_applications" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Applications" />
+        </Titles>
+        <SubArea Id="cmc_applicationregistration" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_applicationregistration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Application Registrations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_application" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_application" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Applications" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_applicationrequirement" ResourceId="SitemapDesigner.NewSubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_applicationrequirement" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Requirements" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_applicationrecommendation" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_applicationrecommendation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Recommendations" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_applicationdecision" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cmc_applicationdecision" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Decisions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_invoice" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="invoice" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Invoices" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_93f0e8c3" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Case Management" />
+        </Titles>
+        <SubArea Id="NewSubArea_c56f637d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_749297c4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="queue" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="Tools" ResourceId="Area_Tools" DescriptionResourceId="Area_Tools_Description" IntroducedVersion="7.0.0.0" IsProfile="true" ToolTipResourseId="Area_Tools_ToolTip">
+        <SubArea Id="BurningGlassSubArea_6f87e021" ResourceId="SitemapDesigner.NewSubArea" Icon="/WebResources/cmc_/Images/BurningGlassLogo.png" Url="https://app.powerbi.com/view?r=eyJrIjoiMmIzY2JjNTAtM2JlMy00OTJmLWE1ZWYtM2M5Yjg4NzBmNTVhIiwidCI6ImEzOGZmODcwLTljODYtNDNkZi05ZTZiLTZiMDFmMjA2YTM5OCIsImMiOjN9" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Career Explorer" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="nav_reports" DescriptionResourceId="Reports_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="report" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="report" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_traces" ResourceId="Homepage_Alerts" DescriptionResourceId="Alerts_SubArea_Description" Icon="/_imgs/area/18_alerts.png" Url="/_root/tracewall.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="tracelog" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="StaffCalendar_636413635972662481" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="$webresource:cmc_/Pages/StaffCalendar.html" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Staff Calendar" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="process_administration_area" ResourceId="SitemapDesigner.NewArea" Icon="/WebResources/cmc_icon_reference_data_32x32" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Process Config" />
+      </Titles>
+      <Group Id="global_processadmin_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Global" />
+        </Titles>
+        <SubArea Id="NewSubArea_d68d06a5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="list" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Student Groups" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="Dom_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="DOM" />
+        </Titles>
+        <SubArea Id="NewSubArea_7822f8a6" Entity="cmc_dommaster" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_40900cab" Entity="cmc_domdefinitionexecutionorder" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_43c34275" Entity="cmc_domdefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_3162b14b" Entity="cmc_domdefinitionlogic" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="retention_processadmin_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Risk Scoring" />
+        </Titles>
+        <SubArea Id="NewSubArea_36e70498" Entity="cmc_scoredefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_65b8c26c" Entity="cmc_scoringfactor" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_914fa927" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Success Plan" />
+        </Titles>
+        <SubArea Id="cmc_successplanassignment" Entity="cmc_successplanassignment" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_6644ec6b" Entity="cmc_successplantemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_52be7ed3" Entity="cmc_successplantodotemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_848282a98" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Sucess Network" />
+        </Titles>
+        <SubArea Id="NewSubArea_7e64c16b" Entity="cmc_successnetworkassignment" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="CMC_ApplicationSettings" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Application Definitions" />
+        </Titles>
+        <SubArea Id="cmc_applicationversions" Entity="cmc_applicationdefinitionversion" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Application Versions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_applicationdefinitions" Entity="cmc_applicationdefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Application Definitions" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_requirementdefinition" Entity="cmc_applicationrequirementdefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Requirement" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="CMC_recommendationdefinition" Entity="cmc_applicationrecommendationdefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Recommendation" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="CMC_decisiondefinition" Entity="cmc_applicationdecisiondefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Decision" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_invoicedefinition" Entity="cmc_invoicedefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Invoice" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_applicationtypes" Entity="cmc_applicationtype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Application Types" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="cmc_applicationperiods" Entity="cmc_applicationperiod" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Application Periods" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="reference_data_area" ResourceId="SitemapDesigner.NewArea" Icon="/WebResources/cmc_icon_process_admin_retention_32x32" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Reference Data" />
+      </Titles>
+      <Group Id="global_group" ResourceId="Group_Extensions" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Global" />
+        </Titles>
+        <SubArea Id="NewSubArea_fa2a4636" Entity="mshied_academicperiod" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="cmc_areaofinterest" Entity="mshied_areaofinterest" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_areaofstudy" Entity="mshied_areaofstudy" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_course" Entity="mshied_course" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_department" Entity="cmc_department" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_educationlevel" Entity="mshied_educationlevel" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_extracurricular" Entity="mshied_extracurricularactivities" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_program" Entity="mshied_program" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_programlevel" Entity="mshied_programlevel" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_programversion" Entity="mshied_programversion" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_d0f7de88" Entity="mshied_programversiondetail" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="cmc_title" Entity="cmc_title" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_shift" Entity="cmc_shift" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_studentprogramtype" Entity="mshied_studentprogramtype" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_37e400bd" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="mshied_studentstatus" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="cmc_studenttype" Entity="cmc_studenttype" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_d8df1369" Entity="mshied_testtype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_ba5697118" Entity="cmc_userlocation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="student_success_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Student Success" />
+        </Titles>
+        <SubArea Id="NewSubArea_47f2b4b3" Entity="mshied_coursesection" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_ded5f292" Entity="mshied_registrationstatus" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_5807d353" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Source Management" />
+        </Titles>
+        <SubArea Id="NewSubArea_a50d7bef" Entity="cmc_sourcemethod" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_bc61251" Entity="cmc_sourcecategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_49ae7849" Entity="cmc_sourcesubcategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area Id="VOC" ResourceId="Area_Voice_Of_The_Customer" DescriptionResourceId="Voice_Of_The_Customer_Area_Description" Icon="/WebResources/msdyn_/SurveyForms/Images/Main_Tile.png" ShowGroups="true" IntroducedVersion="6.0.0.0" Title="Voice of the Customer">
+      <Titles>
+        <Title LCID="1025" Title="صوت العميل" />
+        <Title LCID="1026" Title="Мнение на клиента" />
+        <Title LCID="1027" Title="Veu del client" />
+        <Title LCID="1029" Title="Hlas zákazníka" />
+        <Title LCID="1030" Title="Kundens mening" />
+        <Title LCID="1031" Title="Stimme des Kunden" />
+        <Title LCID="1032" Title="Σχόλια πελατών" />
+        <Title LCID="3082" Title="Voz del cliente" />
+        <Title LCID="1061" Title="Kliendi arvamus" />
+        <Title LCID="1069" Title="Bezeroen ahotsa" />
+        <Title LCID="1035" Title="Asiakaskuuntelu" />
+        <Title LCID="1036" Title="Opinion des clients" />
+        <Title LCID="1110" Title="Voz do cliente" />
+        <Title LCID="1037" Title="קול הלקוח" />
+        <Title LCID="1081" Title="ग्राहकों की राय" />
+        <Title LCID="1050" Title="Mišljenje klijenata" />
+        <Title LCID="1038" Title="Az Ügyfél hangja" />
+        <Title LCID="1057" Title="Suara Pelanggan" />
+        <Title LCID="1040" Title="Opinione del cliente" />
+        <Title LCID="1041" Title="お客様の声" />
+        <Title LCID="1087" Title="Тұтынушы пікірі" />
+        <Title LCID="1042" Title="고객의 소리" />
+        <Title LCID="1063" Title="Klientų nuomonė" />
+        <Title LCID="1062" Title="Klienta balss" />
+        <Title LCID="1086" Title="Suara Pelanggan" />
+        <Title LCID="1044" Title="Kundens mening" />
+        <Title LCID="1043" Title="Stem van de klant" />
+        <Title LCID="1045" Title="Opinia klienta" />
+        <Title LCID="1046" Title="Opinião do Cliente" />
+        <Title LCID="2070" Title="Voz do Cliente" />
+        <Title LCID="1048" Title="Vocea clientului" />
+        <Title LCID="1049" Title="Мнение клиента (VoC)" />
+        <Title LCID="1051" Title="Hlas zákazníka" />
+        <Title LCID="1060" Title="Mnenje strank" />
+        <Title LCID="3098" Title="Мишљење клијената" />
+        <Title LCID="2074" Title="Mišljenje klijenata" />
+        <Title LCID="1053" Title="Kundröst (VoC)" />
+        <Title LCID="1054" Title="ความเห็นจากลูกค้า" />
+        <Title LCID="1055" Title="Müşterinin Sesi" />
+        <Title LCID="1058" Title="Думка клієнта" />
+        <Title LCID="1066" Title="Phản hồi của Khách hàng" />
+        <Title LCID="2052" Title="客户意见" />
+        <Title LCID="3076" Title="客戶心聲" />
+        <Title LCID="1028" Title="客戶心聲" />
+        <Title LCID="10266" Title="Мишљење клијената" />
+        <Title LCID="9242" Title="Mišljenje klijenata" />
+        <Title LCID="1033" Title="Surveys" />
+      </Titles>
+      <Descriptions>
+        <Description LCID="1033" Description="Create surveys, send invitations and view survey responses" />
+        <Description LCID="1025" Description="إنشاء استطلاعات وإرسال الدعوات وعرض ردود الاستطلاع" />
+        <Description LCID="1026" Description="Създаване на проучвания, изпращане на покани и преглед на отговори на проучвания" />
+        <Description LCID="1027" Description="Creeu enquestes, envieu invitacions i visualitzeu les respostes de l'enquesta" />
+        <Description LCID="1029" Description="Můžete vytvořit průzkumy, rozeslat pozvánky a prohlédnout si odpovědi respondentů na průzkum." />
+        <Description LCID="1030" Description="Opret undersøgelser, send invitationer, og vis undersøgelsessvar" />
+        <Description LCID="1031" Description="Befragungen erstellen, Einladungen senden und Befragungsantworten anzeigen" />
+        <Description LCID="1032" Description="Δημιουργήστε έρευνες, στείλτε προσκλήσεις και προβάλετε αποκρίσεις σε έρευνες" />
+        <Description LCID="3082" Description="Crear encuestas, enviar invitaciones y ver respuestas de encuestas" />
+        <Description LCID="1061" Description="Uuringute koostamine, kutsete saatmine ja uuringuvastuste vaatamine" />
+        <Description LCID="1069" Description="Sortu inkestak, bidali gonbidapenak eta ikusi inkesten erantzunak" />
+        <Description LCID="1035" Description="Luo kyselyitä, lähetä kutsuja ja tarkastele kyselyvastauksia" />
+        <Description LCID="1036" Description="Créer des enquêtes, envoyer des invitations et visualiser les réponses aux enquêtes" />
+        <Description LCID="1110" Description="Crear enquisas, enviar convites e ver respostas a enquisas" />
+        <Description LCID="1037" Description="צור סקרים, שלח הזמנות והצג תגובות לסקר" />
+        <Description LCID="1081" Description="सर्वेक्षण बनाएँ, आमंत्रण भेजें और सर्वेक्षण प्रत्युत्तर देखें" />
+        <Description LCID="1050" Description="Stvori ankete, pošalji pozivnice i prikaži odazive na anketu" />
+        <Description LCID="1038" Description="Felmérések készítése, meghívók küldése és a felmérésre adott válaszok megtekintése" />
+        <Description LCID="1057" Description="Buat survei, kirim undangan, dan lihat respons survei" />
+        <Description LCID="1040" Description="Crea sondaggi, invia inviti e visualizza le risposte ai sondaggi" />
+        <Description LCID="1041" Description="調査を作成し、招待状を送信して、調査応答を表示します" />
+        <Description LCID="1087" Description="Сауалнамалар жасау, шақырулар жіберу және сауалнама жауаптарын көру" />
+        <Description LCID="1042" Description="설문 만들기, 초대 보내기, 설문 응답 보기" />
+        <Description LCID="1063" Description="Kurti apklausas, siųsti kvietimus ir peržiūrėti apklausos atsakymus" />
+        <Description LCID="1062" Description="Izveidojiet aptaujas, nosūtiet uzaicinājumus un skatiet aptauju atbildes." />
+        <Description LCID="1086" Description="Cipta tinjauan, hantar jemputan dan lihat respons tinjauan." />
+        <Description LCID="1044" Description="Opprett evalueringer, send invitasjoner, og vis evalueringssvar" />
+        <Description LCID="1043" Description="Onderzoeken maken, uitnodigingen verzenden en onderzoeksresponsen bekijken" />
+        <Description LCID="1045" Description="Twórz ankiety, wysyłaj zaproszenia i przeglądaj odpowiedzi na ankiety" />
+        <Description LCID="1046" Description="Criar pesquisas, enviar convites e exibir respostas da pesquisa" />
+        <Description LCID="2070" Description="Criar inquéritos, enviar convites e ver respostas aos inquéritos" />
+        <Description LCID="1048" Description="Creați chestionare, trimiteți invitații și vizualizați răspunsurile la chestionare" />
+        <Description LCID="1049" Description="Создание опросов, отправка приглашений и просмотр ответов опросов" />
+        <Description LCID="1051" Description="Umožňuje vytvárať prieskumy, odosielať pozvánky a zobrazovať odpovede na prieskum" />
+        <Description LCID="1060" Description="Ustvarite ankete, pošljite povabila in si oglejte odgovore v anketi" />
+        <Description LCID="3098" Description="Креирај анкете, пошаљи позивнице и прикажи одговоре анкете" />
+        <Description LCID="2074" Description="Kreiraj ankete, pošalji pozivnice i prikaži odgovore ankete" />
+        <Description LCID="1053" Description="Skapa undersökningar, skicka inbjudningar och visa undersökningssvar" />
+        <Description LCID="1054" Description="สร้างแบบสำรวจ ส่งคำเชิญ และดูการตอบแบบสำรวจ" />
+        <Description LCID="1055" Description="Anketler oluşturun, davetler gönderin ve anket yanıtlarını görüntüleyin" />
+        <Description LCID="1058" Description="Створення опитувань, надсилання запрошень і перегляд відповідей на опитування" />
+        <Description LCID="1066" Description="Tạo khảo sát, gửi lời mời và xem phản hồi khảo sát" />
+        <Description LCID="2052" Description="创建调查、发送邀请并查看调查响应" />
+        <Description LCID="3076" Description="建立問卷、傳送邀請，及檢視問卷回覆" />
+        <Description LCID="1028" Description="建立問卷、傳送邀請，及檢視問卷回覆" />
+        <Description LCID="10266" Description="Креирај анкете, пошаљи позивнице и прикажи одговоре анкете" />
+        <Description LCID="9242" Description="Kreiraj ankete, pošalji pozivnice i prikaži odgovore ankete" />
+      </Descriptions>
+      <Group Id="NewGroup_04a045e1" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Campus Survey" />
+        </Titles>
+        <SubArea Id="NewSubArea_7eba56eb" Entity="cmc_staffsurvey" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Campus Survey" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_6ac36741" Entity="cmc_staffsurveytemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Campus Survey Template" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Settings" ResourceId="Area_Settings" DescriptionResourceId="Settings_Area_Description" Icon="/_imgs/settings_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Group Id="Business_Setting" ResourceId="Menu_Label_Business" DescriptionResourceId="Menu_Label_Business" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Menu_Label_Business_ToolTip">
+        <SubArea Id="nav_businessmanagement" ResourceId="Homepage_BusinessManagement" DescriptionResourceId="BizManagement_SubArea_Description" Icon="/_imgs/ico_18_busmanagement.gif" Url="/tools/business/business.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_template" ResourceId="Homepage_Template" DescriptionResourceId="Template_SubArea_Description" Icon="/_imgs/ico_18_templates.gif" Url="/tools/templates/templates.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_productcatalog" ResourceId="Homepage_ProductCatalog" DescriptionResourceId="ProductCatalog_SubArea_Description" Icon="/_imgs/ico_18_productcatalog.gif" Url="/tools/productcatalog/productcatalog.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="product" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_externAppmanagement" ResourceId="Homepage_ExternAppManagement" DescriptionResourceId="ExternAppManagement_SubArea_Description" Icon="/_imgs/ExternalAppManagement_16.png" Url="/tools/externappmanagement/externappmanagement.aspx" IntroducedVersion="8.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_servicemanagement" ResourceId="Homepage_ServiceManagement" DescriptionResourceId="ServiceManagement_SubArea_Description" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="/tools/servicemanagement/servicemanagement.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_mocaoffline" ResourceId="Homepage_MobileOffline" DescriptionResourceId="MobileOffline_SubArea_Description" Icon="/_imgs/ico_18_mobileoffline.gif" Url="/tools/mobileoffline/mobileoffline.aspx" IntroducedVersion="8.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_syncerror" ResourceId="Homepage_SyncError" DescriptionResourceId="SyncError_SubArea_Description=" Icon="/_imgs/ico_18_syncerror.gif" IntroducedVersion="8.1.0.0" Entity="syncerror" AvailableOffline="false" PassParams="false" />
+      </Group>
+      <Group Id="Customizations" ResourceId="Homepage_SystemCustomization" DescriptionResourceId="Homepage_SystemCustomization" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Homepage_SystemCustomization_ToolTip">
+        <SubArea Id="nav_syscust" ResourceId="Menu_Label_Customizations" DescriptionResourceId="Customization_SubArea_Description" Icon="/_imgs/area/18_syscust.gif" Url="/tools/systemcustomization/systemcustomization.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_solution" ResourceId="Web.Tools.Solution.map_xml.aspx_1" DescriptionResourceId="Web.Tools.Solution.map_xml.aspx_2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/tools/Solution/home_solution.aspx?etc=7100" IntroducedVersion="7.0.0.0" GetStartedPanePath="Solutions_Web_Admin_Visor.html" GetStartedPanePathAdmin="Solutions_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Solutions_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Solutions_Outlook_Admin_Visor.html" Entity="solution" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="solution" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_marketplace" ResourceId="Homepage_Marketplace" DescriptionResourceId="Marketplace_SubArea_Description" Icon="/_imgs/SystemCustomization/ico_18_marketplace.png" Url="/tools/SystemCustomization/SolutionsMarketplace/SolutionsMarketplace.aspx" IntroducedVersion="7.0.0.0" Client="Web" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_plugintrace" ResourceId="Homepage_PluginTraceLog" Icon="/_imgs/area/Plugin_TraceLog_32.png" IntroducedVersion="7.1.0.0" Entity="plugintracelog" Client="Web" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="plugintracelog" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="NewSubArea_e0e34ea" Entity="cmc_languagevalue" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_35174e3a" Entity="cmc_configuration" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="System_Setting" ResourceId="Menu_Label_System" DescriptionResourceId="Menu_Label_System" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Menu_Label_System_ToolTip">
+        <SubArea Id="nav_administration" ResourceId="Homepage_Administration" DescriptionResourceId="Administration_SubArea_Description" Icon="/_imgs/ico_18_administration.gif" Url="/tools/Admin/admin.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_security" ResourceId="AdminSecurity_SubArea_Title" DescriptionResourceId="AdminSecurity_SubArea_Description" Icon="/_imgs/area/Security_32.png" Url="/tools/AdminSecurity/adminsecurity_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_datamanagement" ResourceId="Homepage_DataManagement" DescriptionResourceId="DataManagement_SubArea_Description" Icon="/_imgs/ico_18_datamanagement.gif" Url="/tools/DataManagement/datamanagement.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_systemjobs" ResourceId="Homepage_SystemJobs" DescriptionResourceId="SystemJobs_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/tools/business/home_asyncoperation.aspx" IntroducedVersion="7.0.0.0" Entity="asyncoperation" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_documentmanagement" ResourceId="DocumentManagement.SettingsArea.Heading" DescriptionResourceId="DocumentManagement.SettingsArea.Description" Icon="/_imgs/DocumentManagement_16.png" Url="/tools/documentmanagement/documentmanagement.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="sharepointsite" Privilege="Read" />
+          <Privilege Entity="sharepointdocumentlocation" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_audit" ResourceId="Audit_SubArea_Title" DescriptionResourceId="Audit_SubArea_Description" Icon="/_imgs/area/16_audit.png" Url="/tools/audit/audit_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_social" ResourceId="Social_SubArea_Title" DescriptionResourceId="Social_SubArea_Description" Icon="/_imgs/area/16_social.png" Url="/tools/social/social_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="msdyn_postconfig" ResourceId="Activity_Feed_Configuration" IntroducedVersion="7.0.0.0" Entity="msdyn_postconfig" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="msdyn_postruleconfig" ResourceId="Activity_Feed_Rules_Configuration" IntroducedVersion="7.0.0.0" Entity="msdyn_postruleconfig" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="crmapp_outlook" ResourceId="MailApp_SubArea_Title" DescriptionResourceId="MailApp_SubArea_Description" Icon="/_imgs/area/crm_apps_16x16.png" Url="/tools/appsforcrm/AppForOutlookAdminSettings.aspx" IntroducedVersion="8.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_relationshipIntelligence" ResourceId="RelationshipIntelligence_SubArea_Title" DescriptionResourceId="RelationshipIntelligence_SubArea_Description" Icon="/_imgs/area/Relationship_Intelligence_16.png" Url="/_static/tools/RelationshipIntelligenceConfig/UnifiedConfig.html" IntroducedVersion="8.2.0.0" AvailableOffline="false" PassParams="false" />
+      </Group>
+      <Group Id="ProcessCenter" ResourceId="Menu_Label_ProcessCenter" DescriptionResourceId="Menu_Label_ProcessCenter" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Menu_Label_ProcessCenter_ToolTip">
+        <SubArea Id="nav_workflow" DescriptionResourceId="Workflow_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Workflows_Web_User_Visor.html" GetStartedPanePathAdmin="Workflows_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Workflows_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Workflows_Outlook_User_Visor.html" Entity="workflow" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_microsoftflow" ResourceId="Flow_Menu_Button" DescriptionResourceId="Flow_SubArea_Description" Icon="/_imgs/NavBar/ActionImgs/MicrosoftFlow_32.png" Url="/tools/MicrosoftFlow/FlowTemplatesPage.aspx" IntroducedVersion="8.2.0.0" AvailableOffline="false" PassParams="false" />
+      </Group>
+      <Group Id="Application" ResourceId="Menu_Label_Application" DescriptionResourceId="Menu_Label_Application" IntroducedVersion="8.1.0.0" IsProfile="false" ToolTipResourseId="Menu_Label_Application_ToolTip">
+        <SubArea Id="nav_interactive_service_hub" ResourceId="Interactive_Service_Hub_SubArea_Title" DescriptionResourceId="Interactive_Service_Hub_SubArea_Description" Icon="/_imgs/InteractiveServiceHub_32.png" Url="/engagementhub.aspx" IntroducedVersion="8.1.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_app_modules" ResourceId="App_Modules_SubArea_Title" DescriptionResourceId="App_Modules_SubArea_Description" Icon="/_imgs/AppModules_32x32.png" Url="/tools/AppModuleContainer/applandingtilepage.aspx" IntroducedVersion="8.1.0.0" Client="Web" AvailableOffline="false" PassParams="false" />
+      </Group>
+    </Area>
+    <Area Id="HLP" ResourceId="Area_Help" DescriptionResourceId="Help_Area_Description" Icon="/_imgs/icn_help16.png" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Group Id="HLP_GRP" ResourceId="Group_Help" DescriptionResourceId="Help_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Help_ToolTip">
+        <SubArea Id="Help_Resource_Center" ResourceId="Area_CustomerCenter" DescriptionResourceId="ResourceCenter_Area_Description" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="http://go.microsoft.com/fwlink/?LinkId=296269&amp;clcid=0x409" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+      </Group>
+      <Group Id="LearningPath" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Learning Path" />
+          <Title LCID="1025" Title="مسار التعلم" />
+          <Title LCID="1026" Title="Път за обучение" />
+          <Title LCID="1027" Title="Ruta d'aprenentatge" />
+          <Title LCID="1028" Title="學習路徑" />
+          <Title LCID="1029" Title="Studijní program" />
+          <Title LCID="1030" Title="Læringssti" />
+          <Title LCID="1031" Title="Lernpfad" />
+          <Title LCID="1032" Title="Διαδρομή εκμάθησης" />
+          <Title LCID="1035" Title="Oppimispolku" />
+          <Title LCID="1036" Title="Parcours d'apprentissage" />
+          <Title LCID="1037" Title="מסלול לימוד" />
+          <Title LCID="1038" Title="képzési terv" />
+          <Title LCID="1040" Title="percorso di apprendimento" />
+          <Title LCID="1041" Title="ラーニング パス" />
+          <Title LCID="1042" Title="학습 경로" />
+          <Title LCID="1043" Title="Leertraject" />
+          <Title LCID="1044" Title="Læringsbane" />
+          <Title LCID="1045" Title="Ścieżka szkoleniowa" />
+          <Title LCID="1046" Title="Roteiro de Aprendizagem" />
+          <Title LCID="1048" Title="Cale de învățare" />
+          <Title LCID="1049" Title="схема обучения" />
+          <Title LCID="1050" Title="Vođeno učenje" />
+          <Title LCID="1051" Title="séria školení" />
+          <Title LCID="1053" Title="Utbildningsväg" />
+          <Title LCID="1054" Title="เส้นทางการเรียนรู้" />
+          <Title LCID="1055" Title="Öğrenme Yolu" />
+          <Title LCID="1057" Title="Jalur Pembelajaran" />
+          <Title LCID="1058" Title="Навчальний шлях" />
+          <Title LCID="1060" Title="Vodeno učenje" />
+          <Title LCID="1061" Title="Õppeteekond" />
+          <Title LCID="1062" Title="Mācību materiāli" />
+          <Title LCID="1063" Title="Mokomoji medžiaga" />
+          <Title LCID="1066" Title="Con đường Học tập" />
+          <Title LCID="1069" Title="Ikasketa-txokoa" />
+          <Title LCID="1081" Title="लर्निंग पाथ" />
+          <Title LCID="1086" Title="Laluan Pembelajaran" />
+          <Title LCID="1087" Title="Оқыту жолы" />
+          <Title LCID="1110" Title="Camiño de aprendizaxe" />
+          <Title LCID="2052" Title="学习路径" />
+          <Title LCID="2070" Title="Percurso de Aprendizagem" />
+          <Title LCID="2074" Title="Vođeno učenje" />
+          <Title LCID="3076" Title="學習路徑" />
+          <Title LCID="3082" Title="Ruta de aprendizaje" />
+          <Title LCID="3098" Title="Вођено учење" />
+        </Titles>
+        <SubArea Id="nav_learning_path" Icon="/WebResources/msdyn_LearningPath.png" Url="$webresource:msdyn_launchDesigner.html" IntroducedVersion="8.2.0.0" Client="Web" AvailableOffline="false" PassParams="false">
+          <Titles>
+            <Title LCID="1033" Title="Content Library" />
+            <Title LCID="1025" Title="Content Library" />
+            <Title LCID="1026" Title="Content Library" />
+            <Title LCID="1027" Title="Content Library" />
+            <Title LCID="1028" Title="Content Library" />
+            <Title LCID="1029" Title="Content Library" />
+            <Title LCID="1030" Title="Content Library" />
+            <Title LCID="1031" Title="Content Library" />
+            <Title LCID="1032" Title="Content Library" />
+            <Title LCID="1035" Title="Content Library" />
+            <Title LCID="1036" Title="Content Library" />
+            <Title LCID="1037" Title="Content Library" />
+            <Title LCID="1038" Title="Content Library" />
+            <Title LCID="1040" Title="Content Library" />
+            <Title LCID="1041" Title="Content Library" />
+            <Title LCID="1042" Title="Content Library" />
+            <Title LCID="1043" Title="Content Library" />
+            <Title LCID="1044" Title="Content Library" />
+            <Title LCID="1045" Title="Content Library" />
+            <Title LCID="1046" Title="Content Library" />
+            <Title LCID="1048" Title="Content Library" />
+            <Title LCID="1049" Title="Content Library" />
+            <Title LCID="1050" Title="Content Library" />
+            <Title LCID="1051" Title="Content Library" />
+            <Title LCID="1053" Title="Content Library" />
+            <Title LCID="1054" Title="Content Library" />
+            <Title LCID="1055" Title="Content Library" />
+            <Title LCID="1057" Title="Content Library" />
+            <Title LCID="1058" Title="Content Library" />
+            <Title LCID="1060" Title="Content Library" />
+            <Title LCID="1061" Title="Content Library" />
+            <Title LCID="1062" Title="Content Library" />
+            <Title LCID="1063" Title="Content Library" />
+            <Title LCID="1066" Title="Content Library" />
+            <Title LCID="1069" Title="Content Library" />
+            <Title LCID="1081" Title="Content Library" />
+            <Title LCID="1086" Title="Content Library" />
+            <Title LCID="1087" Title="Content Library" />
+            <Title LCID="1110" Title="Content Library" />
+            <Title LCID="2052" Title="Content Library" />
+            <Title LCID="2070" Title="Content Library" />
+            <Title LCID="2074" Title="Content Library" />
+            <Title LCID="3076" Title="Content Library" />
+            <Title LCID="3082" Title="Content Library" />
+            <Title LCID="3098" Title="Content Library" />
+          </Titles>
+          <Privilege Privilege="LearningPath" />
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="CampusNexus Engage" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

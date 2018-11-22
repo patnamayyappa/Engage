@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_applicationrequirementdefinitiondetail.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_applicationrequirementdefinitiondetail.FormDesign.Hide" Location="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.FormDesign" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecord.Hide" Location="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecord" />
+    <CustomAction Id="cmc.Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity.CustomAction" Location="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.MainTab.Save.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Alt="$Resources:Ribbon.HomepageGrid.MainTab.New" Command="Mscrm.Form.NewRecordForBPFEntity" Id="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity" Image32by32="/_imgs/ribbon/newrecord32.png" Image16by16="/_imgs/ribbon/NewRecord_16.png" LabelText="$LocLabels:Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity.LabelText" Sequence="45" TemplateAlias="o1" ToolTipTitle="$Resources:Ribbon.HomepageGrid.MainTab.New" ToolTipDescription="$Resources(EntityDisplayName):Ribbon.Tooltip.New" ModernImage="New" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_applicationrequirementdefinitiondetail.SaveAndNew.Hide" Location="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.SaveAndNew" />
+    <HideCustomAction HideActionId="cmc.Mscrm.HomepageGrid.cmc_applicationrequirementdefinitiondetail.NewRecord.Hide" Location="Mscrm.HomepageGrid.cmc_applicationrequirementdefinitiondetail.NewRecord" />
+    <HideCustomAction HideActionId="cmc.Mscrm.HomepageGrid.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity.Hide" Location="Mscrm.HomepageGrid.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="Mscrm.Form.cmc_applicationrequirementdefinitiondetail.NewRecordForBPFEntity.LabelText">
+      <Titles>
+        <Title description="New" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

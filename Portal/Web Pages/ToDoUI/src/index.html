@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="studentsToDoMain.css" />
+<div id="app" class="app"></div>
+<script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        global.StudentPortal = global.StudentPortal || {};
+        global.StudentPortal.ToDos = global.StudentPortal.ToDos || {};
+
+        {% if user %}
+        global.StudentPortal.ToDos.authenticated = true;
+        {% else %}
+        global.StudentPortal.ToDos.authenticated = false;
+        {% endif %}
+    }(this));
+</script>
+<script type="text/javascript" src="studentstodomain.js"></script>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionPlugin: Update of cmc_domdefinition" SdkMessageProcessingStepId="{4c939c9e-215d-e811-a957-000d3a18c42e}">
+  <PluginTypeName>Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833</PluginTypeName>
+  <PluginTypeId>f3ed5b00-85d7-4ecf-a850-76e474f5dd9d</PluginTypeId>
+  <PrimaryEntity>cmc_domdefinition</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionPlugin: Update of cmc_domdefinition</Description>
+  <FilteringAttributes>cmc_dommasterid</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="Target">
+      <SdkMessageProcessingStepImageId>{ddde37b0-215d-e811-a955-000d3a18c970}</SdkMessageProcessingStepImageId>
+      <Attributes>cmc_dommasterid</Attributes>
+      <EntityAlias>Target</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

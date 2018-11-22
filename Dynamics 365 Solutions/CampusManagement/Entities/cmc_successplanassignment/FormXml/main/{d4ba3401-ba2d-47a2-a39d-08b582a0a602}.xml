@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d4ba3401-ba2d-47a2-a39d-08b582a0a602}</formid>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{337c680f-700e-433f-bf98-00ff276f55f7}" IsUserDefined="1" name="success_plan_assignment_tab" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="Success Plan Assignment" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{9b5600e2-a76c-4af8-8b60-8283397fe915}" name="success_plan_assignment_section" columns="11" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="SUCCESS PLAN ASSIGNMENT" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{077f6800-b19f-4a98-a559-e87fe45ea44b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_successplanassignmentname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_successplanassignmentname" uniqueid="{786ac585-11bb-89d3-edda-334dc273949c}" disabled="false" />
+                      </cell>
+                      <cell id="{9d991e78-2472-a0ee-a996-ca9217382759}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7860d11c-1298-5183-0d27-1ac41574b98d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Success Plan Template" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_successplantemplateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_successplantemplateid" disabled="false" />
+                      </cell>
+                      <cell id="{54542abb-7326-6837-3509-bde955434cdd}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{15252d22-5f11-459c-8aeb-586149533d79}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell id="{638a3acb-5111-898c-216e-23ab416e71ea}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b56a1764-c9bd-e5e7-1e35-47cb8a77cc89}" showlabel="true" colspan="2" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Student Groups" languagecode="1033" />
+                        </labels>
+                        <control id="StudentGroups" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{4b549118-ce8d-144c-a709-206d56a393a2}">
+                          <parameters>
+                            <ViewId>{7D7737D8-1A05-4ABB-BEBD-843404A83DAD}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_successplanassignment_list</RelationshipName>
+                            <TargetEntityType>list</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{7D7737D8-1A05-4ABB-BEBD-843404A83DAD},{892EBC07-F730-E811-A960-000D3A14B26E},{5250E7FF-4337-E811-A95D-000D3A11FC57}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{40020f92-6ae4-4b91-b0b2-52e8829a3a44}" columns="1111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{9a0de98c-b619-382a-db02-4e6c2099106b}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{58607849-90ae-9ad7-2e9d-e5933a096860}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{7ecba6ce-1238-acbb-c1a0-ee9db2b38513}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{75eda26a-d23b-3646-cd70-e09b7813b438}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

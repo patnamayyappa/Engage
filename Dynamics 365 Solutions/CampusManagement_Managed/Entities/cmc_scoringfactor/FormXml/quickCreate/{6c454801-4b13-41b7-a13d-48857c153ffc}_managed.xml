@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{6c454801-4b13-41b7-a13d-48857c153ffc}</formid>
+    <IntroducedVersion>1.0.0.24</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{4eb78ec9-2b23-4e08-ab4e-a2e60c01eded}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{80b9463f-450d-4a08-bfae-995469a3cd8e}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0407567c-30a3-75a8-00d7-95553200a439}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_scoringfactorname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_scoringfactorname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d50ada3-6cdc-b634-4c33-a524da6ab276}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_attributename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_attributename" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{421e6e66-1c58-b8a8-0b79-28c24ea2e352}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_points" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_points" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68ac36a3-615e-c9d7-1bed-6365dd6b7c71}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_conditiontype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_conditiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d00d1056-3a43-d058-ae61-4b817d8ec7ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_min" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_min" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4b2a5c93-9a97-e2ca-ce43-2542aabc44d7}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_max" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_max" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0012677-989e-3049-6c47-3214a13a0d08}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_value" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_value" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e1ed582-5567-8e25-5ea3-522321429237}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{9d8f6fbf-1862-4b13-81a7-e55f3aa07abd}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c34ad0e0-7c52-2344-8779-c164a666068a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{1cb09f46-ec10-49eb-bea1-e8f72ffc15ab}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{391208e3-179c-4b47-a14b-288dc6211c4f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

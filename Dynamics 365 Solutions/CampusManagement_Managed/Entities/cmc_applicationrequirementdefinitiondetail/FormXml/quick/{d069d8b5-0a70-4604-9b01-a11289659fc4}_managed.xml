@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{d069d8b5-0a70-4604-9b01-a11289659fc4}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{3bfdbcd4-fd33-403a-8b26-5b708c25dc9e}" verticallayout="true" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{5d8e0951-35cc-4126-9b51-743c67371692}" IsUserDefined="0" showlabel="false" showbar="false">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{42b356cc-f727-4e00-9f69-63e067653ca3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52e42815-834d-81bb-e2b9-b7dc11b608ac}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_applicationrequirementdefinition" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationrequirementdefinition" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee4db2cd-30d2-35b7-1a6a-20824083e548}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_requirementtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_requirementtype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d8e4eae-0490-281a-40b1-9e44023856ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_requirementrequired" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_requirementrequired" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f77e8c79-25cb-4097-84f4-cd48a6e707b0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-ignored-words="campusmgmt;www;campusmanagement">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Introduces the concept of dynamic ownership and the different objects that users need to work with." /><title>About the Dynamic Ownership Model</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/CMC_styles1_OpenSans.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#DCRMHelp/AboutDynamicOwnership.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="4" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h1>About the Dynamic Ownership Model<a name="kanchor27"></a></h1>
+        <p>The Dynamic Ownership Model (or DOM) is a framework in which records are assigned to the proper user based on set criteria. Generally, this is done shortly after the record is created. It can also occur when a user wants to reevaluate the owner. For instance, inbound interest records owned by a student recruiter  need to be assigned to department heads on the date when the academic year begins. This process of assignment or ownership is managed using the following entities:</p>
+        <ul>
+            <li value="1"><b>DOM Master</b> – Students in a marketing list are associated with a DOM Master record.</li>
+            <li value="2"><b>DOM Definition Execution Order</b> – This record determines the order of execution of the logic defined in the DOM Definition Logic record.</li>
+            <li value="3"><b>DOM Definition</b> – This record determines the user to who records in the associated DOM Master will be assigned.</li>
+            <li value="4"><b>DOM Definition Logic</b> – This record includes logic based on which records in the associated DOM Master are assigned.<br /></li>
+        </ul>
+        <h5>Usage Scenario</h5>
+        <p>Parker Roy, the student recruiter at Acme Student Services, the sub-contractor to Seagull University’s north campus, has completed his student recruitment-related activities. He is winding down tasks as the college’s opening term will begin shortly. Hence, ownership of student records will transition from Parker to Ian Hass, the student coordinator at the north campus. To achieve this assignment, the following steps will be performed:</p>
+        <ol>
+            <li value="1">Create a DOM Master record, <b>Summer Admissions</b>. It includes the <b>Seagull North Campus</b> student group.</li>
+            <li value="2">Create a DOM Definition record. Ensure that the user Ian Hass is set in this record. This ensures that Ian is assigned student records in the <b>Seagull North Campus</b> student group.</li>
+            <li value="3">Create a DOM Definition Logic record. It includes logic that will assign records owned by Parker.<br /></li>
+            <li value="4">Create a DOM Definition Execution Order record. It indicates the order in which logic records, by attribute, are run. <br />The operation to assign student records to Ian will occur in the next run of assignment logic that uses values defined in the above records as input parameters. Prior to the next run of the logic, Parker will need to set the <b>DOM Status</b> on all student records that he owns to <b>Pending Assignment</b>.<br />Its assumed that other logic is not available that will reassign the records back to Parker Roy.</li>
+        </ol>
+        <p style="font-weight: bold;">Note</p>
+        <p style="font-weight: normal;">Assignment logic executes in the background at predefined or custom intervals based on information saved in records of the following entities:</p>
+        <ul>
+            <li value="1">DOM&#160;Master</li>
+            <li value="2">DOM&#160;Definition Execution Order</li>
+            <li value="3">DOM&#160;Definition</li>
+            <li value="4">DOM&#160;Definition Logic</li>
+        </ul>
+        <p>When account, contact, inbound interest or lifecycle records are assigned, the value in their <b>DOM Status</b> field changes from <b>Pending Assignment</b> to <b>Assignment Complete</b>. Records in which the <b>DOM Status</b> field is set to <b>Locked Assignment</b> are not processed  when assignment logic executes.</p>
+        <p>&#160;</p>
+        <hr width="100%" size="0" align="center" />
+        <p class="Copyright" style="text-align: center;">Help Build: <span style="font-size: 9pt;" class="SystemLongDate">Friday, July 20, 2018</span></p>
+        <p class="Copyright" style="text-align: center;"> Campus Management Corp.&#160;|&#160;<span style="font-size: 9pt;"><a href="http://www.campusmanagement.com/">www.campusmanagement.com </a></span></p>
+    </body>
+</html>

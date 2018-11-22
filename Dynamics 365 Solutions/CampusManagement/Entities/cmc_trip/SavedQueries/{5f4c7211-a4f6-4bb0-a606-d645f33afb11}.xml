@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5f4c7211-a4f6-4bb0-a606-d645f33afb11}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_tripname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_tripid">
+          <cell name="cmc_tripname" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_startdate" width="100" />
+          <cell name="cmc_enddate" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="cmc_status" width="100" />
+          <cell name="cmc_tripdescription" width="100" disableSorting="1" />
+          <cell name="createdon" width="125" />
+          <cell name="cmc_approvedby" width="100" />
+          <cell name="cmc_approvaldate" width="100" />
+          <cell name="cmc_department" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_trip">
+          <attribute name="cmc_tripname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_tripname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_startdate" />
+          <attribute name="cmc_enddate" />
+          <attribute name="cmc_status" />
+          <attribute name="cmc_approvaldate" />
+          <attribute name="ownerid" />
+          <attribute name="cmc_tripdescription" />
+          <attribute name="cmc_approvedby" />
+          <attribute name="cmc_department" />
+          <attribute name="cmc_tripid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.68</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Trips" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

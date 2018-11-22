@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{56bcbc89-6cab-4d42-8c0c-8715a9625fac}" Name="Retrieve Attributes and Relationships for Entities" Description="Retrieves all attributes and relationship for the passed in entities and returns it in a format that can be used by the attribute picker UI.">
+  <XamlFileName>/Workflows/RetrieveAttributesandRelationshipsforEntities-56BCBC89-6CAB-4D42-8C0C-8715A9625FAC.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{b3eb00be-3c5e-e811-a956-000d3a18c23c}</SdkMessageId>
+  <UniqueName>retrieveattributesandrelationshipsforentities</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.68</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>none</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Retrieve Attributes and Relationships for Entities" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Retrieves all attributes and relationship for the passed in entities and returns it in a format that can be used by the attribute picker UI." />
+  </Descriptions>
+</Workflow>

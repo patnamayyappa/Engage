@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{57119f28-1e6f-4141-93b3-75529f243435}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_keyname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_languagevalueid">
+          <cell name="cmc_keyname" width="300" />
+          <cell name="cmc_value" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_languagecode" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_languagevalue">
+          <attribute name="cmc_languagevalueid" />
+          <attribute name="cmc_keyname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cmc_value" />
+          <attribute name="cmc_languagecode" />
+          <order attribute="cmc_keyname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Language Values" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

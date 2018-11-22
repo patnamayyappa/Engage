@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{14ace5ba-a126-4e97-a21a-9a74d520d8ac}</NavigationSettingId>
+  <ParentNavigationSettingId>{45955dda-73a9-46b1-b575-269361ef7d2a}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=entitylist&amp;etn=msdyncrm_linkedinleadmatchingstrategy</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>1</SettingType>
+  <IconResourceId>{aaaa5501-0006-eeee-ffff-000d3a2243c9}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Lead matching strategy" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Lead Matching Strategy" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

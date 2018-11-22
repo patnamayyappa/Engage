@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{80cccef7-9320-e811-a95d-000d3a11ec14}" Name="Show/Hide Other User Lookup" Description="Shows the Other User Lookup if Attribute Name To Be Assigned is Other User Lookup">
+  <XamlFileName>/Workflows/ShowHideOtherUserLookup-80CCCEF7-9320-E811-A95D-000D3A11EC14.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.47</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_dommaster</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Show/Hide Other User Lookup" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Shows the Other User Lookup if Attribute Name To Be Assigned is Other User Lookup" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{891fa282-2622-e811-a963-000d3a11e605}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_attributenametobeassigned</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_dommaster</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8a1fa282-2622-e811-a963-000d3a11e605}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_dommaster</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

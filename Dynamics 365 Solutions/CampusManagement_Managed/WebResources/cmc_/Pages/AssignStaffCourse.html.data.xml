@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3aba5bed-1160-e811-a959-000d3a18c23c}</WebResourceId>
+  <Name>cmc_/Pages/AssignStaffCourse.html</Name>
+  <DisplayName>AssignStaffCourse.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0.0.70</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/Localization.js" displayName="Localization.js" languagecode="1033" description="library to retrieve the localized strings" libraryUniqueId="{e83a5b29-be5c-139d-da21-bde88c221735}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_PagesAssignStaffCoursehtml3ABA5BED-1160-E811-A959-000D3A18C23C</FileName>
+</WebResource>

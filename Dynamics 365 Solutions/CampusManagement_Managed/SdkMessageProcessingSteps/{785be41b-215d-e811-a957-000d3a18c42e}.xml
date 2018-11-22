@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionLogicPlugin: Update of cmc_domdefinitionlogic" SdkMessageProcessingStepId="{785be41b-215d-e811-a957-000d3a18c42e}">
+  <PluginTypeName>Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionLogicPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833</PluginTypeName>
+  <PluginTypeId>5f487d0f-df70-485a-9eec-2ffde7a28288</PluginTypeId>
+  <PrimaryEntity>cmc_domdefinitionlogic</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Cmc.Engage.Lifecycle.Plugins.ValidateDomDefinitionLogicPlugin: Update of cmc_domdefinitionlogic</Description>
+  <FilteringAttributes>cmc_attributeschema,cmc_conditiontype,cmc_domdefinitionid,cmc_maximum,cmc_minimum,statecode,cmc_value</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{d895b12e-215d-e811-a958-000d3a18cdb5}</SdkMessageProcessingStepImageId>
+      <Attributes>cmc_attributeschema,cmc_conditiontype,cmc_domdefinitionid,cmc_maximum,cmc_minimum,statecode,cmc_value</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{9af1385d-4fa5-4ca7-8e2e-949770a0c9cc}" Name="Lifecycle (Engage)" Description="This is the default process flow for working on a lifecycle.">
+  <XamlFileName>/Workflows/LifecycleEngage-9AF1385D-4FA5-4CA7-8E2E-949770A0C9CC.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>cmc_bpf_9af1385d4fa54ca78e2e949770a0c9cc</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Opportunity</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Lifecycle (Engage)" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="This is the default process flow for working on a lifecycle." />
+  </Descriptions>
+  <labels>
+    <steplabels id="{7d4c900e-9b67-4928-8f1c-2f4947b1ee94}">
+      <label languagecode="1033" description="Prospect" />
+    </steplabels>
+    <steplabels id="{6754318b-19ee-486f-b2d8-4ef334c18c65}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{a818796a-a8af-4237-bafa-08c75fe75db5}">
+      <label languagecode="1033" description="Campus" />
+    </steplabels>
+    <steplabels id="{302c238e-b0ee-4cb0-bb17-ac38ce107c46}">
+      <label languagecode="1033" description="Program" />
+    </steplabels>
+    <steplabels id="{d76a0382-fdef-4826-a10c-35516a8699c4}">
+      <label languagecode="1033" description="Lifecycle Status" />
+    </steplabels>
+    <steplabels id="{809abbac-3858-4ee4-b1d1-e7e7edfba0a5}">
+      <label languagecode="1033" description="Interest Date" />
+    </steplabels>
+    <steplabels id="{2d9ba347-0519-42cd-bcdd-ee33dfceddf4}">
+      <label languagecode="1033" description="Interest Method" />
+    </steplabels>
+    <steplabels id="{d9f9a55e-a83d-4d07-a060-5ee1f1b7ec7b}">
+      <label languagecode="1033" description="Interest Category" />
+    </steplabels>
+    <steplabels id="{727086d0-c0d4-4028-966d-29de5636d160}">
+      <label languagecode="1033" description="Interest Sub-Category" />
+    </steplabels>
+    <steplabels id="{7a981176-924c-471d-ace4-4e1912cae135}">
+      <label languagecode="1033" description="Expected Start" />
+    </steplabels>
+    <steplabels id="{bd6d5c4c-9c81-40f0-b091-159e62e2ecb6}">
+      <label languagecode="1033" description="App In Progress" />
+    </steplabels>
+    <steplabels id="{b1fcf598-afc4-4e31-9488-9e270d473b08}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{451ef5a5-de88-4758-baa6-0b469af48356}">
+      <label languagecode="1033" description="Campus" />
+    </steplabels>
+    <steplabels id="{b985ed57-9781-4daa-accf-62f0d4c70a6e}">
+      <label languagecode="1033" description="Program" />
+    </steplabels>
+    <steplabels id="{9fdfcdfe-4ffa-4cb2-939c-dbb27b5136b3}">
+      <label languagecode="1033" description="Lifecycle Status" />
+    </steplabels>
+    <steplabels id="{7d76cbaa-f448-4cea-8976-a13e62e4b0bd}">
+      <label languagecode="1033" description="Interest Date" />
+    </steplabels>
+    <steplabels id="{43870751-2e32-4ede-9fc3-33aa56ba944c}">
+      <label languagecode="1033" description="Interest Method" />
+    </steplabels>
+    <steplabels id="{fc977172-9afe-48a4-b823-63ca18aa9429}">
+      <label languagecode="1033" description="Interest Category" />
+    </steplabels>
+    <steplabels id="{ec0b06db-6b06-4b5a-b000-ced6ce80dfb1}">
+      <label languagecode="1033" description="Source Sub-Category" />
+    </steplabels>
+    <steplabels id="{6239e5c7-b600-482b-af28-9e060bfb162f}">
+      <label languagecode="1033" description="Expected Start Date" />
+    </steplabels>
+    <steplabels id="{524b29ea-71ba-472f-9907-1fe4b92b47a1}">
+      <label languagecode="1033" description="Days Since Last App Activity" />
+    </steplabels>
+    <steplabels id="{4e823740-ae46-468d-915c-a22890c20079}">
+      <label languagecode="1033" description="App Complete" />
+    </steplabels>
+    <steplabels id="{472403de-a119-4a89-b457-49734321ed12}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{8def172a-b23c-470e-970e-23060402624d}">
+      <label languagecode="1033" description="Campus" />
+    </steplabels>
+    <steplabels id="{3f67b52a-d47c-40bf-8515-baccf6a8af2b}">
+      <label languagecode="1033" description="Program" />
+    </steplabels>
+    <steplabels id="{29199c0e-2531-4e31-a4ae-387d410abfd7}">
+      <label languagecode="1033" description="Lifecycle Status" />
+    </steplabels>
+    <steplabels id="{fc1a194e-9a93-48b9-849b-91ace3957930}">
+      <label languagecode="1033" description="Interest Date" />
+    </steplabels>
+    <steplabels id="{bb800604-f932-48f0-981d-7b893f48207b}">
+      <label languagecode="1033" description="Interest Method" />
+    </steplabels>
+    <steplabels id="{de723c98-8646-4d37-8050-3fa6e9d199b9}">
+      <label languagecode="1033" description="Interest Category" />
+    </steplabels>
+    <steplabels id="{8540c2ae-81e6-4d45-a468-ea15c4d968fb}">
+      <label languagecode="1033" description="Interest Sub-Category" />
+    </steplabels>
+    <steplabels id="{ce167848-ee2f-4ebc-b6b9-f6f599cfaec4}">
+      <label languagecode="1033" description="Expected Start" />
+    </steplabels>
+    <steplabels id="{6abaec01-0675-46f1-ac9e-03ff6f165d69}">
+      <label languagecode="1033" description="Complete App Received" />
+    </steplabels>
+    <steplabels id="{92502357-cc6b-4eff-8876-91de78caf319}">
+      <label languagecode="1033" description="Admit" />
+    </steplabels>
+    <steplabels id="{48a7a125-d2dd-4cf9-a578-bcf37152e1e9}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{012c2cc7-d855-419d-af90-aa76d8a0d0da}">
+      <label languagecode="1033" description="Campus" />
+    </steplabels>
+    <steplabels id="{ba207874-3008-4ef6-aeb1-ef4280825f09}">
+      <label languagecode="1033" description="Program" />
+    </steplabels>
+    <steplabels id="{d0dbc9e7-31e9-4472-85ec-8d0a022ccf43}">
+      <label languagecode="1033" description="Lifecycle Status" />
+    </steplabels>
+    <steplabels id="{560f9b0a-4562-4ece-8f8f-a9cd705e4b1e}">
+      <label languagecode="1033" description="Interest Date" />
+    </steplabels>
+    <steplabels id="{98cecf8b-3f77-43c6-a9c7-789eb8194474}">
+      <label languagecode="1033" description="Source Method" />
+    </steplabels>
+    <steplabels id="{42b1e330-c747-4e11-9952-20bcb6b0ae46}">
+      <label languagecode="1033" description="Source Category" />
+    </steplabels>
+    <steplabels id="{538222c1-ac64-43ea-a810-5b6c58b24c77}">
+      <label languagecode="1033" description="Source Sub-Category" />
+    </steplabels>
+    <steplabels id="{c37d60bb-0c8c-4a2b-a078-4be8cc70f19b}">
+      <label languagecode="1033" description="Expected Start" />
+    </steplabels>
+    <steplabels id="{fa85a6af-941f-4189-858d-a32e7be41865}">
+      <label languagecode="1033" description="Deposit" />
+    </steplabels>
+    <steplabels id="{15b8cb84-7f31-4265-9829-6610a91f2413}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{7730497b-d037-414f-8f4b-58af47f42c5d}">
+      <label languagecode="1033" description="Campus" />
+    </steplabels>
+    <steplabels id="{57de6ddd-c0dc-44fc-ac3e-3427bf468a6e}">
+      <label languagecode="1033" description="Program" />
+    </steplabels>
+    <steplabels id="{7ec7fd96-128b-402e-986e-7597c502f337}">
+      <label languagecode="1033" description="Lifecycle Status" />
+    </steplabels>
+    <steplabels id="{03778355-3ce7-492e-91b7-bea0bf447a13}">
+      <label languagecode="1033" description="Interest Method" />
+    </steplabels>
+    <steplabels id="{4f3e6fbf-f773-434b-a52b-62f782881874}">
+      <label languagecode="1033" description="Interest Category" />
+    </steplabels>
+    <steplabels id="{e95952b6-68f6-4c30-8f89-a7e48b6c89e6}">
+      <label languagecode="1033" description="Interest Sub-Category" />
+    </steplabels>
+    <steplabels id="{a7a3d303-6d16-4a73-a547-4c45520c2417}">
+      <label languagecode="1033" description="Expected Start" />
+    </steplabels>
+    <steplabels id="{a91f40b6-4a6f-447e-b9cc-04cbc82ba127}">
+      <label languagecode="1033" description="Deposit Received" />
+    </steplabels>
+    <steplabels id="{7ecb3829-c12a-4251-8de8-980cd276882f}">
+      <label languagecode="1033" description="Matriculate" />
+    </steplabels>
+    <steplabels id="{f62dbc2a-817a-43a1-9055-7644ef95f0c0}">
+      <label languagecode="1033" description="Contact" />
+    </steplabels>
+    <steplabels id="{8fbd8090-53f0-470b-8224-21328a5a511d}">
+      <label languagecode="1033" description="Campus" />
+    </steplabels>
+    <steplabels id="{e8fc572b-0117-4e3a-81b8-a712672c1e2e}">
+      <label languagecode="1033" description="Program" />
+    </steplabels>
+    <steplabels id="{4594805f-24f4-499a-aca7-b6b0d00d6e75}">
+      <label languagecode="1033" description="Lifecycle Status" />
+    </steplabels>
+    <steplabels id="{043890dd-a181-4277-8826-e53c5d7589c5}">
+      <label languagecode="1033" description="Interest Date" />
+    </steplabels>
+    <steplabels id="{e56f0a97-4641-4a0a-837a-c7ac3b8aab1a}">
+      <label languagecode="1033" description="Interest Method" />
+    </steplabels>
+    <steplabels id="{08b59bff-a2d7-4897-b46d-e98673fed22b}">
+      <label languagecode="1033" description="Interest Category" />
+    </steplabels>
+    <steplabels id="{07c26b08-0442-4f77-a6cb-41906e32cb92}">
+      <label languagecode="1033" description="Interest Sub-Category" />
+    </steplabels>
+    <steplabels id="{11a835ee-30f3-4088-b2b0-b37f6dd1e1de}">
+      <label languagecode="1033" description="Expected Start" />
+    </steplabels>
+    <steplabels id="{97a84007-4772-4d9e-89c8-cf63544fadc8}">
+      <label languagecode="1033" description="Deposit Received" />
+    </steplabels>
+    <steplabels id="{d5fb6000-3898-4829-b948-e4c6af509459}">
+      <label languagecode="1033" description="Matriculate Date" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

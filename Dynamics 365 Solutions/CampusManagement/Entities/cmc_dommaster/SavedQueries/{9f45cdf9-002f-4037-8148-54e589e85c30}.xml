@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9f45cdf9-002f-4037-8148-54e589e85c30}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_dommastername" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_dommasterid">
+          <cell name="cmc_dommastername" width="300" />
+          <cell name="cmc_runassignmentforentity" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_attributenametobeassigned" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_fallbackuserid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_otheruserlookup" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_marketinglistid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_dommaster">
+          <attribute name="cmc_dommastername" />
+          <attribute name="createdon" />
+          <order attribute="cmc_dommastername" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_runassignmentforentity" operator="like" value="{0}" />
+            <condition attribute="cmc_otheruserlookup" operator="like" value="{0}" />
+            <condition attribute="cmc_marketinglistid" operator="like" value="{0}" />
+            <condition attribute="cmc_fallbackuserid" operator="like" value="{0}" />
+            <condition attribute="cmc_dommastername" operator="like" value="{0}" />
+            <condition attribute="cmc_attributenametobeassigned" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cmc_otheruserlookup" />
+          <attribute name="cmc_marketinglistid" />
+          <attribute name="cmc_fallbackuserid" />
+          <attribute name="cmc_attributenametobeassigned" />
+          <attribute name="cmc_runassignmentforentity" />
+          <attribute name="cmc_dommasterid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active DOM Masters" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

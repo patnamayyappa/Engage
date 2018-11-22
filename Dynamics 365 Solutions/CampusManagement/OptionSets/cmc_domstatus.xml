@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_domstatus" localizedName="DOM Status" description="Used by the DOM Engine to know if a record needs to have an assignment performed on it.">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.47</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="DOM Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Used by the DOM Engine to know if a record needs to have an assignment performed on it." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="175490000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Pending Assignment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Assignment Complete" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Locked Assignment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

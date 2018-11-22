@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{aecfe755-a344-4e7b-98b7-190612648718}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationdefinitionversionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationdefinitionversionid">
+          <cell name="cmc_applicationdefinitionversionname" width="300" />
+          <cell name="cmc_applicationdefinitionid" width="100" />
+          <cell name="cmc_applicationtype" width="100" />
+          <cell name="cmc_startdate" width="100" />
+          <cell name="cmc_enddate" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationdefinitionversion">
+          <attribute name="cmc_applicationdefinitionversionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationdefinitionversionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_applicationtype" />
+          <attribute name="cmc_applicationdefinitionid" />
+          <attribute name="cmc_startdate" />
+          <attribute name="cmc_enddate" />
+          <attribute name="cmc_applicationdefinitionversionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Application Definition Version" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

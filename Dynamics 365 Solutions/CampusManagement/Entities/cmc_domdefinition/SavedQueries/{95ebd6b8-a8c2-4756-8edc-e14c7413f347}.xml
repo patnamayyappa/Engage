@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{95ebd6b8-a8c2-4756-8edc-e14c7413f347}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_domdefinitionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_domdefinitionid">
+          <cell name="cmc_domdefinitionname" width="300" />
+          <cell name="cmc_domdefinitionforid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_dommasterid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_domdefinition">
+          <attribute name="cmc_domdefinitionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_domdefinitionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_dommasterid" operator="like" value="{0}" />
+            <condition attribute="cmc_domdefinitionname" operator="like" value="{0}" />
+            <condition attribute="cmc_domdefinitionforid" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cmc_dommasterid" />
+          <attribute name="cmc_domdefinitionforid" />
+          <attribute name="cmc_domdefinitionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active DOM Definitions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

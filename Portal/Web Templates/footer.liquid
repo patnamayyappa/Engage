@@ -1,0 +1,51 @@
+<footer role="contentinfo">
+  <div class="footer-bottom hidden-print">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12 text-left">
+          {% editable snippets 'Footer' type: 'html' %}
+        </div>
+        {% assign footer_nav = weblinks["Footer"] %}
+        {% if footer_nav %}
+          <div class="col-md-8 col-sm-12 col-xs-12 text-left {% if footer_nav.editable %}xrm-entity xrm-editable-adx_weblinkset{% endif %}" data-weblinks-maxdepth="2">
+            <ul class="row list-unstyled">
+              {% for link in footer_nav.weblinks %}
+                <li class="col-sm-3">
+                  <h4>{{ link.name }}</h4>
+                  <ul class="list-unstyled">
+                    {% if link.display_page_child_links %}
+                      {% assign sublinks = sitemap[link.url].children %}
+                    {% else %}
+                      {% assign sublinks = link.weblinks %}
+                    {% endif %}
+                    {% if sublinks.size > 0 %}
+                      {% for sublink in sublinks %}
+                        <li>
+                          <a href="{{ sublink.url | escape }}" {% if sublink.Open_In_New_Window %} target="_blank" {% endif %}>{{ sublink.name | default:sublink.title }}</a>
+                        </li>
+                      {% endfor %}
+                    {% endif %}
+                  </ul>
+                </li>
+              {% endfor %}
+            </ul>
+            {% editable footer_nav %}
+          </div>
+        {% endif %}
+    </div>
+  </div>
+  <script type="text/javascript">
+      (function(global) {
+          $(function() {
+            if (!window.lpTag) {
+                return;
+            }
+            {% if user %}
+             window.lpTag.section = ['authenticated'];
+            {% else %}
+              window.lpTag.section = ['unauthenticated'];
+            {% endif %}
+          });
+      }(this));
+  </script>
+</footer>

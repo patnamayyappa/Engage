@@ -1,0 +1,2 @@
+cmc_academicperiodname,firstname,lastname,cmc_startdate,cmc_enddate,cmc_code,emailaddress1,cmc_sourcemethodid,cmc_sourcecategoryid,title,firstresponseslastatus,firstresponsesent,resolvebyslastatus,prioritycode
+Case Academic Period,Case API ,CMI,2018-09-19,2020-01-20,105,shashwatkp@campusmgmt.com,827FF116-142B-E811-A965-000D3A11E605,379733E4-142B-E811-A965-000D3A11E605,API Case,1,FALSE,1,2

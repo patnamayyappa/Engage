@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{cc16d7c6-d6d1-4c5f-85d8-fdad176bffe9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{36a0a0cc-9b37-432c-9bfe-207382787847}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f0368238-ded0-4bcb-92e2-310d0b8bbff8}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{32f784cf-dbe6-4969-bdc0-560b4f324856}">
+                        <labels>
+                          <label description="Application Decision Definition Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdecisiondefinitionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationdecisiondefinitionname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d27ec4dc-e6ea-e453-da50-2515cb519d9a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Enrollment Cutoff Date" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enrollmentcutoffdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_enrollmentcutoffdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b79226e8-eb09-e0aa-659a-134299bb97d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Decision Publish Date" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_decisionpublishdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_decisionpublishdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b1ecc01e-9ae0-e31b-5209-43379c79cb02}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Enrollment Cutoff Message" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enrollmentcutoffmessage" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_enrollmentcutoffmessage" disabled="false" uniqueid="{e3d9342c-2d0c-9e8e-c342-1788ce502297}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{109fd66a-f229-4968-8080-11990186b698}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

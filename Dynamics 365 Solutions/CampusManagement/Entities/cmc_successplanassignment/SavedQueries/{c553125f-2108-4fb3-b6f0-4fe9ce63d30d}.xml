@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c553125f-2108-4fb3-b6f0-4fe9ce63d30d}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_successplanassignmentname" select="1" icon="1" preview="1">
+        <row name="cmc_successplanassignment" id="cmc_successplanassignmentid">
+          <cell name="cmc_successplanassignmentname" width="300" />
+          <cell name="cmc_successplantemplateid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_successplanassignment">
+          <attribute name="cmc_successplanassignmentname" />
+          <order attribute="cmc_successplanassignmentname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_successplantemplateid" />
+          <attribute name="cmc_successplanassignmentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Success Plan Assignment Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

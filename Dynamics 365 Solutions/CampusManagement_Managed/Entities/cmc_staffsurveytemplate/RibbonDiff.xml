@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.cmc_staffsurveytemplate.CopyForm.Button.CustomAction" Location="Mscrm.Form.cmc_staffsurveytemplate.MainTab.Save.Controls._children" Sequence="38">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_staffsurveytemplate.CopyForm.Button.Alt" Command="cmc.cmc_staffsurveytemplate.CopyFormCommand.Command" Id="cmc.cmc_staffsurveytemplate.CopyForm.Button" Image32by32="$webresource:cmc_/Images/CopySuccessPlan_32px.png" Image16by16="$webresource:cmc_/Images/CopySuccessPlan_16px.png" LabelText="$LocLabels:cmc.cmc_staffsurveytemplate.CopyForm.Button.LabelText" Sequence="38" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.cmc_staffsurveytemplate.CopyForm.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_staffsurveytemplate.CopyForm.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.cmc_staffsurveytemplate.CopyFormCommand.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_staffsurveytemplate.showonDefaultForm.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="cmc.cmc_staffsurveytemplate.ValidateFormStateCanCreateAndAppendStaffSurveyTemplate.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/dist/app/Common/Localization.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.cmc_StaffSurveyTemplate.copy" Library="$webresource:cmc_/dist/App/Ribbon/cmc_staffsurveytemplate.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="cmc.cmc_staffsurveytemplate.ValidateFormStateCanCreateAndAppendStaffSurveyTemplate.DisplayRule">
+        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" Default="false" />
+        <EntityPrivilegeRule PrivilegeType="AppendTo" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" Default="false" />
+        <OrRule>
+          <Or>
+            <FormStateRule State="Existing" />
+          </Or>
+          <Or>
+            <FormStateRule State="Disabled" />
+          </Or>
+        </OrRule>
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="cmc.cmc_staffsurveytemplate.showonDefaultForm.EnableRule">
+        <CustomRule FunctionName="CampusManagement.ribbon.cmc_StaffSurveyTemplate.checkForm" Library="$webresource:cmc_/dist/App/Ribbon/cmc_staffsurveytemplate.js" Default="true" InvertResult="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.cmc_staffsurveytemplate.CopyForm.Button.Alt">
+      <Titles>
+        <Title description="Copy" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffsurveytemplate.CopyForm.Button.LabelText">
+      <Titles>
+        <Title description="Copy" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffsurveytemplate.CopyForm.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Creates a copy of the Campus Survey Template and its related Questions." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffsurveytemplate.CopyForm.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Copy Campus Survey Template" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

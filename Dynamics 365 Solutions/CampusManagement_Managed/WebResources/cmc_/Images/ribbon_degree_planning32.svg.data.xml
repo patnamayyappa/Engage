@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{9aa6912e-bfba-e711-a94f-000d3a11fc57}</WebResourceId>
+  <Name>cmc_/Images/ribbon_degree_planning32.svg</Name>
+  <DisplayName>ribbon_degree_planning32.svg</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0.0.34</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_Imagesribbon_degree_planning32svg9AA6912E-BFBA-E711-A94F-000D3A11FC57</FileName>
+</WebResource>

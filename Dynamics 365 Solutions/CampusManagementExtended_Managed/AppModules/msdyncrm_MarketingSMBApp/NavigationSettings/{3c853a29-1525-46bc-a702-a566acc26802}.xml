@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a702-a566acc26802}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a702-a566acc26800}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.TeamManagementTControl.TeamManagementTControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <IconResourceId>{0c22d74c-2222-4f1e-8988-b6fb9464aff4}</IconResourceId>
+  <Privileges>0</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Team management" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Team Management" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

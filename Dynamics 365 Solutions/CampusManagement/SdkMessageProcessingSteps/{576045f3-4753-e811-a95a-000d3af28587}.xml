@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Common.Plugins.ComputeMilesFromHomePlugin: Update of contact" SdkMessageProcessingStepId="{576045f3-4753-e811-a95a-000d3af28587}">
+  <PluginTypeName>Cmc.Engage.Common.Plugins.ComputeMilesFromHomePlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538</PluginTypeName>
+  <PluginTypeId>7e57e918-3083-4075-9a0c-df8ffa1a49d7</PluginTypeId>
+  <PrimaryEntity>contact</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>address1_latitude,address1_longitude,parentcustomerid</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>2</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{35687801-4853-e811-a95b-000d3af28b57}</SdkMessageProcessingStepImageId>
+      <Attributes>address1_latitude,address1_longitude,contactid,parentcustomerid</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{0faab266-4853-e811-a95b-000d3af28673}</SdkMessageProcessingStepImageId>
+      <Attributes>address1_latitude,address1_longitude,contactid,parentcustomerid,cmc_milesfromcampus</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

@@ -1,0 +1,19 @@
+{% fetchxml my_query %}
+  <fetch version="1.0" mapping="logical">
+      <entity name="account">
+          <attribute name="name" />
+          <filter type="and"> 
+              <condition attribute="statecode" operator="eq" value="0" />
+              <condition attribute="cmc_accounttype" operator="eq" value="175490000" />
+          </filter>
+          <order attribute="name" descending="false" />
+      </entity>
+  </fetch>
+{% endfetchxml %} [
+  {% for account in my_query.results.entities %}
+      {
+        "Id": "{{account.Id}}",
+        "Name": "{{account.name}}"
+      }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

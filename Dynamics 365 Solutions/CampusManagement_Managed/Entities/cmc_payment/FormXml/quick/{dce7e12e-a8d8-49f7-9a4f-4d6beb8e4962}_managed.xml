@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{dce7e12e-a8d8-49f7-9a4f-4d6beb8e4962}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{df171d71-6b96-4ab0-bcd4-7b62958cdb99}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bd2108e7-596b-44eb-86b2-fb91afaaa439}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a122c664-9d03-1676-de18-7963e47ae547}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_paymentnumber" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_paymentnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be09ca18-ce9c-4372-930a-70b8a5b47b83}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_paymentname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_paymentname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ace961d4-3b5e-c243-7052-4572896b437d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_paymenttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_paymenttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e6b8c069-8d8e-594a-814c-1067cd0d3411}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_paymentdatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_paymentdatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{43e8d602-940a-e0b8-b524-dcae292e00cd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_paymentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cmc_paymentamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{09e16aa0-6972-3533-ab6b-1972501445a2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_transactionidentifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_transactionidentifier" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc15d603-ec33-4eb5-9300-c2670a84c699}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee806959-09ae-0168-c29e-9c3d8775243e}" showlabel="true" colspan="1" auto="false" rowspan="8">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="paymentdetailgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{EF88A4A6-88CE-4F7D-8B86-B61D20E56DD6}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_payment_paymentdetail_paymentid</RelationshipName>
+                            <TargetEntityType>cmc_paymentdetail</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{EF88A4A6-88CE-4F7D-8B86-B61D20E56DD6}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

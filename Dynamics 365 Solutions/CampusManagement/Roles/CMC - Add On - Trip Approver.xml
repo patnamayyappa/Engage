@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{a01da681-19e4-e811-a966-000d3a3307f1}" name="CMC - Add On - Trip Approver">
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendActivity" level="Local" />
+    <RolePrivilege name="prvAppendcmc_trip" level="Basic" />
+    <RolePrivilege name="prvAppendcmc_tripactivity" level="Basic" />
+    <RolePrivilege name="prvAppendcmc_tripapprovalprocess" level="Global" />
+    <RolePrivilege name="prvAppendContact" level="Local" />
+    <RolePrivilege name="prvAppendToActivity" level="Local" />
+    <RolePrivilege name="prvAppendTocmc_trip" level="Basic" />
+    <RolePrivilege name="prvAppendTocmc_tripactivity" level="Basic" />
+    <RolePrivilege name="prvAppendTocmc_tripapprovalprocess" level="Global" />
+    <RolePrivilege name="prvAppendToContact" level="Local" />
+    <RolePrivilege name="prvAssignContact" level="Local" />
+    <RolePrivilege name="prvCreateActivity" level="Local" />
+    <RolePrivilege name="prvCreatecmc_tripactivity" level="Basic" />
+    <RolePrivilege name="prvCreatecmc_tripapprovalprocess" level="Global" />
+    <RolePrivilege name="prvCreateContact" level="Local" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadActivity" level="Local" />
+    <RolePrivilege name="prvReadcmc_trip" level="Local" />
+    <RolePrivilege name="prvReadcmc_tripactivity" level="Local" />
+    <RolePrivilege name="prvReadcmc_tripapprovalprocess" level="Global" />
+    <RolePrivilege name="prvReadContact" level="Local" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvShareContact" level="Local" />
+    <RolePrivilege name="prvWriteActivity" level="Local" />
+    <RolePrivilege name="prvWritecmc_trip" level="Basic" />
+    <RolePrivilege name="prvWritecmc_tripactivity" level="Basic" />
+    <RolePrivilege name="prvWritecmc_tripapprovalprocess" level="Global" />
+    <RolePrivilege name="prvWriteContact" level="Local" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

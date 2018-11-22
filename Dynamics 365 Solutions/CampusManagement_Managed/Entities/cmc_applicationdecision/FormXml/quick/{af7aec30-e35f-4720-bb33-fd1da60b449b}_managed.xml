@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{af7aec30-e35f-4720-bb33-fd1da60b449b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{449b39f6-772e-4814-8e57-6a6ea2c8cf69}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{77a6ce28-8089-4789-8b29-71d4c87a5fe8}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9dae642d-a060-a87e-33ed-e13b80ee6dd9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{303bdfb9-4b36-4086-82ee-d6ac3b01cf3a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_decisionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_decisionname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35a91d98-2d45-c67a-657a-984d86362b12}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_publishstatus" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_publishstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{846c3c7d-6047-0dc5-5730-e0666512cbe0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_decisionstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_decisionstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{519e830d-9279-9d77-e9d4-14578b997e07}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_decisionviewdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_decisionviewdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d4a3913a-e207-66b3-0bac-2466136382dc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enrollmentstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_enrollmentstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29a1c585-ab2e-711e-8b13-a6c28988cb39}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_isenrollmentsubmitted" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_isenrollmentsubmitted" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5967ce3-4024-3b33-00a4-8a7dc85a95db}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enrollmentsubmitteddatetime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_enrollmentsubmitteddatetime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e7e70c4-c2d0-4cc5-b6d6-d9c36361c3c7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

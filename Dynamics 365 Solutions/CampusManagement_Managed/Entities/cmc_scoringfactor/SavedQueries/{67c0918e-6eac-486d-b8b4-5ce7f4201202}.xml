@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{67c0918e-6eac-486d-b8b4-5ce7f4201202}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_scoringfactorname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_scoringfactorid">
+          <cell name="cmc_scoringfactorname" width="300" />
+          <cell name="cmc_attributename" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_conditiontype" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_min" width="100" />
+          <cell name="cmc_max" width="100" />
+          <cell name="cmc_value" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_points" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_scoringfactor">
+          <attribute name="cmc_scoringfactorname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cmc_value" />
+          <attribute name="cmc_points" />
+          <attribute name="cmc_min" />
+          <attribute name="cmc_max" />
+          <attribute name="cmc_conditiontype" />
+          <attribute name="cmc_attributename" />
+          <order attribute="cmc_scoringfactorname" descending="false" />
+          <attribute name="cmc_scoringfactorid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Scoring Factors" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

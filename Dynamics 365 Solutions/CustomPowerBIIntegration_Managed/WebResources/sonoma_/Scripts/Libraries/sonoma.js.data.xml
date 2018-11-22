@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{915718eb-a792-e711-80f7-c4346bac4304}</WebResourceId>
+  <Name>sonoma_/Scripts/Libraries/sonoma.js</Name>
+  <DisplayName>/Scripts/Libraries/sonoma.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/sonoma_ScriptsLibrariessonomajs915718EB-A792-E711-80F7-C4346BAC4304</FileName>
+</WebResource>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ffcbf0c9-bf12-4d70-bbb5-9015366001c1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_staffsurveyquestionresponsename" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_staffsurveyquestionresponseid">
+          <cell name="cmc_staffsurveyquestionresponsename" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_staffsurveyquestionresponse">
+          <attribute name="cmc_staffsurveyquestionresponseid" />
+          <attribute name="cmc_staffsurveyquestionresponsename" />
+          <attribute name="createdon" />
+          <order attribute="cmc_staffsurveyquestionresponsename" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_staffsurveyquestionresponsename" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Campus Survey Question Responses" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Quick Find Active Campus Survey Question Responses." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

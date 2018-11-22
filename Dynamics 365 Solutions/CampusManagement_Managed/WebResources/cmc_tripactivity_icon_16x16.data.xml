@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{73690c9f-7d70-e811-a954-000d3a3ac3f8}</WebResourceId>
+  <Name>cmc_tripactivity_icon_16x16</Name>
+  <DisplayName>Trip Activity Icon 16x16 PNG</DisplayName>
+  <Description>Trip activity icon 16x16 PNG.</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0.0.76</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_tripactivity_icon_16x1673690C9F-7D70-E811-A954-000D3A3AC3F8</FileName>
+</WebResource>

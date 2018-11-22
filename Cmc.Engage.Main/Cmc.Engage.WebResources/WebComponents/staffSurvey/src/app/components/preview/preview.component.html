@@ -1,0 +1,52 @@
+<div>
+  <div [style.background-color]="defaultTheme.navbarbackgroundcolor" class="previewContainer navigateLeft applyfont">
+    {{surveyStrings.previewContainerText}}
+  </div>
+  <div [innerHTML]="survey.description | safeHtml" style="text-align:initial">
+  </div>
+  <div style="overflow:auto">
+    <div>
+      <table id="contacts">
+        <tr>
+          <th [style.background-color]="defaultTheme.pageheaderbackgroundcolor">
+            {{surveyStrings.studentQuestionHeader}}
+          </th>
+          <th [style.background-color]="defaultTheme.pageheaderbackgroundcolor" class="wrapWord" *ngFor="let question of survey.questions index as i">
+            {{question.title || surveyStrings.questionTitle }}
+
+          </th>
+        </tr>
+
+        <tr style="border:1px solid" *ngFor="let student of survey.students">
+          <td>
+            <label>{{student.studentName}}</label>
+          </td>
+          <td *ngFor="let question of survey.questions">
+            <div *ngFor="let answer of question.answers">
+              <div *ngIf="question.type!=3" class="prvwInput">
+                <label *ngIf="question.type==4">
+                  <app-radiobutton [option]="answer" [question]="question"></app-radiobutton>
+                  {{answer.title || 'Option' + answer.id}}
+                </label>
+                <label *ngIf="question.type==2">
+                  <app-checkbox [option]="answer" [question]="question"></app-checkbox>
+                  {{answer.title || 'Option'+ answer.id}}
+                </label>
+                <label *ngIf="question.type==1">
+                  <app-text  [question]="question"></app-text>
+                </label>
+              </div>
+
+            </div>
+            <div *ngIf="question.type==3" class="prvwInput">
+              <app-dropdown  [question]="question"></app-dropdown>
+            </div>
+          </td>
+        </tr>
+
+
+      </table>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f90b2848-f036-462e-9cde-577dac06cbf3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_sourcesubcategoryname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_sourcesubcategoryid">
+          <cell name="cmc_sourcesubcategoryname" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_sourcesubcategory">
+          <attribute name="cmc_sourcesubcategoryname" />
+          <order attribute="cmc_sourcesubcategoryname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_sourcesubcategoryname" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cmc_sourcesubcategoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.49</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Source Sub-Categories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

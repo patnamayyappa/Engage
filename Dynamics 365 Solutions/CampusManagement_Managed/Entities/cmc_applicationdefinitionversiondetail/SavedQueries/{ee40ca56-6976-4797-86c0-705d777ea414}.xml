@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ee40ca56-6976-4797-86c0-705d777ea414}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationdefinitionversiondetailname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationdefinitionversiondetailid">
+          <cell name="cmc_applicationdefinitionversiondetailname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationdefinitionversiondetail">
+          <attribute name="cmc_applicationdefinitionversiondetailid" />
+          <attribute name="cmc_applicationdefinitionversiondetailname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationdefinitionversiondetailname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Application Definition Version Details" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a705-a21d91dc7b04}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a705-a21d91dc7b00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=entitylist&amp;etn=msdyncrm_matchingstrategy</PageUrl>
+  <QuickSettingOrder>3</QuickSettingOrder>
+  <SettingType>1</SettingType>
+  <IconResourceId>{aaaa5501-0004-eeee-ffff-000d3a2243c9}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Matching strategy" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Matching Strategy" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

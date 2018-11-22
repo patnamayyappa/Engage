@@ -1,0 +1,119 @@
+﻿#timeline-visualization {
+    font-size: 0.875em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* replaces native vis.js vertical scroll */
+.vis-center > .vis-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#commands {
+    font-size: 0.750em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-bottom: -0.25em;
+    padding-right: 0;
+}
+
+.menu {
+    margin-bottom: 0.25em;
+}
+
+input {
+    border: 0.1em solid;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    cursor: pointer;
+    color: #a3a3a3;
+    border-color: #a3a3a3;
+    background-color: #f5f5f5;
+}
+
+.button {
+    color: black;
+}
+
+.vis-item.hidden {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    visibility: hidden; /*adding this toggle class to hide the icons on click of the time activities.*/
+}
+
+.item-title {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+    .item-title .item-details {
+        color: #444;
+        font-weight: lighter;
+        font-style: italic;
+    }
+
+.vis-item.phonecall, .button.phonecall {
+    background-color: #d4ddf8;
+    border-color: #93affe;
+}
+
+.vis-item.email, .button.email {
+    background-color: #d2f7f7;
+    border-color: #95baba;
+}
+
+.vis-item.appointment, .button.appointment {
+    background-color: #ffdfbf;
+    border-color: #bfa386;
+}
+
+.vis-item.to-do, .button.to-do {
+    background-color: #daf2da;
+    border-color: #99bf99;
+}
+
+.vis-item.event, .button.event {
+    background-color: #fff7cc;
+    border-color: #c0ba9a;
+}
+
+.vis-item-content {
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.vis-item-Email-icon {
+    width: 20px;
+    vertical-align: middle; /*looks icon is aligned top*/
+    padding-right: 2px; /*space between text and image*/
+}
+
+.vis-item-PhoneCall-icon {
+    width: 14px;
+    vertical-align: middle; /*looks icon is aligned top*/
+    padding-right: 2px; /*space between text and image*/
+}
+
+.vis-item-ToDo-icon {
+    width: 14px;
+    padding-right: 2px; /*space between text and image*/
+}
+.vis-item-Email-icon {
+    width: 20px;
+    vertical-align: middle; /*looks icon is aligned top*/
+    padding-right: 2px; /*space between text and image*/
+}
+
+.vis-item-Phonecall-icon {
+    width: 14px;
+    vertical-align: middle; /*looks icon is aligned top*/
+    padding-right: 2px; /*space between text and image*/
+}
+
+.vis-item-ToDo-icon {
+    width: 14px;
+    padding-right: 2px; /*space between text and image*/
+}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Retention.Plugins.SetSuccessPlanStatusPlugin: Update of cmc_todo" SdkMessageProcessingStepId="{ca080860-6b5a-e811-a956-000d3a18cdb5}">
+  <PluginTypeName>Cmc.Engage.Retention.Plugins.SetSuccessPlanStatusPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02</PluginTypeName>
+  <PluginTypeId>35910b8a-ac22-456b-ba8a-401c98c6814a</PluginTypeId>
+  <PrimaryEntity>cmc_todo</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Update of  cmc_todo</Description>
+  <FilteringAttributes>statuscode</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{49cd787e-6b5a-e811-a956-000d3a18cdb5}</SdkMessageProcessingStepImageId>
+      <Attributes>statuscode,cmc_successplanid,cmc_todoid</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

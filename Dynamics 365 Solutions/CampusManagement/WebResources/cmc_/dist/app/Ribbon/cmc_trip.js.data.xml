@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{2262f8dd-62a1-e811-a967-000d3af24b73}</WebResourceId>
+  <Name>cmc_/dist/app/Ribbon/cmc_trip.js</Name>
+  <DisplayName>cmc_trip.js</DisplayName>
+  <Description>Ribbon changes for trip</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.6.0.102</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/CommonUiControls.js" displayName="CommonUiControls.js" languagecode="1033" description="" libraryUniqueId="{c7438536-1403-906d-7035-ceab559a2a42}"/&gt;&lt;Library name="cmc_/dist/app/Common/Localization.js" displayName="Localization.js" languagecode="" description="library to retrieve the localized strings" libraryUniqueId="{821b5496-4495-414b-e592-aa5b90e8787c}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappRibboncmc_tripjs2262F8DD-62A1-E811-A967-000D3AF24B73</FileName>
+</WebResource>

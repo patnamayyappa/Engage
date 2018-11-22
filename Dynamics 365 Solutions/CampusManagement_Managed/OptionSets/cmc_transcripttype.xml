@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_transcripttype" localizedName="Transcript type">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Transcript type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="0">
+      <labels>
+        <label description="Unofficial" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="1">
+      <labels>
+        <label description="Partial" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="2">
+      <labels>
+        <label description="Official/Final" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

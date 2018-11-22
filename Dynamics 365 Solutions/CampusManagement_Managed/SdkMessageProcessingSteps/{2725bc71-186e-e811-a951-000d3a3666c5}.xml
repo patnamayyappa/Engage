@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Retention.Plugins.CreateStaffSurveyQuestionResponsePlugin: cmc_CreateUpdateStaffSurveyQuestionResponses of  any Entity" SdkMessageProcessingStepId="{2725bc71-186e-e811-a951-000d3a3666c5}">
+  <PluginTypeName>Cmc.Engage.Retention.Plugins.CreateStaffSurveyQuestionResponsePlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02</PluginTypeName>
+  <PluginTypeId>454e2271-28dd-4821-9c9b-142635ac26e5</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{0d5eaf27-2664-e811-a95e-000d3a18cdb5}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

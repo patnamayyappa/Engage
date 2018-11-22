@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Activate.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Activate" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Assign.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Assign" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Deactivate.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Deactivate" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Delete.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Delete" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.FormDesign.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.FormDesign" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.NewRecord.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.NewRecord" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Permissions.Sharing.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Permissions.Sharing" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Reports.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Reports" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.RunScript.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.RunScript" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.RunWorkflow.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.RunWorkflow" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.Save.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.Save" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.SaveAndNew.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.SaveAndNew" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.SendSelected.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.SendSelected" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_staffsurveyresponse.WordTemplate.Hide" Location="Mscrm.Form.cmc_staffsurveyresponse.WordTemplate" />
+    <HideCustomAction HideActionId="cmc.Mscrm.SubGrid.cmc_staffsurveyresponse.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.cmc_staffsurveyresponse.AddExistingAssoc" />
+    <HideCustomAction HideActionId="cmc.Mscrm.SubGrid.cmc_staffsurveyresponse.AddExistingStandard.Hide" Location="Mscrm.SubGrid.cmc_staffsurveyresponse.AddExistingStandard" />
+    <HideCustomAction HideActionId="cmc.Mscrm.SubGrid.cmc_staffsurveyresponse.AddNewStandard.Hide" Location="Mscrm.SubGrid.cmc_staffsurveyresponse.AddNewStandard" />
+    <HideCustomAction HideActionId="cmc.Mscrm.SubGrid.cmc_staffsurveyresponse.NewRecord.Hide" Location="Mscrm.SubGrid.cmc_staffsurveyresponse.NewRecord" />
+    <HideCustomAction HideActionId="cmc.Mscrm.SubGrid.cmc_staffsurveyresponse.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.cmc_staffsurveyresponse.OpenAssociatedGridViewStandard" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="PBICRMIntegration.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fb9e5b8c9c72ef3c" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/PBICRMIntegrationPlugins-89FA1119-0383-412E-B6A8-9EBDCAEF3697/PBICRMIntegrationPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="SonomaPartners.PBICRMIntegration.Plugins.GetPowerBIAccessTokenPlugin, PBICRMIntegration.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fb9e5b8c9c72ef3c" Name="SonomaPartners.PBICRMIntegration.Plugins.GetPowerBIAccessTokenPlugin">
+      <FriendlyName>cbed1d53-aa4a-4cbf-9cfe-9a83411c86f4</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="SonomaPartners.PBICRMIntegration.Plugins.SaveConfigurationPasswordPlugin, PBICRMIntegration.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fb9e5b8c9c72ef3c" Name="SonomaPartners.PBICRMIntegration.Plugins.SaveConfigurationPasswordPlugin">
+      <FriendlyName>5f16e356-91e7-4b5a-97cd-5287e2af0907</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

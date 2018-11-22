@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a5b0c070-e07a-4732-9d19-dfe30b3f0c1f}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_testscoreconversionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_testscoreconversionid">
+          <cell name="cmc_testscoreconversionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_testscoreconversion">
+          <attribute name="cmc_testscoreconversionid" />
+          <attribute name="cmc_testscoreconversionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_testscoreconversionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_testscoreconversionname" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.004</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Test Score Conversions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

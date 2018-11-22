@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldSecurityProfiles>
+  <FieldSecurityProfile name="Private Data Access" description="This role allows the user the ability to view and modify private data." fieldsecurityprofileid="{9f0b029e-1b93-e711-8103-c4346bdc2171}">
+    <FieldPermissions>
+      <FieldPermission>
+        <EntityName>contact</EntityName>
+        <AttributeName>cmc_dateofbirth</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+      </FieldPermission>
+      <FieldPermission>
+        <EntityName>contact</EntityName>
+        <AttributeName>mshied_isdeceased</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+      </FieldPermission>
+      <FieldPermission>
+        <EntityName>contact</EntityName>
+        <AttributeName>mshied_nationalidentifier</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>4</CanCreate>
+      </FieldPermission>
+    </FieldPermissions>
+  </FieldSecurityProfile>
+</FieldSecurityProfiles>

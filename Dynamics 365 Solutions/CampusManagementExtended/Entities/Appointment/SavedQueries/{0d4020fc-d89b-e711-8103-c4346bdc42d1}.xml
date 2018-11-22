@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0d4020fc-d89b-e711-8103-c4346bdc42d1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" preview="1" icon="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="150" />
+          <cell name="description" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="scheduledstart" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="scheduledend" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="location" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_59b9b79071a1e7118105c4346bdc3221.cmc_userid" width="125" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="appointment">
+          <attribute name="subject" />
+          <attribute name="scheduledstart" />
+          <attribute name="scheduledend" />
+          <attribute name="description" />
+          <attribute name="location" />
+          <order attribute="scheduledstart" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>3</value>
+            </condition>
+            <filter type="or">
+              <condition attribute="scheduledstart" operator="today" />
+              <condition attribute="scheduledstart" operator="next-x-years" value="100" />
+            </filter>
+          </filter>
+          <link-entity name="activityparty" from="activityid" to="activityid" alias="aa">
+            <filter type="and">
+              <condition attribute="participationtypemask" operator="in">
+                <value>6</value>
+                <value>5</value>
+              </condition>
+              <condition attribute="partyid" operator="eq" uiname="Placeholder" uitype="contact" value="{D62BEC08-B7A3-E711-8105-C4346BDC3221}" />
+            </filter>
+          </link-entity>
+          <link-entity alias="a_59b9b79071a1e7118105c4346bdc3221" name="cmc_userlocation" from="cmc_userlocationid" to="cmc_userlocationid" link-type="outer" visible="false">
+            <attribute name="cmc_userid" />
+          </link-entity>
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portal - Upcoming Appointments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

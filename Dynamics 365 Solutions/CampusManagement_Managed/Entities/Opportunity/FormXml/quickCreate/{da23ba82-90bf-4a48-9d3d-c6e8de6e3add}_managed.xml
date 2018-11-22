@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{da23ba82-90bf-4a48-9d3d-c6e8de6e3add}</formid>
+    <IntroducedVersion>0.7.0.56</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{52babf2f-d598-41df-9754-dfebfc94b670}" name="newLifecycle" locklevel="0" expanded="true" showlabel="false" IsUserDefined="0" labelid="{8d07d1ac-675c-4c95-9a71-1e0af5dab6ed}">
+          <labels>
+            <label description="New Lifecycle" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{08041ef6-f9f8-44b4-b84b-94e0250dcac8}" name="quickOpportunity_column1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelid="{3b2bd857-a54c-4c47-9c89-df81e47ab0c1}">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{61aee087-89b8-d9b0-01ee-4bb4d2251d8b}" showlabel="true" locklevel="0" labelid="{b69a691b-14b9-45ac-b1b6-6a462431e955}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65eca38a-aa16-d7ce-2a42-49b08eb9217e}" showlabel="true" locklevel="0" labelid="{2d46856a-462b-4acf-93c3-a03cf4aa808f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_contactid" disabled="false" uniqueid="{0788484b-4466-0c05-d838-88dd0a3d7992}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02e38dcb-422b-5856-aaab-ddb4b8d5a290}" showlabel="true" locklevel="0" labelid="{f05407ae-e5b1-4208-9ac4-1595b5abb72e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_campusid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_campusid" disabled="false" uniqueid="{dc1299ba-7ca2-0c0a-6215-60157355ba78}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{5d946dc3-8850-4e43-a6d4-7b5ceaa4d013}" name="quickOpportunity_column2" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{32830422-b247-4d3f-8cc1-0a1ac56d2e81}" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" visible="false">
+                  <labels>
+                    <label description="HIDDEN section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c352ee62-86ca-4e90-8492-dc5bbe0dc8cb}" showlabel="false" userspacer="true" labelid="{b9382823-d943-47e6-9d57-f7e5f8ae49f5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9665b409-e439-cb10-e334-8899aeeb5cce}" showlabel="true" locklevel="0" labelid="{90810d7c-d504-472b-ae65-edc5aa573734}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="estimatedvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="estimatedvalue" disabled="false" uniqueid="{995e9eb5-89b7-4ed3-50a3-30a4675ec533}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="34%">
+              <sections>
+                <section id="{d4962dcf-e1f0-4158-8439-f49597a92b78}" name="quickOpportunity_column3" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelid="{32ac258f-db6e-415c-a91c-78466a1ed34f}">
+                  <labels>
+                    <label description="Customer Need" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{46303776-ebcf-496d-be1a-53937394db5c}" showlabel="false" labelid="{287cbf19-aa0d-4a5b-a836-a3df577f8f2b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.Form_onload" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="CA9EAB39-674D-449C-9EBB-694BC6B3EDE9" enabled="true">
+              <dependencies>
+                <dependency id="transactioncurrencyid" />
+                <dependency id="estimatedvalue" />
+                <dependency id="isrevenuesystemcalculated" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:Sales/Opportunity/Opportunity_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true" Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Lifecycle (Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default quick create form for Lifecycle" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

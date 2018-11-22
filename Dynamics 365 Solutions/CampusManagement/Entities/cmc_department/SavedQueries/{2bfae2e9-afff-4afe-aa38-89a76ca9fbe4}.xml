@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2bfae2e9-afff-4afe-aa38-89a76ca9fbe4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_departmentname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_departmentid">
+          <cell name="cmc_departmentname" width="300" />
+          <cell name="cmc_administrativeassistantid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_phonenumber" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_code" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_department">
+          <attribute name="cmc_departmentname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_phonenumber" operator="like" value="{0}" />
+            <condition attribute="cmc_departmentname" operator="like" value="{0}" />
+            <condition attribute="cmc_code" operator="like" value="{0}" />
+            <condition attribute="cmc_administrativeassistantid" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cmc_phonenumber" />
+          <attribute name="cmc_administrativeassistantid" />
+          <order attribute="cmc_departmentname" descending="false" />
+          <attribute name="cmc_code" />
+          <attribute name="cmc_departmentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Departments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

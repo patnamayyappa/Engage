@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{96e14c52-067f-e711-8100-5065f38b0191}</WebResourceId>
+  <Name>cmc_/Scripts/Common/retrieveMultiLingualValues.js</Name>
+  <DisplayName>retrieveMultiLingualValues.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_ScriptsCommonretrieveMultiLingualValuesjs96E14C52-067F-E711-8100-5065F38B0191</FileName>
+</WebResource>

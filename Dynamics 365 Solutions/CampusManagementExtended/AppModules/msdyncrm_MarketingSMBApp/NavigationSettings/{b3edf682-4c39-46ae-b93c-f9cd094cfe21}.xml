@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{b3edf682-4c39-46ae-b93c-f9cd094cfe21}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a705-a21d91dc7b00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=entitylist&amp;etn=msgdpr_gdprconfiguration</PageUrl>
+  <QuickSettingOrder>5</QuickSettingOrder>
+  <SettingType>1</SettingType>
+  <IconResourceId>{eda7531c-ee20-4f8a-a651-e2c3f0670725}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Data protection tools" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Data Protection Tools" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

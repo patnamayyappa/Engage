@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{87409e9b-dbba-49d3-b54e-9eac17897bf3}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{2fa32dc4-94af-4ab7-9c1f-516a1fe0e39e}" name="GeneralTab" showlabel="false" labelid="{7b438fa0-48c2-4676-91f2-13eff3f04e1b}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{d97d2e90-10b2-430b-ae2b-d9f05ae1aa7d}" name="GeneralTab_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{743f4e48-94ce-4838-8981-b67ace48f164}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8921926b-a451-0351-5041-597664457567}" showlabel="true" locklevel="0" visible="false" labelid="{9503cb2b-1f2b-44fe-81cd-f0cf7cfd5033}">
+                        <labels>
+                          <label description="Check-in ID" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msevtmgt_name" disabled="true" uniqueid="{54898270-6cc4-5dc2-529e-bd3a61cbab0c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d79b2202-b3de-db87-e741-691ae75ebd56}" showlabel="true" locklevel="0" labelid="{734c7602-431f-4b36-8906-a10b27189bb4}">
+                        <labels>
+                          <label description="Scan QR Code" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_scanqrcode" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cmc_scanqrcode" disabled="false" uniqueid="{42176dee-4907-e825-0a5e-8a74696cc796}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{40eda82c-a697-4541-94fd-e29bfaf67126}" name="GeneralTab_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{4dbb824d-a381-40ac-b670-4e5722c3dc76}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7de90ed5-b17c-2a8a-0a02-e35c10662b0a}" showlabel="true" locklevel="0" labelid="{56e07ed8-650e-46ff-adfd-a6c144910606}">
+                        <labels>
+                          <label description="Check-in time" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_checkintime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msevtmgt_checkintime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d9d7d12a-e388-8677-2799-893ca76da00c}" showlabel="true" locklevel="0" labelid="{690f8d5f-68a9-4980-af31-1d5efc961282}">
+                        <labels>
+                          <label description="Check-out time" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_checkouttime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msevtmgt_checkouttime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c8c51de-67b6-c22c-e3e4-22b386d8a1b7}" showlabel="true" locklevel="0" labelid="{74d9bcbe-5af1-474b-aebc-9c92fcad2c18}">
+                        <labels>
+                          <label description="Registration ID" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_registrationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msevtmgt_registrationid" disabled="false" uniqueid="{a663ee73-c65e-cd2b-49e4-86384b61ac26}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{FA0E941C-7760-426D-ABBF-A7A7A746905D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd348967-885a-2bbc-95e5-5c1877c81e68}" showlabel="true" locklevel="0" labelid="{5ba31603-4d6b-4e0e-a528-7dd048b32bb7}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msevtmgt_contact" disabled="true" uniqueid="{ec2de6a6-0389-188c-8733-445c4aac785c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d00633b-9db5-bd50-25da-e723b049a377}" showlabel="true" locklevel="0" labelid="{344f4836-c9b8-4813-8f78-73559582adeb}">
+                        <labels>
+                          <label description="Event" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_event" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msevtmgt_event" disabled="true" uniqueid="{8bae2dc6-893b-0951-b95d-486ab0a718c7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{43D8004F-2A4B-4282-9A39-4A04C8C31E92}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2e4ea474-081b-9a27-8cd7-e965316c0bab}" showlabel="true" locklevel="0" labelid="{dc037c37-2576-446f-9567-4bcd8b8cf92d}">
+                        <labels>
+                          <label description="Check-in type" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="msevtmgt_checkintype" datafieldname="msevtmgt_checkintype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" uniqueid="{4182021b-e047-3e18-bd7e-e98388c10d2d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a9648a9-7246-ed63-21d5-59e6ed078747}" showlabel="true" locklevel="0" labelid="{2b9b4b4a-0688-4f1b-bd8c-5281a4309eea}">
+                        <labels>
+                          <label description="Session registration" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_sessionregistration" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msevtmgt_sessionregistration" disabled="false" uniqueid="{aae8522a-1ea2-dc10-1711-228705cc1b16}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4AFF2C09-19E0-4823-B9E3-F031F54F73E4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a6b88a7-a939-b12d-764d-0e6bec0c8043}" showlabel="true" locklevel="0" labelid="{e967a924-6d75-43e3-a05e-70f58a655ac7}">
+                        <labels>
+                          <label description="Session" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_sessionattended" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msevtmgt_sessionattended" disabled="true" uniqueid="{07038ee7-0b9d-8a3a-304c-db822da5503c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{CAD095A2-4E3B-46AF-B52F-EB75232AAE24}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5323a297-ceed-a8b2-1359-4087ac81dace}" showlabel="true" visible="false" locklevel="0" labelid="{0021458b-1d34-4da2-b61a-d75b877f81d4}">
+                        <labels>
+                          <label description="Number of interactions" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_numberofquestionsasked" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msevtmgt_numberofquestionsasked" disabled="false" uniqueid="{2805eb85-e14d-09e9-c33d-730928b1bb78}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d585ed0d-4c6d-cc1a-13a7-1ced4d04ac2e}" showlabel="true" locklevel="0" labelid="{0aaffa9b-ca25-417a-8ade-6cbbc89a4da4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{b010b2f4-ec55-4b82-b431-a3215e9a1225}" name="GeneralTab_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{a5802148-f401-4530-859b-fdcd010bece0}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9f944c1b-3345-4592-aed7-8a59cd98c7ff}" showlabel="false" labelid="{d376b02d-b636-4384-a3a7-4610b0769f01}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{42176dee-4907-e825-0a5e-8a74696cc796}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="2">
+            <parameters>
+              <datafieldname>cmc_scanqrcode</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.BarCodeScannerControl">
+            <parameters>
+              <value>cmc_scanqrcode</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.BarCodeScannerControl">
+            <parameters>
+              <value>cmc_scanqrcode</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="msevtmgt_es6_promise.min.js" libraryUniqueId="{a0c58879-5e45-4822-0a2e-d2a518974171}" />
+        <Library name="msevtmgt_EventMgmt.CrmWebResource" libraryUniqueId="{47d67ceb-c306-1464-d367-ce973b5d0b75}" />
+        <Library name="cmc_/dist/app/Forms/checkin.js" libraryUniqueId="{34d5bc24-1063-aa80-c49a-70dccb5ebbe1}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="EventMgmt.CrmWebResource.Handlers.setVisibility_initCheckinFormSetSessionsFieldsVisbility" libraryName="msevtmgt_EventMgmt.CrmWebResource" handlerUniqueId="{40509d51-5663-22a8-0082-31896b4e404b}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="EventMgmt.CrmWebResource.Handlers.lookupPreFilter_addPreFilter" libraryName="msevtmgt_EventMgmt.CrmWebResource" handlerUniqueId="{35cb3ea3-1d3a-4ebc-4e09-8d9d2d98c023}" enabled="true" parameters="{&#xA;  &quot;preFilterFields&quot;: [&#xA;    {&#xA;      &quot;parentName&quot;: &quot;msevtmgt_eventregistration&quot;,&#xA;      &quot;parentLookupName&quot;: &quot;msevtmgt_registrationid&quot;,&#xA;      &quot;parentInChildIdAttribute&quot;: &quot;msevtmgt_registrationid&quot;,&#xA;      &quot;childName&quot;: &quot;msevtmgt_sessionregistration&quot;&#xA;    }&#xA;  ]&#xA;}" passExecutionContext="false" />
+            <Handler functionName="EventMgmt.CrmWebResource.Handlers.resetFields_initResetSessionRegistrationField" libraryName="msevtmgt_EventMgmt.CrmWebResource" handlerUniqueId="{bdada7ad-5338-6939-eb93-ba57a5108271}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler functionName="EventMgmt.CrmWebResource.Handlers.lookupAutoFill_addAutoFill" libraryName="msevtmgt_EventMgmt.CrmWebResource" handlerUniqueId="{8993e17e-2c46-a2a0-4931-664d7b269dc2}" enabled="true" parameters="[{&#xA;  &quot;parentLookupName&quot;: &quot;msevtmgt_event&quot;,&#xA;  &quot;parentName&quot;: &quot;msevtmgt_event&quot;,&#xA;  &quot;parentIdName&quot;: &quot;msevtmgt_eventid&quot;,&#xA;  &quot;childLookupName&quot;: &quot;msevtmgt_registrationid&quot;,&#xA;  &quot;childIdName&quot;: &quot;msevtmgt_eventregistrationid&quot;,&#xA;  &quot;childSetName&quot;: &quot;msevtmgt_eventregistrations&quot;,&#xA;  &quot;navPropertyName&quot;: &quot;msevtmgt_EventId&quot;&#xA;}]" passExecutionContext="false" />
+            <Handler functionName="EventMgmt.CrmWebResource.Handlers.lookupAutoFill_addAutoFill" libraryName="msevtmgt_EventMgmt.CrmWebResource" handlerUniqueId="{4e48437e-ad67-a32b-7ba1-7b236383b336}" enabled="true" parameters="[{&#xA;  &quot;parentLookupName&quot;: &quot;msevtmgt_contact&quot;,&#xA;  &quot;parentName&quot;: &quot;contact&quot;,&#xA;  &quot;parentIdName&quot;: &quot;contactid&quot;,&#xA;  &quot;childLookupName&quot;: &quot;msevtmgt_registrationid&quot;,&#xA;  &quot;childIdName&quot;: &quot;msevtmgt_eventregistrationid&quot;,&#xA;  &quot;childSetName&quot;: &quot;msevtmgt_eventregistrations&quot;,&#xA;  &quot;navPropertyName&quot;: &quot;msevtmgt_ContactId&quot;,&#xA;  &quot;parentNamePropertyName&quot;: &quot;fullname&quot;&#xA;}]" passExecutionContext="false" />
+            <Handler functionName="EventMgmt.CrmWebResource.Handlers.lookupAutoFill_addAutoFill" libraryName="msevtmgt_EventMgmt.CrmWebResource" handlerUniqueId="{d7036ce4-3817-bd3d-b0b0-51897d9a35a5}" enabled="true" parameters="[{&#xA;  &quot;parentLookupName&quot;: &quot;msevtmgt_sessionattended&quot;,&#xA;  &quot;parentName&quot;: &quot;msevtmgt_session&quot;,&#xA;  &quot;parentIdName&quot;: &quot;msevtmgt_sessionid&quot;,&#xA;  &quot;childLookupName&quot;: &quot;msevtmgt_sessionregistration&quot;,&#xA;  &quot;childIdName&quot;: &quot;msevtmgt_sessionregistrationid&quot;,&#xA;  &quot;childSetName&quot;: &quot;msevtmgt_sessionregistrations&quot;,&#xA;  &quot;navPropertyName&quot;: &quot;msevtmgt_SessionId&quot;&#xA;}]" passExecutionContext="false" />
+            <Handler functionName="EventMgmt.CrmWebResource.Handlers.lookupPreFilter_addPreFilter" libraryName="msevtmgt_EventMgmt.CrmWebResource" handlerUniqueId="{e176c237-0b75-23c3-16cc-32191518619d}" enabled="true" parameters="{&#xA;  &quot;preFilterFields&quot;: [&#xA;    {&#xA;      &quot;parentName&quot;: &quot;msevtmgt_event&quot;,&#xA;      &quot;parentLookupName&quot;: &quot;msevtmgt_event&quot;,&#xA;      &quot;parentInChildIdAttribute&quot;: &quot;msevtmgt_eventid&quot;,&#xA;      &quot;childName&quot;: &quot;msevtmgt_eventregistration&quot;,&#xA;      &quot;childLookupName&quot;: &quot;msevtmgt_registrationid&quot;,&#xA;    }&#xA;  ]&#xA;}" passExecutionContext="false" />
+            <Handler functionName="CampusManagement.checkin.onLoad" libraryName="cmc_/dist/app/Forms/checkin.js" handlerUniqueId="{3e37bdc3-2500-932d-216e-da6eb6be13ba}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions FallbackForm="false" Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Check-in Quick Create form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Custom quick create form used for check-in" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

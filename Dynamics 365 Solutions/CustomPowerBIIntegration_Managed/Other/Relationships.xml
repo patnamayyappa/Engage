@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="lk_sonoma_powerbiconfiguration_createdby" />
+  <EntityRelationship Name="lk_sonoma_powerbiconfiguration_modifiedby" />
+  <EntityRelationship Name="organization_sonoma_powerbiconfiguration" />
+</EntityRelationships>

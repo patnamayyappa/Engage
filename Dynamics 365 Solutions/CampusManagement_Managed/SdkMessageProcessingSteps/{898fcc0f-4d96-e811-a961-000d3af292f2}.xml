@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Lifecycle.Plugins.CreateUpdateTripPlugin: Create of cmc_trip" SdkMessageProcessingStepId="{898fcc0f-4d96-e811-a961-000d3af292f2}">
+  <PluginTypeName>Cmc.Engage.Lifecycle.Plugins.CreateUpdateTripPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833</PluginTypeName>
+  <PluginTypeId>ef174901-819e-418c-99ef-bc84e8cf44b1</PluginTypeId>
+  <PrimaryEntity>cmc_trip</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

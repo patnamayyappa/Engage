@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a15e8160-70cc-e811-a957-000d3a4e78e7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_areaofstudyid">
+          <cell name="mshied_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_areaofstudy">
+          <attribute name="mshied_name" />
+          <attribute name="createdon" />
+          <order attribute="mshied_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="mshied_areaofstudyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.7.0.050</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Area of Studies (Engage)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

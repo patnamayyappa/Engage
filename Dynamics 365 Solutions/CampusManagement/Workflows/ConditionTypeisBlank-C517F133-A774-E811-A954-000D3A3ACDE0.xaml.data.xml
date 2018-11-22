@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{c517f133-a774-e811-a954-000d3a3acde0}" Name="Condition Type is Blank" Description="Click to add description">
+  <XamlFileName>/Workflows/ConditionTypeisBlank-C517F133-A774-E811-A954-000D3A3ACDE0.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.80</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_domdefinitionlogic</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Condition Type is Blank" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{2fe14c4d-a774-e811-a954-000d3a3acde0}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{30e14c4d-a774-e811-a954-000d3a3acde0}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

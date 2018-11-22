@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6f6f3692-25a5-468d-98b0-92e2a4604cfb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationrecommendationname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationrecommendationid">
+          <cell name="cmc_applicationrecommendationname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_recommendedbyid" width="100" />
+          <cell name="cmc_recommendationreceiveddatetime" width="100" />
+          <cell name="cmc_recommendationstatus" width="100" />
+          <cell name="cmc_isrecommendationsubmitted" width="100" />
+          <cell name="cmc_recommendationtype" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationrecommendation">
+          <attribute name="cmc_applicationrecommendationname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationrecommendationname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_recommendedbyid" />
+          <attribute name="cmc_recommendationtype" />
+          <attribute name="cmc_isrecommendationsubmitted" />
+          <attribute name="cmc_recommendationstatus" />
+          <attribute name="cmc_recommendationreceiveddatetime" />
+          <attribute name="cmc_applicationrecommendationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Application Recommendations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

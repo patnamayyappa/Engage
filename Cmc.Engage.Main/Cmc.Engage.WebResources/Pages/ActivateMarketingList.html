@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="../dist/app/Common/LanguageMappings.js"></script>
+  <script type="text/javascript" src="../../ClientGlobalContext.js.aspx"></script>
+  <script type="text/javascript" src="../Scripts/Libraries/sonomaCmc.js"></script>
+  <script type="text/javascript" src="../Scripts/Libraries/jquery_1.12.3.min.js"></script>
+  <script type="text/javascript" src="../Scripts/Libraries/kendo.all.min.js"></script>
+  <script type="text/javascript" src="../dist/app/Common/retrieveMultiLingualValues.js"></script>
+  <script type="text/javascript" src="../dist/app/Ribbon/marketinglist.js"></script>
+  <script type="text/javascript" src="../dist/app/Pages/ActivateMarketingList.js"></script>
+  <script type="text/javascript" src="../dist/App/Common/Localization.js"></script>
+
+  <link href="../CSS/Libraries/kendo/kendo.common.min.css" rel="stylesheet" />
+  <link href="../CSS/Libraries/kendo/kendo.default.min.css" rel="stylesheet" />
+  <link href="../CSS/Libraries/kendo/kendo.default.mobile.min.css" rel="stylesheet" />
+  <link href="../dist/app/Pages/auroraDialog.css" rel="stylesheet" />
+  <link href="../dist/app/Pages/ActivateMarketingList.css" rel="stylesheet" />
+
+  <meta charset="utf-8" />
+</head>
+<body onload="CampusManagement.MarketingList.executeOnLoad()">
+    <div id="loadingOverlay">
+        <div class="loadingBackground">
+        </div>
+        <div>
+            <img class="loadingImage" src="../Images/progress.gif" />
+        </div>
+    </div>
+
+    <div id="title" class="dr-crm-title"></div>
+    <br />
+    <div class="dr-crm-subtitle"><span id="numberOfStudentsGroup"></span><span>&nbsp;</span><span id="subtitle"></span></div>
+    <div class="dialog-body">
+        <div>
+            <label id="lookupLabel" class="activate-list-label"></label>
+            <input id="activateListInput" type="text" />
+        </div>
+    </div>
+    <div class="button-container">
+        <div class="dr-crm-dialog-buttons">
+            <button id="activateButton" class="dr-crm-dialog-button" onclick="CampusManagement.MarketingList.updateNewExpiryDatetoMarketingLists();"></button>
+            <button id="cancelButton" class="dr-crm-dialog-button" onclick="CampusManagement.MarketingList.cancel()"></button>
+        </div>
+    </div>
+</body>
+</html>

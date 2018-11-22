@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{66bbbdfd-4b00-4a30-b0e7-fb687706cc34}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_name" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_tripactivityid">
+          <cell name="cmc_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_activitytype" width="100" />
+          <cell name="cmc_startdatetime" width="100" />
+          <cell name="cmc_enddatetime" width="100" />
+          <cell name="a_551d4d5c9cabe811a961000d3af03194.subject" width="100" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_location" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_tripactivity">
+          <attribute name="cmc_name" />
+          <order attribute="cmc_startdatetime" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_activitytype" />
+          <attribute name="cmc_startdatetime" />
+          <attribute name="cmc_enddatetime" />
+          <attribute name="cmc_location" />
+          <link-entity alias="a_551d4d5c9cabe811a961000d3af03194" name="appointment" from="activityid" to="cmc_linkedtoappointment" link-type="outer" visible="false">
+            <attribute name="subject" />
+          </link-entity>
+          <attribute name="cmc_tripactivityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.69</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Trip Activities" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

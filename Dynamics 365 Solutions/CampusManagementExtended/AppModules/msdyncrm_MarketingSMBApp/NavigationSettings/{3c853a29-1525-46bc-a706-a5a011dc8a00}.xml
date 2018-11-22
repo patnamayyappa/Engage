@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a706-a5a011dc8a00}</NavigationSettingId>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <Privileges>0</Privileges>
+  <AdvancedSettingOrder>4</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Event management" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Events" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

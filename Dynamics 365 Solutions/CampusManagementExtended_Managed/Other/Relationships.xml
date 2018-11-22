@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_cmc_portalaction" />
+  <EntityRelationship Name="cmc_msevtmgt_event_cmc_tripactivity_linkedtoevent" />
+    <EntityRelationship Name="msevtmgt_contact_msevtmgt_eventpurchase" />
+    <EntityRelationship Name="msgdpr_contact_msgdpr_gdprconsentchangerecord" />
+  <EntityRelationship Name="lk_cmc_portalaction_createdby" />
+  <EntityRelationship Name="lk_cmc_portalaction_modifiedby" />
+  <EntityRelationship Name="owner_cmc_portalaction" />
+  <EntityRelationship Name="team_cmc_portalaction" />
+  <EntityRelationship Name="user_cmc_portalaction" />
+</EntityRelationships>

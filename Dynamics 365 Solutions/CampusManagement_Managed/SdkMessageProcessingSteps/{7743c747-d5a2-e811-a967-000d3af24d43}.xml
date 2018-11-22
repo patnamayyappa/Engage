@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Communication.Plugins.UpdateTripActivityAppointmentDetailsPlugin: Update of appointment" SdkMessageProcessingStepId="{7743c747-d5a2-e811-a967-000d3af24d43}">
+  <PluginTypeName>Cmc.Engage.Communication.Plugins.UpdateTripActivityAppointmentDetailsPlugin, Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90</PluginTypeName>
+  <PluginTypeId>006c3891-5069-4288-8f38-687ea968347f</PluginTypeId>
+  <PrimaryEntity>appointment</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>scheduledend,location,scheduledstart,subject</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{b59c3500-d6a2-e811-a967-000d3af24d43}</SdkMessageProcessingStepImageId>
+      <Attributes>activityid,scheduledend,location,scheduledstart,subject,cmc_userlocationid</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+    <SdkMessageProcessingStepImage Name="PreImage">
+      <SdkMessageProcessingStepImageId>{b58024e5-d5a2-e811-a95f-000d3af24046}</SdkMessageProcessingStepImageId>
+      <Attributes>activityid,scheduledend,location,scheduledstart,subject,cmc_userlocationid</Attributes>
+      <EntityAlias>PreImage</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

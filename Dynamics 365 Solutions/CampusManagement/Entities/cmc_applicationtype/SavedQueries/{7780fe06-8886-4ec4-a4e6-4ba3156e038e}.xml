@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7780fe06-8886-4ec4-a4e6-4ba3156e038e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationtypename" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationtypeid">
+          <cell name="cmc_applicationtypename" width="300" />
+          <cell name="cmc_applicationgroup" width="100" />
+          <cell name="createdon" width="125" />
+          <cell name="createdby" width="100" />
+          <cell name="modifiedby" width="100" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationtype">
+          <attribute name="cmc_applicationtypename" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationtypename" descending="false" />
+          <attribute name="ownerid" />
+          <attribute name="modifiedby" />
+          <attribute name="createdby" />
+          <attribute name="cmc_applicationgroup" />
+          <attribute name="cmc_applicationtypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Application Type Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

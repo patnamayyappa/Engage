@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3eb64aac-63a4-e811-a95f-000d3af24046}</WebResourceId>
+  <Name>cmc_/dist/app/Forms/cmc_tripactivity.js</Name>
+  <DisplayName>cmc_tripactivity.js</DisplayName>
+  <Description>Trip activity form customizations</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.6.0.109</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/Localization.js" displayName="Localization.js" languagecode="" description="library to retrieve the localized strings" libraryUniqueId="{d9da6038-6092-a4bb-d32d-a5516ddb77c3}"/&gt;&lt;Library name="cmc_/dist/app/Common/CommonUiControls.js" displayName="CommonUiControls.js" languagecode="1033" description="" libraryUniqueId="{491339c5-9227-68b7-e40a-540070da19da}"/&gt;&lt;Library name="cmc_/dist/app/common/utilities.js" displayName="utilities.js" languagecode="1033" description="" libraryUniqueId="{48396786-06b1-6516-9d86-94da64161898}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappFormscmc_tripactivityjs3EB64AAC-63A4-E811-A95F-000D3AF24046</FileName>
+</WebResource>

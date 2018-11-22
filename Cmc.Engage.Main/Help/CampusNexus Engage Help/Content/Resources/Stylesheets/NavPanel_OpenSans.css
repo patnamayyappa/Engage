@@ -1,0 +1,67 @@
+﻿/*<meta />*/
+
+@font-face {
+    font-family: 'Open Sans Light Regular';
+    src: url(Fonts/OpenSans-300.eot);
+    src: url(Fonts/OpenSans-300.eot?#iefix) format('embedded-opentype'),
+    url('Fonts/OpenSans-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(Fonts/OpenSans-400.eot);
+    src: url(Fonts/OpenSans-400.eot?#iefix) format('embedded-opentype'),
+    url('Fonts/OpenSans-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url(Fonts/OpenSans-700.eot);
+    src: url(Fonts/OpenSans-700.eot?#iefix) format('embedded-opentype'),
+    url('Fonts/OpenSans-700.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+} 
+
+
+body
+{
+	background-color: #ffffff;
+	font-size: 10pt;
+	font-weight: normal;
+	font-family: 'Open Sans Regular';
+}
+
+p
+{
+	color: #1f1f1f;
+}
+
+a:link
+{
+	font-family: 'Open Sans Regular';
+}
+
+a:visited
+{
+	font-family: 'Open Sans Regular';
+}
+
+a:active
+{
+	font-family: 'Open Sans Regular';
+}
+
+.hide-extras.active #navigation[role="complementary"]
+{
+   width: 25%;
+}
+
+.active #contentBody[role="main"]
+{
+   margin-right: -25%;
+}

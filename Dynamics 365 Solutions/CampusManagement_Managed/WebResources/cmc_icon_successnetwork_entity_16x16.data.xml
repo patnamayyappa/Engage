@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{a64d230e-7b8e-e711-8102-c4346bdc42d1}</WebResourceId>
+  <Name>cmc_icon_successnetwork_entity_16x16</Name>
+  <DisplayName>Icon for the Success Network Entity 16x16</DisplayName>
+  <Description>Icon for the Student Success Network Entity 16x16</Description>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0.0.12</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_icon_successnetwork_entity_16x16A64D230E-7B8E-E711-8102-C4346BDC42D1</FileName>
+</WebResource>

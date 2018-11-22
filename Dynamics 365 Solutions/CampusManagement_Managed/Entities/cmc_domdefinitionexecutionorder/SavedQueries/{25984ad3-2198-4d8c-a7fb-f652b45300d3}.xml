@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{25984ad3-2198-4d8c-a7fb-f652b45300d3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_domdefinitionexecutionordername" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_domdefinitionexecutionorderid">
+          <cell name="cmc_domdefinitionexecutionordername" width="300" />
+          <cell name="cmc_attribute" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_order" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_dommasterid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_domdefinitionexecutionorder">
+          <attribute name="cmc_domdefinitionexecutionorderid" />
+          <attribute name="cmc_domdefinitionexecutionordername" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_order" />
+          <attribute name="cmc_dommasterid" />
+          <attribute name="cmc_attribute" />
+          <order attribute="cmc_domdefinitionexecutionordername" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active DOM Definition Execution Orders" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

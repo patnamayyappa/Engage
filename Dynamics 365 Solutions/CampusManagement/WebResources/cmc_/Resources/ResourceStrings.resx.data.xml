@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{fb1ac669-3079-e811-a955-000d3a3ac063}</WebResourceId>
+  <Name>cmc_/Resources/ResourceStrings.resx</Name>
+  <DisplayName>ResourceStrings.resx</DisplayName>
+  <WebResourceType>12</WebResourceType>
+  <IntroducedVersion>1.0.0.85</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_ResourcesResourceStringsresxFB1AC669-3079-E811-A955-000D3A3AC063</FileName>
+</WebResource>

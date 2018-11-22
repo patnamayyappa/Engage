@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b901e803-84e3-4fad-85d9-7f9841366f4d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_tripname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_tripid">
+          <cell name="cmc_tripname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_trip">
+          <attribute name="cmc_tripid" />
+          <attribute name="cmc_tripname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_tripname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.68</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Trip Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

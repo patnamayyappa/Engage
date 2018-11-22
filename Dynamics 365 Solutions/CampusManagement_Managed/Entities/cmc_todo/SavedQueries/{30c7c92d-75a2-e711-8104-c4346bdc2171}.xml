@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{30c7c92d-75a2-e711-8104-c4346bdc2171}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_todoname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_todoid">
+          <cell name="cmc_todoname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_successplanid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_duedate" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="statecode" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_ownershiptype" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_requiredoptional" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_readunread" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_studentcancomplete" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_todocategoryid" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="75" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_todo">
+          <attribute name="cmc_todoname" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_todocategoryid" />
+          <attribute name="cmc_successplanid" />
+          <attribute name="cmc_studentcancomplete" />
+          <attribute name="cmc_requiredoptional" />
+          <attribute name="ownerid" />
+          <attribute name="cmc_ownershiptype" />
+          <attribute name="cmc_duedate" />
+          <order attribute="cmc_todoname" descending="false" />
+          <attribute name="statecode" />
+          <attribute name="cmc_readunread" />
+          <attribute name="cmc_todoid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.15</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Open To Dos" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

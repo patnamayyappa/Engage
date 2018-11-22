@@ -1,0 +1,23 @@
+<div>             
+  <table>
+    <tr *ngFor="let metadata of metadatas; let i = index">
+      <td class="dropdown-label" [ngStyle]="{'padding-right':showLabel === 'true' ? '20px' : '0px', 'display':showLabel === 'true' ? 'inline' : 'none' }">
+        <label>{{ attributePicker.attributePicker_Label }} </label><label>{{ metadata.entityDisplayName }}</label>
+      </td>
+      <td class="dropdown">
+        <kendo-combobox [data]="metadata.listItems"
+                        [textField]="'display'"
+                        [valueField]="'attribute'"
+                        (valueChange)="valueChange($event)"
+                        [(ngModel)]="metadata.selectedItem"
+                        class="metadata">
+
+          <ng-template kendoComboBoxItemTemplate let-dataItem>
+            <div [ngStyle]="{'display':dataItem.type === 'Attribute' ? 'inline' : 'none' }" class="full-width"><div class="float-left">{{ dataItem.display }}</div><div class="float-right">{{ dataItem.type }}</div></div>
+            <div [ngStyle]="{'display':dataItem.type === 'Relationship' ? 'inline' : 'none' }" class="full-width"><div class="float-left">{{ dataItem.display }}</div><div class="float-right">{{ dataItem.type }}</div></div>
+          </ng-template>
+        </kendo-combobox>
+      </td>
+    </tr>
+  </table>
+</div>

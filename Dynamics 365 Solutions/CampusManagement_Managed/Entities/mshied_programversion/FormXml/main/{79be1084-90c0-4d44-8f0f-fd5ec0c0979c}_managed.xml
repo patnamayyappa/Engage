@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{79be1084-90c0-4d44-8f0f-fd5ec0c0979c}</formid>
+    <IntroducedVersion>0.7.0.050</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{5ccc5b2d-7928-4d74-8b13-aeda73e1d1c6}" IsUserDefined="1" labelid="{d765f076-6245-4eb2-b967-6022b2c6d940}" name="tab_2" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="Program Version" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3c224b1b-d02a-4ce7-9ee6-190048fb5fed}" labelid="{24e6d78f-fdfa-4eca-8217-cfd066578d5f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7b80cf64-8263-4380-bd5f-04d5c2e20b29}" labelid="{305429b0-6568-4be8-8847-fbfc9ab4f17d}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{329dbb47-6d02-9d8b-2416-72da179672e0}" showlabel="true" locklevel="0" labelid="{efa6c89f-2c83-4d2c-b0c2-581de2a6cf19}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_code" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_code" disabled="false" uniqueid="{8bcde32a-87e1-5704-a75b-1cadc4a49ae0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a10365ac-92aa-0d1a-21b6-4e451e7dd913}" showlabel="true" locklevel="0" labelid="{3a9c554b-0de3-4f58-9e7c-df994d3a7d81}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_programlevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_programlevelid" disabled="false" uniqueid="{c5650554-1746-b3ba-aa93-5e50ac5d76a2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{5254EFCF-B426-4A7F-B515-4979074FF097}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06806108-6613-1c55-cba4-20135ee325aa}" showlabel="true" locklevel="0" labelid="{087b8dcf-5139-4541-8ca2-ec0a90557973}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_programid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_programid" disabled="false" uniqueid="{4dec7db6-34e3-67ac-5704-8c796831311c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{DF017C42-D66D-4B58-85CA-EF209E4046D7}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50872913-788c-c606-e2c7-26b555acc1cc}" showlabel="true" locklevel="0" labelid="{54798270-c070-46b8-98a4-73e5a64a0a8e}">
+                        <labels>
+                          <label description="External SIS ID" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_externalidentifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_externalidentifier" disabled="true" uniqueid="{c1079997-792b-cb76-0d79-9ac08c191884}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6836688a-97ef-4f41-8b35-3711ddd1e1af}" labelid="{7556d939-4cd5-439c-9078-21f2c1ff214a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="false" showbar="false" locklevel="0" id="{63d4d4b2-81ed-0b7d-77d3-622012180e75}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1a476475-610d-ea44-75b3-e6bb95d6b5de}" showlabel="true" colspan="1" auto="true" rowspan="5">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ProgramVersionDetails" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{0C678F31-0E5D-4F6F-A9BC-5A207F5F9B97}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_programversion_programversiondetail_ProgramVersionId</RelationshipName>
+                            <TargetEntityType>mshied_programversiondetail</TargetEntityType>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{0C678F31-0E5D-4F6F-A9BC-5A207F5F9B97}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3ed89fca-c676-43d6-9868-7113d476279f}" columns="111">
+        <rows>
+          <row>
+            <cell id="{253e627c-75ae-4d55-bb74-cced2bd20d31}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f2352db8-fb00-4706-ad01-2bfcefa6c537}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dab0b1ee-7a72-622a-527b-00935e5c7dae}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{e8e48e26-20ad-483f-935b-007381707345}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{921a293d-30ab-234e-98ed-1d703638d132}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{06d4bc4b-5820-be5e-7886-bba96e6ce943}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{2e1058e3-8321-75e9-470a-8ae5463d58b8}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{701d783b-e05c-358e-4310-44b44432dec4}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information(Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Higher Education Program Version" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

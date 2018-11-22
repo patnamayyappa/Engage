@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap>
+  <SiteMapUniqueName>cmc_StudentSuccess</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="6.0.0.0">
+    <Area Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" Icon="/_imgs/sales_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Student Success" />
+      </Titles>
+      <Group Id="MyWork" ResourceId="Group_MyWork" DescriptionResourceId="My_Work_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="My_Work_ToolTip">
+        <SubArea Id="NewSubArea_4dc61cad" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="390e85a1-b99f-e711-8104-c4346bdc2171" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="nav_activities" DescriptionResourceId="Activities_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/_root/homepage.aspx?etc=4200" IntroducedVersion="7.0.0.0" GetStartedPanePath="Activities_Web_User_Visor.html" GetStartedPanePathAdmin="Activities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Activities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Activities_Outlook_User_Visor.html" Entity="activitypointer" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_cd8949a2" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_officehours" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="constituents_group" ResourceId="Group_Customers" DescriptionResourceId="Customers_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Customers_ToolTip">
+        <Titles>
+          <Title LCID="1033" Title="Constituents" />
+        </Titles>
+        <SubArea Id="nav_conts" DescriptionResourceId="Contact_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Contacts_Web_User_Visor.html" GetStartedPanePathAdmin="Contacts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Contacts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Contacts_Outlook_User_Visor.html" Entity="contact" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="NewGroup_93f0e8c3" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Case Management" />
+        </Titles>
+        <SubArea Id="NewSubArea_c56f637d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_749297c4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="queue" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="Tools" ResourceId="Area_Tools" DescriptionResourceId="Area_Tools_Description" IntroducedVersion="7.0.0.0" IsProfile="true" ToolTipResourseId="Area_Tools_ToolTip">
+        <SubArea Id="BurningGlassSubArea_6f87e021" ResourceId="SitemapDesigner.NewSubArea" Icon="/WebResources/cmc_/Images/BurningGlassLogo.png" Url="https://app.powerbi.com/view?r=eyJrIjoiMmIzY2JjNTAtM2JlMy00OTJmLWE1ZWYtM2M5Yjg4NzBmNTVhIiwidCI6ImEzOGZmODcwLTljODYtNDNkZi05ZTZiLTZiMDFmMjA2YTM5OCIsImMiOjN9" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Career Explorer" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="StaffCalendar_636413635972662481" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="$webresource:cmc_/Pages/StaffCalendar.html" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Staff Calendar" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="reference_data_area" ResourceId="SitemapDesigner.NewArea" Icon="/WebResources/cmc_icon_process_admin_retention_32x32" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Reference Data" />
+      </Titles>
+      <Group Id="retention_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Student Success" />
+        </Titles>
+        <SubArea Id="NewSubArea_47f2b4b3" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_coursesection" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_ded5f292" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_registrationstatus" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="global_group" ResourceId="Group_Extensions" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Global" />
+        </Titles>
+        <SubArea Id="mshied_areaofinterest" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_areaofinterest" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_areaofstudy" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_areaofstudy" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_course" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_course" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_department" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_department" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_educationlevel" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_educationlevel" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_program" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_program" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_programlevel" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_programlevel" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_programversion" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_programversion" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_d0f7de88" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_programversiondetail" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="cmc_title" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_title" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_shift" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_shift" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_studentprogramtype" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="mshied_studentprogramtype" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="cmc_studenttype" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_studenttype" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_ba5697118" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_userlocation" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area Id="process_administration_area" ResourceId="SitemapDesigner.NewArea" Icon="/WebResources/cmc_icon_reference_data_32x32" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Configurations" />
+      </Titles>
+      <Group Id="global_processadmin_group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Global" />
+        </Titles>
+        <SubArea Id="NewSubArea_d68d06a5" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="list" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_fea4f3e1" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Templates" />
+        </Titles>
+        <SubArea Id="NewSubArea_fbfdff1c" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_successplantemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_397349ae" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_successplantodotemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Success Plan Templates-Copy" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="retention_processadmin_gropu" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Retention Scoring" />
+        </Titles>
+        <SubArea Id="NewSubArea_36e70498" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_scoredefinition" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_65b8c26c" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_scoringfactor" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_914fa927" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Success Plan" />
+        </Titles>
+        <SubArea Id="cmc_successplanassignment" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_successplanassignment" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="NewSubArea_6644ec6b" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_successplantemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_52be7ed3" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_successplantodotemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_848282a98" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Sucess Network" />
+        </Titles>
+        <SubArea Id="NewSubArea_7e64c16b" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_successnetworkassignment" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Student Success" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

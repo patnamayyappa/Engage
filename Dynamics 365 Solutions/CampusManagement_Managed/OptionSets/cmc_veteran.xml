@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_veteran" localizedName="Veteran">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Veteran" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="2">
+      <labels>
+        <label description="No" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="3">
+      <labels>
+        <label description="Yes" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="1">
+      <labels>
+        <label description="Unspecified" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

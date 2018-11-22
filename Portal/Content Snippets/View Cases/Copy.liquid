@@ -1,0 +1,61 @@
+<!-- DO NOT REMOVE -->
+<p>
+{% assign websiteid = website.id %} 
+{% if user %} 
+{% assign contactid = user.id %} 
+{% else %} 
+{% assign contactid = '' %} 
+{% endif %} 
+{% fetchxml translation_query %} 
+<fetch mapping="logical" version="1.0"> 
+  <entity name="cmc_portalaction"> 
+    <attribute name="cmc_data"></attribute> 
+    <filter> 
+      <condition attribute="cmc_data" operator="eq" value="{'ContactId':'{{contactid}}', 'WebsiteId': '{{websiteid}}', 'Keys': 'Portal_Back'}"></condition>
+      <condition attribute="cmc_logicclassname" operator="eq" value="Cmc.Engage.Common.PortalRetrieveMultiLingualValues"></condition>
+    </filter>
+  </entity> 
+</fetch> 
+{% endfetchxml %} 
+<!-- Load Template results into JavaScript in separate script tags to avoid one error breaking the page --> <script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        global.StudentPortal = global.StudentPortal || {};
+
+        {% for result in translation_query.results.entities %}
+            global.StudentPortal.translations = '{{ result.cmc_data }}'.trim();
+        {% endfor %}
+    }(this));
+</script> <script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        $(function() {
+            var $textAreas = $('textarea'),
+                $customActionRow = $('.row.form-custom-actions .form-action-container-left'),
+                translations = {};
+
+                $textAreas.each(function (index, value) {
+                var $textArea = $(value),
+                    maxRows = $textArea.attr('rows'),
+                    rows = 0;
+
+                do {
+                    $textArea.attr('rows', rows);
+                    if ($textArea[0].scrollHeight <= $textArea[0].clientHeight) {
+                        $textArea.attr('rows', rows);
+                        break;
+                    }
+                    rows++;
+                } while (rows < maxRows);
+            });
+
+            translations = global.StudentPortal.translations
+                ?  JSON.parse(global.StudentPortal.translations)
+                : {};
+
+            $customActionRow.prepend('<a href="/my-cases/" class="btn btn-primary">' +  (translations.Portal_Back || 'Back') + '</a>');
+        });
+    }(this));
+</script></p>

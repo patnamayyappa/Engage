@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="8.2.0001.0411" SolutionPackageVersion="8.0" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>CustomPowerBIIntegration</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Power BI Integration" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.4.0</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>sonomapartners</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Sonoma Partners" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Sonoma Partners provides technology and business process consulting services to enterprise and mid-sized companies throughout the United States and Canada, with a focus on the Microsoft Dynamics CRM product." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress>salesmailbox@sonomapartners.com</EMailAddress>
+      <SupportingWebsiteUrl>http://www.sonomapartners.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>sonoma</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>23033</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="sonoma_powerbiconfiguration" behavior="0" />
+      <RootComponent type="29" id="{838e0445-e103-472c-9538-4ce14ea3599b}" behavior="0" />
+      <RootComponent type="60" id="{b6040c47-4d02-4ddc-a8f6-f593aa6cb342}" behavior="0" />
+      <RootComponent type="61" schemaName="sonoma_/Pages/PowerBIComponent.html" behavior="0" />
+      <RootComponent type="61" schemaName="sonoma_/Scripts/Libraries/jquery.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="sonoma_/Scripts/Libraries/sonoma.js" behavior="0" />
+      <RootComponent type="61" schemaName="sonoma_/Scripts/PowerBIComponent.js" behavior="0" />
+      <RootComponent type="91" schemaName="PBICRMIntegration.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fb9e5b8c9c72ef3c" behavior="0" />
+      <RootComponent type="92" id="{0f2a4dfe-a692-e711-80f7-c4346bacfbbc}" behavior="0" />
+      <RootComponent type="92" id="{18e665bd-a092-e711-80f7-c4346bacfbbc}" behavior="0" />
+      <RootComponent type="92" id="{359aa990-a192-e711-80f7-c4346bacfbbc}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies />
+  </SolutionManifest>
+</ImportExportXml>

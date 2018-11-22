@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.33" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>CampusManagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Campus Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A Campus Management Solution for Microsoft Dynamics 365 that provide the actionable insight and engagement tools for institution needs to drive student and institutional success" languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.60</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>campusmanagement</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Campus Management Corp." languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cmc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>17549</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="activitypointer" behavior="2" />
+      <RootComponent type="1" schemaName="appointment" behavior="2" />
+      <RootComponent type="1" schemaName="campaign" behavior="2" />
+      <RootComponent type="1" schemaName="cmc_bpf_9af1385d4fa54ca78e2e949770a0c9cc" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_bpf_cb1fd57ab9014e3585d4999dc5d52d6d" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_completedverification" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_configuration" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_department" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_domdefinition" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_domdefinitionexecutionorder" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_domdefinitionlogic" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_dommaster" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_languagevalue" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_lifecyclestagehistory" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_officehours" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_portofentry" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_positiveacknowledgement" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_privatenote" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_retentionscorehistory" behavior="1" />
+      <RootComponent type="1" schemaName="cmc_scoredefinition" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_scoringfactor" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_shift" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_sourcecategory" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_sourcemethod" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_sourcesubcategory" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_staffsurvey" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_staffsurveyquestion" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_staffsurveyquestionresponse" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_staffsurveyresponse" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_staffsurveytemplate" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_studenttype" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_successnetwork" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_successnetworkassignment" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_successplan" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_successplanassignment" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_successplantemplate" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_successplantodotemplate" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_testscoreconversion" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_title" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_todo" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_todocategory" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_trip" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_tripactivity" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_tripapprovalprocess" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_userlocation" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="customeraddress" behavior="2" />
+      <RootComponent type="1" schemaName="email" behavior="2" />
+      <RootComponent type="1" schemaName="incident" behavior="2" />
+      <RootComponent type="1" schemaName="invoice" behavior="1" />
+      <RootComponent type="1" schemaName="invoicedetail" behavior="1" />
+      <RootComponent type="1" schemaName="lead" behavior="2" />
+      <RootComponent type="1" schemaName="list" behavior="0" />
+      <RootComponent type="1" schemaName="connection" behavior="0" />
+      <RootComponent type="1" schemaName="mshied_academicperiod" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_academicperioddetails" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_areaofinterest" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_areaofstudy" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_course" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_coursehistory" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_coursesection" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_educationlevel" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_extracurricularactivities" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_extracurricularparticipant" behavior="1" />
+      <RootComponent type="1" schemaName="mshied_previouseducation" behavior="1" />
+      <RootComponent type="1" schemaName="mshied_program" behavior="1" />
+      <RootComponent type="1" schemaName="mshied_programlevel" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_programversion" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_programversiondetail" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_registrationstatus" behavior="1" />
+      <RootComponent type="1" schemaName="mshied_studentprogramtype" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_studentstatus" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_testscore" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_testtype" behavior="2" />
+      <RootComponent type="1" schemaName="opportunity" behavior="2" />
+      <RootComponent type="1" schemaName="phonecall" behavior="2" />
+      <RootComponent type="1" schemaName="pricelevel" behavior="1" />
+      <RootComponent type="1" schemaName="product" behavior="1" />
+      <RootComponent type="1" schemaName="systemuser" behavior="2" />
+      <RootComponent type="1" schemaName="cmc_applicationdecisiondefinition" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationdecisiondefinitiondetail" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationdefinition" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationdefinitionversion" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationdefinitionversiondetail" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationperiod" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationrecommendationdefinition" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationrequirementdefinition" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationrequirementdefinitiondetail" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationtype" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_invoicedefinition" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_recommendationdefinitiondetail" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_application" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationdecision" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationrecommendation" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationregistration" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_applicationrequirement" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_experience" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_payment" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_paymentdetail" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_acknowledgementreasondetail" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_acknowledgmentreason" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_attributenametobeassigned" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_citizentype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_conditiontype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_coursedeliverymethod" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_domconditiontype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_domstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_employmenttype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_englishproficiencymet" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_gender" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_invitestatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_lifecyclestatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_lifecycletype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_majorstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_maritalstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_ownershiptype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_readunread" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_requiredoptional" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_residence" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_ruletype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_runassignmentforentity" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_sapstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_todocancelreason" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_transcripttype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_veteran" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_visatype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_applicationdecisiontype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_applicationrequirementstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_applicationrequirementtype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_applicationstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_invoicetype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_paymentgateway" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_paymentmethod" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_recommendationtype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_testsourcetype" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_applicationenrollmentstatus" behavior="0" />
+      <RootComponent type="9" schemaName="cmc_recommendationstatus" behavior="0" />
+      <RootComponent type="9" schemaName="connectionrole_category" behavior="0" />
+      <RootComponent type="20" id="{58dc1e73-dba6-e711-8104-c4346bdc2171}" behavior="0" />      
+      <RootComponent type="20" id="{a01da681-19e4-e811-a966-000d3a3307f1}" behavior="0" />
+      <RootComponent type="20" id="{a1b11cf4-8ae9-e811-a96b-000d3a330bba}" behavior="0" />
+      <RootComponent type="20" id="{aaf44bf1-87a9-e711-8105-c4346bdc42d1}" behavior="0" />
+      <RootComponent type="20" id="{b97ba0cd-19e4-e811-a966-000d3a3307f1}" behavior="0" />
+      <RootComponent type="20" id="{ca97ef8d-2f62-e811-a95a-000d3a18c42e}" behavior="0" />
+      <RootComponent type="20" id="{e8fee62f-83a9-e711-8105-c4346bdc42d1}" behavior="0" />
+      <RootComponent type="20" id="{f1f7f893-19e4-e811-a966-000d3a3307f1}" behavior="0" /> 
+      <RootComponent type="29" id="{03eeaa62-6322-4841-af04-aabdb003a9a5}" behavior="0" />
+      <RootComponent type="29" id="{0f392009-c1d2-43de-844b-d6dff7838522}" behavior="0" />
+      <RootComponent type="29" id="{128a2fae-f62a-4759-a4c3-78953f096e9f}" behavior="0" />
+      <RootComponent type="29" id="{17293325-5212-43dd-a5be-edce9011e3b8}" behavior="0" />
+      <RootComponent type="29" id="{196dabb6-ea6e-40e2-abb1-93f568aa296c}" behavior="0" />
+      <RootComponent type="29" id="{19c0f498-3c6e-4e61-a740-5d2edcd6bfb7}" behavior="0" />
+      <RootComponent type="29" id="{1a86bed6-e5a9-435f-bd3c-75bb7437794a}" behavior="0" />
+      <RootComponent type="29" id="{1c264c7d-0cbd-4580-83ea-699a3593fd5c}" behavior="0" />
+      <RootComponent type="29" id="{22000efd-b6c9-4db7-b390-db44de99d254}" behavior="0" />
+      <RootComponent type="29" id="{22bb12e7-4666-4f45-b64e-59e110f0f8cf}" behavior="0" />
+      <RootComponent type="29" id="{25578756-169c-4bb1-a3ac-b33cef5c265f}" behavior="0" />
+      <RootComponent type="29" id="{2b3b2e16-d830-483f-b7c0-ce6d622aa993}" behavior="0" />
+      <RootComponent type="29" id="{2bb8eea7-2250-4e8b-91db-c922ca571fea}" behavior="0" />
+      <RootComponent type="29" id="{333b0ec4-4ca1-4024-988b-04782707792e}" behavior="0" />
+      <RootComponent type="29" id="{340acd02-04c9-45a2-b239-dc76387c3836}" behavior="0" />
+      <RootComponent type="29" id="{3818502f-e2b3-4fdc-9146-aa9ef725b665}" behavior="0" />
+      <RootComponent type="29" id="{392c6623-adef-48b7-b4ab-128e53b23e3b}" behavior="0" />
+      <RootComponent type="29" id="{42f2545e-e8bd-408a-8411-c2edc42e9d7b}" behavior="0" />
+      <RootComponent type="29" id="{4453d9bb-2382-40ac-918f-a71bedecffdc}" behavior="0" />
+      <RootComponent type="29" id="{4b783e37-46fe-48d4-ba5d-757221126f04}" behavior="0" />
+      <RootComponent type="29" id="{4e5b8f83-0447-44b1-b9b0-920c482f7989}" behavior="0" />
+      <RootComponent type="29" id="{56bcbc89-6cab-4d42-8c0c-8715a9625fac}" behavior="0" />
+      <RootComponent type="29" id="{604b1a3f-98f0-4379-9e2d-a6391266d5a5}" behavior="0" />
+      <RootComponent type="29" id="{60e4c729-34c6-4066-a89c-6be18c566fe4}" behavior="0" />
+      <RootComponent type="29" id="{6249313c-e2e5-491b-8d11-b6e931639717}" behavior="0" />
+      <RootComponent type="29" id="{6e0a9217-1673-4e29-a522-32238c4895ac}" behavior="0" />
+      <RootComponent type="29" id="{6e1ae73b-6b0f-49f1-8ede-853e1e3e5710}" behavior="0" />
+      <RootComponent type="29" id="{6f729d17-1080-4238-8843-48ab5faa7d00}" behavior="0" />
+      <RootComponent type="29" id="{71aedfd5-7e44-40da-b298-577fe453f325}" behavior="0" />
+      <RootComponent type="29" id="{7296048f-4834-4149-a404-fd3732c165a7}" behavior="0" />
+      <RootComponent type="29" id="{76243a42-c7d2-41ef-a9b1-39d85916ec5b}" behavior="0" />
+      <RootComponent type="29" id="{7b915df0-6744-4d4c-be7d-aaeb3e348fa2}" behavior="0" />
+      <RootComponent type="29" id="{7e760628-460a-4452-a2cd-db21dcad3b9b}" behavior="0" />
+      <RootComponent type="29" id="{7e935ac6-2740-4d42-bc7e-668772bdc981}" behavior="0" />
+      <RootComponent type="29" id="{85596f90-9a4a-4437-84c5-9815a7b38067}" behavior="0" />
+      <RootComponent type="29" id="{8ab54682-634c-4bdb-90e0-2ae2ab803f73}" behavior="0" />
+      <RootComponent type="29" id="{8dda2335-a381-4e39-ac5f-9bd977748f78}" behavior="0" />
+      <RootComponent type="29" id="{9544ac0f-1ac6-4fd2-a667-773a1460de6e}" behavior="0" />
+      <RootComponent type="29" id="{9656f36e-cc82-456e-b9fc-f3bb1300dc3e}" behavior="0" />
+      <RootComponent type="29" id="{9af1385d-4fa5-4ca7-8e2e-949770a0c9cc}" behavior="0" />
+      <RootComponent type="29" id="{a0782b6c-4568-4170-a293-5200e64d21ac}" behavior="0" />
+      <RootComponent type="29" id="{ab11ba12-1669-4af6-91f4-1b229695c147}" behavior="0" />
+      <RootComponent type="29" id="{ac0a5538-b500-4f36-8e0b-d272cc9aac16}" behavior="0" />
+      <RootComponent type="29" id="{b2a36df9-5823-44fb-ae86-a7c8e5025f17}" behavior="0" />
+      <RootComponent type="29" id="{b48e6cd3-5cee-401e-9db1-bb23c30381fe}" behavior="0" />
+      <RootComponent type="29" id="{b896f762-ac12-48be-b7b9-980c69fd67ee}" behavior="0" />
+      <RootComponent type="29" id="{bcac1af4-40b0-4cfb-b9aa-b7404f00e25a}" behavior="0" />
+      <RootComponent type="29" id="{c4a09e45-7941-4d8c-95fd-33560e462e0a}" behavior="0" />
+      <RootComponent type="29" id="{cb1fd57a-b901-4e35-85d4-999dc5d52d6d}" behavior="0" />
+      <RootComponent type="29" id="{cc0cb675-8bda-49c2-ba12-a83b372bbb19}" behavior="0" />
+      <RootComponent type="29" id="{ce2af57c-4244-4a0a-9d00-b5880ebed4ca}" behavior="0" />
+      <RootComponent type="29" id="{d851d140-c25c-40bd-9930-7fff0c365af4}" behavior="0" />
+      <RootComponent type="29" id="{dd4bb9be-e19f-43b6-a115-ec89018d0e50}" behavior="0" />
+      <RootComponent type="29" id="{dd8e5756-ee22-4076-94d8-31345d40b6ba}" behavior="0" />
+      <RootComponent type="29" id="{dec38aa0-00bd-4932-acd3-c4722f2ebe1d}" behavior="0" />
+      <RootComponent type="29" id="{e18447e7-cab4-4242-b6b3-6edbdf2fb438}" behavior="0" />
+      <RootComponent type="29" id="{e6821a20-ab8c-431f-8d53-db96629ce28a}" behavior="0" />
+      <RootComponent type="29" id="{edbc4c79-41c7-4ac6-953c-25dce6a55574}" behavior="0" />
+      <RootComponent type="29" id="{f0c8be88-82b9-465e-97f5-ee7ee44a40c6}" behavior="0" />
+      <RootComponent type="29" id="{f4336a65-b036-4d26-a8f8-e2351fb1356e}" behavior="0" />
+      <RootComponent type="29" id="{f6090a2e-286b-45b9-9e16-6b16278ca3f7}" behavior="0" />
+      <RootComponent type="29" id="{f91a780a-5016-48a9-a96f-d56600d860cc}" behavior="0" />
+      <RootComponent type="29" id="{f9449dab-34c8-4ff2-95e2-9f05a8dd1df3}" behavior="0" />
+      <RootComponent type="29" id="{f95038ae-370b-4ee1-93cd-e82a58e0dd69}" behavior="0" />
+      <RootComponent type="29" id="{fa708ecc-98e4-4964-a1e8-996ab6df4450}" behavior="0" />
+      <RootComponent type="29" id="{78b02cf8-60db-41e0-a5a1-2b1b882bcac4}" behavior="0" />
+      <RootComponent type="29" id="{7bcd741f-b330-43b7-9da3-51a7f2c674bc}" behavior="0" />
+      <RootComponent type="29" id="{927e373c-9ae6-e811-a95c-000d3a3acbf2}" behavior="0" />
+      <RootComponent type="29" id="{430babb1-a3de-e811-a960-000d3a3666c5}" behavior="0" />
+      <RootComponent type="29" id="{993ec037-a3de-e811-a960-000d3a3666c5}" behavior="0" />
+      <RootComponent type="29" id="{a6f63f04-acde-e811-a960-000d3a3666c5}" behavior="0" />
+      <RootComponent type="29" id="{1ecde190-bd15-4d2e-aeb4-334632d1b073}" behavior="0" />
+      <RootComponent type="29" id="{dde39b20-ab4a-4524-a416-fbb7529f0b1a}" behavior="0" />
+      <RootComponent type="29" id="{e2d36df7-7fdb-4c01-9528-6cfab27b9531}" behavior="0" />
+      <RootComponent type="29" id="{e762eff6-4441-48d8-8106-0edadb2d1484}" behavior="0" />
+      <RootComponent type="29" id="{6e3fc85f-2f2b-4ee0-9115-292cb5881e0e}" behavior="0" />
+      <RootComponent type="29" id="{48e2b968-a919-48d2-a8e9-00336cf44af3}" behavior="0" />
+      <RootComponent type="29" id="{d5f4bf2a-5b66-4111-8bdd-d559d8435c72}" behavior="0" />
+      <RootComponent type="36" id="{97edd2e4-cea2-e711-8103-c4346bdc42d1}" behavior="0" />
+      <RootComponent type="60" id="{14ea0ae5-0cf8-4f0e-b0d0-684c93010317}" behavior="0" />
+      <RootComponent type="60" id="{156f49ed-4ab8-4c37-b8e8-47fa7dc0f95b}" behavior="0" />
+      <RootComponent type="60" id="{1cf1a719-9057-4eb8-821b-ee5792562fa0}" behavior="0" />
+      <RootComponent type="60" id="{22c834d4-5cab-4413-ba21-97ebc73fdd38}" behavior="0" />
+      <RootComponent type="60" id="{238db7c4-e86e-40f1-a25d-445b52d20e82}" behavior="0" />
+      <RootComponent type="60" id="{27394caf-4678-4266-91d2-e946f5ffd798}" behavior="0" />
+      <RootComponent type="60" id="{28644969-d90b-4441-a6a3-21a895f9fe1b}" behavior="0" />
+      <RootComponent type="60" id="{2c3ba592-f4bb-4517-8811-96facc4526f3}" behavior="0" />
+      <RootComponent type="60" id="{2cce96cd-b2a7-4d79-a56f-93bd0f4bb180}" behavior="0" />
+      <RootComponent type="60" id="{364b1a4a-2589-4c2f-ac51-16301eaafba0}" behavior="0" />
+      <RootComponent type="60" id="{37b2d5dc-cd38-4207-b95c-81ef9d45dc24}" behavior="0" />
+      <RootComponent type="60" id="{3828a9e5-53a5-e711-8105-c4346bdc3221}" behavior="0" />
+      <RootComponent type="60" id="{3904884b-6a18-4d95-93cf-623b37b7ad0f}" behavior="0" />
+      <RootComponent type="60" id="{390e85a1-b99f-e711-8104-c4346bdc2171}" behavior="0" />
+      <RootComponent type="60" id="{395cd247-a416-493e-8357-9e27263bdd06}" behavior="0" />
+      <RootComponent type="60" id="{3ee128b7-0140-44d8-8149-3c593ec95d36}" behavior="0" />
+      <RootComponent type="60" id="{410efd71-e9da-4de6-8159-7c043fb4fa75}" behavior="0" />
+      <RootComponent type="60" id="{4876ae4e-c29f-e711-8104-c4346bdc2171}" behavior="0" />
+      <RootComponent type="60" id="{49175abc-8ebc-4abe-aa1e-10238a760e09}" behavior="0" />
+      <RootComponent type="60" id="{527d9b87-e8f4-4d6a-af24-26878e832bc0}" behavior="0" />
+      <RootComponent type="60" id="{52964344-2c3e-4c00-a6b0-baf4de32046f}" behavior="0" />
+      <RootComponent type="60" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" behavior="0" />
+      <RootComponent type="60" id="{5984a28d-820d-40ef-b7db-1d50acf3f3b6}" behavior="0" />
+      <RootComponent type="60" id="{59a0e369-bb9f-e711-8104-c4346bdc2171}" behavior="0" />
+      <RootComponent type="60" id="{68dd6791-9b3d-e811-a962-000d3a11f5ee}" behavior="0" />
+      <RootComponent type="60" id="{6c4bda49-2aaa-4fd4-989b-8eee2faf2132}" behavior="0" />
+      <RootComponent type="60" id="{759cd3d8-d07e-429f-ad39-a0f664ccbda2}" behavior="0" />
+      <RootComponent type="60" id="{7678c6ae-336a-4785-be49-be8f4bf1a03e}" behavior="0" />
+      <RootComponent type="60" id="{78d2883e-9d3d-e811-a962-000d3a11f5ee}" behavior="0" />
+      <RootComponent type="60" id="{79be1084-90c0-4d44-8f0f-fd5ec0c0979c}" behavior="0" />
+      <RootComponent type="60" id="{89d3e217-e19c-42af-880e-188da235afc0}" behavior="0" />
+      <RootComponent type="60" id="{8b4c6f10-f309-470e-b583-221396f43d78}" behavior="0" />
+      <RootComponent type="60" id="{911ac93c-983d-e811-a962-000d3a11f5ee}" behavior="0" />
+      <RootComponent type="60" id="{92da2920-d49a-4b7e-9787-ff73627347fe}" behavior="0" />
+      <RootComponent type="60" id="{9302c7cb-6e32-48d1-bdeb-c83c4d2574cd}" behavior="0" />
+      <RootComponent type="60" id="{95dc0735-b1ef-4c9d-b94c-a568b5879605}" behavior="0" />
+      <RootComponent type="60" id="{a0f6ec21-fba5-456e-b917-e54e41b4b159}" behavior="0" />
+      <RootComponent type="60" id="{a41a8430-7a03-4875-be39-231be43addf6}" behavior="0" />
+      <RootComponent type="60" id="{a6627b9f-7b0a-42a2-9fc0-e948f05cfda3}" behavior="0" />
+      <RootComponent type="60" id="{ae7721e8-5ccf-4b16-af88-6697c546ba8f}" behavior="0" />
+      <RootComponent type="60" id="{affd7d3e-5694-4292-9d41-2da0dd5650b2}" behavior="0" />
+      <RootComponent type="60" id="{b0beb36f-4210-49a2-9eb1-e8b795c1d3a3}" behavior="0" />
+      <RootComponent type="60" id="{b3df1437-2c09-420f-a205-95faa7850f0a}" behavior="0" />
+      <RootComponent type="60" id="{cbaf1f64-c423-41f1-8711-ddd237423bd1}" behavior="0" />
+      <RootComponent type="60" id="{d22f8f79-7ec4-480e-900a-200d965b3708}" behavior="0" />
+      <RootComponent type="60" id="{d5c3c41d-8c50-49bf-8264-5c397ae6ed33}" behavior="0" />
+      <RootComponent type="60" id="{da23ba82-90bf-4a48-9d3d-c6e8de6e3add}" behavior="0" />
+      <RootComponent type="60" id="{dda290e9-5a1a-4551-9737-0b1fb47d8c6f}" behavior="0" />
+      <RootComponent type="60" id="{dda79781-0468-495e-9e08-5a8b3a8828a1}" behavior="0" />
+      <RootComponent type="60" id="{e129c312-3b28-4e5b-9bec-f51d6b1ad462}" behavior="0" />
+      <RootComponent type="60" id="{e3c20fbb-76f5-4097-9e20-5946530ced2e}" behavior="0" />
+      <RootComponent type="60" id="{e5a43b7c-3844-4937-9b93-83bcda5b297a}" behavior="0" />
+      <RootComponent type="60" id="{e99e6dd0-2cee-4a44-b9fe-e0d6c7b2c21f}" behavior="0" />
+      <RootComponent type="60" id="{ed8030e0-e83e-4088-94f8-f6f161811d8d}" behavior="0" />
+      <RootComponent type="60" id="{edbc9c2c-d1d5-4e03-af3a-edcbe3e620fc}" behavior="0" />
+      <RootComponent type="60" id="{fb315ab4-4bc2-4fcc-b18e-810177586710}" behavior="0" />
+      <RootComponent type="60" id="{40934133-88d8-424a-aaa4-2f39b7907634}" behavior="0" />
+      <RootComponent type="60" id="{7ac3fe5d-487a-404b-89f1-9fb8e06799bd}" behavior="0" />
+      <RootComponent type="60" id="{89d75474-d939-4d97-814c-c8d6669ee3a8}" behavior="0" />
+      <RootComponent type="60" id="{8dec62cb-a77a-4c03-885e-9f90f4c201a3}" behavior="0" />
+      <RootComponent type="60" id="{9c802514-14b6-4f4d-b90b-3cc989b1e837}" behavior="0" />
+      <RootComponent type="60" id="{b021e0d3-9230-4db4-9c50-6ce1a8cd8216}" behavior="0" />
+      <RootComponent type="60" id="{d069d8b5-0a70-4604-9b01-a11289659fc4}" behavior="0" />
+      <RootComponent type="60" id="{f40e1aa2-0829-4631-86ea-9646b5a2a381}" behavior="0" />
+      <RootComponent type="60" id="{f50b7b48-ab18-40ab-8731-a234801ea95e}" behavior="0" />
+      <RootComponent type="60" id="{2fd7a01f-a35d-438a-bea1-bdb61f3bdbdc}" />
+      <RootComponent type="60" id="{7da9e8b9-db28-44cd-9fe7-ad0a5ea597c4}" />
+      <RootComponent type="60" id="{eb7197fd-7328-47ab-8a97-8b85fef1b6d5}" />
+      <RootComponent type="60" id="{0e492fdc-6069-4724-a8f6-ba8f5b4fa8da}" behavior="0" />
+      <RootComponent type="60" id="{20b8abc4-ee9d-4e4b-acb3-ee51addf0e39}" behavior="0" />
+      <RootComponent type="60" id="{29ba1da2-981f-40ee-8a3a-9a52170f9597}" behavior="0" />
+      <RootComponent type="60" id="{2e3dda25-4334-4f22-be58-a7e22ddd9fe0}" behavior="0" />
+      <RootComponent type="60" id="{3966304a-7a91-43b6-a0f1-a5470e814c75}" behavior="0" />
+      <RootComponent type="60" id="{4fad7574-d7ab-4764-a63f-20de1a8328f5}" behavior="0" />
+      <RootComponent type="60" id="{4fdc2cfb-1a0a-425e-9239-7b3eb9f737c6}" behavior="0" />
+      <RootComponent type="60" id="{691c5768-b371-4df4-bdb8-c391ca5b22ea}" behavior="0" />
+      <RootComponent type="60" id="{ecc188ce-581c-4fb9-9034-c2338243ab6e}" behavior="0" />
+      <RootComponent type="60" id="{1550e7a9-87fc-4b39-8181-61a9d6e302e8}" />
+      <RootComponent type="60" id="{2caf7e8b-17e1-4e6e-9d6b-5af28847278b}" />
+      <RootComponent type="60" id="{c09b943f-bda5-480e-9d91-1d2c433abf56}" />
+      <RootComponent type="60" id="{ef80ef88-b315-45aa-8fd3-ed8e1a960e7a}" />	  
+      <RootComponent type="60" id="{a4686ac3-b694-44f7-87a0-285762b6f4a0}" />
+      <RootComponent type="60" id="{d59b845b-835c-43eb-8c05-8439d22c3a80}" behavior="0" />
+      <RootComponent type="60" id="{fe33f233-7892-4a6e-9553-ac4c6639907d}" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/bootstrap.lumen.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/bootstrapv4.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Font-Awesome/font-awesome.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/Default/indeterminate.gif" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/Default/loading.gif" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/fonts/glyphs/WebComponentsIcons.ttf" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/fonts/glyphs/WebComponentsIcons.woff" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/images/kendoui.ttf" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/images/kendoui.woff" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/kendo.common.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/kendo.default.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/Kendo/kendo.default.mobile.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/CSS/Libraries/vis/vis.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/CommonActivityLogic.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/CommonInboundInterestLogic.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/CommonUiControls.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/constants.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/LanguageMappings.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/Localization.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/resourcestrings.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/common/retrieveMultiLingualValues.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/common/Themes.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/common/utilities.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/XrmSystemInformation.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/account.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/address.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/appointment.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_application.js" behavior="0" />	  
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_applicationrequirement.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_domdefinitionexecutionorder.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_domdefinitionlogic.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_dommaster.js" behavior="0" />
+	  <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_domdefinition.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_officehours.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_positiveacknowledgement.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/App/Forms/cmc_staffsurvey.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_staffsurveytemplate.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/forms/cmc_testscore.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_todo.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_trip.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_tripactivity.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/App/Forms/contact.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/email.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/invoice.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/lead.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/marketinglist.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/opportunity.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/ActivateMarketingList.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/ActivateMarketingList.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/pages/AssignStaffSurvey.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/AssignSuccessPlan.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/AssignSuccessPlan.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/AttributeSelector.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/AttributeSelector.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/auroraDialog.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/CompleteToDosProgressBar.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/CompleteToDosProgressBar.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/ConnectionsPowerBIChart.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/editor.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/editor.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/RetentionScoreGauge.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/RetentionScoreGuage.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/scheduler.customui.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/StaffCalendar.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/StaffCalendar.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/StudentActivitiesCompletedTimeline.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Pages/StudentActivitiesCompletedTimeline.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Ribbon/cmc_application.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Ribbon/cmc_appointment.js" behavior="0" />      
+      <RootComponent type="61" schemaName="cmc_/dist/app/Ribbon/cmc_apprecommendation.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/ribbon/cmc_staffcourse.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/ribbon/cmc_staffsurvey.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/App/Ribbon/cmc_staffsurveytemplate.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/App/Ribbon/cmc_successplantemplate.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Ribbon/cmc_trip.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Ribbon/cmc_tripactivity.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/App/Ribbon/contact.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Ribbon/marketinglist.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/ribbon/opportunity.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Views/retentionView.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/attributePicker/index.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/attributePicker/main.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/attributePicker/polyfills.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/attributePicker/runtime.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/attributePicker/styles.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/internalConnections/index.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/internalConnections/main.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/internalConnections/polyfills.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/internalConnections/runtime.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/internalConnections/styles.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Dist/Lib/kendo.progressbar.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/lib/moment-with-locales.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/lib/vis.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/staffSurvey/index.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/staffSurvey/main.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/staffSurvey/polyfills.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/staffSurvey/runtime.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/staffSurvey/styles.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/tripMaps/index.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/tripMaps/main.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/tripMaps/polyfills.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/tripMaps/runtime.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_applicationrequirementdefinitiondetail.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/tripMaps/styles.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/AcceptAppointment_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/AcceptAppointment_32px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/AcceptAppointment_32px.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Approve_16X16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Approve_32X32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/AssignSuccessPlan_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/AssignSuccessPlan_32px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/AssignSuccessPlan_32px.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/BurningGlassLogo.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/CampusNexusEngageLogo.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Cancel_16X16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Cancel_32X32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Complete_16X16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Complete_32X32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/CreateInvoice32X32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/CreateInvoice_16X16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/CreateInvoice_SVG.svg" behavior="0" />	  
+	  <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_appdecisiondefinition_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_appdecisiondefinition_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdecisions16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdecisions_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdefinitionversion_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdefinitionversion_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdefinition_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdefinition_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationperiod_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationperiod_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationregistration_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationregistration_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationrequirements_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationrequirements_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applications_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applications_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationtypes_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationtypes_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_invoice_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_invoice_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_payment_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_payment_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_recommenderdefinition_32x32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_recommenderdef_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_recommender_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_recommender_32x32..png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_reqdefinition_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_requirementdefinition_32x32..png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/Appointment-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/Chat-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/event-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/IncomingTelephone-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/MailReply-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/MailSend-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/MarketingEmail-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/OutgoingTelephone-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/TodoComplete-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ContactActivitiesTimeline/TodoInComplete-32x32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/CopySuccessPlan_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/CopySuccessPlan_32px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/DeclineAppointment_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/DeclineAppointment_32px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/DeclineAppointment_32px.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Predict_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Predict_32px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/progress.gif" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Reject_16X16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Reject_32X32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Retention_Green_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Retention_Red_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Retention_Yellow_16px.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ribbon_degree_planning16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ribbon_degree_planning32.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/ribbon_degree_planning32.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/json/lifecyclestatusmapping.json" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/ActivateMarketingList.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/AssignStaffCourse.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/AssignSuccessPlan.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/AttributeSelector.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/CompleteToDosProgressBar.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/ConnectionsPowerBIChart.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/editor.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/RetentionScoreGauge.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/StaffCalendar.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Pages/StudentActivitiesCompletedTimeline.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/required.gif" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Resources/ResourceStrings.1046.resx" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Resources/ResourceStrings.resx" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Samples/sampleMultiLingual.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Common/retrieveMultiLingualValues.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/jquery_1.12.3.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.all.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.autocomplete.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.culture.en-US.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.dataviz.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.editor.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.messages.en-US.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.progressbar.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/kendo.scheduler.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/powerbi.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/qs.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/sonomaCmc.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Libraries/vis.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Pages/RetentionScoreGauge.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Scripts/Pages/SurveyTemplateHandler.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/SurveyForms/Images/Main_Tile.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/assets/images/appointmentPushPin.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/assets/images/eventPushPin.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/assets/images/othersPushPin.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.674f50d287a8c48dc19b.eot" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.912ec66d7572ff821749.svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.b06871f281fee6b241d6.ttf" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.eot" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.fee66e712a8a08eef580.woff" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.ttf" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.woff" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/WebComponents/fontawesome-webfont.woff2" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_CampusBrokenImage.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_CNEngageLogo" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_ContactBrokenImage.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_con_addresstype_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_con_addresstype_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_academicperiod_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_academicperiod_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_academicperiod_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_academicprogress_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_academicprogress_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_academicprogress_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_addresstype_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_address_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_address_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_address_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_areaofinterest_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_areaofinterest_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_areaofinterest_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_areaofstudy_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_areaofstudy_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_areaofstudy_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_completedverification_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_completedverification_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_completedverification_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_configuration_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_configuration_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_configuration_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_country_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_country_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_country_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_coursehistory_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_coursehistory_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_coursehistory_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_course_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_course_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_course_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_department_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_department_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_department_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinitionexecutionorder_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinitionexecutionorder_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinitionexecutionorder_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinitionlogic_entity_icon_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinitionlogic_entity_icon_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinitionlogic_entity_icon_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinition_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinition_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_domdefinition_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_dommaster_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_dommaster_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_dommaster_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_educationlevel_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_educationlevel_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_educationlevel_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_ethnicgroup_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_ethnicgroup_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_ethnicgroup_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_extracurricular_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_extracurricular_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_extracurricular_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_internationalorg_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_internationalorg_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_internationalorg_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_languagevalue_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_languagevalue_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_languagevalue_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_lifecyclestagehistory_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_lifecyclestagehistory_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_lifecyclestagehistory_entity_SVG" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_nationality_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_nationality_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_nationality_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_officehours_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_officehours_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_officehours_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_portalaction_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_portalaction_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_portalaction_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_portofentry_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_portofentry_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_portofentry_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_positiveacknowledgement_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_positiveacknowledgement_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_positiveacknowledgement_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_previouseducation_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_previouseducation_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_previouseducation_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_privatenote_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_privatenote_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_privatenote_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_process_admin_retention_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programlevel_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programlevel_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programlevel_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programtype_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programversionstartdate_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programversionstartdate_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programversionstartdate_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programversion_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programversion_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_programversion_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_program_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_program_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_program_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_reference_data_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_registrationstatus_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_registrationstatus_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_registrationstatus_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_retentionscorehistory_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_retentionscorehistory_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_retentionscorehistory_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_role_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_schoolstatus_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_schoolstatus_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_schoolstatus_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_scoredefinition_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_scoredefinition_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_scoredefinition_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_scoringfactor_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_scoringfactor_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_scoringfactor_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_shift_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_shift_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_shift_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcecategory_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcecategory_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcecategory_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcemethod_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcemethod_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcemethod_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcesubcategory_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcesubcategory_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_sourcesubcategory_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffcourse_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffcourse_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffcourse_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffsurveytemplate_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffsurveytemplate_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffsurveytemplate_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffsurvey_entity_icon_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffsurvey_entity_icon_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_staffsurvey_entity_icon_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_state_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_state_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_state_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentassignment_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentassignment_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentcategory_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentcategory_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentcategory_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentclassification_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentclassification_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentclassification_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentextracurricular_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentextracurricular_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentextracurricular_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentprogramtype_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studentprogramtype_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studenttype_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studenttype_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_studenttype_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetworkassignmentrule_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetworkassignmentrule_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetworkassignment_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetworkassignment_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetworkassignment_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetwork_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetwork_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successnetwork_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplanassignment_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplanassignment_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplanassignment_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplantemplate_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplantemplate_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplantemplate_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplantodotemplate_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplantodotemplate_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplantodotemplate_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplan_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplan_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_successplan_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_testtype_entity_icon_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_testtype_entity_icon_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_testtype_entity_icon_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_title_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_title_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_todocategory_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_todocategory_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_todocategory_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_todo_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_todo_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_todo_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_userlocation_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_userlocation_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_userlocation_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_usgovernmentagency_entity_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_usgovernmentagency_entity_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_icon_usgovernmentagency_entity_svg" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_tripactivity_icon_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_tripactivity_icon_32x32" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_trip_icon_png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_trip_icon_png_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_trip_icon_svg_16x16" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_scoredefinition.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_scoringfactor.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/entityPicker/index.html" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/entityPicker/main.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/entityPicker/polyfills.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/entityPicker/runtime.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/entityPicker/styles.css" behavior="0" />
+      <RootComponent type="62" schemaName="cmc_FacultySurvey" behavior="0" />
+      <RootComponent type="62" schemaName="cmc_ProjectEngage" behavior="0" />
+      <RootComponent type="62" schemaName="cmc_StudentSuccess" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+      <RootComponent type="63" id="{2c7d98e5-2f34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="63" id="{31bd2bc1-2e34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="63" id="{32d41911-2f34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="63" id="{3a028a1a-2e34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="63" id="{3bb3fedd-0333-e811-a95f-000d3a11fe32}" behavior="0" />
+      <RootComponent type="63" id="{58adaad5-2e34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="63" id="{5dc46303-7e33-e811-a962-000d3a11f5ee}" behavior="0" />
+      <RootComponent type="63" id="{9fa4daec-0333-e811-a95f-000d3a11fe32}" behavior="0" />
+      <RootComponent type="63" id="{aba922e2-2e34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="63" id="{ce0203f3-0333-e811-a95f-000d3a11fe32}" behavior="0" />
+      <RootComponent type="63" id="{dc1598df-2f34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="63" id="{ebf3a846-2f34-e811-a95f-000d3a11ec14}" behavior="0" />
+      <RootComponent type="70" id="{9f0b029e-1b93-e711-8103-c4346bdc2171}" behavior="0" />
+      <RootComponent type="80" schemaName="cmc_FacultySurvey" behavior="0" />
+      <RootComponent type="80" schemaName="cmc_ProjectEngage" behavior="0" />
+      <RootComponent type="80" schemaName="cmc_StudentSuccess" behavior="0" />
+      <RootComponent type="91" id="{c550d2dd-6dfe-4069-b789-79d61778aa33}" schemaName="Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d" behavior="0" />
+      <RootComponent type="91" id="{88fefbd3-5e0b-4af3-95ee-972128da35f3}" schemaName="Cmc.Engage.Common.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7fe626994f1a8898" behavior="0" />
+      <RootComponent type="91" id="{7685e4ee-e96d-443d-b966-4f4f58c61a0c}" schemaName="Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" behavior="0" />
+      <RootComponent type="91" id="{3524f320-9ac6-4c92-bdb5-9ee9613a43a9}" schemaName="Cmc.Engage.Communication.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=00fd17e5255b3c71" behavior="0" />
+      <RootComponent type="91" id="{abbc1c90-4ceb-49f7-9658-a4771c8fa669}" schemaName="Cmc.Engage.Communication.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=38255eca4f9deb90" behavior="0" />
+      <RootComponent type="91" id="{91e3e443-b89a-4a99-a9fe-7d59ceddd337}" schemaName="Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" behavior="0" />
+      <RootComponent type="91" id="{0b5488b1-db39-4599-81e4-e1610b55eb76}" schemaName="Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833" behavior="0" />
+      <RootComponent type="91" id="{cb1e4e41-9bbd-4a3f-a9d1-fe87bd4ba97f}" schemaName="Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" behavior="0" />
+      <RootComponent type="92" id="{00730060-176e-e811-a951-000d3a3666c5}" behavior="0" />
+      <RootComponent type="92" id="{02db2f61-1c5d-e811-a958-000d3a18cdb5}" behavior="0" />
+      <RootComponent type="92" id="{075ce51b-a6d6-e811-a958-000d3a4e75ec}" behavior="0" />
+      <RootComponent type="92" id="{0b8275f5-0b60-e811-a956-000d3a18c732}" behavior="0" />
+      <RootComponent type="92" id="{17c856d3-4b6e-e811-a955-000d3a3ac063}" behavior="0" />
+      <RootComponent type="92" id="{19414083-186e-e811-a954-000d3a3669fe}" behavior="0" />
+      <RootComponent type="92" id="{1b274c8d-5c96-e811-a963-000d3af292f2}" behavior="0" />
+      <RootComponent type="92" id="{25b8754d-13a6-e811-a965-000d3af246cc}" behavior="0" />
+      <RootComponent type="92" id="{2725bc71-186e-e811-a951-000d3a3666c5}" behavior="0" />
+      <RootComponent type="92" id="{2b4f1430-6b5a-e811-a955-000d3a18c42e}" behavior="0" />
+      <RootComponent type="92" id="{40c41415-4b53-e811-a95b-000d3af2823b}" behavior="0" />
+      <RootComponent type="92" id="{4177c755-4b53-e811-a95b-000d3af28b57}" behavior="0" />
+      <RootComponent type="92" id="{46219de9-215d-e811-a954-000d3a18cb47}" behavior="0" />
+      <RootComponent type="92" id="{4bd95aef-1bd9-e811-a95d-000d3a3ac3f8}" behavior="0" />
+      <RootComponent type="92" id="{4c939c9e-215d-e811-a957-000d3a18c42e}" behavior="0" />
+      <RootComponent type="92" id="{4ec78a4f-4a53-e811-a95a-000d3af28587}" behavior="0" />
+      <RootComponent type="92" id="{576045f3-4753-e811-a95a-000d3af28587}" behavior="0" />
+      <RootComponent type="92" id="{676ef255-186e-e811-a955-000d3a3ac063}" behavior="0" />
+      <RootComponent type="92" id="{6797e63f-e169-e811-a957-000d3a18cb47}" behavior="0" />
+      <RootComponent type="92" id="{74516bf4-205d-e811-a955-000d3a18c732}" behavior="0" />
+      <RootComponent type="92" id="{7743c747-d5a2-e811-a967-000d3af24d43}" behavior="0" />
+      <RootComponent type="92" id="{785be41b-215d-e811-a957-000d3a18c42e}" behavior="0" />
+      <RootComponent type="92" id="{7c454ba6-1bd9-e811-a961-000d3a3669fe}" behavior="0" />
+      <RootComponent type="92" id="{7d7b843b-665a-e811-a953-000d3a18c970}" behavior="0" />
+      <RootComponent type="92" id="{85051b66-e9a5-e811-a964-000d3af24950}" behavior="0" />
+      <RootComponent type="92" id="{898fcc0f-4d96-e811-a961-000d3af292f2}" behavior="0" />
+      <RootComponent type="92" id="{8ac85023-205d-e811-a956-000d3a18c23c}" behavior="0" />
+      <RootComponent type="92" id="{8f9a5b6a-665a-e811-a954-000d3a18c23c}" behavior="0" />
+      <RootComponent type="92" id="{9c94e673-4a53-e811-a95c-000d3af28a0d}" behavior="0" />
+      <RootComponent type="92" id="{b0b44290-59c2-e811-a96d-000d3a364086}" behavior="0" />
+      <RootComponent type="92" id="{b75479ca-176e-e811-a954-000d3a3acde0}" behavior="0" />
+      <RootComponent type="92" id="{b764cca5-186e-e811-a954-000d3a3ac3f8}" behavior="0" />
+      <RootComponent type="92" id="{b8ec8f0d-c761-e811-a957-000d3a18cb47}" behavior="0" />
+      <RootComponent type="92" id="{bb5a32c2-4953-e811-a95a-000d3af28587}" behavior="0" />
+      <RootComponent type="92" id="{bb9e6998-4953-e811-a95b-000d3af2823b}" behavior="0" />
+      <RootComponent type="92" id="{be2c3628-4b53-e811-a95c-000d3af28a0d}" behavior="0" />
+      <RootComponent type="92" id="{c96f5142-4b53-e811-a95b-000d3af2823b}" behavior="0" />
+      <RootComponent type="92" id="{ca080860-6b5a-e811-a956-000d3a18cdb5}" behavior="0" />
+      <RootComponent type="92" id="{cb15d648-665a-e811-a955-000d3a18c42e}" behavior="0" />
+      <RootComponent type="92" id="{d26a884a-e06d-e811-a954-000d3a3acde0}" behavior="0" />
+      <RootComponent type="92" id="{d288c88e-a8d6-e811-a95c-000d3a4e75c3}" behavior="0" />
+      <RootComponent type="92" id="{d4131b7d-4953-e811-a95c-000d3af28a0d}" behavior="0" />
+      <RootComponent type="92" id="{d7a2e90d-4753-e811-a95a-000d3af28587}" behavior="0" />
+      <RootComponent type="92" id="{d8ff3b57-665a-e811-a956-000d3a18cdb5}" behavior="0" />
+      <RootComponent type="92" id="{d9650561-0ea6-e811-a965-000d3af246cc}" behavior="0" />
+      <RootComponent type="92" id="{dcd27f47-6b5a-e811-a956-000d3a18cdb5}" behavior="0" />
+      <RootComponent type="92" id="{e3332860-0c60-e811-a95a-000d3a18c42e}" behavior="0" />
+      <RootComponent type="92" id="{e4b723d5-215d-e811-a954-000d3a18cb47}" behavior="0" />
+      <RootComponent type="92" id="{f3694ab7-186e-e811-a953-000d3a3acbf2}" behavior="0" />
+      <RootComponent type="92" id="{fcaf3d0d-6079-e811-a954-000d3a3669fe}" behavior="0" />
+      <RootComponent type="92" id="{fe527c5a-c06e-e811-a954-000d3a3acde0}" behavior="0" />
+      <RootComponent type="92" id="{ff603e7c-4b53-e811-a95c-000d3af28a0d}" behavior="0" />
+      <RootComponent type="92" id="{3683e0bb-55db-e811-a960-000d3a3666c5}" behavior="0" />
+      <RootComponent type="92" id="{ccb02fe7-55db-e811-a960-000d3a3666c5}" behavior="0" />
+      <RootComponent type="92" id="{327cf989-69db-e811-a962-000d3a3669fe}" behavior="0" />
+      <RootComponent type="92" id="{e81ddbd7-58db-e811-a960-000d3a3666c5}" behavior="0" />
+      <RootComponent type="92" id="{736d09b2-b0e6-e811-a962-000d3a3acde0}" behavior="0" />
+      <RootComponent type="92" id="{f8d20bab-b0e6-e811-a968-000d3a3ac063}" behavior="0" />
+      <RootComponent type="92" id="{d28d3437-fae7-e811-a960-000d3a3666c5}" behavior="0" />
+	  <RootComponent type="92" id="{04dd1bb4-afed-e811-a95d-000d3a3acbf2}" behavior="0" />
+      <RootComponent type="92" id="{07233133-afed-e811-a963-000d3a3ac3f8}" behavior="0" />
+      <RootComponent type="92" id="{12448da7-afed-e811-a969-000d3a3ac063}" behavior="0" />
+      <RootComponent type="92" id="{a1ff5823-afed-e811-a963-000d3a3669fe}" behavior="0" />
+      <RootComponent type="92" id="{6aba16cd-e5ec-e811-a969-000d3a3ac063}" behavior="0" />
+      <RootComponent type="92" id="{873bd3dc-54e4-e811-a968-000d3a3ac063}" behavior="0" />
+	  <RootComponent type="92" id="{f4aeb3fc-54e4-e811-a962-000d3a3ac3f8}" behavior="0" />	  
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="mshied_extracurricularparticipant" displayName="Extra Curricular Participant" solution="Dynamics365HigherEducationAccelerator (1.0.1.0)" />
+        <Dependent key="0" type="1" schemaName="mshied_extracurricularparticipant" displayName="Extra Curricular Participant" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="mshied_previouseducation" displayName="Previous Education" solution="Dynamics365HigherEducationAccelerator (1.0.1.0)" />
+        <Dependent key="1" type="1" schemaName="mshied_previouseducation" displayName="Previous Education" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="mshied_program" displayName="Program" solution="Dynamics365HigherEducationAccelerator (1.0.1.0)" />
+        <Dependent key="2" type="1" schemaName="mshied_program" displayName="Program" />
+      </MissingDependency>
+
+
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="0" type="1" schemaName="list" displayName="Marketing List" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="mshied_programversion" displayName="Program Version" solution="Dynamics365HigherEducationAccelerator (1.0.1.0)" />
+        <Dependent key="1" type="1" schemaName="mshied_programversion" displayName="Program Version" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

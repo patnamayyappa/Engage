@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.Mscrm.Form.cmc_successplan.Deactivate.CustomAction" Location="Mscrm.Form.cmc_successplan.MainTab.Save.Controls._children" Sequence="60">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.Form.cmc_successplan.Deactivate.Alt" Command="Mscrm.Form.Deactivate" Id="Mscrm.Form.cmc_successplan.Deactivate" Image32by32="/_imgs/ribbon/Deactivate_32.png" Image16by16="/_imgs/ribbon/Deactivate_16.png" LabelText="$LocLabels:Mscrm.Form.cmc_successplan.Deactivate.LabelText" Sequence="60" TemplateAlias="o2" ToolTipTitle="$LocLabels:Mscrm.Form.cmc_successplan.Deactivate.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.Form.cmc_successplan.Deactivate.ToolTipDescription" ModernImage="DeActivate" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.Mscrm.HomepageGrid.cmc_successplan.Deactivate.CustomAction" Location="Mscrm.HomepageGrid.cmc_successplan.MainTab.Management.Controls._children" Sequence="40">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.HomepageGrid.cmc_successplan.Deactivate.Alt" Command="Mscrm.HomepageGrid.Deactivate" Id="Mscrm.HomepageGrid.cmc_successplan.Deactivate" Image32by32="/_imgs/ribbon/Deactivate_32.png" Image16by16="/_imgs/ribbon/Deactivate_16.png" LabelText="$LocLabels:Mscrm.HomepageGrid.cmc_successplan.Deactivate.LabelText" Sequence="40" TemplateAlias="o2" ToolTipTitle="$LocLabels:Mscrm.HomepageGrid.cmc_successplan.Deactivate.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.HomepageGrid.cmc_successplan.Deactivate.ToolTipDescription" ModernImage="DeActivate" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.Mscrm.SubGrid.cmc_successplan.Deactivate.CustomAction" Location="Mscrm.SubGrid.cmc_successplan.MainTab.Management.Controls._children" Sequence="70">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:Mscrm.SubGrid.cmc_successplan.Deactivate.Alt" Command="Mscrm.HomepageGrid.Deactivate" Id="Mscrm.SubGrid.cmc_successplan.Deactivate" Image32by32="/_imgs/ribbon/Deactivate_32.png" Image16by16="/_imgs/ribbon/Deactivate_16.png" LabelText="$LocLabels:Mscrm.SubGrid.cmc_successplan.Deactivate.LabelText" Sequence="70" TemplateAlias="o2" ToolTipTitle="$LocLabels:Mscrm.SubGrid.cmc_successplan.Deactivate.ToolTipTitle" ToolTipDescription="$LocLabels:Mscrm.SubGrid.cmc_successplan.Deactivate.ToolTipDescription" ModernImage="DeActivate" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="Mscrm.HomepageGrid.Deactivate">
+      <EnableRules>
+        <EnableRule Id="Mscrm.VisualizationPaneNotMaximized" />
+        <EnableRule Id="Mscrm.SelectionCountAtLeastOne" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="Mscrm.CanWriteSelected" />
+        <DisplayRule Id="Mscrm.SelectedEntityHasStatecode" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="XrmCore.Commands.Deactivate.deactivateRecords" Library="$webresource:Main_system_library.js">
+          <CrmParameter Value="SelectedControl" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="Mscrm.CanWriteSelected">
+        <EntityPrivilegeRule PrivilegeType="Write" PrivilegeDepth="Basic" AppliesTo="SelectedEntity" />
+      </DisplayRule>
+      <DisplayRule Id="Mscrm.SelectedEntityHasStatecode">
+        <EntityPropertyRule AppliesTo="SelectedEntity" PropertyName="HasStateCode" PropertyValue="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="Mscrm.SelectionCountAtLeastOne">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" />
+      </EnableRule>
+      <EnableRule Id="Mscrm.VisualizationPaneNotMaximized">
+        <OrRule>
+          <Or>
+            <CommandClientTypeRule Type="Modern" />
+          </Or>
+          <Or>
+            <CustomRule FunctionName="XrmCore.Rules.Charts.disableButtonsWhenChartMaximized" Library="$webresource:Main_system_library.js">
+              <CrmParameter Value="SelectedControl" />
+            </CustomRule>
+          </Or>
+        </OrRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="Mscrm.Form.cmc_successplan.Deactivate.Alt">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.Form.cmc_successplan.Deactivate.LabelText">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.Form.cmc_successplan.Deactivate.ToolTipDescription">
+      <Titles>
+        <Title description="Update the Status of these Success Plans. &lt;br&gt;&lt;br&gt;You can reactivate these Success Plans from the Inactive Success Plans View." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.Form.cmc_successplan.Deactivate.ToolTipTitle">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.cmc_successplan.Deactivate.Alt">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.cmc_successplan.Deactivate.LabelText">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.cmc_successplan.Deactivate.ToolTipDescription">
+      <Titles>
+        <Title description="Update the Status of these Success Plans. &lt;br&gt;&lt;br&gt;You can reactivate these Success Plans from the Inactive Success Plans View." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.HomepageGrid.cmc_successplan.Deactivate.ToolTipTitle">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.cmc_successplan.Deactivate.Alt">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.cmc_successplan.Deactivate.LabelText">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.cmc_successplan.Deactivate.ToolTipDescription">
+      <Titles>
+        <Title description="Update the Status of these Success Plans. &lt;br&gt;&lt;br&gt;You can reactivate these Success Plans from the Inactive Success Plans View." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="Mscrm.SubGrid.cmc_successplan.Deactivate.ToolTipTitle">
+      <Titles>
+        <Title description="Update Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

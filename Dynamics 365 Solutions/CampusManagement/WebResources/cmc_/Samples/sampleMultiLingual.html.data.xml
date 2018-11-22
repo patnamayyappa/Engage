@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{2438f596-067f-e711-8100-5065f38b0191}</WebResourceId>
+  <Name>cmc_/Samples/sampleMultiLingual.html</Name>
+  <DisplayName>sampleMultiLingual.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_SamplessampleMultiLingualhtml2438F596-067F-E711-8100-5065F38B0191</FileName>
+</WebResource>

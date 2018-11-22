@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{f8d4ba1b-48a1-e811-a954-000d3a3ab637}</WebResourceId>
+  <Name>cmc_/dist/tripMaps/index.html</Name>
+  <DisplayName>TripMaps Index html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>0.6.0.107</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_disttripMapsindexhtmlF8D4BA1B-48A1-E811-A954-000D3A3AB637</FileName>
+</WebResource>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_recommendationdefinitiondetail.NewRecord.Hide" Location="Mscrm.Form.cmc_recommendationdefinitiondetail.NewRecord" />
+    <HideCustomAction HideActionId="cmc.Mscrm.Form.cmc_recommendationdefinitiondetail.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.cmc_recommendationdefinitiondetail.NewRecordForBPFEntity" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

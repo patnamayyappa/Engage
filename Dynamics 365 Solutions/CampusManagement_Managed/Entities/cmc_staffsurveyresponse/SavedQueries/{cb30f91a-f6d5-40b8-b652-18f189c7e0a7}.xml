@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{cb30f91a-f6d5-40b8-b652-18f189c7e0a7}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_staffsurveyresponsename" select="1" icon="1" preview="1">
+        <row name="cmc_staffsurveyresponse" id="cmc_staffsurveyresponseid">
+          <cell name="cmc_staffsurveyresponsename" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_staffsurveyresponse">
+          <attribute name="cmc_staffsurveyresponsename" />
+          <attribute name="createdon" />
+          <order attribute="cmc_staffsurveyresponsename" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_staffsurveyresponseid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Campus Survey Response Associated View" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Campus Survey Response Associated View." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

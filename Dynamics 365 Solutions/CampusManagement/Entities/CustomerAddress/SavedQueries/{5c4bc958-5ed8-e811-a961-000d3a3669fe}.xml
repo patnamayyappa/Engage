@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5c4bc958-5ed8-e811-a961-000d3a3669fe}</savedqueryid>
+    <layoutxml>
+      <grid name="customeraddresses" jump="name" select="1" icon="1" preview="1">
+        <row name="customeraddress" id="customeraddressid">
+          <cell name="name" width="100" />
+          <cell name="postalcode" width="100" />
+          <cell name="city" width="100" />
+          <cell name="line1" width="150" />
+          <cell name="telephone1" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="customeraddress">
+          <attribute name="name" />
+          <attribute name="line1" />
+          <attribute name="postalcode" />
+          <attribute name="city" />
+          <attribute name="telephone1" />
+          <order attribute="name" descending="false" />
+          <attribute name="customeraddressid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Customer Addresses" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

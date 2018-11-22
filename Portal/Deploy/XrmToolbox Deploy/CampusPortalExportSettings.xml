@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExportSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ActiveItemsOnly>false</ActiveItemsOnly>
+  <CreateFilter xsi:nil="true" />
+  <ModifyFilter xsi:nil="true" />
+  <WebsiteFilter>00000000-0000-0000-0000-000000000000</WebsiteFilter>
+  <SelectedEntities>
+    <string>adx_ad</string>
+    <string>adx_adplacement</string>
+    <string>adx_bingmaplookup</string>
+    <string>adx_contentaccesslevel</string>
+    <string>adx_contentsnippet</string>
+    <string>adx_entityform</string>
+    <string>adx_entityformmetadata</string>
+    <string>adx_entitylist</string>
+    <string>adx_entitypermission</string>
+    <string>annotation</string>
+    <string>adx_pagetag</string>
+    <string>adx_pagetemplate</string>
+    <string>adx_poll</string>
+    <string>adx_polloption</string>
+    <string>adx_pollplacement</string>
+    <string>adx_portallanguage</string>
+    <string>adx_publishingstate</string>
+    <string>adx_publishingstatetransitionrule</string>
+    <string>adx_redirect</string>
+    <string>adx_setting</string>
+    <string>adx_shortcut</string>
+    <string>adx_sitemarker</string>
+    <string>adx_sitesetting</string>
+    <string>adx_tag</string>
+    <string>adx_webfile</string>
+    <string>adx_webform</string>
+    <string>adx_webformmetadata</string>
+    <string>adx_webformstep</string>
+    <string>adx_weblink</string>
+    <string>adx_weblinkset</string>
+    <string>adx_webpage</string>
+    <string>adx_webpageaccesscontrolrule</string>
+    <string>adx_webrole</string>
+    <string>adx_webtemplate</string>
+    <string>adx_website</string>
+    <string>adx_websiteaccess</string>
+    <string>adx_websitelanguage</string>
+  </SelectedEntities>
+</ExportSettings>

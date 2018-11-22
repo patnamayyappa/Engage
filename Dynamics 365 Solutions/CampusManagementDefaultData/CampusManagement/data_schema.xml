@@ -1,0 +1,282 @@
+<entities >
+  <entity name="cmc_todocategory" displayname="To Do Category" etc="10508" primaryidfield="cmc_todocategoryid" primarynamefield="cmc_todocategoryname" disableplugins="false">
+    <fields>
+      <field displayname="To Do Category" name="cmc_todocategoryid" type="guid" primaryKey="true" />
+      <field displayname="To Do Category Name" name="cmc_todocategoryname" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="cmc_languagevalue" displayname="Language Value" etc="10464" primaryidfield="cmc_languagevalueid" primarynamefield="cmc_keyname" disableplugins="false">
+    <fields>
+      <field displayname="Key" name="cmc_keyname" type="string" customfield="true" />
+      <field displayname="Language Code" name="cmc_languagecode" type="number" customfield="true" />
+      <field displayname="Language Value" name="cmc_languagevalueid" type="guid" primaryKey="true" />
+      <field displayname="Value" name="cmc_value" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="cmc_completedverification" displayname="Completed Verification" etc="10450" primaryidfield="cmc_completedverificationid" primarynamefield="cmc_completedverificationname" disableplugins="false">
+    <fields>
+      <field displayname="Completed Verification" name="cmc_completedverificationid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="cmc_completedverificationname" type="string" customfield="true" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_extracurricularactivities" displayname="Extra Curricular" etc="10462" primaryidfield="mshied_extracurricularactivitiesid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Extra-curricular" name="mshied_extracurricularactivitiesid" type="guid" primaryKey="true" />
+      <field displayname="Extra Curricular Name" name="mshied_name" type="string" customfield="true" />
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="cmc_portofentry" displayname="Port of entry" etc="10469" primaryidfield="cmc_portofentryid" primarynamefield="cmc_portofentryname" disableplugins="false">
+    <fields>
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Port of entry" name="cmc_portofentryid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="cmc_portofentryname" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_studentstatus" displayname="Student Status" etc="10034" primaryidfield="mshied_studentstatusid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Student Status" name="mshied_studentstatusid" type="guid" primaryKey="true" />
+      <field displayname="Student Status Name" name="mshied_name" type="string" customfield="true" />
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="cmc_title" displayname="Role" etc="10506" primaryidfield="cmc_titleid" primarynamefield="cmc_titlename" disableplugins="false">
+    <fields>
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Title" name="cmc_titleid" type="guid" primaryKey="true" />
+      <field displayname="Title Name" name="cmc_titlename" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="cmc_studenttype" displayname="Student Type" etc="10497" primaryidfield="cmc_studenttypeid" primarynamefield="cmc_studenttypename" disableplugins="false">
+    <fields>
+      <field displayname="Student Type" name="cmc_studenttypeid" type="guid" primaryKey="true" />
+      <field displayname="Student Type Name" name="cmc_studenttypename" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="subject" displayname="Subject" etc="129" primaryidfield="subjectid" primarynamefield="title" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Feature Mask" name="featuremask" type="number" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Parent Subject" name="parentsubject" type="entityreference" lookupType="subject" />
+      <field displayname="Subject" name="subjectid" type="guid" primaryKey="true" />
+      <field displayname="Title" name="title" type="string" />
+    </fields>
+  </entity>
+  <entity name="mshied_studentprogramtype" displayname="Program Type" etc="10496" primaryidfield="mshied_studentprogramtypeid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Student Program Type" name="mshied_studentprogramtypeid" type="guid" primaryKey="true" />
+      <field displayname="Student Program Type Name" name="mshied_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_program" displayname="Program" etc="10473" primaryidfield="mshied_programid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+      <field displayname="Program" name="mshied_programid" type="guid" primaryKey="true" />
+      <field displayname="Program Name" name="mshied_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_programlevel" displayname="Program Level" etc="10474" primaryidfield="mshied_programlevelid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+      <field displayname="Program Level" name="mshied_programlevelid" type="guid" primaryKey="true" />
+      <field displayname="Program Level Name" name="mshied_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_programversion" displayname="Program Version" etc="10475" primaryidfield="mshied_programversionid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+      <field displayname="Program Level" name="mshied_programlevelid" type="entityreference" lookupType="mshied_programlevel" customfield="true" />
+      <field displayname="Program Version" name="mshied_programversionid" type="guid" primaryKey="true" />
+      <field displayname="Program Version Name" name="mshied_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_areaofstudy" displayname="Area of Study" etc="10449" primaryidfield="mshied_areaofstudyid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Area of Study" name="mshied_areaofstudyid" type="guid" primaryKey="true" />
+      <field displayname="Area of Study Name" name="mshied_name" type="string" customfield="true" />
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+      <field displayname="External SIS ID" name="mshied_externalidentifier" type="string" customfield="true" />
+      <field displayname="Minimum cumulative GPA" name="mshied_minimumrequiredgpa" type="decimal" customfield="true" />
+      <field displayname="Required Credits" name="mshied_requiredcredits" type="decimal" customfield="true" />
+      <field displayname="Program Type" name="mshied_programtypeid" type="entityreference" lookupType="cmc_studentprogramtype" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_areaofinterest" displayname="Area of Interest" etc="10448" primaryidfield="mshied_areaofinterestid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Area of Interest" name="mshied_areaofinterestid" type="guid" primaryKey="true" />
+      <field displayname="Area of Interest Name" name="mshied_name" type="string" customfield="true" />
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+      <field displayname="External SIS ID" name="mshied_externalidentifier" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="cmc_sourcecategory" displayname="Source Category" etc="10483" primaryidfield="cmc_sourcecategoryid" primarynamefield="cmc_sourcecategoryname" disableplugins="false">
+    <fields>
+      <field displayname="Source Category" name="cmc_sourcecategoryid" type="guid" primaryKey="true" />
+      <field displayname="Source Category Name" name="cmc_sourcecategoryname" type="string" customfield="true" />
+    </fields>
+    <relationships>
+      <relationship name="cmc_sourcecategory_sourcesubcategory" manyToMany="true" isreflexive="false" relatedEntityName="cmc_sourcecategory_sourcesubcategory" m2mTargetEntity="cmc_sourcesubcategory" m2mTargetEntityPrimaryKey="cmc_sourcesubcategoryid" />
+    </relationships>
+  </entity>
+  <entity name="cmc_sourcesubcategory" displayname="Source Sub-Category" etc="10485" primaryidfield="cmc_sourcesubcategoryid" primarynamefield="cmc_sourcesubcategoryname" disableplugins="false">
+    <fields>
+      <field displayname="Source Sub-Category" name="cmc_sourcesubcategoryid" type="guid" primaryKey="true" />
+      <field displayname="Source Sub-Category Name" name="cmc_sourcesubcategoryname" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="cmc_sourcemethod" displayname="Source Method" etc="10484" primaryidfield="cmc_sourcemethodid" primarynamefield="cmc_sourcemethodname" disableplugins="false">
+    <fields>
+      <field displayname="Source Method" name="cmc_sourcemethodid" type="guid" primaryKey="true" />
+      <field displayname="Source Method Name" name="cmc_sourcemethodname" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="team" displayname="Team" etc="9" primaryidfield="teamid" primarynamefield="name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Email" name="emailaddress" type="string" />
+      <field displayname="Team Name" name="name" type="string" />
+      <field displayname="Team" name="teamid" type="guid" primaryKey="true" />
+      <field displayname="Team Type" name="teamtype" type="optionsetvalue" />
+      <field displayname="Traversed Path" name="traversedpath" type="string" />
+    </fields>
+  </entity>
+  <entity name="theme" displayname="Theme" etc="2015" primaryidfield="themeid" primarynamefield="name" disableplugins="false">
+    <fields>
+      <field displayname="Accent Color" name="accentcolor" type="string" />
+      <field displayname="Control Hover Border Color" name="controlborder" type="string" />
+      <field displayname="Control Hover Fill Color" name="controlshade" type="string" />
+      <field displayname="Default Entity Color" name="defaultentitycolor" type="string" />
+      <field displayname="Hover Link Color" name="hoverlinkeffect" type="string" />
+      <field displayname="Legacy Accent Color" name="processcontrolcolor" type="string" />
+      <field displayname="Link and Button Text Color" name="globallinkcolor" type="string" />
+      <field displayname="Logo Tooltip" name="logotooltip" type="string" />
+      <field displayname="Main Color" name="maincolor" type="string" />
+      <field displayname="Navigation Bar Fill Color" name="navbarbackgroundcolor" type="string" />
+      <field displayname="Navigation Bar Shelf Fill Color" name="navbarshelfcolor" type="string" />
+      <field displayname="Page Header Fill Color" name="pageheaderbackgroundcolor" type="string" />
+      <field displayname="Panel Header Fill Color" name="panelheaderbackgroundcolor" type="string" />
+      <field displayname="Selected Link Color" name="selectedlinkeffect" type="string" />
+      <field displayname="Theme" name="themeid" type="guid" primaryKey="true" />
+      <field displayname="Theme Name" name="name" type="string" />
+      <field displayname="Title Text Color" name="headercolor" type="string" />
+      <field displayname="Default Custom Entity Color" name="defaultcustomentitycolor" type="string" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="mshied_testtype" displayname="Test Type" etc="10313" primaryidfield="mshied_testtypeid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Test Type" name="mshied_testtypeid" type="guid" primaryKey="true" />
+      <field displayname="Test Type Name" name="mshied_name" type="string" customfield="true" />
+      <field displayname="Source Attribute" name="cmc_testscoreschemaname" type="string" customfield="true" />
+      <field displayname="Target Attribute" name="cmc_equivalentscoreschemaname" type="string" customfield="true" />
+    </fields>
+  </entity>
+   <entity name="cmc_testscoreconversion" displayname="Test Score Conversion" etc="10071" primaryidfield="cmc_testscoreconversionid" primarynamefield="cmc_testscoreconversionname" disableplugins="false">
+    <fields>
+      <field displayname="Test Score Conversion" name="cmc_testscoreconversionid" type="guid" primaryKey="true" />
+      <field displayname="Equivalent Score" name="cmc_equivalentscore" type="decimal" customfield="true" />
+      <field displayname="Maximum Score" name="cmc_maximumscore" type="decimal" customfield="true" />
+      <field displayname="Minimum Score" name="cmc_minimumscore" type="decimal" customfield="true" />
+      <field displayname="Test Type" name="cmc_testtypeid" type="entityreference" lookupType="mshied_testtype" customfield="true" />
+    </fields>
+  </entity>
+<entity name="cmc_configuration" displayname="Configuration" etc="10323" primaryidfield="cmc_configurationid" primarynamefield="cmc_configurationname" disableplugins="false">
+    <fields>
+      <field displayname="Batch Geocode Size" name="cmc_batchgeocodesize" type="number" customfield="true" />
+      <field displayname="Bing Map Api Key" name="cmc_bingmapapikey" type="string" customfield="true" />
+      <field displayname="Configuration" name="cmc_configurationid" type="guid" primaryKey="true" />
+      <field displayname="Configuration Name" name="cmc_configurationname" type="string" customfield="true" />
+      <field displayname="Degree Planning URL" name="cmc_degreeplanningurl" type="string" customfield="true" />
+      <field displayname="Image Integration Gravatar Url" name="cmc_imageintegrationgravatarurl" type="string" customfield="true" />
+      <field displayname="Image Integration Is Gravatar Required" name="cmc_imageintegrationgravatarrequired" type="bool" customfield="true" />
+      <field displayname="LMS Link" name="cmc_lmslink" type="string" customfield="true" />
+      <field displayname="My Appointments Page" name="cmc_myappointmentspage" type="string" customfield="true" />
+      <field displayname="Portal Password Reset Link" name="cmc_portalpasswordresetlink" type="string" customfield="true" />
+      <field displayname="Portal Scheduler Page" name="cmc_portalschedulerpage" type="string" customfield="true" />
+      <field displayname="Post DOM Assignment" name="cmc_postdomassignment" type="bool" customfield="true" />
+      <field displayname="Retention Prediction API Key" name="cmc_retentionpredictionapikey" type="string" customfield="true" />
+      <field displayname="Retention Prediction API URL" name="cmc_retentionpredictionapiurl" type="string" customfield="true" />
+      <field displayname="Staff Survey Email Workflow" name="cmc_staffsurveyemailworkflow" type="entityreference" lookupType="workflow" customfield="true" />
+      <field displayname="Staff Survey Send Reminder Email Number Of Days" name="cmc_staffsurveysendreminderemailnumberofdays" type="number" customfield="true" />
+      <field displayname="Stop Legacy Check" name="cmc_stoplegacycheck" type="bool" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Trace Log Level" name="cmc_traceloglevel" type="optionsetvalue" customfield="true" />
+      <field displayname="Trip Approval Assign Work Flow" name="cmc_tripapprovalassignworkflow" type="entityreference" lookupType="workflow" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_educationlevel" displayname="Education Level" etc="10107" primaryidfield="mshied_educationlevelid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+      <field displayname="Education Level" name="mshied_educationlevelid" type="guid" primaryKey="true" />
+      <field displayname="Education Level Name" name="mshied_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="mshied_registrationstatus" displayname="Registration Status" etc="10115" primaryidfield="mshied_registrationstatusid" primarynamefield="mshied_name" disableplugins="false">
+    <fields>
+      <field displayname="Code" name="mshied_code" type="string" customfield="true" />
+      <field displayname="External Identifier" name="mshied_externalidentifier" type="string" customfield="true" />
+      <field displayname="Registration Status" name="mshied_registrationstatusid" type="guid" primaryKey="true" />
+      <field displayname="Registration Status Name" name="mshied_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="queue" displayname="Queue" etc="2020" primaryidfield="queueid" primarynamefield="name" disableplugins="false">
+    <fields>
+      <field displayname="Business Unit" name="businessunitid" type="entityreference" lookupType="businessunit" />
+      <field displayname="Queue" name="queueid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="name" type="string" />
+      <field displayname="Type" name="queueviewtype" type="optionsetvalue" />
+      <field displayname="User Name (Obsolete)" name="emailusername" type="string" />
+      <field displayname="Primary Email Status" name="emailrouteraccessapproval" type="optionsetvalue" />
+      <field displayname="Outgoing Email Delivery Method" name="outgoingemaildeliverymethod" type="optionsetvalue" />
+      <field displayname="Mailbox" name="defaultmailbox" type="entityreference" lookupType="mailbox" />
+      <field displayname="Incoming Email Delivery Method" name="incomingemaildeliverymethod" type="optionsetvalue" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Convert To Email Activities" name="ignoreunsolicitedemail" type="bool" />
+      <field displayname="Convert Incoming Email To Activities" name="incomingemailfilteringmethod" type="optionsetvalue" />
+      <field displayname="Allow to Use Credentials for Email Processing (Obsolete)" name="allowemailcredentials" type="bool" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+    </fields>
+  </entity>
+  <entity name="duplicaterule" displayname="Duplicate Detection Rule" etc="4414" primaryidfield="duplicateruleid" primarynamefield="name" disableplugins="false">
+    <fields>
+      <field displayname="Base Record Type" name="baseentityname" type="string" />
+      <field displayname="Base Record Type" name="baseentitytypecode" type="optionsetvalue" />
+      <field displayname="Base Record Type Match Code Table" name="baseentitymatchcodetable" type="string" />
+      <field displayname="Case Sensitive" name="iscasesensitive" type="bool" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Duplicate Detection Rule" name="duplicateruleid" type="guid" primaryKey="true" />
+      <field displayname="Exclude Inactive Records" name="excludeinactiverecords" type="bool" />
+      <field displayname="Matching Record Type" name="matchingentityname" type="string" />
+      <field displayname="Matching Record Type" name="matchingentitytypecode" type="optionsetvalue" />
+      <field displayname="Matching Record Type Match Code Table" name="matchingentitymatchcodetable" type="string" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Rule Name" name="name" type="string" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="duplicaterulecondition" displayname="Duplicate Rule Condition" etc="4416" primaryidfield="duplicateruleconditionid" primarynamefield="" disableplugins="false">
+    <fields>
+      <field displayname="Base Field" name="baseattributename" type="string" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field updateCompare="true" displayname="Duplicate Rule Condition" name="duplicateruleconditionid" type="guid" primaryKey="true" />
+      <field displayname="Ignore Blank Values" name="ignoreblankvalues" type="bool" />
+      <field updateCompare="true" displayname="Matching Field" name="matchingattributename" type="string" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Operator Code" name="operatorcode" type="optionsetvalue" />
+      <field displayname="Operator Parameter" name="operatorparam" type="number" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field updateCompare="true" displayname="Regarding" name="regardingobjectid" type="entityreference" lookupType="duplicaterule" />
+    </fields>
+    <relationships />
+  </entity>
+</entities>

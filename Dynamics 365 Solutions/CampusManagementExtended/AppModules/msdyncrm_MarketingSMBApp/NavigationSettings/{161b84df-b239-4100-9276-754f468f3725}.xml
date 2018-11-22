@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{161b84df-b239-4100-9276-754f468f3725}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a705-a21d91dc7b00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=entitylist&amp;etn=msdyncrm_cdsaconnectorconfiguration</PageUrl>
+  <QuickSettingOrder>4</QuickSettingOrder>
+  <SettingType>1</SettingType>
+  <IconResourceId>{b60b238c-54ee-4493-a6ef-cb4edb213cbb}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="CDS-A connector settings" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="CDS-A connector settings" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a704-bfaa0c54fa02}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a704-bfaa0c54fa00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.SystemViewTControl.SystemViewTControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <IconResourceId>{2dadeb86-2222-4616-b000-1915e0f24c25}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Views" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Views" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

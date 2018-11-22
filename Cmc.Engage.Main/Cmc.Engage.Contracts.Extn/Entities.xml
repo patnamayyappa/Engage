@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Model.xsd"
+    IncludeAllEntities="false" IncludeAllGlobalOptionSets="false">  
+  <Entities>
+    <!-- System Defined Entities -->   
+    <Entity Name="msevtmgt_event" />
+    <Entity Name="msevtmgt_venue"/>
+  </Entities>
+</Model>

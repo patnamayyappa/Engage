@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{14b0f387-6c21-e811-a95f-000d3a11f5ee}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_domdefinitionlogicname" select="1" preview="1" icon="1">
+        <row name="result" id="cmc_domdefinitionlogicid">
+          <cell name="cmc_domdefinitionlogicname" width="300" />
+          <cell name="cmc_attribute" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_conditiontype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_value" width="100" />
+          <cell name="cmc_maximum" width="100" />
+          <cell name="cmc_minimum" width="100" />
+          <cell name="cmc_domdefinitionid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cmc_domdefinitionlogic">
+          <attribute name="cmc_value" />
+          <attribute name="cmc_minimum" />
+          <attribute name="cmc_maximum" />
+          <attribute name="cmc_conditiontype" />
+          <attribute name="cmc_domdefinitionlogicname" />
+          <attribute name="createdon" />
+          <attribute name="cmc_domdefinitionid" />
+          <order attribute="cmc_domdefinitionlogicname" descending="false" />
+          <attribute name="cmc_attribute" />
+          <attribute name="cmc_domdefinitionlogicid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Editable DOM Definition Logic" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="View for editing active DOM Definition Logic" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{31d636f3-94cf-e811-a958-000d3a4e7806}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_coursesectionid">
+          <cell name="mshied_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_8b21f18985cbe811a957000d3a4e78e7.mshied_section" width="100" disableSorting="1" />
+          <cell name="mshied_academicperiodid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_campusid" width="100" />
+          <cell name="mshied_location" width="100" />
+          <cell name="mshied_coursedaytime" width="100" />
+          <cell name="mshied_courseid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_staffid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="mshied_coursesection">
+          <attribute name="mshied_name" />
+          <attribute name="mshied_coursedaytime" />
+          <attribute name="mshied_courseid" />
+          <attribute name="mshied_campusid" />
+          <attribute name="mshied_academicperiodid" />
+          <order attribute="mshied_name" descending="false" />
+          <link-entity name="mshied_course" from="mshied_courseid" to="mshied_courseid" visible="false" link-type="outer" alias="a_8b21f18985cbe811a957000d3a4e78e7">
+            <attribute name="mshied_section" />
+          </link-entity>
+          <attribute name="mshied_location" />
+          <attribute name="cmc_staffid" />
+          <attribute name="mshied_coursesectionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.7.0.52</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Staff Courses(Engage)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

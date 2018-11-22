@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a703-5f15ca629e02}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a703-5f15ca629e00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.ImportTControl.ImportTControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <IconResourceId>{466ecf21-2222-48cd-a6df-9dd2639177ae}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Import data" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Import Data" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

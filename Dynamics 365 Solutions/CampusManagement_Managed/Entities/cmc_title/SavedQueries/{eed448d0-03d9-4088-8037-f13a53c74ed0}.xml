@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{eed448d0-03d9-4088-8037-f13a53c74ed0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_titlename" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_titleid">
+          <cell name="cmc_titlename" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_title">
+          <attribute name="cmc_titleid" />
+          <attribute name="cmc_titlename" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_titlename" operator="like" value="{0}" />
+          </filter>
+          <order attribute="cmc_titlename" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Titles" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

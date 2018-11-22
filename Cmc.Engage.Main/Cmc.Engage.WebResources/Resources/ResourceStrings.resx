@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddOption" xml:space="preserve">
+    <value>Add Option</value>
+  </data>
+  <data name="AddQuestion" xml:space="preserve">
+    <value>Add Question</value>
+  </data>
+  <data name="AssignButton" xml:space="preserve">
+    <value>Assign</value>
+  </data>
+  <data name="AssignStaffSurveyTitle" xml:space="preserve">
+    <value>Assign Campus Survey</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CannotDeleteQuestionText" xml:space="preserve">
+    <value>Cannot delete this question</value>
+  </data>
+  <data name="CollapseQuestion" xml:space="preserve">
+    <value>Collapse Question</value>
+  </data>
+  <data name="DeleteOption" xml:space="preserve">
+    <value>Delete Option</value>
+  </data>
+  <data name="DeleteQuestion" xml:space="preserve">
+    <value>Delete Question</value>
+  </data>
+  <data name="DeleteQuestionConfirmation" xml:space="preserve">
+    <value>Are you sure to delete this question?</value>
+  </data>
+  <data name="EmptyQuestionText" xml:space="preserve">
+    <value>The questions cannot be blank</value>
+  </data>
+  <data name="EnterOption" xml:space="preserve">
+    <value>Enter an option</value>
+  </data>
+  <data name="EnterQuestion" xml:space="preserve">
+    <value>Enter a question</value>
+  </data>
+  <data name="ExpandQuestion" xml:space="preserve">
+    <value>Expand Question</value>
+  </data>
+  <data name="HideQuestions" xml:space="preserve">
+    <value>Hide Questions</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options:</value>
+  </data>
+  <data name="PreviewContainerText" xml:space="preserve">
+    <value>PREVIEW</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question:</value>
+  </data>
+  <data name="QuestionPlaceHolder" xml:space="preserve">
+    <value>Enter a question</value>
+  </data>
+  <data name="QuestionsContainerText" xml:space="preserve">
+    <value>QUESTIONS</value>
+  </data>
+  <data name="QuestionTitle" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="SelectQuestionType" xml:space="preserve">
+    <value>Select a question type</value>
+  </data>
+  <data name="SelectStaffSurvey" xml:space="preserve">
+    <value>Course Sections selected. Please search for and select a Campus Survey Template.</value>
+  </data>
+  <data name="ShowQuestions" xml:space="preserve">
+    <value>Show Questions</value>
+  </data>
+  <data name="StaffSurveyTemplate" xml:space="preserve">
+    <value>Campus Survey Template</value>
+  </data>
+  <data name="Student1" xml:space="preserve">
+    <value>Student1</value>
+  </data>
+  <data name="Student2" xml:space="preserve">
+    <value>Student2</value>
+  </data>
+  <data name="StudentQuestionHeader" xml:space="preserve">
+    <value>StudentName\Questions</value>
+  </data>
+  <data name="SubmitConfirmation" xml:space="preserve">
+    <value>Do you want to submit?</value>
+  </data>
+  <data name="ErrorPrefix" xml:space="preserve">
+    <value>An unexpected error has occurred : </value>
+  </data>
+  <data name="Ribbon_Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="AttributePicker_Label" xml:space="preserve">
+    <value>Attribute or Relationship of</value>
+  </data>
+  <data name="ActivateStudentGroupTitle" xml:space="preserve">
+    <value>Activate Student Group</value>
+  </data>
+  <data name="ActiveButton" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="ActiveGroups" xml:space="preserve">
+    <value>Change the expiry date to activate groups in which the date occurred in the past.</value>
+  </data>
+  <data name="Advisor" xml:space="preserve">
+    <value>Advisor</value>
+  </data>
+  <data name="AppointmentButton" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_FailureMessageForNoAcademicPeriod" xml:space="preserve">
+    <value>Success plans are not assigned as an Academic Period record is not associated with the following students:</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_FailureMessageForSingleStudent" xml:space="preserve">
+    <value>Success Plan already exists for this Student therefore not re-assigned.</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_NoStudentsMessage" xml:space="preserve">
+    <value>Could not determine the Students to assign Success Plans to. This page will not function correctly.</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_SelectSuccessPlanTemplateMessage" xml:space="preserve">
+    <value>Please select a Success Plan Template</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_SuccessMessageForAllDuplicates" xml:space="preserve">
+    <value>Success Plan already exists for selected Students therefore not re-assigned.</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_SuccessMessageForNoDuplicates" xml:space="preserve">
+    <value>Success Plans have been assigned for all selected Students.</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_SuccessMessageForSingleStudent" xml:space="preserve">
+    <value>A Success Plan has been assigned to this Student.</value>
+  </data>
+  <data name="AssignSuccessPlanDialog_SuccessMessageForSomeDuplicates" xml:space="preserve">
+    <value>selected Students were skipped since they already had the Success Plan assigned.</value>
+  </data>
+  <data name="AssignSuccessPlanTitle" xml:space="preserve">
+    <value>Assign Success Plan</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="AttributeSelector_NoAttributeWarning" xml:space="preserve">
+    <value>You must provide a value for Attribute.</value>
+  </data>
+  <data name="AttributeTitle" xml:space="preserve">
+    <value>DOM Definition Execution Order Attribute Selector</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="EmailButton" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="EventButton" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="ExpireDate" xml:space="preserve">
+    <value>Expire Date</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="MarketingListTitle" xml:space="preserve">
+    <value>Marketing list</value>
+  </data>
+  <data name="PhonecallButton" xml:space="preserve">
+    <value>Phone Call</value>
+  </data>
+  <data name="ScheduleAppointment" xml:space="preserve">
+    <value>Schedule Appointment</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="SelectSuccessPlan" xml:space="preserve">
+    <value>Student(s) selected. Please search for and select a Success Plan Template.</value>
+  </data>
+  <data name="StaffCalendarTitle" xml:space="preserve">
+    <value>Staff Calendar</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="SuccessPlanTemplate" xml:space="preserve">
+    <value>Success Plan Template</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ToDoButton" xml:space="preserve">
+    <value>To-Do</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="ZoomTimeLine" xml:space="preserve">
+    <value>Zoom: Alt+Scroll</value>
+  </data>
+  <data name="Missing_Valid_DOM_Definition_Logic_for_DOM_Definition_Execution_Order" xml:space="preserve">
+    <value>A matching DOM Definition Logic record does not exist for this DOM Definition Execution Order record.</value>
+  </data>
+  <data name="Missing_Valid_DOM_Definition_Execution_Order_for_DOM_Definition_Logic" xml:space="preserve">
+    <value>A matching DOM Definition Execution Order record does not exist for this DOM Definition Logic record.</value>
+  </data>
+  <data name="QuaterHoursError" xml:space="preserve">
+    <value>You must set duration in increments of quarter hours (0.25)</value>
+  </data>
+  <data name="StartDateGreaterthanEndDateError" xml:space="preserve">
+    <value>The end date must occur after the start date</value>
+  </data>
+  <data name="StartTimeGreaterthanEndTimeError" xml:space="preserve">
+    <value>The end time must occur after the start time</value>
+  </data>
+  <data name="ConfirmationDialog" xml:space="preserve">
+    <value>Confirmation Dialog</value>
+  </data>
+  <data name="TravelMgmt_Tripwithsamestart_enddate" xml:space="preserve">
+    <value>A trip with the same start and/or end date is already available.</value>
+  </data>
+  <data name="TripActivityDateValidation" xml:space="preserve">
+    <value>The start and end dates must be on or within the start and end dates of the associated trip.</value>
+  </data>
+  <data name="AcceptAppointment_MultipleErrors" xml:space="preserve">
+    <value>An error occurred accepting one or more of the selected Appointments. Please try again.</value>
+  </data>
+  <data name="AcceptAppointment_SingleError" xml:space="preserve">
+    <value>An error occurred accepting the selected Appointment. Please try again.</value>
+  </data>
+  <data name="AcceptAppointment_Success" xml:space="preserve">
+    <value>Successfully accepted all Appointments</value>
+  </data>
+  <data name="DeclineAppointment_MultipleErrors" xml:space="preserve">
+    <value>An error occurred declining one or more of the selected Appointments. Please try again.</value>
+  </data>
+  <data name="DeclineAppointment_SingleError" xml:space="preserve">
+    <value>An error occurred declining the selected Appointment. Please try again.</value>
+  </data>
+  <data name="DeclineAppointment_Success" xml:space="preserve">
+    <value>Successfully declined all Appointments</value>
+  </data>
+  <data name="StaffSurveyTemplate_Copy_DialogMessage" xml:space="preserve">
+    <value>Create a copy of this Campus Survey Template record?</value>
+  </data>
+  <data name="StaffSurveyTemplate_Copy_DialogTitle" xml:space="preserve">
+    <value>Copy Campus Survey Template</value>
+  </data>
+  <data name="RecordFieldDirtyMessage" xml:space="preserve">
+    <value>Unable to copy, field(s) on the form have been modified.</value>
+  </data>
+  <data name="StaffSurveyTemplate_Copy_Loading" xml:space="preserve">
+    <value>Copying Campus Survey Template...</value>
+  </data>
+  <data name="SuccessPlanTemplate_Copy_FormMissingCopySuccessPlanFieldMessage" xml:space="preserve">
+    <value>Cannot copy the Success Plan Template, the form is missing the Copy Success Plan Template field.</value>
+  </data>
+  <data name="PredictRetention_Failure" xml:space="preserve">
+    <value>An error occurred while trying to predict the Retention Probability.</value>
+  </data>
+  <data name="PredictRetention_Success" xml:space="preserve">
+    <value>Retention Probability was successfully updated.</value>
+  </data>
+  <data name="DegreePlanningURL_EmptyFields" xml:space="preserve">
+    <value>Empty or Non-Present fields present in degree planning URL: </value>
+  </data>
+  <data name="DegreePlanningURL_Error" xml:space="preserve">
+    <value>Unable to generate degree planning URL, contact field(s) in the form have been modified.</value>
+  </data>
+  <data name="DegreePlanningURL_Undefined" xml:space="preserve">
+    <value>Degree planning URL undefined.</value>
+  </data>
+  <data name="Error_matching_configuration" xml:space="preserve">
+    <value>Error matching configuration.</value>
+  </data>
+  <data name="DefinitionLogicAttributeMismatch_MultipleErrors" xml:space="preserve">
+    <value>There are multiple DOM Definition Logic records missing.</value>
+  </data>
+  <data name="DefinitionLogicAttributeMismatch_SingleError" xml:space="preserve">
+    <value>There is a DOM Definition Logic missing for {0}.</value>
+  </data>
+  <data name="DomExecutionOrderAttributeMismatch_MultipleErrors" xml:space="preserve">
+    <value>There are multiple DOM Definition Execution Order records missing.</value>
+  </data>
+  <data name="DomExecutionOrderAttributeMismatch_SingleError" xml:space="preserve">
+    <value>There is a DOM Definition Execution Order missing for {0}.</value>
+  </data>
+  <data name="AssignSuccessPlanDuplicateMessage" xml:space="preserve">
+    <value>{0} of {1} selected Students were skipped since they already had the Success Plan assigned.Their names are : </value>
+  </data>
+  <data name="AssignSuccessPlanDialog_FailureMessageForNoAcademicPeriodFullText" xml:space="preserve">
+    <value>{0} of {1} Success plans are not assigned as an Academic Period record is not associated with the following students: Their names are:</value>
+  </data>
+  <data name="TimelineCheckAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="SelectLifecycles" xml:space="preserve">
+    <value>Select Lifecycles</value>
+  </data>
+  <data name="LifecycleSelected" xml:space="preserve">
+    <value>Lifecycles Selected</value>
+  </data>
+  <data name="AssignedStaff" xml:space="preserve">
+    <value>Assigned to Staff</value>
+  </data>
+  <data name="Attendees" xml:space="preserve">
+    <value>Attendees</value>
+  </data>
+  <data name="CompletedDate" xml:space="preserve">
+    <value>Completed Date</value>
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="FromString" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="TripActivity_Not_Cancelled" xml:space="preserve">
+    <value>The Trip cannot be marked as Canceled as some Trip Activities are marked as Complete.</value>
+  </data>
+  <data name="TripActivity_Not_Completed" xml:space="preserve">
+    <value>The Trip cannot be marked as Complete as some Trip Activities are marked as Planned, Requested or Confirmed.</value>
+  </data>
+  <data name="Trip_Completed_Cancelled" xml:space="preserve">
+    <value>The Trip is already marked as Completed or Canceled.</value>
+  </data>
+  <data name="Trip_Not_Approved" xml:space="preserve">
+    <value>Cannot mark the Trip as Completed because its Trip Status is not Approved.</value>
+  </data>
+  <data name="TravelMgmt_TripActivityStart_EndDateOutOfTripStart_EndDate" xml:space="preserve">
+    <value>The start and/or end dates are not in the date range of the associated trip.</value>
+  </data>
+  <data name="TravelMgmt_TripActivityExceedsDateRangeOfAssociatedTrip" xml:space="preserve">
+    <value>Changed start and / or end dates are identical to or exceed the date range of associated trips.</value>
+  </data>
+  <data name="Generic_ContactAdminError" xml:space="preserve">
+    <value>An unexpected error has occurred.Contact your administrator.</value>
+  </data>
+  <data name="Trip_Cancel" xml:space="preserve">
+    <value>Cancel the trip?</value>
+  </data>
+  <data name="Trip_Complete" xml:space="preserve">
+    <value>Complete the trip?</value>
+  </data>
+  <data name="Trip_DialogTitle" xml:space="preserve">
+    <value>Trip</value>
+  </data>
+  <data name="TestType_TypeNotConfigured" xml:space="preserve">
+    <value>Details cannot be saved as an associated Test Type is not available for the selected test. Contact your administrator.</value>
+  </data>
+  <data name="NoDataMessage" xml:space="preserve">
+    <value>NO DATA FOUND</value>
+  </data>
+  <data name="SelectStaffSurveyTemplate" xml:space="preserve">
+    <value>Please select a Campus Survey Template</value>
+  </data>
+  <data name="StaffSurveyAssign" xml:space="preserve">
+    <value>Campus Survey(s) has been assigned for the selected Staff Course(s)</value>
+  </data>
+  <data name="StaffSurveyNotAssign" xml:space="preserve">
+    <value>Campus Surveys are not assigned as : -Existing Campus Surveys with matching dates or with dates within the matching dates are already assigned. - The start date of the Campus Survey is prior to the current date.</value>
+  </data>
+  <data name="Email_Success" xml:space="preserve">
+    <value>Email sent successfully</value>
+  </data>
+  <data name="TravelMgmt_TripAlreadyApprovedOrRejected" xml:space="preserve">
+    <value>The trip is already approved or rejected. To view its updated status, refresh the page.</value>
+  </data>
+  <data name="ChatButton" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="Timeline_Chatwith" xml:space="preserve">
+    <value>Chat with : {0}</value>
+  </data>
+  <data name="EntityPicker_DisableAlert" xml:space="preserve">
+    <value>The selected entity cannot be changed after creating the record.</value>
+  </data>
+  <data name="EntityPicker_Label" xml:space="preserve">
+    <value>Select Entity</value>
+  </data>
+  <data name="Recommendation_Invite_Workflow_NotConfigured" xml:space="preserve">
+    <value>Please Note - Workflow to send request has not been defined.</value>
+  </data>
+  <data name="AllConnection" xml:space="preserve">
+    <value>All Connections</value>
+  </data>
+  <data name="InternalConnection" xml:space="preserve">
+    <value>Internal Connections</value>
+  </data>
+  <data name="UserLookupView" xml:space="preserve">
+    <value>User Lookup View</value>
+  </data>
+</root>

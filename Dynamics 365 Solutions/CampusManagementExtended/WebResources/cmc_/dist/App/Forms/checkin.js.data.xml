@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{ea20078f-d4bb-e811-a95a-000d3a1d531d}</WebResourceId>
+  <Name>cmc_/dist/app/Forms/checkin.js</Name>
+  <DisplayName>checkin.js</DisplayName>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.7.0.020</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/constants.js" displayName="constants.js" languagecode="1033" description="application constants are maintained here." libraryUniqueId="{6ddae221-285c-1dea-3aa1-692a95a027c9}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappFormscheckinjsEA20078F-D4BB-E811-A95A-000D3A1D531D</FileName>
+</WebResource>

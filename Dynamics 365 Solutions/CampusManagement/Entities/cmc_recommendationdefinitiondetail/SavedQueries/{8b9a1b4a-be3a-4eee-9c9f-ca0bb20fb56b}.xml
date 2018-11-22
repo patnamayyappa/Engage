@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8b9a1b4a-be3a-4eee-9c9f-ca0bb20fb56b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_recommendationdefintiondetailname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_recommendationdefinitiondetailid">
+          <cell name="cmc_recommendationdefintiondetailname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_recommendationdefinitiondetail">
+          <attribute name="cmc_recommendationdefinitiondetailid" />
+          <attribute name="cmc_recommendationdefintiondetailname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_recommendationdefintiondetailname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_recommendationdefintiondetailname" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Application Recommendation Definition Details" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

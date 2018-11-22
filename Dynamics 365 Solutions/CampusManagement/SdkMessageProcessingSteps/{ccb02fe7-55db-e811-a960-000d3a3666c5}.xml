@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Common.Plugins.SetAddressStateorCountryPlugin: Update of customeraddress" SdkMessageProcessingStepId="{ccb02fe7-55db-e811-a960-000d3a3666c5}">
+  <PluginTypeName>Cmc.Engage.Common.Plugins.SetAddressStateorCountryPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538</PluginTypeName>
+  <PluginTypeId>b048e7e8-082c-484b-99c1-dbc8b3e164e5</PluginTypeId>
+  <PrimaryEntity>customeraddress</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>cmc_country,cmc_stateprovince</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

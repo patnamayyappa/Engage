@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginAssemblyId="7685e4ee-e96d-443d-b966-4f4f58c61a0c" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageCommonPlugins-7685E4EE-E96D-443D-B966-4F4F58C61A0C/CmcEngageCommonPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.ActivateStudentGroupPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="5dd0709c-9d61-4a14-a616-575b2d769784" Name="Cmc.Engage.Common.Plugins.ActivateStudentGroupPlugin">
+      <FriendlyName>96be3372-b30e-44e0-9757-f0d0b6ee2ebf</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.BuildAttributeDisplayPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="f7e54796-1a53-4cfa-9885-8b2ffc10835f" Name="Cmc.Engage.Common.Plugins.BuildAttributeDisplayPlugin">
+      <FriendlyName>11f4a089-d267-49db-83d4-51f7abc497f6</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.CheckAndValidatePrimaryAddressPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="4fd7bb1d-a1af-41f3-9393-6699f8625423" Name="Cmc.Engage.Common.Plugins.CheckAndValidatePrimaryAddressPlugin">
+      <FriendlyName>eb1abec0-5d49-465f-9b67-abdba3f44ba3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.ComputeMilesFromHomePlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="7e57e918-3083-4075-9a0c-df8ffa1a49d7" Name="Cmc.Engage.Common.Plugins.ComputeMilesFromHomePlugin">
+      <FriendlyName>9dd940c8-069a-41f2-a3aa-96ef6f582855</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.CreateStudentSuccessPlansFromTemplatePlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="dcefcac9-c81b-4560-86fd-5a66e3219b76" Name="Cmc.Engage.Common.Plugins.CreateStudentSuccessPlansFromTemplatePlugin">
+      <FriendlyName>efcb0db2-28e5-4a7a-8f45-36fbd2c4bbc1</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.CreateUpdateStudentOwnerPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="aad4cd43-5339-4713-972a-dca5082b028d" Name="Cmc.Engage.Common.Plugins.CreateUpdateStudentOwnerPlugin">
+      <FriendlyName>2b35f869-6ccf-4399-a35e-66c532494a1a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.GeocodeAddressPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="0bde137c-767f-4cfc-9125-d5f4e32802d6" Name="Cmc.Engage.Common.Plugins.GeocodeAddressPlugin">
+      <FriendlyName>8f140685-4375-42f1-8394-931c9e9d0ef7</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.PortalWebServicePlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="034300b2-8be6-4722-be6d-001c127af791" Name="Cmc.Engage.Common.Plugins.PortalWebServicePlugin">
+      <FriendlyName>f44a46f7-5161-489e-8b64-b03d5782c063</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.PredictRetentionActionPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="15c7a59c-ef3f-41e6-8df0-83941d837488" Name="Cmc.Engage.Common.Plugins.PredictRetentionActionPlugin">
+      <FriendlyName>552f5b85-0858-4c15-b12b-ba6f811243e3</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.RetrieveAttributesRelationshipsForEntitiesPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="6f52b29e-583c-4e8a-9786-93737bd05362" Name="Cmc.Engage.Common.Plugins.RetrieveAttributesRelationshipsForEntitiesPlugin">
+      <FriendlyName>8bf7357a-c78e-46ea-b2eb-ed9e85f072e9</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.RetrieveMultiLingualValuesActionPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="0dfa0403-1ed1-4800-8ffd-e6b153dd0629" Name="Cmc.Engage.Common.Plugins.RetrieveMultiLingualValuesActionPlugin">
+      <FriendlyName>ae452090-e8b7-4e7f-96c4-78eaae1a3309</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.RetrieveUserLookupsForEntityPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="47084eb8-e1ec-4257-979f-73052bb016f1" Name="Cmc.Engage.Common.Plugins.RetrieveUserLookupsForEntityPlugin">
+      <FriendlyName>4943a791-5cf6-48a2-af1d-3c7624cd1ef8</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.SetAddressStateorCountryPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="5f98300c-fc10-436b-99f3-e2294b44de6b" Name="Cmc.Engage.Common.Plugins.SetAddressStateorCountryPlugin">
+      <FriendlyName>9f47ef6d-6348-4751-a884-af266b39aeb5</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.SetLegacyStudentPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="10be6880-6652-498a-b53d-6463c0b50dfb" Name="Cmc.Engage.Common.Plugins.SetLegacyStudentPlugin">
+      <FriendlyName>94b15c98-92cf-40a1-a024-f97cc488757f</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Common.Plugins.SetStudentFlagPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538" PluginTypeId="b6f10d6a-c312-4a1e-ad5c-e15969494f9b" Name="Cmc.Engage.Common.Plugins.SetStudentFlagPlugin">
+      <FriendlyName>a8d2fb6b-a2cd-4d69-8ee7-87a94849d84c</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

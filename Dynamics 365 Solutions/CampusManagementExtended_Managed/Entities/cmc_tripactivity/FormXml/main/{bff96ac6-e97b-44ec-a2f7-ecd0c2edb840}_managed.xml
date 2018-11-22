@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{bff96ac6-e97b-44ec-a2f7-ecd0c2edb840}</formid>
+    <IntroducedVersion>1.0.0.69</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{b45ccbf2-9bb3-42f0-a1e6-bf15c9c91e84}" IsUserDefined="1" name="{b45ccbf2-9bb3-42f0-a1e6-bf15c9c91e84}" expanded="true" locklevel="0" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{ac994bc3-89f7-4d9a-8edc-43cb23f59820}" name="TripActivityDetails" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{c2504961-ccc0-dc47-7c1a-e55bd6e925dd}" showlabel="true" locklevel="0" colspan="1" ordinalvalue="10002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{bca997cd-da04-9a56-ec23-e9e34b43dd9e}" showlabel="true" locklevel="0" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{d5111063-29c8-3253-006d-7e7acb4e49e3}" locklevel="0" showlabel="true" ordinalvalue="20009" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{dc628699-0e89-c57e-7ecc-e95e131968b0}" showlabel="true" locklevel="0" ordinalvalue="20011" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{4335944d-d222-0186-a1b0-dbe98e59e6c8}" showlabel="false" ordinalvalue="20011" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{483cedb8-6e55-164a-b3c8-316a093549e7}" locklevel="0" showlabel="true" ordinalvalue="20005" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_linkedtoevent" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_linkedtoevent" uniqueid="{10aea7a8-3676-bb22-b825-7d6b44eb3a98}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{43D8004F-2A4B-4282-9A39-4A04C8C31E92}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="cmc_activitytype">
+          <Handlers>            
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cmc_linkedtoevent" solutionaction="Added">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_tripactivity.eventSelectionChange" libraryName="cmc_/dist/app/Forms/cmc_tripactivity.js" handlerUniqueId="{66d08ad0-2976-06bb-9158-5a29eb523eec}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

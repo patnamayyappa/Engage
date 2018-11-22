@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <LocalizedNames>
+    <LocalizedName description="Case Management" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{3828a9e5-53a5-e711-8105-c4346bdc3221}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{48a4dc62-7344-447f-9b6f-b8903378ce2b}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{462b95dd-9415-4de9-8ba0-e7ac8e79b72f}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{8adea015-5023-43d8-a47f-c9afed8a660e}" auto="false">
+                          <labels>
+                            <label description="Cases" languagecode="1033" />
+                          </labels>
+                          <control id="Component474dc3f" uniqueid="{57ae9b5d-b207-e9c1-5776-3587a16250d3}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>incident</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <ViewId>{00000000-0000-0000-00AA-000010001032}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{F096F892-A382-DE11-9FF3-00155DA3B012}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{af8eea93-39bf-4835-9c74-8fddb3c667fc}" auto="false">
+                          <labels>
+                            <label description="Case" languagecode="1033" />
+                          </labels>
+                          <control id="Componentfa6cac3" uniqueid="{8856e404-4800-a967-8378-ca5b952e270d}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>incident</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <ViewId>{00000000-0000-0000-00AA-000010001032}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{4143B74E-4A07-4D01-9FFE-2CDCAA4208FD}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{30ba4fb9-e5b2-41d7-8642-d67119d99b4d}" auto="false">
+                          <labels>
+                            <label description="Cases" languagecode="1033" />
+                          </labels>
+                          <control id="Component2a848a2" uniqueid="{932821ac-eee7-b096-2bdb-852ec11b0d41}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>incident</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <ViewId>{00000000-0000-0000-00AA-000010001032}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{00000000-0000-0000-00AA-000010001028}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{4E6ED7A7-54A5-E711-8105-C4346BDC3221}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{a4c2a693-b586-4f9c-a788-d8bc558406c2}" auto="false">
+                          <labels>
+                            <label description="Case" languagecode="1033" />
+                          </labels>
+                          <control id="Componenta780b73" uniqueid="{321b54b0-74a9-d8b4-8b22-7be845c9aa7b}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>incident</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <ViewId>{00000000-0000-0000-00AA-000010001032}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{00000000-0000-0000-00AA-000010001032}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{99782DA3-A382-DE11-9FF3-00155DA3B012}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{b83a5a6a-aacc-4d87-b957-ee0ef26fb8ef}" auto="false">
+                          <labels>
+                            <label description="Case" languagecode="1033" />
+                          </labels>
+                          <control id="Componentec4d12a" uniqueid="{5d3d9783-1105-35c5-1a10-d36993053019}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>incident</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <ViewId>{00000000-0000-0000-00AA-000010001032}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{FFD9D95A-0F67-40C1-9245-C393E3E443F0}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{f8ad5995-74e5-4785-861e-34b77eb5ef02}" auto="false">
+                          <labels>
+                            <label description="Cases by Queue" languagecode="1033" />
+                          </labels>
+                          <control id="cases_by_queue_component" uniqueid="{531b014c-882c-de00-ccba-a02744ba2300}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>queueitem</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>9</RecordsPerPage>
+                              <ViewId>{7BEA29F4-0240-4F79-9E89-E07A134DC405}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{7BEA29F4-0240-4F79-9E89-E07A134DC405}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{475E6F02-32AE-4081-8CB8-E3E24A9FBC0F}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <DisplayConditions FallbackForm="true">
+          <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        </DisplayConditions>
+        <controlDescriptions />
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.17</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

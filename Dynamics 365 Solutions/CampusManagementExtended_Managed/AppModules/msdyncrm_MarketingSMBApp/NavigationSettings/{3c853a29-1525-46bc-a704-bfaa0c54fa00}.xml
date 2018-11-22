@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a704-bfaa0c54fa00}</NavigationSettingId>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <Privileges>0</Privileges>
+  <AdvancedSettingOrder>2</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Customization" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Customization" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

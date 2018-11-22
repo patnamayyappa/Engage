@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8309fa08-c287-e711-8103-c4346bdc2171}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_retentionscorehistoryname" select="1" preview="1" icon="1">
+        <row name="result" id="cmc_retentionscorehistoryid">
+          <cell name="cmc_retentionscorehistoryname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_scoredefinitionid" width="100" />
+          <cell name="cmc_targetattribute" width="100" />
+          <cell name="cmc_score" width="100" />
+          <cell name="createdon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_lastcalculateddate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cmc_retentionscorehistory">
+          <attribute name="cmc_retentionscorehistoryname" />
+          <order attribute="createdon" descending="true" />
+          <attribute name="cmc_score" />
+          <attribute name="createdon" />
+          <attribute name="cmc_targetattribute" />
+          <attribute name="cmc_scoredefinitionid" />
+          <attribute name="cmc_lastcalculateddate" />
+          <attribute name="cmc_retentionscorehistoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All History" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

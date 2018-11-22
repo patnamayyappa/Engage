@@ -1,0 +1,24 @@
+{% extends 'layout_1_column' %}
+
+{% block main %}
+  {% include 'Page Copy' %}
+  {% include "snippet" snippet_name:"Knowledge Base Search" %}
+  {% assign category_url = sitemarkers['Category'].url %}
+  {% assign count = count | default: 0 %}
+  {% assign categories = knowledge.categories | top_level: count %}
+  {% if categories %}
+    {% assign category_title = snippets['KnowledgeBase/Categories'] %}
+    {% if category_title %}
+      <h2>{{ snippets['KnowledgeBase/Categories'] }}</h2>
+    {% else %}
+      <h2>Categories</h2>
+    {% endif %}
+    <div class="list-group unstyled">
+    {% for category in categories %}
+      <a href="{{ category_url | add_query: 'id', category.categorynumber }}" class="list-group-item">
+        {{ category.title }}
+      </a>
+    {% endfor %}
+    </div>
+  {% endif %}
+{% endblock %}

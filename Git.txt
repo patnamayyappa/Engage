@@ -1,0 +1,8 @@
+1. To Edit by 1
+*
+3. To Edit by 2
+*
+5. To Delete by 1
+6. To Delete by 2
+7. To Edit by 1 & 2
+8. To Delete by 1&2 

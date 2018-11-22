@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7e760628-460a-4452-a2cd-db21dcad3b9b}" Name="Trip - Approval Process">
+  <XamlFileName>/Workflows/Trip-ApprovalProcess-7E760628-460A-4452-A2CD-DB21DCAD3B9B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>cmc_tripapprovalprocess</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.72</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_trip</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Trip - Approval Process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{d397ee00-1b33-4474-b689-daf68ea41db4}">
+      <label languagecode="1033" description="Create Trip" />
+    </steplabels>
+    <steplabels id="{8e9652e2-4ea3-496a-8fa0-0dbe01d8dea6}">
+      <label languagecode="1033" description="Trip Name" />
+    </steplabels>
+    <steplabels id="{618a5bb5-157d-427d-8b2d-e85781f1a76a}">
+      <label languagecode="1033" description="Start Date" />
+    </steplabels>
+    <steplabels id="{80db9e93-e2b1-44ff-94b0-0cd6a248876c}">
+      <label languagecode="1033" description="End Date" />
+    </steplabels>
+    <steplabels id="{ab919e2f-ad3f-4bcf-bb36-c805c36608ce}">
+      <label languagecode="1033" description="Review Before Approval" />
+    </steplabels>
+    <steplabels id="{66fce983-4546-446a-b2ca-a53cb48f0387}">
+      <label languagecode="1033" description="Trip Name" />
+    </steplabels>
+    <steplabels id="{b3dc0a56-f869-4cbe-b62d-36848eb66df3}">
+      <label languagecode="1033" description="Start Date" />
+    </steplabels>
+    <steplabels id="{b4b2aee2-de91-4835-aa3c-625aac043c83}">
+      <label languagecode="1033" description="End Date" />
+    </steplabels>
+    <steplabels id="{cadb970c-e012-4a32-a62e-62c87a63fd0b}">
+      <label languagecode="1033" description="Travelers Details" />
+    </steplabels>
+    <steplabels id="{7616d09d-0ef9-46f6-8d71-fc25266953d6}">
+      <label languagecode="1033" description="Trip Activity Details" />
+    </steplabels>
+    <steplabels id="{3d38f4b8-5b91-4607-9d1b-91e3029d12ec}">
+      <label languagecode="1033" description="Estimated Expense Details" />
+    </steplabels>
+    <steplabels id="{b09f2827-2f6e-42e0-88fb-36f29e3f3730}">
+      <label languagecode="1033" description="Submitted For Review" />
+    </steplabels>
+    <steplabels id="{b24ad1cc-7d3f-45b6-bc91-424779e84a29}">
+      <label languagecode="1033" description="Trip Name" />
+    </steplabels>
+    <steplabels id="{d7207772-d9a3-42e9-a7aa-965a98ec45f5}">
+      <label languagecode="1033" description="Start Date" />
+    </steplabels>
+    <steplabels id="{76b70b44-e4db-4416-b8c5-8c08ac2b6da2}">
+      <label languagecode="1033" description="End Date" />
+    </steplabels>
+    <steplabels id="{b99b56ab-1e24-4da0-ad0b-0da92b4607b7}">
+      <label languagecode="1033" description="Travelers Details" />
+    </steplabels>
+    <steplabels id="{3bbadb8f-46ec-44d0-a19a-232e17972ffb}">
+      <label languagecode="1033" description="Trip Activity Details" />
+    </steplabels>
+    <steplabels id="{02caf328-87cf-45c3-a6f0-9b14fa5ba677}">
+      <label languagecode="1033" description="Estimated Expense Details" />
+    </steplabels>
+    <steplabels id="{352dd84b-13c5-49fd-aef9-57f6a0537d49}">
+      <label languagecode="1033" description="Trip Status" />
+    </steplabels>
+    <steplabels id="{25fa3606-fcee-47f4-99d3-4e978b2f0663}">
+      <label languagecode="1033" description="Reviewer" />
+    </steplabels>
+    <steplabels id="{b844faa4-4b43-4608-bb89-9beb68ab31d2}">
+      <label languagecode="1033" description="Reviewer Comment" />
+    </steplabels>
+    <steplabels id="{ac029f02-2082-462f-875e-53003915917c}">
+      <label languagecode="1033" description="Reviewed" />
+    </steplabels>
+    <steplabels id="{364cd253-eeca-446f-97bd-a32cd627f01a}">
+      <label languagecode="1033" description="Trip Name" />
+    </steplabels>
+    <steplabels id="{0c2f21cb-a3a1-49f8-a100-c86804e8dd40}">
+      <label languagecode="1033" description="Start Date" />
+    </steplabels>
+    <steplabels id="{56c51ac2-d824-4e14-ae1e-5dd971bad6de}">
+      <label languagecode="1033" description="End Date" />
+    </steplabels>
+    <steplabels id="{bf6d97f7-5d49-4b4e-9f2e-db0a93ddf0a4}">
+      <label languagecode="1033" description="Travelers Details" />
+    </steplabels>
+    <steplabels id="{78796b91-a713-4b35-9cc2-f69c7db96b8b}">
+      <label languagecode="1033" description="Trip Activity Details" />
+    </steplabels>
+    <steplabels id="{7b09da6c-92f1-41c8-8322-c5439de28971}">
+      <label languagecode="1033" description="Estimated Expense Details" />
+    </steplabels>
+    <steplabels id="{ef6833da-9de2-412b-bc23-01dea3f58790}">
+      <label languagecode="1033" description="Trip Status" />
+    </steplabels>
+    <steplabels id="{69a9dd50-923c-4272-a477-a0edf37c173a}">
+      <label languagecode="1033" description="Reviewer" />
+    </steplabels>
+    <steplabels id="{d0b04396-62c5-4baf-b730-d4f7a083c7ff}">
+      <label languagecode="1033" description="Reviewer Comment" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

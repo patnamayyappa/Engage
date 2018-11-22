@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2d3e4a18-add2-4a81-9190-35976528b12f}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_domdefinitionname" select="1" icon="1" preview="1">
+        <row name="cmc_domdefinition" id="cmc_domdefinitionid">
+          <cell name="cmc_domdefinitionname" width="300" />
+          <cell name="cmc_domdefinitionforid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_dommasterid" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_domdefinition">
+          <attribute name="cmc_domdefinitionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_domdefinitionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_dommasterid" />
+          <attribute name="cmc_domdefinitionforid" />
+          <attribute name="cmc_domdefinitionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="DOM Definition Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

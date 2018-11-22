@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{cb53feb4-6970-e811-a953-000d3a3acbf2}</WebResourceId>
+  <Name>cmc_/dist/App/Ribbon/cmc_staffsurveytemplate.js</Name>
+  <DisplayName>cmc_staffsurveytemplate.js</DisplayName>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.76</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distAppRibboncmc_staffsurveytemplatejsCB53FEB4-6970-E811-A953-000D3A3ACBF2</FileName>
+</WebResource>

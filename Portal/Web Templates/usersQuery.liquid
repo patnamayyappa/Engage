@@ -1,0 +1,27 @@
+{% assign stopCache = request.params['stopCache'] %}
+{% assign departmentId = request.params['departmentId'] %}
+{% assign accountId = request.params['accountId'] %}
+
+{% fetchxml usersQuery %}
+  <fetch version="1.0" mapping="logical">
+    <entity name="systemuser">
+      <attribute name="fullname"/>
+      <filter type="and">
+        <condition attribute="cmc_departmentid" operator="eq" value="{{departmentId}}" />
+      </filter>
+      <link-entity name="cmc_userlocation" from="cmc_userid" to="systemuserid" alias="userLocation">
+        <filter type="and">
+          <condition attribute="cmc_accountid" operator="eq" value="{{accountId}}" />
+        </filter>
+      </link-entity>
+      <order attribute="fullname" descending="false" />
+    </entity>
+  </fetch>
+{% endfetchxml %}[
+  {% for result in usersQuery.results.entities %}
+    {
+      "userId": "{{result.Id}}",
+      "fullname": "{{result.fullname}}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

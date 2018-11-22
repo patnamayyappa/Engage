@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Profiles>
+    <Profile Name="CMC DEV" Id="a7ea79ab-c828-49a6-a543-b3f55b988ae3">
+      <ConnectionString>LoginPrompt=Never;AuthType=OAuth;Url=https://cmcdev-900014.crm.dynamics.com;Username=patnama@campusmgmt.com;ClientId=2ad88395-b77d-4561-9441-d0e40824f9bc;RedirectUri=app://5d3e90d6-aa8e-48a8-8f2c-58b45cc67315/;TokenCacheStorePath=C:\\TempLocalCacheStore;RequireNewInstance=true</ConnectionString>
+      <ConfigFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.dataconfig</ConfigFilePath>
+      <DataFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.data</DataFilePath>
+      <UseRandomData>false</UseRandomData>
+      <DoNotRun>false</DoNotRun>
+    </Profile>
+    <Profile Name="CMC DEV EXT2" Id="5fdd2ba3-a8c9-421e-bfb3-3797fe537ba2">
+      <ConnectionString>LoginPrompt=Never;AuthType=OAuth;Url=https://cmcdevext2.crm.dynamics.com;Username=patnama@campusmgmt.com;ClientId=2ad88395-b77d-4561-9441-d0e40824f9bc;RedirectUri=app://5d3e90d6-aa8e-48a8-8f2c-58b45cc67315/;TokenCacheStorePath=C:\\TempLocalCacheStore;RequireNewInstance=true</ConnectionString>
+      <ConfigFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.dataconfig</ConfigFilePath>
+      <DataFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.data</DataFilePath>
+      <UseRandomData>false</UseRandomData>
+      <DoNotRun>false</DoNotRun>
+    </Profile>
+    <Profile Name="CMC DEV MAIN" Id="b41c687a-104b-4163-ac2b-4ba7904ca15a">
+      <ConnectionString>LoginPrompt=Never;AuthType=OAuth;Url=https://cmcdevmain.crm.dynamics.com;Username=patnama@campusmgmt.com;ClientId=2ad88395-b77d-4561-9441-d0e40824f9bc;RedirectUri=app://5d3e90d6-aa8e-48a8-8f2c-58b45cc67315/;TokenCacheStorePath=C:\\TempLocalCacheStore;RequireNewInstance=true</ConnectionString>
+      <ConfigFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.dataconfig</ConfigFilePath>
+      <DataFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.data</DataFilePath>
+      <UseRandomData>false</UseRandomData>
+      <DoNotRun>false</DoNotRun>
+    </Profile>
+    <Profile Name="CMC QA BASE" Id="b9e3797d-1779-4189-9e46-c9455a346b9a">
+      <ConnectionString>LoginPrompt=Never;AuthType=OAuth;Url=https://cmcqabase.crm.dynamics.com;Username=patnama@campusmgmt.com;ClientId=2ad88395-b77d-4561-9441-d0e40824f9bc;RedirectUri=app://5d3e90d6-aa8e-48a8-8f2c-58b45cc67315/;TokenCacheStorePath=C:\\TempLocalCacheStore;RequireNewInstance=true</ConnectionString>
+      <DataFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.data</DataFilePath>
+      <UseRandomData>false</UseRandomData>
+      <DoNotRun>false</DoNotRun>
+    </Profile>
+    <Profile Name="CMC QA ALL" Id="60968b1a-29e8-4e6c-8cf4-b458960c4dc8">
+      <ConnectionString>LoginPrompt=Never;AuthType=OAuth;Url=https://cmcqaall.crm.dynamics.com;Username=patnama@campusmgmt.com;ClientId=2ad88395-b77d-4561-9441-d0e40824f9bc;RedirectUri=app://5d3e90d6-aa8e-48a8-8f2c-58b45cc67315/;TokenCacheStorePath=C:\\TempLocalCacheStore;RequireNewInstance=true</ConnectionString>
+      <DataFilePath>D:\SourceCode\Engage\Tools\campusDefaultData.data</DataFilePath>
+      <UseRandomData>false</UseRandomData>
+      <DoNotRun>false</DoNotRun>
+    </Profile>
+  </Profiles>
+</Root>

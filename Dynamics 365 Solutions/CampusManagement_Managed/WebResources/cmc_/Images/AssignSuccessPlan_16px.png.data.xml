@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{c99f519f-997b-e711-8101-c4346bdc3221}</WebResourceId>
+  <Name>cmc_/Images/AssignSuccessPlan_16px.png</Name>
+  <DisplayName>AssignSuccessPlan_16px.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_ImagesAssignSuccessPlan_16pxpngC99F519F-997B-E711-8101-C4346BDC3221</FileName>
+</WebResource>

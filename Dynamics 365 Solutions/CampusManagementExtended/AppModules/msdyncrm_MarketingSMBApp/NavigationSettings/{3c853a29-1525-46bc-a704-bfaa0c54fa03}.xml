@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a704-bfaa0c54fa03}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a704-bfaa0c54fa00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.BPFTControl.BPFTControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <IconResourceId>{502861b3-2222-4ccb-93eb-6cb9b4498f34}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Business process flows" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Business &amp; Process flow" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

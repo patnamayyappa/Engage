@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.cmc_staffcourse.AssignStaffCourseForm.Button.CustomAction" Location="Mscrm.Form.mshied_coursesection.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseForm.Button.Alt" Command="cmc.cmc_staffcourse.AssignStaffCourseForm.Command" Id="cmc.cmc_staffcourse.AssignStaffCourseForm.Button" Image32by32="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" Image16by16="$webresource:cmc_/Images/AssignSuccessPlan_16px.png" LabelText="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseForm.Button.LabelText" Sequence="63" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseForm.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseForm.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.CustomAction" Location="Mscrm.HomepageGrid.mshied_coursesection.MainTab.Management.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.Alt" Command="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Command" Id="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button" Image32by32="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" Image16by16="$webresource:cmc_/Images/AssignSuccessPlan_16px.png" LabelText="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.LabelText" Sequence="63" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.cmc_staffcourse.AssignStaffCourseForm.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.cmc_staffcourse.AssignStaffCourseForm" Library="$webresource:cmc_/dist/app/ribbon/cmc_staffcourse.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_staffcourse.SelectedOneOrMore.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.cmc_staffcourse.AssignStaffCourse" Library="$webresource:cmc_/dist/App/Ribbon/cmc_staffcourse.js">
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="cmc.cmc_staffcourse.SelectedOneOrMore.EnableRule">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" Default="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseForm.Button.Alt">
+      <Titles>
+        <Title description="Assign Campus Survey" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseForm.Button.LabelText">
+      <Titles>
+        <Title description="Assign Campus Survey" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseForm.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Assign a Campus Survey to this Course Section" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseForm.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Assign Campus Survey" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.Alt">
+      <Titles>
+        <Title description="Assign Campus Survey" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.LabelText">
+      <Titles>
+        <Title description="Assign Campus Survey" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Assign a Campus Survey to the selected Course Section(s)" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffcourse.AssignStaffCourseHomePageGrid.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Assign Campus Survey" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{64543d8b-e5c6-e811-a961-000d3a1d5f25}</WebResourceId>
+  <Name>cmc_/Images/ContactActivitiesTimeline/Chat-32x32.svg</Name>
+  <DisplayName>Chat-32x32.svg</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_ImagesContactActivitiesTimelineChat-32x32svg64543D8B-E5C6-E811-A961-000D3A1D5F25</FileName>
+</WebResource>

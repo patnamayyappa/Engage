@@ -1,0 +1,1406 @@
+<entities >
+  <entity name="cmc_addresstype" displayname="Address Type" etc="10262" primaryidfield="cmc_addresstypeid" primarynamefield="cmc_addresstypename" disableplugins="true">
+    <fields>
+      <field displayname="Address Type" name="cmc_addresstypeid" type="guid" primaryKey="true" />
+      <field displayname="Address Type Name" name="cmc_addresstypename" type="string" customfield="true" />
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS Id" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_areaofinterest" displayname="Area of Interest" etc="10263" primaryidfield="cmc_areaofinterestid" primarynamefield="cmc_areaofinterestname" disableplugins="true">
+    <fields>
+      <field displayname="Area of Interest" name="cmc_areaofinterestid" type="guid" primaryKey="true" />
+      <field displayname="Area of Interest Name" name="cmc_areaofinterestname" type="string" customfield="true" />
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_areaofstudy" displayname="Area of Study" etc="10264" primaryidfield="cmc_areaofstudyid" primarynamefield="cmc_areaofstudyname" disableplugins="true">
+    <fields>
+      <field displayname="Area of Study" name="cmc_areaofstudyid" type="guid" primaryKey="true" />
+      <field displayname="Area of Study Name" name="cmc_areaofstudyname" type="string" customfield="true" />
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Minimum cumulative GPA" name="cmc_minimumcumulativegpa" type="decimal" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Program Type" name="cmc_studentprogramtypeid" type="entityreference" lookupType="cmc_studentprogramtype" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Required Credits" name="cmc_requiredcreditsforareaofstudy" type="decimal" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_completedverification" displayname="Completed Verification" etc="10265" primaryidfield="cmc_completedverificationid" primarynamefield="cmc_completedverificationname" disableplugins="true">
+    <fields>
+      <field displayname="Completed Verification" name="cmc_completedverificationid" type="guid" primaryKey="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="cmc_completedverificationname" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_configuration" displayname="Configuration" etc="10266" primaryidfield="cmc_configurationid" primarynamefield="cmc_configurationname" disableplugins="true">
+    <fields>
+      <field displayname="Configuration" name="cmc_configurationid" type="guid" primaryKey="true" />
+      <field displayname="Configuration Name" name="cmc_configurationname" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Value" name="cmc_value" type="string" customfield="true" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_country" displayname="Country" etc="10267" primaryidfield="cmc_countryid" primarynamefield="cmc_countryname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Country" name="cmc_countryid" type="guid" primaryKey="true" />
+      <field displayname="Country Name" name="cmc_countryname" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_educationlevel" displayname="Education Level" etc="10275" primaryidfield="cmc_educationlevelid" primarynamefield="cmc_educationlevelname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Education Level" name="cmc_educationlevelid" type="guid" primaryKey="true" />
+      <field displayname="Education Level Name" name="cmc_educationlevelname" type="string" customfield="true" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_ethnicgroup" displayname="Ethnic Group" etc="10276" primaryidfield="cmc_ethnicgroupid" primarynamefield="cmc_ethnicgroupname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Ethnic Group" name="cmc_ethnicgroupid" type="guid" primaryKey="true" />
+      <field displayname="Ethnic Group Name" name="cmc_ethnicgroupname" type="string" customfield="true" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_extracurricular" displayname="Extra Curricular" etc="10277" primaryidfield="cmc_extracurricularid" primarynamefield="cmc_extracurricularname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Extra Curricular Name" name="cmc_extracurricularname" type="string" customfield="true" />
+      <field displayname="Extra-curricular" name="cmc_extracurricularid" type="guid" primaryKey="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_languagevalue" displayname="Language Value" etc="10279" primaryidfield="cmc_languagevalueid" primarynamefield="cmc_keyname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Key" name="cmc_keyname" type="string" customfield="true" />
+      <field displayname="Language Code" name="cmc_languagecode" type="number" customfield="true" />
+      <field displayname="Language Value" name="cmc_languagevalueid" type="guid" primaryKey="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Value" name="cmc_value" type="string" customfield="true" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_nationality" displayname="Nationality" etc="10281" primaryidfield="cmc_nationalityid" primarynamefield="cmc_nationalityname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Nationality" name="cmc_nationalityid" type="guid" primaryKey="true" />
+      <field displayname="Nationality Name" name="cmc_nationalityname" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_portofentry" displayname="Port of entry" etc="10284" primaryidfield="cmc_portofentryid" primarynamefield="cmc_portofentryname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="cmc_portofentryname" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Port of entry" name="cmc_portofentryid" type="guid" primaryKey="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_program" displayname="Program" etc="10288" primaryidfield="cmc_programid" primarynamefield="cmc_programname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Program" name="cmc_programid" type="guid" primaryKey="true" />
+      <field displayname="Program Name" name="cmc_programname" type="string" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_programlevel" displayname="Program Level" etc="10289" primaryidfield="cmc_programlevelid" primarynamefield="cmc_programlevelname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Program Level" name="cmc_programlevelid" type="guid" primaryKey="true" />
+      <field displayname="Program Level Name" name="cmc_programlevelname" type="string" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_programversion" displayname="Program Version" etc="10290" primaryidfield="cmc_programversionid" primarynamefield="cmc_programversionname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Program" name="cmc_programid" type="entityreference" lookupType="cmc_program" customfield="true" />
+      <field displayname="Program Level" name="cmc_programlevelid" type="entityreference" lookupType="cmc_programlevel" customfield="true" />
+      <field displayname="Program Version" name="cmc_programversionid" type="guid" primaryKey="true" />
+      <field displayname="Program Version Name" name="cmc_programversionname" type="string" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="queue" displayname="Queue" etc="2020" primaryidfield="queueid" primarynamefield="name" disableplugins="true">
+    <fields>
+      <field displayname="Allow to Use Credentials for Email Processing (Obsolete)" name="allowemailcredentials" type="bool" />
+      <field displayname="Business Unit" name="businessunitid" type="entityreference" lookupType="businessunit" />
+      <field displayname="Convert Incoming Email To Activities" name="incomingemailfilteringmethod" type="optionsetvalue" />
+      <field displayname="Convert To Email Activities" name="ignoreunsolicitedemail" type="bool" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Currency" name="transactioncurrencyid" type="entityreference" lookupType="transactioncurrency" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Email Address O365 Admin Approval Status" name="isemailaddressapprovedbyo365admin" type="bool" />
+      <field displayname="Entity Image" name="entityimage" type="imagedata" />
+      <field displayname="Entity Image Id" name="entityimageid" type="guid" />
+      <field displayname="Exchange Rate" name="exchangerate" type="decimal" />
+      <field displayname="Fax Queue" name="isfaxqueue" type="bool" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Incoming Email" name="emailaddress" type="string" />
+      <field displayname="Incoming Email Delivery Method" name="incomingemaildeliverymethod" type="optionsetvalue" />
+      <field displayname="Mailbox" name="defaultmailbox" type="entityreference" lookupType="mailbox" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="name" type="string" />
+      <field displayname="No. of Members" name="numberofmembers" type="number" />
+      <field displayname="Outgoing Email Delivery Method" name="outgoingemaildeliverymethod" type="optionsetvalue" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owner (deprecated)" name="primaryuserid" type="entityreference" lookupType="systemuser" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Password (Obsolete)" name="emailpassword" type="string" />
+      <field displayname="Primary Email Status" name="emailrouteraccessapproval" type="optionsetvalue" />
+      <field displayname="Queue" name="queueid" type="guid" primaryKey="true" />
+      <field displayname="Queue Items" name="numberofitems" type="number" />
+      <field displayname="Queue Type" name="queuetypecode" type="optionsetvalue" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Type" name="queueviewtype" type="optionsetvalue" />
+      <field displayname="User Name (Obsolete)" name="emailusername" type="string" />
+    </fields>
+    <relationships>
+      <relationship name="queuemembership" manyToMany="true" isreflexive="false" relatedEntityName="queuemembership" m2mTargetEntity="systemuser" m2mTargetEntityPrimaryKey="systemuserid" />
+    </relationships>
+  </entity>
+  <entity name="cmc_registrationstatus" displayname="Registration Status" etc="10292" primaryidfield="cmc_registrationstatusid" primarynamefield="cmc_registraitonstatusname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Registration Status" name="cmc_registrationstatusid" type="guid" primaryKey="true" />
+      <field displayname="Registration Status Name" name="cmc_registraitonstatusname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_schoolstatus" displayname="School Status" etc="10294" primaryidfield="cmc_schoolstatusid" primarynamefield="cmc_schoolstatusname" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="School Status" name="cmc_schoolstatusid" type="guid" primaryKey="true" />
+      <field displayname="School Status Name" name="cmc_schoolstatusname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_scoredefinition" displayname="Score Definition" etc="10295" primaryidfield="cmc_scoredefinitionid" primarynamefield="cmc_scoredefinitionname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Description" name="cmc_description" type="string" customfield="true" />
+      <field displayname="Green Score Threshold" name="cmc_greenscorethreshold" type="number" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Red Score Threshold" name="cmc_redscorethreshold" type="number" customfield="true" />
+      <field displayname="Score Definition" name="cmc_scoredefinitionid" type="guid" primaryKey="true" />
+      <field displayname="Score Definition Name" name="cmc_scoredefinitionname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Yellow Score Threshold" name="cmc_yellowscorethreshold" type="number" customfield="true" />
+    </fields>
+    <relationships>
+      <relationship name="cmc_scoredefinition_list" manyToMany="true" isreflexive="false" relatedEntityName="cmc_scoredefinition_list" m2mTargetEntity="list" m2mTargetEntityPrimaryKey="listid" />
+      <relationship name="cmc_scoredefinition_scoringfactor" manyToMany="true" isreflexive="false" relatedEntityName="cmc_scoredefinition_scoringfactor" m2mTargetEntity="cmc_scoringfactor" m2mTargetEntityPrimaryKey="cmc_scoringfactorid" />
+    </relationships>
+  </entity>
+  <entity name="cmc_scoringfactor" displayname="Scoring Factor" etc="10296" primaryidfield="cmc_scoringfactorid" primarynamefield="cmc_scoringfactorname" disableplugins="true">
+    <fields>
+      <field displayname="Attribute Name" name="cmc_attributename" type="string" customfield="true" />
+      <field displayname="Condition Type" name="cmc_conditiontype" type="optionsetvalue" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Description" name="cmc_description" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Max" name="cmc_max" type="string" customfield="true" />
+      <field displayname="Min" name="cmc_min" type="string" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Points" name="cmc_points" type="number" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Scoring Factor" name="cmc_scoringfactorid" type="guid" primaryKey="true" />
+      <field displayname="Scoring Factor Name" name="cmc_scoringfactorname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Value" name="cmc_value" type="string" customfield="true" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_sourcecategory" displayname="Source Category" etc="10298" primaryidfield="cmc_sourcecategoryid" primarynamefield="cmc_sourcecategoryname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Source Category" name="cmc_sourcecategoryid" type="guid" primaryKey="true" />
+      <field displayname="Source Category Name" name="cmc_sourcecategoryname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships>
+      <relationship name="cmc_sourcecategory_sourcesubcategory" manyToMany="true" isreflexive="false" relatedEntityName="cmc_sourcecategory_sourcesubcategory" m2mTargetEntity="cmc_sourcesubcategory" m2mTargetEntityPrimaryKey="cmc_sourcesubcategoryid" />
+    </relationships>
+  </entity>
+  <entity name="cmc_sourcesubcategory" displayname="Source Sub-Category" etc="10300" primaryidfield="cmc_sourcesubcategoryid" primarynamefield="cmc_sourcesubcategoryname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Source Sub-Category" name="cmc_sourcesubcategoryid" type="guid" primaryKey="true" />
+      <field displayname="Source Sub-Category Name" name="cmc_sourcesubcategoryname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_sourcemethod" displayname="Source Method" etc="10299" primaryidfield="cmc_sourcemethodid" primarynamefield="cmc_sourcemethodname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Source Method" name="cmc_sourcemethodid" type="guid" primaryKey="true" />
+      <field displayname="Source Method Name" name="cmc_sourcemethodname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_state" displayname="State" etc="10307" primaryidfield="cmc_stateid" primarynamefield="cmc_statename" disableplugins="true">
+    <fields>
+      <field displayname="Code" name="cmc_code" type="string" customfield="true" />
+      <field displayname="Country" name="cmc_countryid" type="entityreference" lookupType="cmc_country" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS ID" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="State" name="cmc_stateid" type="guid" primaryKey="true" />
+      <field displayname="State Index" name="cmc_stateindex" type="number" customfield="true" />
+      <field displayname="State Name" name="cmc_statename" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_studentclassification" displayname="Student Classification" etc="10309" primaryidfield="cmc_studentclassificationid" primarynamefield="cmc_studentclassificationname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Student Classification" name="cmc_studentclassificationid" type="guid" primaryKey="true" />
+      <field displayname="Student Classification Name" name="cmc_studentclassificationname" type="string" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_studenttype" displayname="Student Type" etc="10312" primaryidfield="cmc_studenttypeid" primarynamefield="cmc_studenttypename" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Student Type" name="cmc_studenttypeid" type="guid" primaryKey="true" />
+      <field displayname="Student Type Name" name="cmc_studenttypename" type="string" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="subject" displayname="Subject" etc="129" primaryidfield="subjectid" primarynamefield="title" disableplugins="true">
+    <fields>
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (External Party)" name="createdbyexternalparty" type="entityreference" lookupType="externalparty" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Feature Mask" name="featuremask" type="number" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (External Party)" name="modifiedbyexternalparty" type="entityreference" lookupType="externalparty" />
+      <field displayname="Parent Subject" name="parentsubject" type="entityreference" lookupType="subject" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Subject" name="subjectid" type="guid" primaryKey="true" />
+      <field displayname="Title" name="title" type="string" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="team" displayname="Team" etc="9" primaryidfield="teamid" primarynamefield="name" disableplugins="true">
+    <fields>
+      <field displayname="Administrator" name="administratorid" type="entityreference" lookupType="systemuser" />
+      <field displayname="Business Unit" name="businessunitid" type="entityreference" lookupType="businessunit" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Currency" name="transactioncurrencyid" type="entityreference" lookupType="transactioncurrency" />
+      <field displayname="Default Queue" name="queueid" type="entityreference" lookupType="queue" />
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Email" name="emailaddress" type="string" />
+      <field displayname="Exchange Rate" name="exchangerate" type="decimal" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Is Default" name="isdefault" type="bool" />
+      <field displayname="Is System Managed" name="systemmanaged" type="bool" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Process" name="processid" type="guid" />
+      <field displayname="Process Stage" name="stageid" type="guid" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Team" name="teamid" type="guid" primaryKey="true" />
+      <field displayname="Team Name" name="name" type="string" />
+      <field displayname="Team Template Identifier" name="teamtemplateid" type="entityreference" lookupType="teamtemplate" />
+      <field displayname="Team Type" name="teamtype" type="optionsetvalue" />
+      <field displayname="Traversed Path" name="traversedpath" type="string" />
+      <field displayname="Yomi Name" name="yominame" type="string" />
+    </fields>
+    <relationships>
+      <relationship name="teamroles" manyToMany="true" isreflexive="false" relatedEntityName="teamroles" m2mTargetEntity="role" m2mTargetEntityPrimaryKey="roleid" />
+      <relationship name="teammembership" manyToMany="true" isreflexive="false" relatedEntityName="teammembership" m2mTargetEntity="systemuser" m2mTargetEntityPrimaryKey="systemuserid" />
+      <relationship name="teamsyncattributemappingprofiles" manyToMany="true" isreflexive="false" relatedEntityName="teamsyncattributemappingprofiles" m2mTargetEntity="syncattributemappingprofile" m2mTargetEntityPrimaryKey="syncattributemappingprofileid" />
+      <relationship name="teamprofiles" manyToMany="true" isreflexive="false" relatedEntityName="teamprofiles" m2mTargetEntity="fieldsecurityprofile" m2mTargetEntityPrimaryKey="fieldsecurityprofileid" />
+    </relationships>
+  </entity>
+  <entity name="theme" displayname="Theme" etc="2015" primaryidfield="themeid" primarynamefield="name" disableplugins="true">
+    <fields>
+      <field displayname="Accent Color" name="accentcolor" type="string" />
+      <field displayname="Background Color" name="backgroundcolor" type="string" />
+      <field displayname="Control Hover Border Color" name="controlborder" type="string" />
+      <field displayname="Control Hover Fill Color" name="controlshade" type="string" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Currency" name="transactioncurrencyid" type="entityreference" lookupType="transactioncurrency" />
+      <field displayname="Default Custom Entity Color" name="defaultcustomentitycolor" type="string" />
+      <field displayname="Default Entity Color" name="defaultentitycolor" type="string" />
+      <field displayname="Default Theme" name="isdefaulttheme" type="bool" />
+      <field displayname="ExchangeRate" name="exchangerate" type="decimal" />
+      <field displayname="Hover Link Color" name="hoverlinkeffect" type="string" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Legacy Accent Color" name="processcontrolcolor" type="string" />
+      <field displayname="Link and Button Text Color" name="globallinkcolor" type="string" />
+      <field displayname="Logo Tooltip" name="logotooltip" type="string" />
+      <field displayname="Main Color" name="maincolor" type="string" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Navigation Bar Fill Color" name="navbarbackgroundcolor" type="string" />
+      <field displayname="Navigation Bar Shelf Fill Color" name="navbarshelfcolor" type="string" />
+      <field displayname="Organization Id" name="organizationid" type="entityreference" lookupType="organization" />
+      <field displayname="Page Header Fill Color" name="pageheaderbackgroundcolor" type="string" />
+      <field displayname="Panel Header Fill Color" name="panelheaderbackgroundcolor" type="string" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Selected Link Color" name="selectedlinkeffect" type="string" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Theme" name="themeid" type="guid" primaryKey="true" />
+      <field displayname="Theme Name" name="name" type="string" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Title Text Color" name="headercolor" type="string" />
+      <field displayname="Type" name="type" type="bool" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="cmc_usgovernmentagency" displayname="US Government Agency" etc="10326" primaryidfield="cmc_usgovernmentagencyid" primarynamefield="cmc_usgovernmentagencyname" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="External SIS Id" name="cmc_externalsisid" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="US Government Agency" name="cmc_usgovernmentagencyid" type="guid" primaryKey="true" />
+      <field displayname="US Government Agency Name" name="cmc_usgovernmentagencyname" type="string" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="annotation" displayname="Note" etc="5" primaryidfield="annotationid" primarynamefield="subject" disableplugins="true">
+    <fields>
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Description" name="notetext" type="string" />
+      <field displayname="Document" name="documentbody" type="string" />
+      <field displayname="File Name" name="filename" type="string" />
+      <field displayname="File Size (Bytes)" name="filesize" type="number" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Is Document" name="isdocument" type="bool" />
+      <field displayname="Language ID" name="langid" type="string" />
+      <field displayname="Mime Type" name="mimetype" type="string" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Note" name="annotationid" type="guid" primaryKey="true" />
+      <field displayname="Object Type " name="objecttypecode" type="string" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Regarding" name="objectid" type="entityreference" lookupType="account|adx_ad|adx_adplacement|adx_alertsubscription|adx_blog|adx_blogpost|adx_casedeflection|adx_communityforum|adx_communityforumaccesspermission|adx_communityforumannouncement|adx_communityforumpost|adx_communityforumthread|adx_contentaccesslevel|adx_entitypermission|adx_idea|adx_ideaforum|adx_invitation|adx_inviteredemption|adx_poll|adx_polloption|adx_pollplacement|adx_pollsubmission|adx_portalcomment|adx_publishingstatetransitionrule|adx_redirect|adx_shortcut|adx_sitesetting|adx_webfile|adx_weblink|adx_webnotificationurl|adx_webpage|adx_webrole|adx_website|adx_websitebinding|appointment|bookableresource|bookableresourcebooking|bookableresourcebookingheader|bookableresourcecategoryassn|bookableresourcecharacteristic|bookableresourcegroup|bulkoperation|calendar|campaign|campaignactivity|campaignresponse|channelaccessprofile|channelaccessprofilerule|channelaccessprofileruleitem|cmc_scoredefinition|cmc_scoringfactor|cmc_tripactivity|commitment|competitor|contact|contract|contractdetail|convertrule|cxlvhlp_chatactivity|duplicaterule|email|emailserverprofile|entitlement|entitlementchannel|entitlementtemplate|equipment|fax|goal|incident|incidentresolution|invoice|kbarticle|knowledgearticle|knowledgebaserecord|lead|letter|list|mailbox|msdyncrm_appointmentactivitymarketingtemplate|msdyncrm_contentsettings|msdyncrm_customerjourney|msdyncrm_leadscoremodel|msdyncrm_linkedinaccount|msdyncrm_linkedinactivity|msdyncrm_linkedinfieldmapping|msdyncrm_linkedinform|msdyncrm_linkedinformanswer|msdyncrm_linkedinformquestion|msdyncrm_linkedinformsubmission|msdyncrm_linkedinleadmatchingstrategy|msdyncrm_linkedinuserprofile|msdyncrm_marketingdynamiccontentmetadata|msdyncrm_marketingemaildynamiccontentmetadata|msdyncrm_marketingemailtestsend|msdyncrm_marketingform|msdyncrm_marketingformtemplate|msdyncrm_marketingpage|msdyncrm_marketingpagetemplate|msdyncrm_mktactivity|msdyncrm_phonecallactivitymarketingtemplate|msdyncrm_taskactivitymarketingtemplate|msdyncrm_uicconfig|msdyn_answer|msdyn_image|msdyn_import|msdyn_postalbum|msdyn_responseaction|msdyn_responseerror|msdyn_section|msdyn_solutioncomponentdatasource|msdyn_survey|msdyn_surveyinvite|msdyn_surveylog|msdyn_surveyresponse|msdyn_vocconfiguration|msevtmgt_checkin|msevtmgt_event|msevtmgt_eventpurchase|msevtmgt_eventpurchaseattendee|msevtmgt_eventpurchasepass|msevtmgt_eventregistration|msevtmgt_hotel|msevtmgt_hotelroomallocation|msevtmgt_hotelroomreservation|msevtmgt_layout|msevtmgt_room|msevtmgt_session|msevtmgt_sessionregistration|msevtmgt_sessiontrack|msevtmgt_speaker|msevtmgt_speakerengagement|msevtmgt_sponsorablearticle|msevtmgt_sponsorship|msevtmgt_venue|msevtmgt_webinarconfiguration|msevtmgt_webinarprovider|opportunity|opportunityclose|orderclose|phonecall|product|quote|quoteclose|recurringappointmentmaster|resourcespec|routingrule|routingruleitem|salesorder|service|serviceappointment|sharepointdocument|sla|socialactivity|task|workflow" />
+      <field displayname="Step Id" name="stepid" type="string" />
+      <field displayname="Title" name="subject" type="string" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_feedbackmapping" displayname="Feedback Mapping" etc="10029" primaryidfield="msdyn_feedbackmappingid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Answer" name="msdyn_answerid" type="entityreference" lookupType="msdyn_answer" customfield="true" />
+      <field displayname="Attribute Schema Name" name="msdyn_attributeschemaname" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Feedback Entity Name" name="msdyn_feedbackentityname" type="string" customfield="true" />
+      <field displayname="Feedback Mapping" name="msdyn_feedbackmappingid" type="guid" primaryKey="true" />
+      <field displayname="Feedback Question Type" name="msdyn_feedbackquestiontype" type="optionsetvalue" customfield="true" />
+      <field displayname="Field Description" name="msdyn_attributedescription" type="string" customfield="true" />
+      <field displayname="Field Display Name" name="msdyn_attributedisplayname" type="string" customfield="true" />
+      <field displayname="Field Form Display Name" name="msdyn_attributeformdisplayname" type="string" customfield="true" />
+      <field displayname="Field Options" name="msdyn_attributeoptions" type="string" customfield="true" />
+      <field displayname="Field Requirement Level" name="msdyn_attributerequirementlevel" type="number" customfield="true" />
+      <field displayname="Field Status" name="msdyn_attributestatus" type="optionsetvalue" customfield="true" />
+      <field displayname="Generation Set" name="msdyn_generationset" type="number" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Linked Answer" name="msdyn_linkedanswerid" type="entityreference" lookupType="msdyn_linkedanswer" customfield="true" />
+      <field displayname="Linked Question" name="msdyn_linkedquestionid" type="entityreference" lookupType="msdyn_questiontype" customfield="true" />
+      <field displayname="Log" name="msdyn_log" type="string" customfield="true" />
+      <field displayname="Lookup Entity Name" name="msdyn_lookupentityname" type="string" customfield="true" />
+      <field displayname="Lookup Field Name" name="msdyn_lookupattributename" type="string" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Multiple Response Type" name="msdyn_multipleresponsetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="NPS Field" name="msdyn_nps" type="bool" customfield="true" />
+      <field displayname="Optionset Value" name="msdyn_optionsetvalue" type="number" customfield="true" />
+      <field displayname="Overwrite Field at Publish" name="msdyn_overwriteattributeatpublish" type="bool" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Processed State" name="msdyn_processedstate" type="optionsetvalue" customfield="true" />
+      <field displayname="Question" name="msdyn_questionid" type="entityreference" lookupType="msdyn_question" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Single Response Type" name="msdyn_singleresponsetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Survey" name="msdyn_surveyid" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_feedbacksubsurvey" displayname="Feedback Related Survey" etc="10030" primaryidfield="msdyn_feedbacksubsurveyid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Attribute Name" name="msdyn_attributename" type="string" customfield="true" />
+      <field displayname="Child Survey" name="msdyn_childsurvey" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Feedback Sub Survey" name="msdyn_feedbacksubsurveyid" type="guid" primaryKey="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Run-time Lookup Type" name="msdyn_runtimelookuptype" type="optionsetvalue" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships>
+      <relationship name="msdyn_feedbacksubsurvey_msdyn_survey" manyToMany="true" isreflexive="false" relatedEntityName="msdyn_feedbacksubsurvey_msdyn_survey" m2mTargetEntity="msdyn_survey" m2mTargetEntityPrimaryKey="msdyn_surveyid" />
+    </relationships>
+  </entity>
+  <entity name="msdyn_image" displayname="Image" etc="10031" primaryidfield="msdyn_imageid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Alternative Text" name="msdyn_alternativetext" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Extension" name="msdyn_extension" type="optionsetvalue" customfield="true" />
+      <field displayname="Image" name="msdyn_imageid" type="guid" primaryKey="true" />
+      <field displayname="Image Format" name="msdyn_imageformat" type="optionsetvalue" customfield="true" />
+      <field displayname="Image Title" name="msdyn_imagetitle" type="string" customfield="true" />
+      <field displayname="Image type" name="msdyn_imagetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Image URL" name="msdyn_imageurl" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Size" name="msdyn_size" type="optionsetvalue" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Stock Icon Name" name="msdyn_stockiconname" type="string" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Token" name="msdyn_token" type="string" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_page" displayname="Page" etc="10035" primaryidfield="msdyn_pageid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Automatically Link Questions" name="msdyn_autolinkquestions" type="optionsetvalue" customfield="true" />
+      <field displayname="Check Page State" name="msdyn_setdirty" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Ignore Plug-In" name="msdyn_pluginignore" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Order Index" name="msdyn_orderindex" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Page" name="msdyn_pageid" type="guid" primaryKey="true" />
+      <field displayname="Page Type" name="msdyn_pagetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Preview" name="msdyn_previewhtml" type="string" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Section To Copy And Import" name="msdyn_sectiontoimport" type="entityreference" lookupType="msdyn_section" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Survey" name="msdyn_surveyid" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Visibility" name="msdyn_visibility" type="optionsetvalue" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_question" displayname="Question" etc="10036" primaryidfield="msdyn_questionid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="After Sharing Message" name="msdyn_aftersharingmessage" type="string" customfield="true" />
+      <field displayname="Allow Iframes" name="msdyn_allowiframes" type="bool" customfield="true" />
+      <field displayname="Answer Tag" name="msdyn_answertag" type="string" customfield="true" />
+      <field displayname="Check Question State" name="msdyn_setdirty" type="string" customfield="true" />
+      <field displayname="Columns" name="msdyn_columns" type="number" customfield="true" />
+      <field displayname="Compare To Answer" name="msdyn_measuringanswer" type="entityreference" lookupType="msdyn_answer" customfield="true" />
+      <field displayname="Create Question Response" name="msdyn_createquestionresponse" type="optionsetvalue" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Custom Validation Message" name="msdyn_requiredmessage" type="string" customfield="true" />
+      <field displayname="Customer Effort Score" name="msdyn_customereffortscore" type="bool" customfield="true" />
+      <field displayname="Customer Satisfaction Score (CSAT)" name="msdyn_customersatisfactionscorecsat" type="bool" customfield="true" />
+      <field displayname="Description" name="msdyn_description" type="string" customfield="true" />
+      <field displayname="Display Logic" name="msdyn_displaylogic" type="optionsetvalue" customfield="true" />
+      <field displayname="Enable Social Sharing" name="msdyn_enablesocialsharing" type="bool" customfield="true" />
+      <field displayname="Face Expression" name="msdyn_faceexpression" type="optionsetvalue" customfield="true" />
+      <field displayname="Face Expression Picker" name="msdyn_faceexpressionpicker" type="optionsetvalue" customfield="true" />
+      <field displayname="Facebook" name="msdyn_facebook" type="bool" customfield="true" />
+      <field displayname="Filter Comparison Value" name="msdyn_filtercomparisonvalue" type="string" customfield="true" />
+      <field displayname="Filter Operation" name="msdyn_filteroperator" type="optionsetvalue" customfield="true" />
+      <field displayname="Filtered Question" name="msdyn_filteredquestionid" type="entityreference" lookupType="msdyn_question" customfield="true" />
+      <field displayname="Format" name="msdyn_format" type="string" customfield="true" />
+      <field displayname="Global Order Index" name="msdyn_globalorderindex" type="number" customfield="true" />
+      <field displayname="Google" name="msdyn_google" type="bool" customfield="true" />
+      <field displayname="Help" name="msdyn_help" type="string" customfield="true" />
+      <field displayname="Html" name="msdyn_html" type="string" customfield="true" />
+      <field displayname="Image Size" name="msdyn_ratingimagesize" type="optionsetvalue" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Input Alignment" name="msdyn_inputalignment" type="optionsetvalue" customfield="true" />
+      <field displayname="Layout type" name="msdyn_layouttype" type="optionsetvalue" customfield="true" />
+      <field displayname="Link Question" name="msdyn_linkquestion" type="optionsetvalue" customfield="true" />
+      <field displayname="Linked Question" name="msdyn_questiontypelookup" type="entityreference" lookupType="msdyn_questiontype" customfield="true" />
+      <field displayname="LinkedIn" name="msdyn_linkedin" type="bool" customfield="true" />
+      <field displayname="Maximum" name="msdyn_maximum" type="number" customfield="true" />
+      <field displayname="Measuring Question" name="msdyn_measuringquestion" type="entityreference" lookupType="msdyn_question" customfield="true" />
+      <field displayname="Minimum" name="msdyn_minimum" type="number" customfield="true" />
+      <field displayname="Minimum Responses Ranked" name="msdyn_minimumresponsesranked" type="number" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Multiple Response Type" name="msdyn_multipleresponsetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Net Promoter Score" name="msdyn_netpromoterscore" type="bool" customfield="true" />
+      <field displayname="Number Of Items" name="msdyn_ratingnumberofitems" type="number" customfield="true" />
+      <field displayname="Number Type" name="msdyn_numbertype" type="optionsetvalue" customfield="true" />
+      <field displayname="Order Index" name="msdyn_orderindex" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Page" name="msdyn_pageid" type="entityreference" lookupType="msdyn_page" customfield="true" />
+      <field displayname="Pick Responses" name="msdyn_pickresponses" type="bool" customfield="true" />
+      <field displayname="Pipe Type" name="msdyn_pipetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Plugin Ignore" name="msdyn_pluginignore" type="string" customfield="true" />
+      <field displayname="Query String" name="msdyn_querystring" type="optionsetvalue" customfield="true" />
+      <field displayname="Question" name="msdyn_questionid" type="guid" primaryKey="true" />
+      <field displayname="Question Group" name="msdyn_questiongroupid" type="entityreference" lookupType="msdyn_questiongroup" customfield="true" />
+      <field displayname="Question Group Type" name="msdyn_questiongrouptype" type="optionsetvalue" customfield="true" />
+      <field displayname="Question Layout Type" name="msdyn_questionlayouttype" type="optionsetvalue" customfield="true" />
+      <field displayname="Question Text" name="msdyn_questiontext" type="string" customfield="true" />
+      <field displayname="Question text alignment" name="msdyn_questiontextalignment" type="optionsetvalue" customfield="true" />
+      <field displayname="Question Type" name="msdyn_questiontype" type="optionsetvalue" customfield="true" />
+      <field displayname="Randomize Response Order" name="msdyn_randomiseresponseorder" type="bool" customfield="true" />
+      <field displayname="Rank Footer Text" name="msdyn_rankfootertext" type="string" customfield="true" />
+      <field displayname="Rank Header Text" name="msdyn_rankheadertext" type="string" customfield="true" />
+      <field displayname="Rating Half" name="msdyn_ratinghalfstar" type="bool" customfield="true" />
+      <field displayname="Rating Image Type" name="msdyn_ratingimagetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Regular Expression Validation" name="msdyn_regularexpressionvalidation" type="string" customfield="true" />
+      <field displayname="Reporting Aggregation" name="msdyn_reportingaggregation" type="optionsetvalue" customfield="true" />
+      <field displayname="Reporting Maximum" name="msdyn_reportingmax" type="decimal" customfield="true" />
+      <field displayname="Reporting Minimum" name="msdyn_reportingmin" type="decimal" customfield="true" />
+      <field displayname="Reporting Text" name="msdyn_reportingtext" type="string" customfield="true" />
+      <field displayname="Require Response For Import" name="msdyn_requireresponseforimport" type="bool" customfield="true" />
+      <field displayname="Required" name="msdyn_required" type="optionsetvalue" customfield="true" />
+      <field displayname="Response Count" name="msdyn_responsecount" type="number" customfield="true" />
+      <field displayname="Response Mapping" name="msdyn_responsemapping" type="optionsetvalue" customfield="true" />
+      <field displayname="Responses" name="msdyn_responses" type="string" customfield="true" />
+      <field displayname="Scale left label" name="msdyn_scaleleftlabel" type="string" customfield="true" />
+      <field displayname="Scale Min" name="msdyn_scalemin" type="number" customfield="true" />
+      <field displayname="Scale No Of Items" name="msdyn_scalenoofitems" type="number" customfield="true" />
+      <field displayname="Scale right label" name="msdyn_scalerightlabel" type="string" customfield="true" />
+      <field displayname="Score Definition" name="msdyn_scoredefinition" type="optionsetvalue" customfield="true" />
+      <field displayname="Score Max Value" name="msdyn_scoremaxvalue" type="number" customfield="true" />
+      <field displayname="Score Min Value" name="msdyn_scoreminvalue" type="number" customfield="true" />
+      <field displayname="Sharing Link" name="msdyn_sharinglink" type="string" customfield="true" />
+      <field displayname="Sharing Message" name="msdyn_sharingmessage" type="string" customfield="true" />
+      <field displayname="Sharing Text" name="msdyn_sharingtext" type="string" customfield="true" />
+      <field displayname="Show As Help" name="msdyn_showashelp" type="bool" customfield="true" />
+      <field displayname="Show cancel" name="msdyn_ratingshowcancel" type="bool" customfield="true" />
+      <field displayname="Show Images For Answers" name="msdyn_showimagesforsingleresponse" type="bool" customfield="true" />
+      <field displayname="Single Response Type" name="msdyn_singleresponsetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Survey" name="msdyn_surveyid" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Template" name="msdyn_template" type="bool" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Tooltip" name="msdyn_tooltip" type="string" customfield="true" />
+      <field displayname="Tooltips" name="msdyn_ratingtooltips" type="string" customfield="true" />
+      <field displayname="Trigger" name="msdyn_trigger" type="string" customfield="true" />
+      <field displayname="Twitter" name="msdyn_twitter" type="bool" customfield="true" />
+      <field displayname="Use for NPS snippet" name="msdyn_usefornpssnippet" type="bool" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Visibility" name="msdyn_visibility" type="optionsetvalue" customfield="true" />
+      <field displayname="Yammer" name="msdyn_yammer" type="bool" customfield="true" />
+    </fields>
+    <relationships>
+      <relationship name="msdyn_question_answer_n_n" manyToMany="true" isreflexive="false" relatedEntityName="msdyn_question_answer_n_n" m2mTargetEntity="msdyn_answer" m2mTargetEntityPrimaryKey="msdyn_answerid" />
+    </relationships>
+  </entity>
+  <entity name="msdyn_questiongroup" displayname="Grid" etc="10037" primaryidfield="msdyn_questiongroupid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Check Grid State" name="msdyn_setdirty" type="string" customfield="true" />
+      <field displayname="Column Headers" name="msdyn_columnheaders" type="string" customfield="true" />
+      <field displayname="Column Text Rotation" name="msdyn_useverticaltext" type="optionsetvalue" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Display Logic" name="msdyn_displaylogic" type="optionsetvalue" customfield="true" />
+      <field displayname="Grid Text" name="msdyn_gridtext" type="string" customfield="true" />
+      <field displayname="Half Rating?" name="msdyn_ratinghalfstar" type="bool" customfield="true" />
+      <field displayname="Ignore Plug-In" name="msdyn_pluginignore" type="string" customfield="true" />
+      <field displayname="Import Grid" name="msdyn_importgrid" type="entityreference" lookupType="msdyn_questiongroup" customfield="true" />
+      <field displayname="Import Question" name="msdyn_importquestion" type="entityreference" lookupType="msdyn_question" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Number of Items for Rating" name="msdyn_ratingnumberofitems" type="number" customfield="true" />
+      <field displayname="Order Index" name="msdyn_orderindex" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Page" name="msdyn_pageid" type="entityreference" lookupType="msdyn_page" customfield="true" />
+      <field displayname="Question Group" name="msdyn_questiongroupid" type="guid" primaryKey="true" />
+      <field displayname="Questions" name="msdyn_questions" type="string" customfield="true" />
+      <field displayname="Rating Image Type" name="msdyn_ratingimagetype" type="optionsetvalue" customfield="true" />
+      <field displayname="Rating Show Cancel" name="msdyn_ratingshowcancel" type="bool" customfield="true" />
+      <field displayname="Rating Size" name="msdyn_ratingsize" type="optionsetvalue" customfield="true" />
+      <field displayname="Rating Tool Tips" name="msdyn_ratingtooltips" type="string" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Reporting Text" name="msdyn_reportingtext" type="string" customfield="true" />
+      <field displayname="Require Response" name="msdyn_requireresponseforallquestions" type="bool" customfield="true" />
+      <field displayname="Score Definition" name="msdyn_scoredefinition" type="optionsetvalue" customfield="true" />
+      <field displayname="Score Maximum Value" name="msdyn_scoremaxvalue" type="number" customfield="true" />
+      <field displayname="Score Minimum Value" name="msdyn_scoreminvalue" type="number" customfield="true" />
+      <field displayname="Section" name="msdyn_sectionid" type="entityreference" lookupType="msdyn_section" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Type" name="msdyn_type" type="optionsetvalue" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Visibility" name="msdyn_visibility" type="optionsetvalue" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_responseaction" displayname="Response Action" etc="10040" primaryidfield="msdyn_responseactionid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Action" name="msdyn_action" type="optionsetvalue" customfield="true" />
+      <field displayname="Chain Destination Survey" name="msdyn_chaindestinationsurvey" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Chain Survey Uniqueidentifier" name="msdyn_chainsurveyuniqueidentifier" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Description" name="msdyn_description" type="string" customfield="true" />
+      <field displayname="Email Address" name="emailaddress" type="string" />
+      <field displayname="Grid" name="msdyn_grid" type="entityreference" lookupType="msdyn_questiongroup" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Order Index" name="msdyn_orderindex" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Page" name="msdyn_page" type="entityreference" lookupType="msdyn_page" customfield="true" />
+      <field displayname="Question" name="msdyn_question" type="entityreference" lookupType="msdyn_question" customfield="true" />
+      <field displayname="Queue to notify" name="msdyn_queuetonotify" type="entityreference" lookupType="queue" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Response Outcome Rule" name="msdyn_responseactionid" type="guid" primaryKey="true" />
+      <field displayname="Response Outcome Type" name="msdyn_responseoutcometype" type="optionsetvalue" customfield="true" />
+      <field displayname="Scope" name="msdyn_scope" type="optionsetvalue" customfield="true" />
+      <field displayname="Section" name="msdyn_section" type="entityreference" lookupType="msdyn_section" customfield="true" />
+      <field displayname="Sender User" name="msdyn_senderuser" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Survey" name="msdyn_survey" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Team to notify" name="msdyn_teamtonotify" type="entityreference" lookupType="team" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="User to notify" name="msdyn_usertonotify" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships>
+      <relationship name="msdyn_responserouting_responseaction_else" manyToMany="true" isreflexive="false" relatedEntityName="msdyn_responserouting_responseaction_else" m2mTargetEntity="msdyn_responserouting" m2mTargetEntityPrimaryKey="msdyn_responseroutingid" />
+    </relationships>
+  </entity>
+  <entity name="msdyn_responsecondition" displayname="Response Condition" etc="10042" primaryidfield="msdyn_responseconditionid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Comparison Answer" name="msdyn_comparisonanswer" type="entityreference" lookupType="msdyn_answer" customfield="true" />
+      <field displayname="Comparison Question" name="msdyn_comparisonquestion" type="entityreference" lookupType="msdyn_question" customfield="true" />
+      <field displayname="Comparison Value" name="msdyn_comparisonvalue" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Logic" name="msdyn_responseconditionid" type="guid" primaryKey="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Operator" name="msdyn_operator" type="optionsetvalue" customfield="true" />
+      <field displayname="Order Index" name="msdyn_orderindex" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Response Routing" name="msdyn_responserouting" type="entityreference" lookupType="msdyn_responserouting" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Survey" name="msdyn_survey" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_responserouting" displayname="Response Routing" etc="10045" primaryidfield="msdyn_responseroutingid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Group" name="msdyn_group" type="optionsetvalue" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Order Index" name="msdyn_orderindex" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Routing" name="msdyn_responseroutingid" type="guid" primaryKey="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Survey" name="msdyn_survey" type="entityreference" lookupType="msdyn_survey" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships>
+      <relationship name="msdyn_responserouting_msdyn_responseaction" manyToMany="true" isreflexive="false" relatedEntityName="msdyn_responserouting_msdyn_responseaction" m2mTargetEntity="msdyn_responseaction" m2mTargetEntityPrimaryKey="msdyn_responseactionid" />
+    </relationships>
+  </entity>
+  <entity name="msdyn_section" displayname="Section" etc="10046" primaryidfield="msdyn_sectionid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Check Section State" name="msdyn_setdirty" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Description" name="msdyn_description" type="string" customfield="true" />
+      <field displayname="Display Logic" name="msdyn_displaylogic" type="optionsetvalue" customfield="true" />
+      <field displayname="HTML" name="msdyn_html" type="string" customfield="true" />
+      <field displayname="Ignore Plug-In" name="msdyn_pluginignore" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Order Index" name="msdyn_orderindex" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Page" name="msdyn_pageid" type="entityreference" lookupType="msdyn_page" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Section" name="msdyn_sectionid" type="guid" primaryKey="true" />
+      <field displayname="Section Image" name="msdyn_imageid" type="entityreference" lookupType="msdyn_image" customfield="true" />
+      <field displayname="Section Text" name="msdyn_sectiontext" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Visibility" name="msdyn_visibility" type="optionsetvalue" customfield="true" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="msdyn_survey" displayname="Survey" etc="10047" primaryidfield="msdyn_surveyid" primarynamefield="msdyn_name" disableplugins="true">
+    <fields>
+      <field displayname="Abbreviation" name="msdyn_abbreviation" type="string" customfield="true" />
+      <field displayname="Accept anonymous responses" name="msdyn_acceptanonymousresponses" type="bool" customfield="true" />
+      <field displayname="Add to Sitemap" name="msdyn_addtositemap" type="optionsetvalue" customfield="true" />
+      <field displayname="Alert Lower Target" name="msdyn_alertlowertarget" type="decimal" customfield="true" />
+      <field displayname="Allow Save" name="msdyn_allowsave" type="bool" customfield="true" />
+      <field displayname="Anonymous Survey Url" name="msdyn_anonymoussurveyurl" type="string" customfield="true" />
+      <field displayname="Assign Responses" name="msdyn_assignresponses" type="optionsetvalue" customfield="true" />
+      <field displayname="Automatically Send Response" name="msdyn_automaticallysendemailresponse" type="optionsetvalue" customfield="true" />
+      <field displayname="Calculate Score" name="msdyn_calculatescore" type="optionsetvalue" customfield="true" />
+      <field displayname="Cloned Date" name="msdyn_cloneddate" type="datetime" customfield="true" />
+      <field displayname="Close Invitation" name="msdyn_closeinvitationonresponsereceived" type="bool" customfield="true" />
+      <field displayname="Closed Date" name="msdyn_closeddate" type="datetime" customfield="true" />
+      <field displayname="Configuration" name="msdyn_configurationid" type="entityreference" lookupType="msdyn_vocconfiguration" customfield="true" />
+      <field displayname="Create Alert" name="msdyn_createalert" type="optionsetvalue" customfield="true" />
+      <field displayname="Create Lead For Anonymous Responses" name="msdyn_createleadforanonymousresponses" type="bool" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Current Page" name="msdyn_currentpage" type="number" customfield="true" />
+      <field displayname="Custom Link Display Name" name="msdyn_customlinkdisplayname" type="string" customfield="true" />
+      <field displayname="Custom Link URL" name="msdyn_customlinkurl" type="string" customfield="true" />
+      <field displayname="Date Survey Ended" name="msdyn_stoppeddate" type="datetime" customfield="true" />
+      <field displayname="Description" name="msdyn_description" type="string" customfield="true" />
+      <field displayname="Designer Host" name="msdyn_designerhost" type="string" customfield="true" />
+      <field displayname="Display Page Numbers" name="msdyn_pagenumbers" type="bool" customfield="true" />
+      <field displayname="Do Not Allow Email" name="msdyn_donotemail" type="bool" customfield="true" />
+      <field displayname="Do Not Bulk Email" name="msdyn_donotbulkemail" type="bool" customfield="true" />
+      <field displayname="Do Not Fax" name="msdyn_donotfax" type="bool" customfield="true" />
+      <field displayname="Do Not Send MM" name="msdyn_donotsendmm" type="bool" customfield="true" />
+      <field displayname="E-mail Address" name="emailaddress" type="string" />
+      <field displayname="Email Template Id" name="msdyn_emailtemplateid" type="string" customfield="true" />
+      <field displayname="Enable Social Sharing" name="msdyn_enablesocialsharing" type="bool" customfield="true" />
+      <field displayname="Entity Generation Trigger" name="msdyn_entitygenerationtrigger" type="datetime" customfield="true" />
+      <field displayname="entityimageid" name="entityimageid" type="guid" customfield="true" />
+      <field displayname="Event" name="msevtmgt_eventid" type="entityreference" lookupType="msevtmgt_event" customfield="true" />
+      <field displayname="Feedback Current Stamp Timestamp" name="msdyn_feedbackcurrentsteptimestamp" type="datetime" customfield="true" />
+      <field displayname="Feedback Generation Status" name="msdyn_feedbackgenerationstatus" type="optionsetvalue" customfield="true" />
+      <field displayname="Feedback Name" name="msdyn_feedbackname" type="string" customfield="true" />
+      <field displayname="Field Generation Trigger" name="msdyn_attributegenerationtrigger" type="datetime" customfield="true" />
+      <field displayname="Forms And Views Trigger" name="msdyn_formsandviewstrigger" type="datetime" customfield="true" />
+      <field displayname="Generate Dashboard" name="msdyn_generatedashboard" type="bool" customfield="true" />
+      <field displayname="Generate Feedback" name="msdyn_generatefeedback" type="optionsetvalue" customfield="true" />
+      <field displayname="Generate Form" name="msdyn_generateform" type="bool" customfield="true" />
+      <field displayname="Generate Survey Manually" name="msdyn_generatesurveymanualnow" type="bool" customfield="true" />
+      <field displayname="Generate Survey Responses" name="msdyn_generatesurveyresponses" type="bool" customfield="true" />
+      <field displayname="IFrameUrl" name="msdyn_iframeurl" type="string" customfield="true" />
+      <field displayname="Ignore Plug-In" name="msdyn_pluginignore" type="string" customfield="true" />
+      <field displayname="Image" name="entityimage" type="imagedata" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Invitation Link Text" name="msdyn_invitationlinktext" type="string" customfield="true" />
+      <field displayname="Invitation Snippet" name="msdyn_invitationsnippet" type="string" customfield="true" />
+      <field displayname="Key Measure" name="msdyn_keymeasure" type="string" customfield="true" />
+      <field displayname="Key Measure Mapping" name="msdyn_keymeasuremapping" type="entityreference" lookupType="msdyn_feedbackmapping" customfield="true" />
+      <field displayname="Key Measure Question" name="msdyn_keymeasurequestion" type="entityreference" lookupType="msdyn_question" customfield="true" />
+      <field displayname="Language" name="msdyn_language" type="number" customfield="true" />
+      <field displayname="languages" name="msdyn_languages" type="string" customfield="true" />
+      <field displayname="Last Generated On" name="msdyn_lastgeneratedon" type="datetime" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="msdyn_name" type="string" customfield="true" />
+      <field displayname="Next Text" name="msdyn_nexttext" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Plug-In Exception" name="msdyn_pluginexception" type="string" customfield="true" />
+      <field displayname="Plural Name" name="msdyn_pluralname" type="string" customfield="true" />
+      <field displayname="Preview Trigger" name="msdyn_previewtrigger" type="string" customfield="true" />
+      <field displayname="Previous Text" name="msdyn_previoustext" type="string" customfield="true" />
+      <field displayname="Privacy Policy Link Text" name="msdyn_privacypolicylinktext" type="string" customfield="true" />
+      <field displayname="Privacy Policy Url" name="msdyn_privacypolicyurl" type="string" customfield="true" />
+      <field displayname="Publish Trigger" name="msdyn_publishentitytrigger" type="datetime" customfield="true" />
+      <field displayname="Publish Warnings" name="msdyn_publishwarnings" type="string" customfield="true" />
+      <field displayname="Published Date" name="msdyn_publisheddate" type="datetime" customfield="true" />
+      <field displayname="Publishing User" name="msdyn_publishinguser" type="entityreference" lookupType="systemuser" customfield="true" />
+      <field displayname="Questions Count" name="msdyncrm_questionscount" type="number" customfield="true" />
+      <field displayname="Questions Count (Last Updated On)" name="msdyncrm_questionscount_date" type="datetime" customfield="true" />
+      <field displayname="Questions Count (State)" name="msdyncrm_questionscount_state" type="number" customfield="true" />
+      <field displayname="Queue Generation Date" name="msdyn_queuegenerationdate" type="datetime" customfield="true" />
+      <field displayname="Queue Pop Trigger" name="msdyn_queuepoptrigger" type="datetime" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Redirect Link Text" name="msdyn_redirectlinktext" type="string" customfield="true" />
+      <field displayname="Redirect Link URL" name="msdyn_redirecturl" type="string" customfield="true" />
+      <field displayname="Regarding Entity" name="msdyn_relatedentity" type="string" customfield="true" />
+      <field displayname="Relate to Account" name="msdyn_relatetoaccount" type="bool" customfield="true" />
+      <field displayname="Relate To Contact" name="msdyn_relatetocontact" type="bool" customfield="true" />
+      <field displayname="Relationship Generation Trigger" name="msdyn_relationshipgenerationtrigger" type="datetime" customfield="true" />
+      <field displayname="Respondent Data Action Type" name="msdyn_respondentdataactiontype" type="optionsetvalue" customfield="true" />
+      <field displayname="Response Conversion" name="msdyn_convertresponsestofeedback" type="optionsetvalue" customfield="true" />
+      <field displayname="Response Count" name="msdyn_responsecount" type="number" customfield="true" />
+      <field displayname="Restrict Multiple Completions" name="msdyn_restrictmultiplecompletions" type="bool" customfield="true" />
+      <field displayname="Run in IFrame" name="msdyn_runiniframe" type="bool" customfield="true" />
+      <field displayname="Runtime Title" name="msdyn_runtimetitle" type="string" customfield="true" />
+      <field displayname="Save Survey Text" name="msdyn_savesurveytext" type="string" customfield="true" />
+      <field displayname="Schema Name" name="msdyn_schemaname" type="string" customfield="true" />
+      <field displayname="Show Navigation Pane" name="msdyn_showentityinnavigationpane" type="bool" customfield="true" />
+      <field displayname="Show Progress Bar" name="msdyn_showprogressbar" type="bool" customfield="true" />
+      <field displayname="Show Technical Help Link" name="msdyn_showtechnicalhelp" type="bool" customfield="true" />
+      <field displayname="Solution Name" name="msdyn_solutionname" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Submit Text" name="msdyn_submittext" type="string" customfield="true" />
+      <field displayname="Summary Html" name="msdyn_summaryhtml" type="string" customfield="true" />
+      <field displayname="Support" name="msdyn_support" type="string" customfield="true" />
+      <field displayname="Survey" name="msdyn_surveyid" type="guid" primaryKey="true" />
+      <field displayname="Survey Already Taken Text Block" name="msdyn_surveyalreadytakentextblock" type="string" customfield="true" />
+      <field displayname="Survey Complete Link URL" name="msdyn_surveycompletelinkurl" type="string" customfield="true" />
+      <field displayname="Survey Completed Text" name="msdyn_surveycompletetext" type="string" customfield="true" />
+      <field displayname="Survey E-mail Address" name="msdyn_surveyemailaddress" type="string" customfield="true" />
+      <field displayname="Survey Email Address Text" name="msdyn_surveyemailaddresstext" type="string" customfield="true" />
+      <field displayname="Survey Header Text Block" name="msdyn_surveyheadertextblock" type="string" customfield="true" />
+      <field displayname="Survey Id" name="msdyn_surveyrecordid" type="string" customfield="true" />
+      <field displayname="Survey Image" name="msdyn_surveyimageid" type="entityreference" lookupType="msdyn_image" customfield="true" />
+      <field displayname="Survey Url" name="msdyn_surveyurl" type="string" customfield="true" />
+      <field displayname="Survey Validate Log" name="msdyn_surveyvalidatelog" type="entityreference" lookupType="msdyn_surveylo

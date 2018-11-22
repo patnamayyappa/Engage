@@ -1,0 +1,14 @@
+﻿#gauge-container {
+    background: transparent url("../../Images/gauge-container.png") no-repeat 50% 50%;
+    width: 404px;
+    height: 404px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    zoom: 0.75;
+}
+
+#gauge {
+    width: 330px;
+    height: 330px;
+    margin: 0 auto 0;
+}

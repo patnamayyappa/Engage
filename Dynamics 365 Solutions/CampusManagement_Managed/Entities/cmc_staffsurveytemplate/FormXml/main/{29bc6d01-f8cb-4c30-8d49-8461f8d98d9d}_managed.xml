@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{29bc6d01-f8cb-4c30-8d49-8461f8d98d9d}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920" showImage="false" shownavigationbar="true">
+      <tabs>
+        <tab id="{435e1687-aa1d-49b4-b527-b32d7ca6f2ea}" IsUserDefined="1" verticallayout="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{d2159732-5053-4f88-8694-16c6ad595105}" height="auto" IsUserDefined="0" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d775c564-a6a3-8e16-4196-8ab377ec1157}" showlabel="false" rowspan="20" auto="true" colspan="1">
+                        <labels>
+                          <label description="SurveyTemplate" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_SurveyTemplate" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/staffSurvey/index.html</Url>
+                            <Data>component=staffSurveyTemplate</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>true</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{45AE931C-36A1-E811-A958-000D3A3655EC}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0822c27b-cbd4-4af5-b7b0-52bb7a80deb9}" columns="111" celllabelposition="Left" celllabelalignment="Left" labelwidth="130">
+        <rows>
+          <row>
+            <cell id="{b1dcce71-be52-6a02-83ca-cce69bb011b3}" showlabel="true" visible="false" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control disabled="false" id="header_cmc_isdirty" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" uniqueid="{1aa2b815-c8e8-3d9b-dbb3-41ad53217c5d}" datafieldname="cmc_isdirty" />
+            </cell>
+            <cell id="{9787830e-51ee-9210-d93c-2d0054396962}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7db1746b-e48e-5c9d-5956-5d2c1b274697}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8831c72f-a83c-4e78-a4b4-d1525a467359}" columns="111">
+        <rows>
+          <row>
+            <cell id="{1ba12275-92cd-a7d0-6ca7-76b6d51e6577}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3842e044-6216-476e-ac90-b68267c6c714}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{217c1acd-8626-461d-950e-a907666bad7e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/dist/app/Forms/cmc_staffsurveytemplate.js" libraryUniqueId="{355e0122-edd6-c462-e55a-3a08ebdb63a6}" />
+        <Library name="cmc_/dist/app/Common/Localization.js" libraryUniqueId="{42eb7e1a-95b9-a0a4-eb6c-c511490c1b0b}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler passExecutionContext="false" parameters="" enabled="true" handlerUniqueId="{c26d32db-7c4b-5d36-b792-4e29aa36ec6a}" libraryName="cmc_/dist/app/Forms/cmc_staffsurveytemplate.js" functionName="CampusManagement.cmc_staffsurveytemplate.onDesignerLoad" />
+          </Handlers>
+        </event>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler passExecutionContext="true" parameters="" enabled="true" handlerUniqueId="{aeb26009-696b-7eb1-6836-e00599bed72d}" libraryName="cmc_/dist/app/Forms/cmc_staffsurveytemplate.js" functionName="CampusManagement.cmc_staffsurveytemplate.Form_OnSave" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions FallbackForm="true">
+        <Role Id="{E8FEE62F-83A9-E711-8105-C4346BDC42D1}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Designer" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Campus Survey Template Designer" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

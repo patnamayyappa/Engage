@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{89d75474-d939-4d97-814c-c8d6669ee3a8}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{2f7b74a8-2276-4bd7-9f1a-67e0dc5ba5ca}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{22389bec-08fc-4e45-a81b-189f7055202f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{397c93e4-8b72-4afd-9567-1c2845f2456c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_invoicedefinitionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_invoicedefinitionname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0052221d-2c5b-5aa8-9d92-ceb83283d6ca}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_pricelistid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_pricelistid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b6c84dc-b708-2de7-5798-d50281ce62aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enablepartialpayment" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_enablepartialpayment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9186a701-70ca-d83a-4ed5-bedcbced0690}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_minimumamount" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="cmc_minimumamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ba1ab22-66cc-4283-6e56-985ebad00791}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_invoicetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_invoicetype" disabled="false" uniqueid="{17c50278-0cd2-25a1-b23c-ce5ae47b5628}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8a8d8c4-e995-e582-bc06-a8a28ede1886}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_paymentgateway" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_paymentgateway" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e81ac943-b8d4-7c52-3c7c-edbab4c13ed1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_paymentmethod" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="cmc_paymentmethod" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{01a4e337-dd99-43c7-8b7b-db50205f98dc}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

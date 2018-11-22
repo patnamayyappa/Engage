@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{9656f36e-cc82-456e-b9fc-f3bb1300dc3e}" Name="To Do - Alert Faculty when Assigned">
+  <XamlFileName>/Workflows/ToDo-AlertFacultywhenAssigned-9656F36E-CC82-456E-B9FC-F3BB1300DC3E.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>ownerid</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>cmc_todo</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="To Do - Alert Faculty when Assigned" />
+  </LocalizedNames>
+</Workflow>

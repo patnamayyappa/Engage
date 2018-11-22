@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d43989e1-9250-4c46-baa8-39604da0bb58}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_testscoreconversionname" select="1" icon="1" preview="1">
+        <row name="cmc_testscoreconversion" id="cmc_testscoreconversionid">
+          <cell name="cmc_minimumscore" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_maximumscore" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_equivalentscore" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_testscoreconversion">
+          <order attribute="cmc_minimumscore" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_minimumscore" />
+          <attribute name="cmc_maximumscore" />
+          <attribute name="cmc_equivalentscore" />
+          <attribute name="cmc_testscoreconversionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.004</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Test Score Conversion Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

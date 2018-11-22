@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="To Do" OriginalName="To Do">cmc_todo</Name>
+  <EntityInfo>
+    <entity Name="cmc_todo" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

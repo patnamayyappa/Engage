@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{1aceb750-374a-4fe2-a6e6-c2fa779afa87}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{db66cf76-b905-48e2-9e11-df6f081f8156}" IsUserDefined="1" name="scoringfactor_group_tab" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Score Definition" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{e0bc3520-32a3-4665-b63a-99dff369228f}" name="general_section" columns="1" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6f840880-a231-4e86-a62b-ae99671ae282}" showlabel="true" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="Score Definition Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_scoredefinitionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_scoredefinitionname" uniqueid="{989c1677-73be-ca17-cc65-67c6a6d5aa77}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57547375-ba20-c5d4-96bd-520750b3052c}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Base Entity" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_baseentity" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_baseentity" disabled="false" uniqueid="{4669c7cb-0035-1bad-eca4-10ca672b7448}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad7c39bb-1390-3db0-5097-daa2b134c57b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Schedule Interval (in days)" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_scheduleinterval" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_scheduleinterval" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e64dd741-18e9-b52e-4a5b-25b912a2db45}" showlabel="false" colspan="1" auto="false" rowspan="2">
+                        <labels>
+                          <label description="EntityPicker" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_EntityPicker" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/entityPicker/index.html</Url>
+                            <Data>component=entityPicker&amp;nameField=cmc_baseentity&amp;resizecontrol=true&amp;controlname=WebResource_EntityPicker&amp;controlid=WebResource_EntityPicker_d</Data>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{21309226-6CE6-E811-A95C-000D3A3ACBF2}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell id="{5dc60cb3-12ec-172d-84a9-ec152b56746e}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Target Attribute" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_targetattributename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_targetattributename" disabled="false" uniqueid="{239e8230-888d-2c35-b4b4-7d668cbbd816}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a52a466-a1ed-c416-2c74-5d6181b8116e}" showlabel="false" colspan="1" auto="false" rowspan="10">
+                        <labels>
+                          <label description="Select Attribute" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_attributePicker" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/attributePicker/index.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{1034480F-5FA1-E811-A954-000D3A3AB637}</WebResourceId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{50120b6f-5cc9-4eb7-a91c-004c4d7cda04}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{067a3ec8-2342-69cc-ac0b-01cc48bd5a00}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="scoringfactor_group_tab_section_5" showlabel="true" showbar="true" locklevel="0" id="{d8096d99-6c11-e861-da72-6981b63a9880}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Threshold Parameter" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{505b928e-039a-74c6-c1cd-eba435265e1d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Green Score Threshold" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_greenscorethreshold" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_greenscorethreshold" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{239d9e58-db33-b956-0123-a6b2b66291b0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Yellow Score Threshold" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_yellowscorethreshold" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_yellowscorethreshold" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b30d363-733c-ad46-1ed3-db27dc7057b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Red Score Threshold" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_redscorethreshold" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_redscorethreshold" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="assign_students_sections" showlabel="true" showbar="true" locklevel="0" id="{c5329321-eb4d-4dc1-3355-9d5206a3a850}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="STUDENT GROUPS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{56199108-7c7a-ad2e-c48b-293c5b02a5ab}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="STUDENT GROUPS" languagecode="1033" />
+                        </labels>
+                        <control id="student_groups_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{0e819519-3b29-0d7c-131d-60db05bd8789}">
+                          <parameters>
+                            <ViewId>{7D7737D8-1A05-4ABB-BEBD-843404A83DAD}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_scoredefinition_list</RelationshipName>
+                            <TargetEntityType>list</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds>{7D7737D8-1A05-4ABB-BEBD-843404A83DAD},{892EBC07-F730-E811-A960-000D3A14B26E},{5250E7FF-4337-E811-A95D-000D3A11FC57}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="assign_scoring_factors_section" showlabel="true" showbar="true" locklevel="0" id="{2968baa0-45bb-89ea-a30c-e8e0e6d21e56}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="SCORING FACTORS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9db61642-64bb-7d60-9988-b1ca32d0e225}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="SCORING FACTORS" languagecode="1033" />
+                        </labels>
+                        <control id="scoring_factors_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{c40358e4-579d-7e10-ec25-b5a64e12690e}">
+                          <parameters>
+                            <ViewId>{DEC06C19-0DD7-4998-8855-5ECF63659F48}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_scoredefinition_scoringfactor</RelationshipName>
+                            <TargetEntityType>cmc_scoringfactor</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <ViewIds>{DEC06C19-0DD7-4998-8855-5ECF63659F48}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="notes_section" showlabel="true" showbar="true" locklevel="0" id="{ee30cc42-5d97-60b5-c958-6dc9014108e0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="DESCRIPTION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0a36674c-7978-56de-e951-856bd198b4a2}" showlabel="false" locklevel="0" rowspan="8">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_description" disabled="false" uniqueid="{194389a9-d711-29ce-97ea-d2d16306c179}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{6b127100-8796-5920-d9c4-e28239423905}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{b0658561-e632-5d58-9d49-7ed2a8e07699}" disabled="false">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0fa19a03-98cd-4359-ab3c-fc020dc649f1}" columns="111">
+        <rows>
+          <row>
+            <cell id="{065d0d63-28d2-43c2-b014-eed0a356cfd8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a796586d-9700-4f1b-91fb-6deda16a904b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ecd9551a-0472-4262-8049-1973dd647b14}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{fd6adfc4-7431-4a0c-9369-9efe6572b66b}" columns="1111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{dea31b7d-ee96-4ba4-4e48-ca554205b6d6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{35c97a15-3b56-16e3-3709-6b4035e60d96}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{e5993a69-8253-0c78-2e27-4b864de20ebc}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{49331234-1a75-7244-a8b2-b324ea9d70a2}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/dist/app/Common/Localization.js" libraryUniqueId="{94890473-8de2-c11b-6822-ac6397426702}" />
+        <Library name="cmc_/dist/app/Forms/cmc_scoredefinition.js" libraryUniqueId="{a2261796-e212-8cca-b23a-a98ded3e06ab}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_scoredefinition.onLoad" libraryName="cmc_/dist/app/Forms/cmc_scoredefinition.js" handlerUniqueId="{9c7b0988-cd23-1e38-459c-33120cad896e}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_scoredefinition.onSave" libraryName="cmc_/dist/app/Forms/cmc_scoredefinition.js" handlerUniqueId="{7e1e0b3a-1059-4ac9-3a11-c83491a3559c}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

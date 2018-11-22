@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.cmc_application.forms.CreateInvoice.Button.CustomAction" Location="Mscrm.Form.cmc_application.MainTab.Save.Controls._children" Sequence="45">
+      <CommandUIDefinition>
+        <Button Command="cmc.cmc_application.forms.CreateInvoice.Command" Id="cmc.cmc_application.forms.CreateInvoice.Button" Image32by32="$webresource:cmc_/Images/CreateInvoice32X32.png" Image16by16="$webresource:cmc_/Images/CreateInvoice_16X16.png" LabelText="$LocLabels:cmc.cmc_application.forms.CreateInvoice.Button.LabelText" Sequence="45" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_application.forms.CreateInvoice.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_application.forms.CreateInvoice.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/CreateInvoice_SVG.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.cmc_application.forms.CreateInvoice.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="cmc.cmc_application.FormIsNotNewOrDisabled" />
+        <DisplayRule Id="cmc.cmc_application.CanCreateInvoice" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.application.createInvoice" Library="$webresource:cmc_/dist/app/Ribbon/cmc_application.js">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="cmc.cmc_application.CanCreateInvoice">
+        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" AppliesTo="PrimaryEntity" EntityName="invoice" Default="false" />
+      </DisplayRule>
+      <DisplayRule Id="cmc.cmc_application.FormIsNotNewOrDisabled">
+        <FormStateRule State="Create" Default="false" InvertResult="true" />
+        <FormStateRule State="Disabled" Default="false" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.cmc_application.forms.CreateInvoice.Button.LabelText">
+      <Titles>
+        <Title description="Create Invoice" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_application.forms.CreateInvoice.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Create Invoice" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_application.forms.CreateInvoice.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Create Invoice" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

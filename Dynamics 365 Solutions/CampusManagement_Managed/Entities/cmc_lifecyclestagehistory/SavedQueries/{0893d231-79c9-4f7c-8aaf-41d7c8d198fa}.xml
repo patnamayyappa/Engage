@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0893d231-79c9-4f7c-8aaf-41d7c8d198fa}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_lifecyclestagehistoryname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_lifecyclestagehistoryid">
+          <cell name="cmc_lifecyclestagehistoryname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_lifecyclestagehistory">
+          <attribute name="cmc_lifecyclestagehistoryid" />
+          <attribute name="cmc_lifecyclestagehistoryname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_lifecyclestagehistoryname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.57</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Lifecycle Stage History Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

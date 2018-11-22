@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{a0c4a5be-8399-e711-8105-c4346bdc3221}</WebResourceId>
+  <Name>cmc_/CSS/Libraries/vis/vis.min.css</Name>
+  <DisplayName>vis.min.css</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0.0.13</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_CSSLibrariesvisvismincssA0C4A5BE-8399-E711-8105-C4346BDC3221</FileName>
+</WebResource>

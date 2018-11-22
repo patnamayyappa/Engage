@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.contact.AssignSuccessPlanForm.Button.CustomAction" Location="Mscrm.Form.contact.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Command="cmc.contact.AssignSuccessPlanForm.Command" Id="cmc.contact.AssignSuccessPlanForm.Button" Image32by32="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" Image16by16="$webresource:cmc_/Images/AssignSuccessPlan_16px.png" LabelText="$LocLabels:cmc.contact.AssignSuccessPlanForm.Button.LabelText" Sequence="63" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.contact.AssignSuccessPlanForm.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.contact.AssignSuccessPlanForm.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AssignSuccessPlan_32px.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.contact.AssignSuccessPlanHomePageGrid.Button.CustomAction" Location="Mscrm.HomepageGrid.contact.MainTab.Management.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <Button Command="cmc.contact.AssignSuccessPlan.Command" Id="cmc.contact.AssignSuccessPlanHomePageGrid.Button" Image32by32="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" Image16by16="$webresource:cmc_/Images/AssignSuccessPlan_16px.png" LabelText="$LocLabels:cmc.contact.AssignSuccessPlanHomePageGrid.Button.LabelText" Sequence="55" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.contact.AssignSuccessPlanHomePageGrid.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.contact.AssignSuccessPlanHomePageGrid.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AssignSuccessPlan_32px.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.contact.AssignSuccessPlanSubGrid.Button.CustomAction" Location="Mscrm.SubGrid.contact.MainTab.Management.Controls._children" Sequence="95">
+      <CommandUIDefinition>
+        <Button Command="cmc.contact.AssignSuccessPlan.Command" Id="cmc.contact.AssignSuccessPlanSubGrid.Button" Image32by32="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" Image16by16="$webresource:cmc_/Images/AssignSuccessPlan_16px.png" LabelText="$LocLabels:cmc.contact.AssignSuccessPlanSubGrid.Button.LabelText" Sequence="95" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.contact.AssignSuccessPlanSubGrid.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.contact.AssignSuccessPlanSubGrid.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AssignSuccessPlan_32px.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.contact.DegreePlanningForm.Button.CustomAction" Location="Mscrm.Form.contact.MainTab.Save.Controls._children" Sequence="78">
+      <CommandUIDefinition>
+        <Button Command="cmc.contact.DegreePlanning.Command" Id="cmc.contact.DegreePlanningForm.Button" Image32by32="$webresource:cmc_/Images/ribbon_degree_planning32.png" Image16by16="$webresource:cmc_/Images/ribbon_degree_planning16.png" LabelText="$LocLabels:cmc.contact.DegreePlanningForm.Button.LabelText" Sequence="78" TemplateAlias="isv" ToolTipTitle="$LocLabels:cmc.contact.DegreePlanningForm.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.contact.DegreePlanningForm.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/ribbon_degree_planning32.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.contact.PredictRetention.Button.CustomAction" Location="Mscrm.Form.contact.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Command="cmc.contact.PredictRetention.Command" Id="cmc.contact.PredictRetention.Button" Image32by32="$webresource:cmc_/Images/Predict_32px.png" Image16by16="$webresource:cmc_/Images/Predict_16px.png" LabelText="$LocLabels:cmc.contact.PredictRetention.Button.LabelText" Sequence="63" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.contact.PredictRetention.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.contact.PredictRetention.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/Predict_32px.svg" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.contact.AssignSuccessPlan.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.contact.SelectedOneOrMore.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="cmc.contact.CanCreateAppendSuccessPlan.DisplayRule" />
+        <DisplayRule Id="cmc.contact.CanCreateAppendToDo.DisplayRule" />
+        <DisplayRule Id="cmc.contact.CanAppendToContact.DisplayRule" />
+        <DisplayRule Id="cmc.contact.CanReadSuccessPlanTemplateAndToDo.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.Contact.assignSuccessPlan" Library="$webresource:cmc_/dist/App/Ribbon/contact.js">
+          <CrmParameter Value="SelectedControlSelectedItemIds" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.contact.AssignSuccessPlanForm.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="cmc.contact.CanCreateAppendSuccessPlan.DisplayRule" />
+        <DisplayRule Id="cmc.contact.CanCreateAppendToDo.DisplayRule" />
+        <DisplayRule Id="cmc.contact.CanAppendToContact.DisplayRule" />
+        <DisplayRule Id="cmc.contact.CanReadSuccessPlanTemplateAndToDo.DisplayRule" />
+        <DisplayRule Id="cmc.contact.FormIsExisting" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.Contact.assignSuccessPlanForm" Library="$webresource:cmc_/dist/App/Ribbon/contact.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.contact.DegreePlanning.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/dist/app/Common/Localization.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.Contact.navigateToDegreePlanningUrl" Library="$webresource:cmc_/dist/App/Ribbon/contact.js" />
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/dist/app/Common/CommonUiControls.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.contact.PredictRetention.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="cmc.contact.FormIsExisting" />
+        <DisplayRule Id="cmc.contact.HideOnDemandPrediction.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/dist/app/Common/Localization.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.Contact.predictRetention" Library="$webresource:cmc_/dist/App/Ribbon/contact.js" />
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/dist/app/Common/CommonUiControls.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="cmc.contact.CanAppendToContact.DisplayRule">
+        <EntityPrivilegeRule PrivilegeType="AppendTo" PrivilegeDepth="Basic" AppliesTo="SelectedEntity" EntityName="" Default="true" />
+      </DisplayRule>
+      <DisplayRule Id="cmc.contact.CanCreateAppendSuccessPlan.DisplayRule">
+        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" EntityName="cmc_successplan" Default="false" />
+        <EntityPrivilegeRule PrivilegeType="Append" PrivilegeDepth="Basic" EntityName="cmc_successplan" Default="false" />
+      </DisplayRule>
+      <DisplayRule Id="cmc.contact.CanCreateAppendToDo.DisplayRule">
+        <EntityPrivilegeRule PrivilegeType="Create" PrivilegeDepth="Basic" EntityName="cmc_todo" Default="false" />
+        <EntityPrivilegeRule PrivilegeType="AppendTo" PrivilegeDepth="Basic" EntityName="cmc_todo" Default="false" />
+      </DisplayRule>
+      <DisplayRule Id="cmc.contact.CanReadSuccessPlanTemplateAndToDo.DisplayRule">
+        <EntityPrivilegeRule PrivilegeType="Read" PrivilegeDepth="Basic" EntityName="cmc_successplantemplate" Default="false" />
+        <EntityPrivilegeRule PrivilegeType="Read" PrivilegeDepth="Basic" EntityName="cmc_successplantodotemplate" />
+      </DisplayRule>
+      <DisplayRule Id="cmc.contact.FormIsExisting">
+        <FormStateRule State="Existing" Default="false" InvertResult="false" />
+      </DisplayRule>
+      <DisplayRule Id="cmc.contact.HideOnDemandPrediction.DisplayRule">
+        <EntityRule EntityName="contact" AppliesTo="PrimaryEntity" Context="Form" Default="false" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="cmc.contact.SelectedOneOrMore.EnableRule">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" Default="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanForm.Button.LabelText">
+      <Titles>
+        <Title description="Assign Success Plan" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanForm.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Assign a Success Plan to this Student" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanForm.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Assign Success Plan" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanHomePageGrid.Button.LabelText">
+      <Titles>
+        <Title description="Assign Success Plan" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanHomePageGrid.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Assign a Success Plan to the selected Student(s)" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanHomePageGrid.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Assign Success Plan" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanSubGrid.Button.LabelText">
+      <Titles>
+        <Title description="Assign Success Plan" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanSubGrid.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Assign a Success Plan to the selected Student(s)" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.AssignSuccessPlanSubGrid.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Assign Success Plan" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.DegreePlanningForm.Button.LabelText">
+      <Titles>
+        <Title description="Degree Planning" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.DegreePlanningForm.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Click to open the Degree Planning tool" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.DegreePlanningForm.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Degree Planning" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.PredictRetention.Button.LabelText">
+      <Titles>
+        <Title description="On Demand Prediction" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.PredictRetention.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Use Machine Learning to predict the Retention Probability" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.contact.PredictRetention.Button.ToolTipTitle">
+      <Titles>
+        <Title description="On Demand Prediction" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

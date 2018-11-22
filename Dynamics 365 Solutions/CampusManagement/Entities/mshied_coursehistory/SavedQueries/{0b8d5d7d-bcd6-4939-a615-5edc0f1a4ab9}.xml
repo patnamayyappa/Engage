@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0b8d5d7d-bcd6-4939-a615-5edc0f1a4ab9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_coursehistoryid">
+          <cell name="mshied_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_courseid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_registrationstatusid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_creditsattempted" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_creditsearrned" width="100" />
+          <cell name="mshied_lettergrade" width="100" />
+          <cell name="mshied_gradepoints" width="100" />
+          <cell name="mshied_lastdateofattendance" width="100" />
+          <cell name="mshied_midtermlettergrade" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_minutesabsent" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_minutesattended" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="mshied_midtermnumericgrade" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_coursehistory">
+          <attribute name="mshied_name" />
+          <attribute name="mshied_registrationstatusid" />
+          <attribute name="mshied_courseid" />
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="cmc_minutesattended" />
+          <attribute name="cmc_minutesabsent" />
+          <attribute name="mshied_midtermnumericgrade" />
+          <attribute name="mshied_midtermlettergrade" />
+          <attribute name="mshied_lettergrade" />
+          <attribute name="mshied_lastdateofattendance" />
+          <attribute name="mshied_gradepoints" />
+          <attribute name="mshied_creditsearrned" />
+          <attribute name="mshied_creditsattempted" />
+          <attribute name="mshied_coursehistoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Course History Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{bad908ec-ed6f-43dc-a837-10f4770451f0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_invoicedefinitionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_invoicedefinitionid">
+          <cell name="cmc_invoicedefinitionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_invoicedefinition">
+          <attribute name="cmc_invoicedefinitionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_invoicedefinitionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cmc_invoicedefinitionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Invoice Definitions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

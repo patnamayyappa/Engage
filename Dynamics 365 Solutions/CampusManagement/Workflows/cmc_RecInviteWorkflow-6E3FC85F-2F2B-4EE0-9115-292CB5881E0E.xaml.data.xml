@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{6e3fc85f-2f2b-4ee0-9115-292cb5881e0e}" Name="cmc_RecInviteWorkflow">
+  <XamlFileName>/Workflows/cmc_RecInviteWorkflow-6E3FC85F-2F2B-4EE0-9115-292CB5881E0E.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>1</Subprocess>
+  <Category>0</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>1</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>cmc_applicationrecommendation</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="cmc_RecInviteWorkflow" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{285a317b-8679-4c7c-82ef-e6f851c6da5f}" />
+  </labels>
+</Workflow>

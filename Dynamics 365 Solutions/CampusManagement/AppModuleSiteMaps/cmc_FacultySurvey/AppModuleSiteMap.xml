@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap>
+  <SiteMapUniqueName>cmc_FacultySurvey</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="New_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Engage" />
+      </Titles>
+      <Group Id="New_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="My Work" />
+        </Titles>
+        <SubArea Id="New_SubArea" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="14235cc8-5e39-e811-a959-000d3af28b57" IntroducedVersion="7.0.0.0" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_71f919ef" ResourceId="SitemapDesigner.NewSubArea" Icon="/WebResources/msdyn_/Images/Wall_16.png" Url="msdyn_/PersonalWall.htm?data=HideUserProfile=0" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="What's New" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_aebce6df" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="activitypointer" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_30b0858d" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_officehours" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Office Hours" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_d4803ba" ResourceId="SitemapDesigner.NewSubArea" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="/workplace/home_calendar.aspx" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="My Calendar" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_ea0d71cf" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="cmc_staffsurvey" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="My Surveys" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_ec5f5bcf" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Case Management" />
+        </Titles>
+        <SubArea Id="NewSubArea_6c438cf4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_60419ef6" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="queue" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_f88c9272" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Tools" />
+        </Titles>
+        <SubArea Id="NewSubArea_a35b4c22" ResourceId="SitemapDesigner.NewSubArea" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="https://app.powerbi.com/view?r=eyJrIjoiMmIzY2JjNTAtM2JlMy00OTJmLWE1ZWYtM2M5Yjg4NzBmNTVhIiwidCI6ImEzOGZmODcwLTljODYtNDNkZi05ZTZiLTZiMDFmMjA2YTM5OCIsImMiOjN9" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Career Explorer" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_5e72d09a" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="report" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_61113c63" ResourceId="SitemapDesigner.NewSubArea" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="/_root/tracewall.aspx" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Alerts" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="NewArea_c7b7a4bb" ResourceId="SitemapDesigner.NewArea" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Training" />
+      </Titles>
+      <Group Id="NewGroup_a4233e06" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Training" />
+        </Titles>
+        <SubArea Id="NewSubArea_7142e9f5" ResourceId="SitemapDesigner.NewSubArea" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="http://go.microsoft.com/fwlink/?LinkId=296269&amp;clcid=0x409" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Help Center" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Faculty Survey" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

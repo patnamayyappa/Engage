@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{93ffd7d0-5b21-e811-a95f-000d3a11f5ee}" Name="Condition Type is Range" Description="Lock, Unlock, Clear and require fields when Condition Type is Range">
+  <XamlFileName>/Workflows/ConditionTypeisRange-93FFD7D0-5B21-E811-A95F-000D3A11F5EE.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.47</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_domdefinitionlogic</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Condition Type is Range" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Lock, Unlock, Clear and require fields when Condition Type is Range" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{94ffd7d0-5b21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{95ffd7d0-5b21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3501d8d0-5b21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3601d8d0-5b21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{a4f307e4-5c21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{a5f307e4-5c21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{c1f307e4-5c21-e811-a95f-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_conditiontype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{c2f307e4-5c21-e811-a95f-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_domdefinitionlogic</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

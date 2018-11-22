@@ -1,0 +1,3293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Address" OriginalName="">CustomerAddress</Name>
+  <EntityInfo>
+    <entity Name="CustomerAddress">
+      <attributes>
+        <attribute PhysicalName="AddressTypeCode">
+          <Type>picklist</Type>
+          <Name>addresstypecode</Name>
+          <LogicalName>addresstypecode</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="customeraddress_addresstypecode">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Address Type" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Type of address for the customer, such as billing, shipping, or primary address." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" Color="">
+                <labels>
+                  <label description="Bill To" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="2" ExternalValue="" Color="">
+                <labels>
+                  <label description="Ship To" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="3" ExternalValue="" Color="">
+                <labels>
+                  <label description="Primary" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="4" ExternalValue="" Color="">
+                <labels>
+                  <label description="Other" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Address Type" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the address type, such as primary or billing." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_country">
+          <Type>picklist</Type>
+          <Name>cmc_country</Name>
+          <LogicalName>cmc_country</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.10</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="cmc_customeraddress_cmc_country">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.10</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Country" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Pick list of countries" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value ="175490000" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Aland Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490001" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Afghanistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490002" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Albania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490003" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Algeria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490004" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Andorra" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490005" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Angola" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490006" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Anguilla" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490007" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Antarctica" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490008" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Antigua and Barbuda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490009" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Argentina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490010" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Armenia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490011" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Aruba" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490012" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Australia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490013" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Austria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490014" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Azerbaijan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490015" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bahamas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490016" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bahrain" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490017" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bangladesh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490018" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Barbados" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490019" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Belarus" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490020" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Belgium" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490021" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Belize" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490022" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Benin" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490023" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bermuda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490024" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bhutan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490025" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bolivia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490026" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bonaire Sint Eustasius and Saba" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490027" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bosnia and Herzegovina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490028" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Botswana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490029" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bouvet Island" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490030" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Brazil" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490031" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "British Indian Ocean Territory" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490032" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Brunei Darussalam" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490033" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bulgaria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490034" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Burkina Faso" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490035" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Burundi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490036" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cambodia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490037" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cameroon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490038" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Canada" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490039" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cabo Verde" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490040" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cayman Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490041" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Central African Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490042" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chad" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490043" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chile" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490044" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "China" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490045" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Christmas Island" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490046" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cocos (Keeling) Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490047" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Colombia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490048" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Comoros" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490049" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Congo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490050" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Congo (the Democratic Republic of the)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490051" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cook Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490052" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Costa Rica" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490053" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cote d!Ivoire" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490054" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Croatia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490055" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cuba" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490056" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Curaçao" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490057" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cyprus" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490058" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Czechia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490059" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Denmark" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490060" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Djibouti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490061" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Dominica" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490062" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Dominican Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490063" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ecuador" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490064" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Egypt" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490065" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "El Salvador" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490066" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Equatorial Guinea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490067" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Eritrea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490068" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Estonia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490069" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ethiopia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490070" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Falkland Islands (Malvinas)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490071" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Faroe Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490072" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Fiji" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490073" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Finland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490074" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "France" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490075" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "French Guiana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490076" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "French Polynesia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490077" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "French Southern Territories" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490078" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gabon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490079" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gambia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490080" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Georgia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490081" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Germany" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490082" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ghana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490083" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gibraltar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490084" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Greece" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490085" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Greenland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490086" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Grenada" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490087" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guadeloupe" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490088" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guam" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490089" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guatemala" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490090" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guernsey" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490091" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guinea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490092" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guinea-Bissau" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490093" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guyana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490094" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Haiti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490095" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Heard Island and Mcdonald Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490096" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Holy See" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490097" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Honduras" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490098" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hong Kong" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490099" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hungary" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490100" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Iceland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490101" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "India" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490102" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Indonesia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490103" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Iran" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490104" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Iraq" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490105" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ireland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490106" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Isle of Man" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490107" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Israel" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490108" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Italy" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490109" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jamaica" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490110" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Japan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490111" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jersey" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490112" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jordan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490113" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kazakhstan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490114" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kenya" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490115" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kiribati" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490116" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Korea (the Democratic Republic of)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490117" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Korea (the Republic of)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490118" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kuwait" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490119" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kyrgyzstan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490120" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lao People!s Democratic Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490121" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Latvia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490122" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lebanon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490123" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lesotho" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490124" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Liberia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490125" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Libya" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490126" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Liechtenstein" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490127" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lithuania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490128" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Luxembourg" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490129" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Macao" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490130" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Macedonia (the Former Yugoslav Republic of)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490131" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Madagascar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490132" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Malawi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490133" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Malaysia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490134" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Maldives" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490135" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mali" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490136" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Malta" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490137" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Martinique" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490138" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mauritania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490139" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mauritius" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490140" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mayotte" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490141" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mexico" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490142" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Moldova (the Republic of)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490143" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Monaco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490144" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mongolia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490145" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Montenegro" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490146" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Montserrat" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490147" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Morocco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490148" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mozambique" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490149" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Myanmar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490150" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Namibia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490151" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nauru" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490152" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nepal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490153" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Netherlands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490154" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Netherlands Antilles" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490155" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New Caledonia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490156" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New Zealand" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490157" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nicaragua" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490158" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Niger" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490159" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nigeria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490160" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Niue" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490161" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Norfolk Island" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490162" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Norway" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490163" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Oman" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490164" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pakistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490165" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Palau" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490166" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Palestine, State of" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490167" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Panama" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490168" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Papua New Guinea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490169" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Paraguay" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490170" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Peru" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490171" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Philippines" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490172" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pitcairn" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490173" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Poland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490174" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Portugal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490175" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Qatar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490176" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Reunion" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490177" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Romania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490178" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Russian Federation" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490179" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rwanda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490180" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Barthelemy" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490181" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Helena, Ascension and Tristan da Cunha" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490182" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Kitts and Nevis" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490183" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Lucia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490184" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Martin (French part)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490185" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Pierre and Miquelon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490186" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Vincent and the Grenadines" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490187" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Samoa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490188" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "San Marino" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490189" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sao Tome and Principe" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490190" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saudi Arabia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490191" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Senegal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490192" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Serbia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490193" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Seychelles" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490194" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sierra Leone" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490195" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Singapore" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490196" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sint Maarten (Dutch part)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490197" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Slovakia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490198" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Slovenia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490199" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Solomon Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490200" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Somalia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490201" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Africa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490202" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Georgia and the South Sandwich Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490203" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Sudan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490204" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Spain" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490205" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sri Lanka" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490206" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sudan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490207" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Suriname" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490208" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Svalbard and Jan Mayen" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490209" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Eswatini" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490210" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sweden" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490211" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Switzerland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490212" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Syrian Arab Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490213" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Taiwan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490214" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tajikistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490215" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tanzania, United Republic Of" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490216" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Thailand" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490217" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Timor-Leste" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490218" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Togo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490219" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tokelau" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490220" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tonga" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490221" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Trinidad and Tobago" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490222" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tunisia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490223" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Turkey" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490224" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Turkmenistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490225" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Turks and Caicos Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490226" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tuvalu" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490227" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uganda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490228" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ukraine" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490229" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "United Arab Emirates" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490230" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "United Kingdom" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490231" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "United States of America" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490232" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uruguay" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490233" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uzbekistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490234" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vanuatu" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490235" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Venezuela" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490236" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Viet Nam" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490237" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Virgin Islands (British)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490238" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Wallis and Futuna" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490239" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Western Sahara" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490240" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Yemen" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490241" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Zambia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490242" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Zimbabwe" languagecode = "1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Country/Region" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Pick list of countries" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_email">
+          <Type>nvarchar</Type>
+          <Name>cmc_email</Name>
+          <LogicalName>cmc_email</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.6</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>255</MaxLength>
+          <Length>510</Length>
+          <displaynames>
+            <displayname description="Email" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_geocoordinates">
+          <Type>picklist</Type>
+          <Name>cmc_geocoordinates</Name>
+          <LogicalName>cmc_geocoordinates</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.6</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="cmc_customeraddress_cmc_geocoordinates">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.6</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="GeoCoordinates" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="2" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="GeoCoordinates" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_stateprovince">
+          <Type>picklist</Type>
+          <Name>cmc_stateprovince</Name>
+          <LogicalName>cmc_stateprovince</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.10</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="cmc_customeraddress_cmc_stateprovince">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.10</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="State/Province" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Pick list States." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value ="175490000" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New South Wales" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490001" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Queensland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490002" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Australia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490003" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tasmania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490004" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Victoria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490005" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Western Australia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490006" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Acre" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490007" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Alagoas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490008" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Amapá" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490009" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Amazonas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490010" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bahia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490011" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ceará" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490012" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Distrito Federal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490013" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Espírito Santo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490014" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Goiás" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490015" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Maranhão" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490016" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mato Grosso" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490017" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mato Grosso do Sul" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490018" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Minas Gerais" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490019" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pará" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490020" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Paraíba" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490021" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Paraná" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490022" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pernambuco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490023" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Piauí" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490024" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rio de Janeiro" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490025" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rio Grande do Norte" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490026" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rio Grande do Sul" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490027" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rondônia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490028" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Roraima" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490029" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Santa Catarina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490030" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "São Paulo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490031" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sergipe" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490032" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tocantins" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490033" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Alberta" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490034" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "British Columbia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490035" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Manitoba" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490036" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New Brunswick" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490037" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Newfoundland and Labrador" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490038" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Northwest Territories" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490039" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nova Scotia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490040" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nunavut" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490041" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ontario" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490042" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Prince Edward Island" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490043" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Quebec" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490044" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saskatchewan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490045" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Yukon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490046" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Anhui" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490047" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Beijing" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490048" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chongqing " languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490049" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Fujian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490050" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gansu" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490051" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guangdong" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490052" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guangxi Zhuangzu " languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490053" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guizhou" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490054" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hainan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490055" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hebei" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490056" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Heilongjiang" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490057" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Henan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490058" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hubei" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490059" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hunan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490060" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jiangsu" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490061" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jiangxi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490062" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jilin" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490063" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Liaoning" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490064" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nei Mongol" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490065" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ningxia Huizi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490066" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Qinghai" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490067" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Shaanxi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490068" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Shandong" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490069" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Shanghai " languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490070" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Shanxi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490071" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sichuan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490072" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Taiwan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490073" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tianjin" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490074" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Xinjiang Uygur " languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490075" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Xizang" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490076" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Yunnan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490077" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Zhejiang" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490078" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Andhra Pradesh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490079" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Arunachal Pradesh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490080" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Assam" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490081" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bihar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490082" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chhattisgarh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490083" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Goa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490084" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gujarat" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490085" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Haryana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490086" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Himachal Pradesh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490087" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jammu and Kashmir" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490088" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jharkhand" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490089" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Karnataka" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490090" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kerala" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490091" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Madhya Pradesh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490092" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Maharashtra" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490093" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Manipur" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490094" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Meghalaya" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490095" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mizoram" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490096" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nagaland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490097" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Odisha" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490098" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Punjab" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490099" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rajasthan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490100" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sikkim" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490101" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tamil Nadu" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490102" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Telangana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490103" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tripura" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490104" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uttar Pradesh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490105" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uttarakhand" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490106" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "West Bengal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490107" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Carlow" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490108" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cavan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490109" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Clare" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490110" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Connaught" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490111" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cork" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490112" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Donegal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490113" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Dublin" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490114" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Galway" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490115" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kerry" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490116" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kildare" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490117" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kilkenny" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490118" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Laois" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490119" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Leinster" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490120" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Leitrim" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490121" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Limerick" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490122" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Longford" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490123" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Louth" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490124" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mayo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490125" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Meath" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490126" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Monaghan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490127" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Munster" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490128" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Offaly" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490129" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Roscommon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490130" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sligo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490131" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tipperary" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490132" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ulster" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490133" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Waterford" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490134" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Westmeath" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490135" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Wexford" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490136" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Wicklow" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490137" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Agrigento" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490138" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Alessandria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490139" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ancona" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490140" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Aosta" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490141" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Aoste" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490142" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Arezzo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490143" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ascoli Piceno" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490144" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Asti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490145" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Avellino" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490146" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bari" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490147" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Barletta-Andria-Trani" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490148" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Belluno" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490149" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Benevento" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490150" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bergamo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490151" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Biella" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490152" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bologna" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490153" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bolzano" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490154" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bozen" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490155" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Brescia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490156" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Brindisi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490157" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cagliari" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490158" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Caltanissetta" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490159" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Campobasso" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490160" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Carbonia-Iglesias" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490161" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Caserta" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490162" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Catania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490163" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Catanzaro" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490164" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chieti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490165" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Como" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490166" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cosenza" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490167" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cremona" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490168" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Crotone" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490169" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cuneo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490170" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Enna" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490171" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Fermo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490172" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ferrara" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490173" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Firenze" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490174" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Foggia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490175" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Forli-Cesena" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490176" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Frosinone" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490177" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Genova" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490178" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gorizia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490179" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Grosseto" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490180" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Imperia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490181" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Isernia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490182" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "La Spezia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490183" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "L!Aquila" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490184" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Latina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490185" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lecce" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490186" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lecco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490187" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Livorno" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490188" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lodi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490189" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lucca" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490190" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Macerata" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490191" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mantova" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490192" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Massa-Carrara" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490193" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Matera" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490194" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Medio Campidano" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490195" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Messina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490196" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Milano" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490197" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Modena" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490198" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Monza e Brianza" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490199" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Napoli" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490200" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Novara" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490201" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nuoro" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490202" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ogliastra" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490203" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Olbia-Tempio" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490204" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Oristano" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490205" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Padova" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490206" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Palermo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490207" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Parma" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490208" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pavia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490209" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Perugia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490210" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pesaro e Urbino" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490211" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pescara" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490212" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Piacenza" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490213" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pisa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490214" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pistoia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490215" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pordenone" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490216" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Potenza" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490217" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Prato" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490218" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ragusa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490219" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ravenna" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490220" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Reggio Calabria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490221" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Reggio Emilia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490222" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rieti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490223" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rimini" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490224" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Roma" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490225" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rovigo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490226" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Salerno" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490227" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sassari" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490228" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Savona" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490229" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Siena" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490230" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Siracusa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490231" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sondiro" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490232" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Taranto" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490233" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Teramo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490234" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Terni" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490235" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Torino" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490236" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Trapani" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490237" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Trento" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490238" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Treviso" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490239" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Trieste" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490240" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Udine" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490241" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Varese" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490242" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Venezia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490243" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Verbano-Cusio-Ossola" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490244" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vercelli" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490245" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vernoa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490246" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vibo Valentia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490247" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vicenza" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490248" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Viterbo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490249" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Aguascalientes" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490250" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Baja California" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490251" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Baja California Sur" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490252" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Campeche" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490253" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chihuahua" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490254" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ciudad de México" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490255" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Coahuila" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490256" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Colima" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490257" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Durango" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490258" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guanajuanto" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490259" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guerrero" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490260" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hidalgo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490261" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jalisco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490262" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mexico" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490263" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Michoacan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490264" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Morelos" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490265" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nayarit" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490266" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nuevo Leon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490267" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Oaxaca" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490268" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Puebla" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490269" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Queretaro" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490270" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Quintana Roo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490271" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "San Luis Potosi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490272" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sinaloa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490273" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sonora" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490274" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tabasco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490275" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tamaulipas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490276" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tlaxcala" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490277" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Veracruz" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490278" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Yucatan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490279" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Zacatecas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490280" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "AA (Armed Forces Americas)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490281" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "AE (Armed Forces Others)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490282" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Alabama" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490283" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Alaska" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490284" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "American Samoa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490285" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "AP (Armed Forces Pacific)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490286" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Arizona" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490287" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Arkansas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490288" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "California" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490289" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Colorado" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490290" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Connecticut" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490291" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Delaware" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490292" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "District of Columbia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490293" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Federated States of Micronesia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490294" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Florida" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490295" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Georgia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490296" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guam" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490297" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hawaii" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490298" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Idaho" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490299" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Illinois" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490300" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Indiana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490301" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Iowa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490302" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kansas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490303" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kentucky" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490304" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Louisiana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490305" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Maine" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490306" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Marshall Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490307" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Maryland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490308" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Massachusetts" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490309" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Michigan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490310" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Minnesota" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490311" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mississippi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490312" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Missouri" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490313" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Montana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490314" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nebraska" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490315" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nevada" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490316" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New Hampshire" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490317" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New Jersey" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490318" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New Mexico" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490319" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New York" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490320" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "North Carolina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490321" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "North Dakota" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490322" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Northern Mariana Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490323" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ohio" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490324" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Oklahoma" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490325" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Oregon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490326" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pennsylvania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490327" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Puerto Rico" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490328" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rhode Island" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490329" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Carolina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490330" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Dakota" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490331" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tennesee" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490332" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Texas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490333" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Utah" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490334" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vermont" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490335" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Virgin Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490336" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Virginia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490337" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Washington" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490338" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "West Virginia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490339" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Wisconsin" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490340" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Wyoming" languagecode = "1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="State/Province" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Pick list States." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Line1">
+          <Type>nvarchar</Type>
+          <Name>line1</Name>
+          <LogicalName>line1</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>250</MaxLength>
+          <Length>8000</Length>
+          <displaynames>
+            <displayname description="Street 1" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the first line of the customer's address to help identify the location." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_EndDate">
+          <Type>datetime</Type>
+          <Name>mshied_enddate</Name>
+          <LogicalName>mshied_enddate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.4</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Address End" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="End Date" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_StartDate">
+          <Type>datetime</Type>
+          <Name>mshied_startdate</Name>
+          <LogicalName>mshied_startdate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.4</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Address Start" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Start Date" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Name">
+          <Type>nvarchar</Type>
+          <Name>name</Name>
+          <LogicalName>name</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>255</MaxLength>
+          <Length>510</Length>
+          <displaynames>
+            <displayname description="Address Name" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Address instance name" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,47 @@
+
+<div [innerHTML]="description | safeHtml"></div>
+<div class="fixedheader" style="height: 400px;overflow: scroll;">
+  <table class="table">
+    <thead>
+      <tr>
+        <th [style.background-color]="defaultTheme.pageheaderbackgroundcolor"><div>{{surveyStrings.studentQuestionHeader}}</div></th>
+        <th [style.background-color]="defaultTheme.pageheaderbackgroundcolor" *ngFor="let que of question" id=que.cmc_staffsurveyquestionid><div>{{que.cmc_staffsurveyquestionname}}</div></th>
+      </tr>
+    </thead>
+    <tr *ngFor="let stu of student" id=stu.contactId>
+      <td  [style.background-color]="defaultTheme.pageheaderbackgroundcolor" >
+        <div class="studentRow">{{stu.cmc_contactid.fullname}}</div>
+      </td>
+      <td *ngFor="let que of stu.question">
+        <div *ngIf="que.cmc_questiontype!=3">
+          <div *ngIf="que.cmc_questiontype==1">
+            <label>
+              <app-text [question]="que" [disabled]="isInactive | async"></app-text>
+            </label>
+          </div>
+
+          <div *ngIf="que.cmc_questiontype==2">
+            <div *ngFor="let option of que.options">
+              <label>
+                <app-checkbox [question]="que" [option]="option" [disabled]="isInactive | async"></app-checkbox>
+                {{option.title }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="que.cmc_questiontype==4">
+            <div *ngFor="let option of que.cmc_choice">
+              <label>
+                <app-radiobutton [question]="que" [option]="option" [disabled]="isInactive | async"></app-radiobutton>
+                {{option.title }}
+              </label>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="que.cmc_questiontype==3">
+          <app-dropdown [question]="que" [disabled]="isInactive | async"></app-dropdown>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+

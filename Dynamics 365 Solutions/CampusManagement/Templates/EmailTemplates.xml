@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmailTemplates>
+  <emailtemplate>
+    <IsCustomizable>1</IsCustomizable>
+    <templateid>{97edd2e4-cea2-e711-8103-c4346bdc42d1}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>2</templatetypecode>
+    <body></body>
+    <title>Email Contact with Positive Acknowledgment</title>
+    <description>A template email for Advisors to use when a student gets a positive acknowledgement.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.0.0.15</IntroducedVersion>
+  </emailtemplate>
+</EmailTemplates>

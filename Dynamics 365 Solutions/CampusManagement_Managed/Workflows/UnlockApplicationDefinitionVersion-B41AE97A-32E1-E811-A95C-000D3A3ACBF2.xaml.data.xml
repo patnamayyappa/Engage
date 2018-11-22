@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{b41ae97a-32e1-e811-a95c-000d3a3acbf2}" Name="Unlock Application Definition Version" Description="Unlock Application Definition Version on form if it is empty">
+  <XamlFileName>/Workflows/UnlockApplicationDefinitionVersion-B41AE97A-32E1-E811-A95C-000D3A3ACBF2.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_applicationdefinitionversiondetail</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Unlock Application Definition Version" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Unlock Application Definition Version on form if it is empty" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{1833e980-32e1-e811-a95c-000d3a3acbf2}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_applicationdefinitionversion</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_applicationdefinitionversiondetail</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{1933e980-32e1-e811-a95c-000d3a3acbf2}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_applicationdefinitionversiondetail</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

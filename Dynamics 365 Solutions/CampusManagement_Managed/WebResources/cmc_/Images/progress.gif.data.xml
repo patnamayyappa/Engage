@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{abd54dba-417d-e711-8100-5065f38b0191}</WebResourceId>
+  <Name>cmc_/Images/progress.gif</Name>
+  <DisplayName>progress.gif</DisplayName>
+  <WebResourceType>7</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_ImagesprogressgifABD54DBA-417D-E711-8100-5065F38B0191</FileName>
+</WebResource>

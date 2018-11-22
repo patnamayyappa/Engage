@@ -1,0 +1,2874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Contact" OriginalName="">Contact</Name>
+  <EntityInfo>
+    <entity Name="Contact">
+      <LocalizedNames>
+        <LocalizedName description="Contact" languagecode="1033" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Contacts" languagecode="1033" />
+      </LocalizedCollectionNames>
+      <attributes>
+        <attribute PhysicalName="BirthDate">
+          <Type>datetime</Type>
+          <Name>birthdate</Name>
+          <LogicalName>birthdate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <displaynames>
+            <displayname description="NATIVE NOT USED Birthday" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Enter the contact's birthday for use in customer gift programs or other communications." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_actbest">
+          <Type>int</Type>
+          <Name>cmc_actbest</Name>
+          <LogicalName>cmc_actbest</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.108</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="ACT Best" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Highest ACT composite across records on file." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_actsuperscore">
+          <Type>int</Type>
+          <Name>cmc_actsuperscore</Name>
+          <LogicalName>cmc_actsuperscore</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.108</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="ACT Superscore" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Average of highest Math, Science, Reading, and English section scores across all ACT test scores on file" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_age">
+          <Type>int</Type>
+          <Name>cmc_age</Name>
+          <LogicalName>cmc_age</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.14</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>1</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Age" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Populate with calculation of todays date based on their date of birth." languagecode="1033" />
+          </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/contact-cmc_age.xaml</FormulaDefinitionFileName>
+        </attribute>
+        <attribute PhysicalName="cmc_autoupdatepicture">
+          <Type>bit</Type>
+          <Name>cmc_autoupdatepicture</Name>
+          <LogicalName>cmc_autoupdatepicture</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.107</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>1</AppDefaultValue>
+          <optionset Name="cmc_contact_cmc_autoupdatepicture">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>0.6.0.107</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Auto Update Picture" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="The Contact profile picture extracted from the institution or other sources." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Auto Update Picture" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The Contact profile picture extracted from the institution or other sources." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_currentretentionscore">
+          <Type>int</Type>
+          <Name>cmc_currentretentionscore</Name>
+          <LogicalName>cmc_currentretentionscore</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.1</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Current Retention Score" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Most recent Retention Score." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_currentretentionscoredate">
+          <Type>datetime</Type>
+          <Name>cmc_currentretentionscoredate</Name>
+          <LogicalName>cmc_currentretentionscoredate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.1</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Current Retention Score Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_dateofbirth">
+          <Type>datetime</Type>
+          <Name>cmc_dateofbirth</Name>
+          <LogicalName>cmc_dateofbirth</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>1.0.0.12</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Date of Birth" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The contacts date of birth." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_domstatus">
+          <Type>picklist</Type>
+          <Name>cmc_domstatus</Name>
+          <LogicalName>cmc_domstatus</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.47</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>175490000</AppDefaultValue>
+          <OptionSetName>cmc_domstatus</OptionSetName>
+          <displaynames>
+            <displayname description="DOM Status" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Indicates if this record needs to be assigned through the DOM Engine." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_donotsmstext">
+          <Type>bit</Type>
+          <Name>cmc_donotsmstext</Name>
+          <LogicalName>cmc_donotsmstext</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.14</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="cmc_contact_cmc_donotsmstext">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.14</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="SMS Text" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="Allow" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Do not Allow" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Do not allow SMS Texts" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_educationlevelid">
+          <Type>lookup</Type>
+          <Name>cmc_educationlevelid</Name>
+          <LogicalName>cmc_educationlevelid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.7.0.52</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Education Level" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Education Level associated with Contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_expectedstartid">
+          <Type>lookup</Type>
+          <Name>cmc_expectedstartid</Name>
+          <LogicalName>cmc_expectedstartid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.7.0.51</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Expected Start" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Initial Source Expected Start Date - Lookup to Academic Period.  This is the INITIAL source that was present when the Contact was created." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_externalimagetimestamp">
+          <Type>nvarchar</Type>
+          <Name>cmc_externalimagetimestamp</Name>
+          <LogicalName>cmc_externalimagetimestamp</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.107</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="External Image Timestamp" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_imagesource">
+          <Type>picklist</Type>
+          <Name>cmc_imagesource</Name>
+          <LogicalName>cmc_imagesource</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.107</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="cmc_contact_cmc_imagesource">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>0.6.0.107</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Image Source" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Image Source - The Source of the Contacts Profile image" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="175490000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="No Match Found" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="175490001" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Manual Update" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="175490002" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Gravatar" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Image Source" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Image Source - The Source of the Contact's profile image." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_isstudent">
+          <Type>bit</Type>
+          <Name>cmc_isstudent</Name>
+          <LogicalName>cmc_isstudent</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="cmc_contact_cmc_isstudent">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname description="Is Student" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Student" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_lastcompletedactivitydate">
+          <Type>datetime</Type>
+          <Name>cmc_lastcompletedactivitydate</Name>
+          <LogicalName>cmc_lastcompletedactivitydate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.8</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>2</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Last Completed Activity Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Last completed activity date for this Contact." languagecode="1033" />
+          </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/contact-cmc_lastcompletedactivitydate.xaml</FormulaDefinitionFileName>
+        </attribute>
+        <attribute PhysicalName="cmc_milesfromcampus">
+          <Type>decimal</Type>
+          <Name>cmc_milesfromcampus</Name>
+          <LogicalName>cmc_milesfromcampus</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.43</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <MinValue>0</MinValue>
+          <MaxValue>100000000000</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Miles from Campus" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Estimated number of miles a Student's Primary Address is from their Current Campus." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_mostrecentinboundinterest">
+          <Type>datetime</Type>
+          <Name>cmc_mostrecentinboundinterest</Name>
+          <LogicalName>cmc_mostrecentinboundinterest</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForReadApi>1</ValidForReadApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>2</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>datetime</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Most Recent Inbound Interest" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The most recent date the contact showed interest through an inbound interest record." languagecode="1033" />
+          </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/contact-cmc_mostrecentinboundinterest.xaml</FormulaDefinitionFileName>
+        </attribute>
+        <attribute PhysicalName="cmc_phone2extension">
+          <Type>nvarchar</Type>
+          <Name>cmc_phone2extension</Name>
+          <LogicalName>cmc_phone2extension</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>25</MaxLength>
+          <Length>510</Length>
+          <displaynames>
+            <displayname description="Work Phone Extn." languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Work Phone Extn." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_portofentryid">
+          <Type>lookup</Type>
+          <Name>cmc_portofentryid</Name>
+          <LogicalName>cmc_portofentryid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Port Of Entry" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_recentact">
+          <Type>int</Type>
+          <Name>cmc_recentact</Name>
+          <LogicalName>cmc_recentact</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.9</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Recent ACT" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_recentsat">
+          <Type>int</Type>
+          <Name>cmc_recentsat</Name>
+          <LogicalName>cmc_recentsat</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.9</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Recent SAT" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_retentionprobability">
+          <Type>decimal</Type>
+          <Name>cmc_retentionprobability</Name>
+          <LogicalName>cmc_retentionprobability</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.51</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <Accuracy>2</Accuracy>
+          <displaynames>
+            <displayname description="Retention Probability" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_satbest">
+          <Type>int</Type>
+          <Name>cmc_satbest</Name>
+          <LogicalName>cmc_satbest</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.108</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="SAT Best" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Highest SAT total across records on file." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_satsuperscore">
+          <Type>int</Type>
+          <Name>cmc_satsuperscore</Name>
+          <LogicalName>cmc_satsuperscore</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.108</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="SAT Superscore" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Sum of highest Math and Evidence-Based Reading and Writing scores across all SAT test scores on file" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_shiftid">
+          <Type>lookup</Type>
+          <Name>cmc_shiftid</Name>
+          <LogicalName>cmc_shiftid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Shift" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcecampaignid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcecampaignid</Name>
+          <LogicalName>cmc_sourcecampaignid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Campaign" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Campaign" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcecampusid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcecampusid</Name>
+          <LogicalName>cmc_sourcecampusid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.56</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Campus" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Account" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcecategoryid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcecategoryid</Name>
+          <LogicalName>cmc_sourcecategoryid</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Category" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Source Category" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcedate">
+          <Type>datetime</Type>
+          <Name>cmc_sourcedate</Name>
+          <LogicalName>cmc_sourcedate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>datetime</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname description="Source Date" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Source Date of the Contact.  May be different than Created On date." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcemethodid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcemethodid</Name>
+          <LogicalName>cmc_sourcemethodid</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Method" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Method" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcereferringcontactid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcereferringcontactid</Name>
+          <LogicalName>cmc_sourcereferringcontactid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Referring Contact" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Contact" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcereferringorganizationid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcereferringorganizationid</Name>
+          <LogicalName>cmc_sourcereferringorganizationid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Referring Organization" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Account" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcereferringstaffid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcereferringstaffid</Name>
+          <LogicalName>cmc_sourcereferringstaffid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Referring Staff" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to User" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_sourcesubcategoryid">
+          <Type>lookup</Type>
+          <Name>cmc_sourcesubcategoryid</Name>
+          <LogicalName>cmc_sourcesubcategoryid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.50</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Sub-Category" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Sub-Category" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_srcpogramlevelid">
+          <Type>lookup</Type>
+          <Name>cmc_srcpogramlevelid</Name>
+          <LogicalName>cmc_srcpogramlevelid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.7.0.51</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Program Level" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Program Level" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_srcprogramid">
+          <Type>lookup</Type>
+          <Name>cmc_srcprogramid</Name>
+          <LogicalName>cmc_srcprogramid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.7.0.51</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Source Program" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Lookup to Program" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cmc_titleid">
+          <Type>lookup</Type>
+          <Name>cmc_titleid</Name>
+          <LogicalName>cmc_titleid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Title" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_EthnicGroup">
+          <Type>picklist</Type>
+          <Name>mshied_ethnicgroup</Name>
+          <LogicalName>mshied_ethnicgroup</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="mshied_contact_mshied_ethnicgroup">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Ethnic Group" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Ethnic group for the contact." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="175490000" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Latino" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="175490001" ExternalValue="" Color="#0000ff">
+                <labels>
+                  <label description="Hispanic" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Ethnic Group" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Ethnic group for the contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_IsDeceased">
+          <Type>bit</Type>
+          <Name>mshied_isdeceased</Name>
+          <LogicalName>mshied_isdeceased</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>1.0.0.6</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="mshied_contact_mshied_isdeceased">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.6</IntroducedVersion>
+            <displaynames>
+              <displayname description="Is Deceased?" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="If updated to YES, will deactivate Contact as deceased and change all marketing preferences to &quot;Do Not Allow&quot;" languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Deceased?" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="If updated to YES, will deactivate Contact as deceased and change all marketing preferences to &quot;Do Not Allow&quot;" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_NationalIdentifier">
+          <Type>nvarchar</Type>
+          <Name>mshied_nationalidentifier</Name>
+          <LogicalName>mshied_nationalidentifier</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>1</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="National Identifier" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique Identifier or Student SSN" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="mshied_Nationality">
+          <Type>picklist</Type>
+          <Name>mshied_nationality</Name>
+          <LogicalName>mshied_nationality</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset Name="mshied_contact_mshied_nationality">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Nationality" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Country of nationality for the contact." languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option value ="175490000" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Afghanistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490001" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Albania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490002" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Aleut" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490003" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Algeria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490004" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "American" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490005" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "American" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490006" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Andorra" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490007" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Angola" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490008" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Anguilla" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490009" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Antigua and Barbuda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490010" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Argentina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490011" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Armenia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490012" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Aruba" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490013" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Asian Indian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490014" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Asian or Pacific Islander Other" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490015" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Austrailian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490016" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Austria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490017" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Azerbaijan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490018" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bahamas" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490019" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bahrain" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490020" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bangladesh" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490021" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Barbados" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490022" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Belarus" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490023" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Belgium" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490024" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Belize" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490025" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Benin" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490026" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bermuda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490027" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bhutan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490028" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bolivia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490029" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bosnia and Herzegovina" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490030" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Botswana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490031" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bouvet Island" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490032" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Brazilian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490033" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "British Indian Ocean" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490034" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Brunei Darussalam" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490035" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Bulgaria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490036" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Burkina Faso" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490037" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Burundi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490038" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Caech Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490039" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cambodian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490040" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cameroon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490041" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Canadian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490042" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cape Verde" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490043" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cayman Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490044" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Central African Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490045" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chad" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490046" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Channel Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490047" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chicano" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490048" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chile" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490049" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Chinese" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490050" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Colombia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490051" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Congo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490052" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Costa Rica" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490053" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cote D'Ivoire" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490054" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Croatia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490055" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cuban" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490056" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Cyprus" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490057" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Denmark" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490058" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Djibouti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490059" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Dominica" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490060" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Dominican Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490061" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "East Timor" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490062" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ecuador" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490063" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Egypt" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490064" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "El Salvador" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490065" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "English" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490066" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Equatorial Guinea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490067" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Eritrea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490068" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Eskimo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490069" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Estonia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490070" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ethiopia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490071" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Falkland Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490072" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Fiji" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490073" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Filipino" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490074" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Finland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490075" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "French" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490076" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "French Polynesia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490077" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gabon" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490078" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gambia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490079" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Georgia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490080" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "German" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490081" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ghana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490082" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Gibraltar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490083" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Greece" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490084" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Greenland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490085" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Grenada" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490086" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guadeloupe" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490087" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guamanian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490088" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guatemala" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490089" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guinea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490090" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Guyana" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490091" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Haiti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490092" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hawaiian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490093" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Heard and McDonald" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490094" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Holy See (Vatican)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490095" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Honduras" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490096" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hong Kong" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490097" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Hungarian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490098" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Iceland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490099" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Indian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490100" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Indonesia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490101" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Iranian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490102" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Iraqi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490103" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Irish" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490104" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Israeli" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490105" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Italian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490106" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jamaican" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490107" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Japanese" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490108" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Jordanian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490109" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kazakhstan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490110" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kenyan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490111" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kiribati" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490112" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Korean" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490113" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kuwaiti" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490114" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Kyrgyzstan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490115" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lao" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490116" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Latvian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490117" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lebanese" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490118" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lesotho" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490119" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Liberian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490120" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Libyan Arab Jamahiriy" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490121" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Lithuanian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490122" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Luxembourg" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490123" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Macao" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490124" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Macedonian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490125" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Madagascar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490126" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Malawi" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490127" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Malaysian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490128" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Maldives" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490129" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mali" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490130" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Malta" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490131" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Marshall Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490132" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Martinique" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490133" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mauritania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490134" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mauritius" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490135" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mayotte" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490136" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mexican" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490137" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mexican American" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490138" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Micronesia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490139" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Moldova" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490140" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Monaco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490141" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mongolian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490142" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Montserrat" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490143" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Morocco" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490144" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Mozambique" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490145" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Myanmar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490146" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Namibia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490147" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nepal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490148" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Netherlands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490149" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Netherlands Antillies" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490150" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "New Zealand" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490151" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nicaragua" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490152" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Niger" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490153" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Nigeria" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490154" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Niue" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490155" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Non-Resident Alien" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490156" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Northern Mariana Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490157" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Norway" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490158" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Oman" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490159" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pakistani" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490160" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Palau" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490161" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Palestinian Territory" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490162" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Panamanian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490163" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Papua New Guinea" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490164" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Paraguay" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490165" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Peruvian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490166" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Philippines" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490167" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Pitcairn" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490168" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Polish" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490169" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Portugeuse" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490170" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Puerto Rican" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490171" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Qatar" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490172" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Reunion" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490173" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Romanian" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490174" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Russian Federation" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490175" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Rwanda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490176" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Helena" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490177" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Kitts and Nevis" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490178" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Lucia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490179" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Pierre and Miquelan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490180" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saint Vincent and The Grenadines" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490181" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Samoan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490182" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "San Marino" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490183" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sao Tome and Princpe" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490184" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Saudi Arabia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490185" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Scottish" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490186" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Senegal" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490187" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Serbia and Montenegro" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490188" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Seychelles" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490189" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sierra Leone" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490190" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Singapore" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490191" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Slovakia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490192" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Slovenia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490193" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Soloman Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490194" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Somalia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490195" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Africa" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490196" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "South Georgia and South Sandwich" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490197" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Spanish" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490198" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Spanish or Hispanic Other" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490199" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sri Lankan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490200" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Sudan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490201" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Suriname" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490202" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Swaziland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490203" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Swedish" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490204" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Switzerland" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490205" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Syrian Arab Republic" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490206" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Taiwan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490207" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tajikistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490208" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tanzania" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490209" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Thailand" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490210" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Togo" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490211" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tonga" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490212" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Trinidad and Tobago" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490213" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tunisia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490214" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Turkish" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490215" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Turkmenistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490216" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Turks and Caicos Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490217" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Tuvalu" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490218" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uganda" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490219" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Ukraine" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490220" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "United Arab Emerates" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490221" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "United Kingdom" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490222" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Unknown" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490223" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uruguay" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490224" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "US Minor Outlying Islands" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490225" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Uzbekistan" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490226" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vanuatu" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490227" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Venezuela" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490228" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Vietnamese" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490229" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Virgin Islands (British)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490230" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Virgin Islands (U.S.)" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490231" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Western Sahara" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490232" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Yemen" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490233" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Yugoslavia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490234" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Zambia" languagecode = "1033" />
+                </labels>
+              </option>
+              <option value ="175490235" ExternalValue = "" Color = "#0000ff" >
+                <labels>
+                  <label description = "Zimbabwe" languagecode = "1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Nationality" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Country of nationality for the contact." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ParentCustomerId">
+          <Type>customer</Type>
+          <Name>parentcustomerid</Name>
+          <LogicalName>parentcustomerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <displaynames>
+            <displayname description="Current Campus" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the parent account or parent contact for the contact to provide a quick link to additional details." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="StatusCode">
+          <Type>status</Type>
+          <Name>statuscode</Name>
+          <LogicalName>statuscode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <optionset Name="contact_statuscode">
+            <OptionSetType>status</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status Reason" languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Reason for the status of the contact." languagecode="1033" />
+            </Descriptions>
+            <statuses>
+              <status value="1" state="0" TransitionData="" Color="#0000ff">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                </labels>
+              </status>
+              <status value="2" state="1" TransitionData="" Color="#0000ff">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                </labels>
+              </status>
+              <status value="175490000" state="1" TransitionData="" Color="#0000ff">
+                <labels>
+                  <label description="Deceased" languagecode="1033" />
+                </labels>
+              </status>
+            </statuses>
+          </optionset>
+          <displaynames>
+            <displayname description="Status Reason" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the contact's status." languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <Visualizations />
+  <RibbonDiffXml />
+</Entity>

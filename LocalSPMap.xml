@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<Mapping>  
+       <FileToFile map="CmcEngageCommonPlugins.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Common.Plugins\bin\Cmc.Engage.Common.Plugins.dll" />
+       <FileToFile map="CmcEngageCommunicationPlugins.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Communication.Plugins\bin\Cmc.Engage.Communication.Plugins.dll" />
+       <FileToFile map="CmcEngageLifecyclePlugins.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Lifecycle.Plugins\bin\Cmc.Engage.Lifecycle.Plugins.dll" />	   
+       <FileToFile map="CmcEngageRetentionPlugins.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Retention.Plugins\bin\Cmc.Engage.Retention.Plugins.dll" />
+       <FileToFile map="CmcEngageAdmissionPlugins.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Admission.Plugins\bin\Cmc.Engage.Admission.Plugins.dll" />
+       <FileToFile map="CmcEngageMarketingPlugins.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Marketing.Plugins\bin\Cmc.Engage.Marketing.Plugins.dll" />
+
+  <FileToFile map="CmcEngageCommonActivities.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Common.Activities\bin\Cmc.Engage.Common.Activities.dll" />
+       <FileToFile map="CmcEngageCommunicationActivities.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Communication.Activities\bin\Cmc.Engage.Communication.Activities.dll" />
+       <FileToFile map="CmcEngageLifecycleActivities.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Lifecycle.Activities\bin\Cmc.Engage.Lifecycle.Activities.dll" />
+       <FileToFile map="CmcEngageRetentionActivities.dll" to="..\..\Cmc.Engage.Main\Cmc.Engage.Retention.Activities\bin\Cmc.Engage.Retention.Activities.dll" />
+</Mapping>  

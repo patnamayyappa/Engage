@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>cmc_ProjectEngage</UniqueName>
+  <IntroducedVersion>1.0.0.32</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="cmc_ProjectEngage" />
+    <AppModuleComponent type="29" id="{cb1fd57a-b901-4e35-85d4-999dc5d52d6d}" />
+    <AppModuleComponent type="29" id="{9af1385d-4fa5-4ca7-8e2e-949770a0c9cc}" />
+    <AppModuleComponent type="29" id="{7e760628-460a-4452-a2cd-db21dcad3b9b}" />
+    <AppModuleComponent type="60" id="{76ce87c8-d1aa-e711-8106-c4346bdc2171}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{dda79781-0468-495e-9e08-5a8b3a8828a1}" />
+    <AppModuleComponent type="60" id="{3904884b-6a18-4d95-93cf-623b37b7ad0f}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="mshied_areaofinterest" />
+    <AppModuleComponent type="1" schemaName="mshied_areaofstudy" />
+    <AppModuleComponent type="60" id="{a41a8430-7a03-4875-be39-231be43addf6}" />
+    <AppModuleComponent type="26" id="{a15e8160-70cc-e811-a957-000d3a4e78e7}" />
+    <AppModuleComponent type="26" id="{95949bd7-a0e3-4660-ad67-117ddbae0ab7}" />
+    <AppModuleComponent type="26" id="{13b90afe-1f62-48de-9b43-645a5b8f2d7e}" />
+    <AppModuleComponent type="26" id="{a3bbeaee-9bb9-4b72-89de-72eb81949939}" />
+    <AppModuleComponent type="26" id="{57b6c169-70cc-e811-a957-000d3a4e78e7}" />
+    <AppModuleComponent type="1" schemaName="cmc_staffsurvey" />
+    <AppModuleComponent type="26" id="{70cb7981-2740-4633-8a90-710e9c64c91c}" />
+    <AppModuleComponent type="26" id="{c197a797-7439-e811-a958-000d3af28587}" />
+    <AppModuleComponent type="26" id="{37570099-3325-422b-9da5-b1e42b6c2714}" />
+    <AppModuleComponent type="26" id="{81f87111-7096-406d-ba27-2c56098fd42d}" />
+    <AppModuleComponent type="26" id="{6361b076-c188-46ef-a02a-982ad5747cc6}" />
+    <AppModuleComponent type="26" id="{e4d9b367-0afd-432a-82c2-2998ec41c290}" />
+    <AppModuleComponent type="1" schemaName="cmc_staffsurveytemplate" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="60" id="{edbc9c2c-d1d5-4e03-af3a-edcbe3e620fc}" />
+    <AppModuleComponent type="1" schemaName="cmc_configuration" />
+    <AppModuleComponent type="60" id="{b3df1437-2c09-420f-a205-95faa7850f0a}" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{a0f6ec21-fba5-456e-b917-e54e41b4b159}" />
+    <AppModuleComponent type="1" schemaName="mshied_course" />
+    <AppModuleComponent type="60" id="{14ea0ae5-0cf8-4f0e-b0d0-684c93010317}" />
+    <AppModuleComponent type="26" id="{ae0fbbf4-78cc-e811-a957-000d3a4e78e7}" />
+    <AppModuleComponent type="26" id="{02aa5c5e-79cc-e811-a957-000d3a4e78e7}" />
+    <AppModuleComponent type="26" id="{fd9a78c1-ff37-4170-907e-529e4e445ef1}" />
+    <AppModuleComponent type="26" id="{ed5184a4-49d1-41b1-8f73-3d1a2aa79022}" />
+    <AppModuleComponent type="26" id="{35f151d5-174c-41f0-954f-de544928d8ca}" />
+    <AppModuleComponent type="26" id="{acaad224-79cc-e811-a957-000d3a4e78e7}" />
+    <AppModuleComponent type="1" schemaName="mshied_coursesection" />
+    <AppModuleComponent type="60" id="{e129c312-3b28-4e5b-9bec-f51d6b1ad462}" />
+    <AppModuleComponent type="26" id="{4eb9376e-94cf-e811-a958-000d3a4e7806}" />
+    <AppModuleComponent type="26" id="{31d636f3-94cf-e811-a958-000d3a4e7806}" />
+    <AppModuleComponent type="26" id="{0d19caa6-94cf-e811-a958-000d3a4e7806}" />
+    <AppModuleComponent type="1" schemaName="cmc_department" />
+    <AppModuleComponent type="60" id="{b599d494-044d-4e58-84a9-4e1db451a336}" />
+    <AppModuleComponent type="1" schemaName="sharepointdocumentlocation" />
+    <AppModuleComponent type="1" schemaName="cmc_domdefinition" />
+    <AppModuleComponent type="1" schemaName="cmc_domdefinitionexecutionorder" />
+    <AppModuleComponent type="1" schemaName="cmc_domdefinitionlogic" />
+    <AppModuleComponent type="1" schemaName="cmc_dommaster" />
+    <AppModuleComponent type="1" schemaName="mshied_educationlevel" />
+    <AppModuleComponent type="60" id="{28644969-d90b-4441-a6a3-21a895f9fe1b}" />
+    <AppModuleComponent type="1" schemaName="msevtmgt_event" />
+    <AppModuleComponent type="1" schemaName="msevtmgt_bpf_9623d46752ae497989f62ac0d11dad99" />
+    <AppModuleComponent type="1" schemaName="mshied_extracurricularactivities" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="60" id="{a6627b9f-7b0a-42a2-9fc0-e948f05cfda3}" />
+    <AppModuleComponent type="1" schemaName="cmc_bpf_cb1fd57ab9014e3585d4999dc5d52d6d" />
+    <AppModuleComponent type="1" schemaName="cmc_languagevalue" />
+    <AppModuleComponent type="60" id="{cf521e04-8b93-4709-ad30-d5e3f1795bcb}" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="60" id="{d22f8f79-7ec4-480e-900a-200d965b3708}" />
+    <AppModuleComponent type="60" id="{da23ba82-90bf-4a48-9d3d-c6e8de6e3add}" />
+    <AppModuleComponent type="1" schemaName="cmc_bpf_9af1385d4fa54ca78e2e949770a0c9cc" />
+    <AppModuleComponent type="1" schemaName="list" />
+    <AppModuleComponent type="1" schemaName="cmc_officehours" />
+    <AppModuleComponent type="60" id="{ca063a68-89bb-446c-a292-6d8fe55176da}" />
+    <AppModuleComponent type="1" schemaName="msdyn_postconfig" />
+    <AppModuleComponent type="1" schemaName="msdyn_postruleconfig" />
+    <AppModuleComponent type="1" schemaName="workflow" />
+    <AppModuleComponent type="1" schemaName="product" />
+    <AppModuleComponent type="1" schemaName="mshied_program" />
+    <AppModuleComponent type="60" id="{e5a43b7c-3844-4937-9b93-83bcda5b297a}" />
+    <AppModuleComponent type="1" schemaName="mshied_programlevel" />
+    <AppModuleComponent type="60" id="{ed8030e0-e83e-4088-94f8-f6f161811d8d}" />
+    <AppModuleComponent type="1" schemaName="mshied_programversion" />
+    <AppModuleComponent type="60" id="{79be1084-90c0-4d44-8f0f-fd5ec0c0979c}" />
+    <AppModuleComponent type="1" schemaName="mshied_programversiondetail" />
+    <AppModuleComponent type="60" id="{3ee128b7-0140-44d8-8149-3c593ec95d36}" />
+    <AppModuleComponent type="1" schemaName="queue" />
+    <AppModuleComponent type="1" schemaName="mshied_registrationstatus" />
+    <AppModuleComponent type="60" id="{238db7c4-e86e-40f1-a25d-445b52d20e82}" />
+    <AppModuleComponent type="1" schemaName="report" />
+    <AppModuleComponent type="1" schemaName="cmc_title" />
+    <AppModuleComponent type="60" id="{d107fd2a-3219-4da5-85e0-e336f144ad7b}" />
+    <AppModuleComponent type="1" schemaName="cmc_scoredefinition" />
+    <AppModuleComponent type="60" id="{1aceb750-374a-4fe2-a6e6-c2fa779afa87}" />
+    <AppModuleComponent type="1" schemaName="cmc_scoringfactor" />
+    <AppModuleComponent type="60" id="{a9ad60b2-e60a-4f0b-b620-c71816ceebcc}" />
+    <AppModuleComponent type="60" id="{6c454801-4b13-41b7-a13d-48857c153ffc}" />
+    <AppModuleComponent type="1" schemaName="sharepointsite" />
+    <AppModuleComponent type="1" schemaName="cmc_shift" />
+    <AppModuleComponent type="60" id="{5916b563-b9ce-4b53-a793-7494943f15b9}" />
+    <AppModuleComponent type="1" schemaName="solution" />
+    <AppModuleComponent type="1" schemaName="cmc_sourcecategory" />
+    <AppModuleComponent type="1" schemaName="cmc_sourcemethod" />
+    <AppModuleComponent type="1" schemaName="cmc_sourcesubcategory" />
+    <AppModuleComponent type="1" schemaName="mshied_studentprogramtype" />
+    <AppModuleComponent type="60" id="{89d3e217-e19c-42af-880e-188da235afc0}" />
+    <AppModuleComponent type="1" schemaName="cmc_studenttype" />
+    <AppModuleComponent type="60" id="{243f34ea-93ac-418c-8cfb-5ccb411f2ba6}" />
+    <AppModuleComponent type="1" schemaName="cmc_successnetwork" />
+    <AppModuleComponent type="60" id="{47a6df3c-d1da-426c-876f-968a454e2f1f}" />
+    <AppModuleComponent type="1" schemaName="cmc_successnetworkassignment" />
+    <AppModuleComponent type="60" id="{8ee752a1-05bb-419d-a0a4-dc9efff20289}" />
+    <AppModuleComponent type="1" schemaName="cmc_successplan" />
+    <AppModuleComponent type="60" id="{480caa78-b2a7-4088-9496-df0ffc95ecb2}" />
+    <AppModuleComponent type="1" schemaName="cmc_successplanassignment" />
+    <AppModuleComponent type="60" id="{2cd3d474-1924-421f-82ba-bb99cf327d38}" />
+    <AppModuleComponent type="1" schemaName="cmc_successplantemplate" />
+    <AppModuleComponent type="60" id="{5aab8ac8-a76d-49a2-baf2-e2bb3f69b77a}" />
+    <AppModuleComponent type="1" schemaName="cmc_successplantodotemplate" />
+    <AppModuleComponent type="60" id="{4b76f992-883b-486e-abdb-e79659646d67}" />
+    <AppModuleComponent type="1" schemaName="syncerror" />
+    <AppModuleComponent type="1" schemaName="mshied_testtype" />
+    <AppModuleComponent type="60" id="{27394caf-4678-4266-91d2-e946f5ffd798}" />
+    <AppModuleComponent type="1" schemaName="cmc_todo" />
+    <AppModuleComponent type="60" id="{68ad26dd-2a63-46c9-8626-f26e81866d22}" />
+    <AppModuleComponent type="60" id="{c868c613-def7-4bc7-b303-0532ebd5caf1}" />
+    <AppModuleComponent type="26" id="{c8ebc06f-9ca6-441b-9b81-e51889bc9ee7}" />
+    <AppModuleComponent type="26" id="{f5bcfd64-d2a6-e711-8104-c4346bdc2171}" />
+    <AppModuleComponent type="26" id="{ed21a5d1-a863-4b97-a957-c5299b276411}" />
+    <AppModuleComponent type="26" id="{8a0859fc-28a5-e711-8105-c4346bdc3221}" />
+    <AppModuleComponent type="26" id="{30c7c92d-75a2-e711-8104-c4346bdc2171}" />
+    <AppModuleComponent type="26" id="{46af8240-88ba-4493-b880-5dbee9eeb548}" />
+    <AppModuleComponent type="26" id="{18b2a5ed-4843-41fd-baa2-5d7165cc4177}" />
+    <AppModuleComponent type="26" id="{59478ad1-a9c7-4898-9860-279a2026bef0}" />
+    <AppModuleComponent type="1" schemaName="cmc_trip" />
+    <AppModuleComponent type="1" schemaName="cmc_tripapprovalprocess" />
+    <AppModuleComponent type="1" schemaName="cmc_userlocation" />
+    <AppModuleComponent type="60" id="{92cf929a-c9ac-496d-be98-a3029dd07fed}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{aaf44bf1-87a9-e711-8105-c4346bdc42d1}" />
+    <Role id="{58dc1e73-dba6-e711-8104-c4346bdc2171}" />
+    <Role id="{e8fee62f-83a9-e711-8105-c4346bdc42d1}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="CampusNexus Engage" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

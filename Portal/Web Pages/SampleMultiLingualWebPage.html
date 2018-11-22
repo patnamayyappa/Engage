@@ -1,0 +1,26 @@
+<!--The html summary for the webpage -->
+
+<script src="/retrieveMultiLingualValues.js"></script>
+
+<div id="loading">Loading...</div>
+<div id="AssignSuccessPlanDialog_title"></div>
+<div id="missingLabel"></div>
+<button id="cancelButton"></button>
+
+<!--The embedded js-->
+<script>
+var keys = ["cancelButton", "AssignSuccessPlanDialog_title", "missingLabel"];
+CampusManagement.retrieveMultiLingualValues.get(keys)
+    .then(function (ret) {
+        $("#loading").hide();
+        keys.forEach(function (k) {
+            if (!ret[k]) {
+                console.log("Multilingual value is missing for " + k);
+            }
+            else {
+                console.log(k + "|" + ret[k]);
+                $("#" + k).html(ret[k]);
+            }
+        })
+    });
+</script>

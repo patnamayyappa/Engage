@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Positive Acknowledgement" OriginalName="Positive Acknowledgement">cmc_positiveacknowledgement</Name>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>

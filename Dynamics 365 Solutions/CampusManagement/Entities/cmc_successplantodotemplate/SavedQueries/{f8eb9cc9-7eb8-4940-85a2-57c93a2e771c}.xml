@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f8eb9cc9-7eb8-4940-85a2-57c93a2e771c}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_successplantodotemplatename" select="1" icon="1" preview="0">
+        <row name="cmc_successplantodotemplate" id="cmc_successplantodotemplateid">
+          <cell name="cmc_successplantodotemplatename" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_ownershiptype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_requiredoptional" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_studentcancomplete" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_successplantemplateid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_todocategoryid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_successplantodotemplate">
+          <attribute name="cmc_successplantodotemplateid" />
+          <attribute name="cmc_successplantodotemplatename" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_successplantemplateid" />
+          <attribute name="cmc_studentcancomplete" />
+          <attribute name="cmc_requiredoptional" />
+          <attribute name="cmc_ownershiptype" />
+          <order attribute="cmc_successplantodotemplatename" descending="false" />
+          <attribute name="cmc_todocategoryid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Success Plan To Do Template Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

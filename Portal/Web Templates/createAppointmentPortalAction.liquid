@@ -1,0 +1,29 @@
+{% assign stopCache = request.params['stopCache'] %}
+{% assign userId = request.params['userId'] %}
+{% assign startDate = request.params['startDate'] %}
+{% assign endDate = request.params['endDate'] %}
+{% assign locationId = request.params['locationId'] %}
+{% assign title = request.params['title'] %}
+{% assign description = request.params['description'] %}
+
+{% if user %}
+{% assign contactid = user.id %}
+{% else %}
+{% assign contactid = '' %}
+{% endif %}
+
+{% fetchxml my_query %}
+  <fetch version="1.0" mapping="logical">
+      <entity name="cmc_portalaction">
+          <attribute name="cmc_data" />
+          <filter> 
+              <condition attribute="cmc_data" operator="eq" value="{'ContactId':'{{contactid}}', 'UserId':'{{userId}}', 'StartDate':'{{startDate}}', 'EndDate':'{{endDate}}', 'LocationId': '{{locationId}}', 'Title': '{{title}}', 'Description': '{{description}}'}" />
+              <condition attribute="cmc_logicclassname" operator="eq" value="Cmc.Engage.Common.CreateStaffAppointmentPortalLogic" />
+              <condition attribute="cmc_stopcache" operator="eq" value="{{stopCache}}" />
+          </filter>
+      </entity>
+  </fetch>
+{% endfetchxml %}
+{% for result in my_query.results.entities %}
+    {{ result.cmc_data }}
+{% endfor %}

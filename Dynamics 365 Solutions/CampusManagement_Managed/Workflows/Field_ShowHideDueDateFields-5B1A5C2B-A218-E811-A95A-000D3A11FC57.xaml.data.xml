@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5b1a5c2b-a218-e811-a95a-000d3a11fc57}" Name="Field_Show/Hide Due Date Fields" Description="Field_Show/Hide Due Date Fields">
+  <XamlFileName>/Workflows/Field_ShowHideDueDateFields-5B1A5C2B-A218-E811-A95A-000D3A11FC57.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.46</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_successplantodotemplate</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Field_Show/Hide Due Date Fields" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Field_Show/Hide Due Date Fields" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{dbd92f06-eb21-e811-a963-000d3a11e605}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_duedatecalculationtype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{dcd92f06-eb21-e811-a963-000d3a11e605}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{ddd92f06-eb21-e811-a963-000d3a11e605}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_duedatecalculationtype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{ded92f06-eb21-e811-a963-000d3a11e605}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3965ce89-892d-e811-a961-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_duedatecalculationtype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3a65ce89-892d-e811-a961-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3b65ce89-892d-e811-a961-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_duedatecalculationtype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{3c65ce89-892d-e811-a961-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4a65ce89-892d-e811-a961-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_duedatecalculationtype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4b65ce89-892d-e811-a961-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4c65ce89-892d-e811-a961-000d3a11f5ee}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>cmc_duedatecalculationtype</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{4d65ce89-892d-e811-a961-000d3a11f5ee}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_successplantodotemplate</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="../../ClientGlobalContext.js.aspx"></script>
+    <script type="text/javascript" src="../Scripts/Libraries/sonomaCmc.js"></script>
+    <script type="text/javascript" src="../Scripts/Libraries/jquery_1.12.3.min.js"></script>
+    <script type="text/javascript" src="../dist/app/Common/retrieveMultiLingualValues.js"></script>
+    <script src="../dist/app/Pages/AttributeSelector.js"></script>
+    <script type="text/javascript" src="../dist/App/Common/Localization.js"></script>    
+    <link href="../dist/app/Pages/AttributeSelector.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+
+</head>
+<body onload="CMC.Engage.AttributeSelector.executeOnLoad()">
+    <div class="form-row">
+        <div>
+            <span class="field-label" id="attribute-label"></span>
+            <img class="required" src="../required.gif">
+        </div>
+        <div>
+            <div class="input-label no-value" data-dropdown-label-for="attribute">
+                <label>&nbsp;</label>
+            </div>
+            <div class="dropdown" id="attribute" style="display:none">
+                <select id="dom-definition-logic-attribute-select" name="dom-definition-logic-attribute-select" size="2">
+                    <!--Options to be populated by the "cmc_buildattributedisplay" custom action triggered in "AttributeSelector.js"-->
+                </select>
+            </div>
+            <!-- This does not match the style of CRM's warning message. -->
+            <span class="warning-icon" style="display: none">
+                <span>
+                    <img id="warning" title="" src="../missingDropdown.png">
+                </span>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

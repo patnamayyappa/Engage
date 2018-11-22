@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{6e77626b-e693-44f0-a1c7-359b1a7a9a4c}</formid>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920" solutionaction="Modified">
+      <tabs>
+        <tab name="Summary" verticallayout="true" id="{21237741-C962-40B0-B21E-75481E08BB8B}" IsUserDefined="0" expanded="true" locklevel="0" showlabel="true" ordinalvalue="0">
+          <columns>
+            <column width="40%" id="0" solutionaction="Modified">
+              <sections>
+                <section name="information" showlabel="true" showbar="false" id="{EE912301-B8EB-40CE-A125-0A32DE75A477}" columns="1" IsUserDefined="0" layout="varwidth" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{90FFBCDC-C5AF-4191-B2B3-ABF9E90BCD22}" locklevel="0" showlabel="true" ordinalvalue="10003" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{7E78CD86-981D-496D-A97B-A9E82D146130}" locklevel="0" showlabel="true" ordinalvalue="10004" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{4BB8ED69-04A7-47B6-B953-043D352C54D3}" locklevel="0" showlabel="true" ordinalvalue="10005" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{D90C24BE-5F36-4701-B675-B77F58EA99C7}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{E5BD7189-0130-4DB6-B969-CD340C3FFE68}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{1283039E-273D-463A-864A-2A3429C22540}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{7065A33C-A1C6-40EC-BD26-C14187AAC74C}" locklevel="0" showlabel="true" ordinalvalue="10006" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{0BBBFF81-37AE-421D-9372-A68CC956B540}" locklevel="0" showlabel="true" ordinalvalue="10008" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{A4D58C00-8F09-48C6-A825-CC2C8C857404}" locklevel="0" showlabel="true" ordinalvalue="10009" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{3A0D482F-B84B-4702-A59F-17E66C8235F0}" showlabel="true" rowspan="5" ordinalvalue="10010" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{4be1814c-4c72-807a-bab1-0dd526cb9534}" showlabel="true" locklevel="1" visible="false" ordinalvalue="10012" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{A79487F6-BDB9-4154-A3DC-34925E81DA07}" rowspan="5" showlabel="true" visible="false" ordinalvalue="10013" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{AF206A45-4563-4347-89A3-537D11B3588B}" showlabel="true" locklevel="0" visible="false" ordinalvalue="20014" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{30b671d5-0ae9-9528-e87b-83da3c268d2d}" locklevel="0" showlabel="true" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_marketinglisttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_marketinglisttype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b434dcb-c585-4b7e-5617-01b3226d0ad7}" locklevel="0" showlabel="true" ordinalvalue="10011" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_expirationdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_expirationdate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%" id="1" solutionaction="Modified">
+              <sections>
+                <section id="{D80A8CD2-4E47-46A3-96BB-8E0402C0D2BE}" name="members" layout="varwidth" columns="1" showlabel="true" labelwidth="190" showbar="false" IsUserDefined="0" locklevel="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d79b267b-3e95-408a-b99c-ac1b1d93d0ff}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{DB857A8F-BC73-4C2E-BE64-DEC25A6E9104}" showlabel="false" auto="false" labelid="{9352b4a4-236a-472d-a5b9-eb7442954f64}" colspan="1" ordinalvalue="10001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{1029328D-0CB1-48FD-80B6-16B2A6B01BEA}" showlabel="false" auto="false" labelid="{73fe7234-5815-4e64-af84-8f097a4d2c35}" colspan="1" ordinalvalue="10002" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{7C632255-5408-43DB-B0C0-B27C89BEC6CA}" showlabel="false" auto="false" labelid="{5e8dd3be-e5b2-40ba-adf0-0f08eeddf191}" colspan="1" ordinalvalue="10003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{50BB0E42-4BEE-45DC-9E18-E37750BD636F}" showlabel="false" auto="false" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="contacts" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{6013c139-a5db-1b33-3444-2d79e7aa4b2a}" solutionaction="Modified">
+                          <parameters>
+                            <HeaderColorCode solutionaction="Added" />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{DDD0A88F-A241-4AF4-8E7F-08C396CF5FD8}" showlabel="false" auto="false" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{D7138DD0-6E16-43B0-9399-933CF1102D9C}" showlabel="false" auto="false" ordinalvalue="10002" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="10%" id="2" solutionaction="Modified">
+              <sections>
+                <section id="{C998135B-B1AE-4514-834F-BBC02DBACE0F}" name="campaigns" layout="varwidth" columns="1" showlabel="true" labelwidth="190" showbar="false" IsUserDefined="0" locklevel="0" ordinalvalue="0" solutionaction="Removed" />
+                <section id="{EB92DCB9-5F45-4577-8A7E-5EB66001B627}" name="quickcampaigns" layout="varwidth" columns="1" showlabel="true" labelwidth="190" showbar="false" IsUserDefined="0" locklevel="0" ordinalvalue="1" solutionaction="Removed" />
+                <section id="{a15affe2-0dbd-4c0f-99b2-456da2682a2a}" name="Summary_column_3_section_1" IsUserDefined="0" showlabel="false" showbar="false" columns="11" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6BFCD664-85F5-4225-8909-DC37FD9DEA86}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{35552749-8BFF-4E53-A37A-C17B063D8D87}" ordinalvalue="10000">
+              <control id="header_lockstatus" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="lockstatus" disabled="true" solutionaction="Modified" />
+            </cell>
+            <cell id="{7dd4efac-b183-41c6-9f95-76675b3f9661}" showlabel="false" ordinalvalue="40003" solutionaction="Modified" />
+          </row>
+        </rows>
+      </header>
+      <events>
+        <event name="onchange" application="true" active="true" attribute="lockstatus" solutionaction="Removed" />
+        <event name="onload" application="true" active="true">
+          <Handlers solutionaction="Added">
+            <Handler functionName="CampusManagement.marketinglist.onLoad" libraryName="cmc_/dist/app/Forms/marketinglist.js" handlerUniqueId="{320d30e9-5c6d-504c-72c4-324a4c9d3ac1}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions solutionaction="Removed" />
+      <Navigation solutionaction="Added">
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries solutionaction="Added">
+        <Library name="cmc_/dist/app/Forms/marketinglist.js" libraryUniqueId="{734d8a22-8ee2-c8b6-c487-871117b0aad7}" />
+      </formLibraries>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Marketing List" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Marketing List form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

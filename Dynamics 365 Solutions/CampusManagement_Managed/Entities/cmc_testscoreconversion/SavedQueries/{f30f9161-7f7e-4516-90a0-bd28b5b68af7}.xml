@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f30f9161-7f7e-4516-90a0-bd28b5b68af7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_testscoreconversionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_testscoreconversionid">
+          <cell name="cmc_testscoreconversionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_testscoreconversion">
+          <attribute name="cmc_testscoreconversionid" />
+          <attribute name="cmc_testscoreconversionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_testscoreconversionname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.004</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Test Score Conversion Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

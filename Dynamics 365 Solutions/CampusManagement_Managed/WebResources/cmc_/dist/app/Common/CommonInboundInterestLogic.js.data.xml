@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{76041648-992c-e811-a95e-000d3a11fe32}</WebResourceId>
+  <Name>cmc_/dist/app/Common/CommonInboundInterestLogic.js</Name>
+  <DisplayName>CommonInboundInterestLogic.js</DisplayName>
+  <Description>Common Logic for Initial Source sections on Lead, Contact, and Inbound Interest forms.</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.51</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappCommonCommonInboundInterestLogicjs76041648-992C-E811-A95E-000D3A11FE32</FileName>
+</WebResource>

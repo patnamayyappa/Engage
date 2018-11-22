@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <script type="text/javascript" src="../dist/app/Common/resourcestrings.js"></script>
+  <script src="../dist/app/Common/LanguageMappings.js"></script>
+  <script src="../dist/app/Pages/StaffCalendar.js"></script>
+  <script type="text/javascript" src="../../ClientGlobalContext.js.aspx"></script>
+  <script type="text/javascript" src="../Scripts/Libraries/sonomaCmc.js"></script>
+  <script type="text/javascript" src="../Scripts/Libraries/jquery_1.12.3.min.js"></script>
+  <script type="text/javascript" src="../Scripts/Libraries/kendo.scheduler.min.js"></script>
+  <script type="text/javascript" src="../dist/app/Common/retrieveMultiLingualValues.js"></script>
+
+  <link href="../CSS/Libraries/Font-Awesome/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="../CSS/Libraries/bootstrap.lumen.min.css" rel="stylesheet">
+  <link href="../CSS/Libraries/kendo/kendo.common.min.css" rel="stylesheet">
+  <link href="../CSS/Libraries/bootstrapv4.css" rel="stylesheet">
+  <link href="../dist/app/Pages/scheduler.customui.css" rel="stylesheet">
+  <link href="../dist/app/Pages/StaffCalendar.css" rel="stylesheet">
+
+  <meta charset="utf-8" />
+</head>
+
+<div id='calendar'></div>
+
+<body onload="CampusManagement.StaffCalendar.executeOnLoad()">
+    <script id="customEditorTemplate" type="text/x-kendo-template">
+        <div class="k-edit-label"><label for="title"></label></div>
+        <div data-container-for="title" class="k-edit-field">
+            <input type="text" class="k-input k-textbox" name="title" required="required" maxlength="150" data-bind="value:title">
+        </div>
+        <div class="k-edit-label">
+            <label for="start"></label>
+        </div>
+        <div data-container-for="start" class="k-edit-field">
+            <input type="text" data-role="datetimepicker" data-interval="15" data-type="date" data-bind="value:start,invisible:isAllDay" name="start" disabled />
+            <input type="text" data-type="date" data-role="datepicker" data-bind="value:start,visible:isAllDay" name="start" disabled />
+            <span data-bind="text: startTimezone" disabled></span>
+            <span data-for="start" class="k-invalid-msg" style="display: none;" disabled></span>
+        </div>
+        <div class="k-edit-label"><label for="end"></label></div>
+        <div data-container-for="end" class="k-edit-field">
+            <input type="text" data-type="date" data-role="datetimepicker" data-bind="value:end,invisible:isAllDay" name="end" data-datecompare-msg="End date should be greater than or equal to the start date" disabled />
+            <input type="text" data-type="date" data-role="datepicker" data-bind="value:end,visible:isAllDay" name="end" data-datecompare-msg="End date should be greater than or equal to the start date" disabled />
+            <span data-bind="text: endTimezone" disabled></span>
+            <span data-bind="text: startTimezone, invisible: endTimezone" disabled></span>
+            <span data-for="end" class="k-invalid-msg" style="display: none;" disabled></span>
+        </div>
+        <div class="k-edit-label"><label for="location"></label></div>
+        <div data-container-for="location" class="k-edit-field">
+            <input type="text" class="k-input k-textbox" name="location" disabled>
+        </div>
+        <div class="k-edit-label"><label for="advisor"></label></div>
+        <div data-container-for="location" class="k-edit-field">
+            <input type="text" class="k-input k-textbox" name="advisor" disabled>
+        </div>
+        <div class="k-edit-label"><label for="description"></label></div>
+        <div data-container-for="description" class="k-edit-field">
+            <textarea name="description" class="k-textbox" maxlength="1000" data-bind="value:description"></textarea>
+        </div>
+        </div>
+    </script>
+
+    <div class="container">
+        <div class="page-heading">
+            <h1 class="text-left"></h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                <div class="form-group">
+                    <label class="control-label" for="location"></label>
+                    <select class="form-control" id="locationSelect">
+                        <option value="" selected disabled></option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                <div class="form-group">
+                    <label class="control-label" for="department"></label>
+                    <select class="form-control" id="departmentSelect">
+                        <option value="" selected disabled></option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                <div class="form-group">
+                    <label class="control-label" for="advisor"></label>
+                    <select class="form-control" id="userIdSelect" disabled>
+                        <option value="" selected disabled></option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 hidden-sm hidden-xs text-right">
+                <ul class="availability-key">
+                    <li>
+                        <span></span>
+                        <p id="available"></p>
+                    </li>
+                    <li>
+                        <span class="unavailable"></span>
+                        <p id="unavailable"></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-xs-12 visible-sm visible-xs text-right">
+                <ul class="availability-key single-line">
+                    <li>
+                        <span></span>
+                        <p id="available"></p>
+                    </li>
+                    <li>
+                        <span class="unavailable"></span>
+                        <p id="unavailable"></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="scheduler"></div>
+    </div>
+</body>
+</html>

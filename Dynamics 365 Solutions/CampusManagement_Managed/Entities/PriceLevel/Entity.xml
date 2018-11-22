@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Price List" OriginalName="Price List">PriceLevel</Name>
+  <RibbonDiffXml />
+</Entity>

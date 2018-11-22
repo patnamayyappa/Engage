@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ff35182b-8394-4d08-8d96-b4fa76c1efa9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_portalactionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_portalactionid">
+          <cell name="cmc_portalactionname" width="300" />
+          <cell name="cmc_data" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_logicclassname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_method" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_stopcache" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_portalaction">
+          <attribute name="cmc_portalactionid" />
+          <attribute name="cmc_portalactionname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cmc_stopcache" />
+          <attribute name="cmc_method" />
+          <attribute name="cmc_logicclassname" />
+          <attribute name="cmc_data" />
+          <order attribute="cmc_portalactionname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Portal Actions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

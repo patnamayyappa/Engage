@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{e18447e7-cab4-4242-b6b3-6edbdf2fb438}" Name="Lifecycle Stage History - create record">
+  <XamlFileName>/Workflows/LifecycleStageHistory-createrecord-E18447E7-CAB4-4242-B6B3-6EDBDF2FB438.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>activestageid,statecode</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>1</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.08</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>cmc_bpf_9af1385d4fa54ca78e2e949770a0c9cc</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Lifecycle Stage History - create record" />
+  </LocalizedNames>
+</Workflow>

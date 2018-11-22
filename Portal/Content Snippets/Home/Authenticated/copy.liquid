@@ -1,0 +1,79 @@
+<div class="authenticated-home">
+    {%assign defaultEmptyListText = snippets["Home/Authenticated/DefaultEmptyListText"] %}
+    <section class="page_section section-landing">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <!--
+                    <h1 class="section-landing-heading">{% editable snippets 'Home/Title' default: 'Contoso' %}</h1>
+                    <h2 class="section-landing-sub-heading">{% editable snippets 'Home/Subtitle' default: 'Customer' %}</h2>
+                    -->
+                </div>
+            </div>
+        </div>
+        <div class="layer_down"></div>
+    </section>
+    <section class="page_section section-sub-landing color-inverse">
+        <div class="layer_up"></div>
+        <div class="container">
+            <div class="row hidden-sm">
+                <div class="col-md-3">
+                    {% include "Portal Home Entity List" listId:"19AD0440-DBA7-E711-8103-C4346BDC42D1" listTitle:snippets["Home/Authenticated/ToDos/Title"] titleHyperLink:"/to-dos" alwaysDisplayTitleHyperLink:true defaultEmptyListText:defaultEmptyListText columnOverrideLogicalName:"cmc_todoname" columnOverrideLabel:snippets["Home/Authenticated/ToDos/NameColumnText"] %}
+                </div>
+                <div class="col-md-3">
+                    {% include "Portal Home Entity List" listId:"BC9055FF-E0A7-E711-8103-C4346BDC42D1" listTitle:snippets["Home/Authenticated/Appointments/Title"] titleHyperLink:"/my-appointments" alwaysDisplayTitleHyperLink:true postTableLinkText:snippets["Home/Authenticated/Appointments/ScheduleLinkText"] postTableLink:"/staff-calendar" defaultEmptyListText:defaultEmptyListText %}
+                </div>
+                <div class="col-md-3">
+                    {% include "Portal Home Entity List" listId:"5BF369F4-E1A7-E711-8103-C4346BDC42D1" listTitle:snippets["Home/Authenticated/Surveys/Title"] titleHyperLink:"/my-surveys" hyperLinkField:"msdyn_invitationlink" hyperLinkText:snippets["Home/Authenticated/Surveys/HyperLinkText"] defaultEmptyListText:defaultEmptyListText %}
+                </div>
+                <div class="col-md-3">
+                    {% include "Portal Home Entity List" listId:"76680E9C-E3A7-E711-8104-C4346BDC2171" listTitle:snippets["Home/Authenticated/PositiveAcknowledgments/Title"] titleHyperLink:"/my-positive-acknowledgments" defaultEmptyListText:defaultEmptyListText columnOverrideLogicalName:"cmc_positiveacknowledgementname" columnOverrideLabel:snippets["Home/Authenticated/PositiveAcknowledgments/NameColumnText"] columnOverrideTwoLogicalName:"cmc_acknowledgmentreason" columnOverrideTwoLabel:snippets["Home/Authenticated/PositiveAcknowledgments/AcknowledgmentReasonText"] %}
+                </div>
+            </div>
+            <div class="row visible-sm">
+                <div class="col-sm-6">
+                    {% include "Portal Home Entity List" listId:"19AD0440-DBA7-E711-8103-C4346BDC42D1" listTitle:snippets["Home/Authenticated/ToDos/Title"] titleHyperLink:"/to-dos" alwaysDisplayTitleHyperLink:true defaultEmptyListText:defaultEmptyListText columnOverrideLogicalName:"cmc_todoname" columnOverrideLabel:snippets["Home/Authenticated/ToDos/NameColumnText"] %}
+                </div>
+                <div class="col-sm-6">
+                    {% include "Portal Home Entity List" listId:"BC9055FF-E0A7-E711-8103-C4346BDC42D1" listTitle:snippets["Home/Authenticated/Appointments/Title"] titleHyperLink:"/my-appointments" alwaysDisplayTitleHyperLink:true postTableLinkText:snippets["Home/Authenticated/Appointments/ScheduleLinkText"] postTableLink:"/staff-calendar" defaultEmptyListText:defaultEmptyListText %}
+                </div>
+            </div>
+            <div class="row visible-sm">
+                <div class="col-sm-6">
+                    {% include "Portal Home Entity List" listId:"5BF369F4-E1A7-E711-8103-C4346BDC42D1" listTitle:snippets["Home/Authenticated/Surveys/Title"] titleHyperLink:"/my-surveys" hyperLinkField:"msdyn_invitationlink" hyperLinkText:snippets["Home/Authenticated/Surveys/HyperLinkText"] defaultEmptyListText:defaultEmptyListText %}
+                </div>
+                <div class="col-sm-6">
+                    {% include "Portal Home Entity List" listId:"76680E9C-E3A7-E711-8104-C4346BDC2171" listTitle:snippets["Home/Authenticated/PositiveAcknowledgments/Title"] titleHyperLink:"/my-positive-acknowledgments" defaultEmptyListText:defaultEmptyListText columnOverrideLogicalName:"cmc_positiveacknowledgementname" columnOverrideLabel:snippets["Home/Authenticated/PositiveAcknowledgments/NameColumnText"] columnOverrideTwoLogicalName:"cmc_acknowledgmentreason" columnOverrideTwoLabel:snippets["Home/Authenticated/PositiveAcknowledgments/AcknowledgmentReasonText"] %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="well knowledgebase">
+                        <div class="col-md-12 kb-search">
+                            {% include "snippet" snippet_name:"Knowledge Base Search" %}
+                        </div>
+                        <div class="col-md-12">
+                            {% include "Portal Home Entity List" listId:"BD40545A-4BA8-E711-8105-C4346BDC3221" listTitle:snippets["Home/Authenticated/TopKnowledgeBaseArticles/Title"] titleHyperLink:"/knowledgebase" defaultEmptyListText:defaultEmptyListText columnOverrideLogicalName:"knowledgearticleviews" columnOverrideLabel:snippets["Home/Authenticated/TopKnowledgeBaseArticles/ViewsColumnTest"] columnOverrideTwoLogicalName:"articlepublicnumber" columnOverrideTwoLabel:snippets["Home/Authenticated/TopKnowledgeBaseArticles/PublicNumberColumnTest"] %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        (function(global) {
+        'use strict';
+
+            $(function() {
+                // Prevent the KB Search from scrolling the page
+                $(document).scroll(function(e) {
+                    if($("html,body").is(":animated") && e.currentTarget && e.currentTarget.activeElement &&
+                        $(e.currentTarget.activeElement).closest('.kb-search').length) {
+                        $("html, body").stop();
+                    }
+                });
+            });
+
+        }(this));
+    </script>
+</div>

@@ -1,0 +1,1 @@
+define({'video':{'OpenBookIconAlternateText':'Video Available','ClosedBookIconAlternateText':'Video Available','TopicIconAlternateText':'Video Available','MarkAsNewIconAlternateText':'Video Available'},'default':{'OpenBookIconAlternateText':'Open Book','ClosedBookIconAlternateText':'Closed Book','TopicIconAlternateText':'Topic Icon','MarkAsNewIconAlternateText':'New Topic'}});

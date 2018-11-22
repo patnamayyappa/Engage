@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b6040c47-4d02-4ddc-a8f6-f593aa6cb342}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{dae25861-546c-4c4a-88f7-57556e72ef5b}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{595aef0c-4811-4949-9787-0a4631b85292}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{50bc96ea-8e63-4f8e-9767-d35727b9f275}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sonoma_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sonoma_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd7745e8-95c2-ba90-d821-a903331dce58}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sonoma_clientid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sonoma_clientid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42117870-ab71-2684-cbc6-8ba3c4311998}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sonoma_tenantid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sonoma_tenantid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8ec2b4e6-0227-09d0-0ce0-0822b8a89218}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sonoma_serviceusername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sonoma_serviceusername" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00697087-e28b-5650-3238-73d69ecd3511}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sonoma_servicepassword" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sonoma_servicepassword" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c411ab0-eace-8cbc-3108-3ab3a5579157}" showlabel="true" locklevel="0" rowspan="5">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sonoma_authenticationtoken" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="sonoma_authenticationtoken" disabled="true" uniqueid="{1ddcbd0a-eab4-7b83-4585-cc1ca26d0aec}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{67ff92fe-d35a-4a71-bd2b-d5f4796c914c}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{435e1687-aa1d-49b4-b527-b32d7ca6f2ea}" IsUserDefined="1" labelid="{50eeb64c-537e-4378-92f2-e968f027f327}" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d2159732-5053-4f88-8694-16c6ad595105}" height="auto" labelid="{3c4604b5-8bf3-4d67-ba45-9b40b497f71c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3eda2ca7-c1dd-c961-653a-6282bbd365c1}" showlabel="true" locklevel="0" labelid="{f03b4e93-2130-437c-b595-92e2c032b4b9}">
+                        <labels>
+                          <label description="Campus Survey Template Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffsurveytemplatename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_staffsurveytemplatename" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{407520ae-002c-1dab-5e5c-e9d9a2d7bb66}" showlabel="true" locklevel="0" labelid="{fbc38bfb-fc8d-4d8c-a3e9-b2410e442304}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c2d52d4-5992-31c6-b3d3-e931a73784a6}" showlabel="true" locklevel="0" labelid="{732dbd93-e422-4f01-ae9d-f79a41578463}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25e8bb3a-e938-d5bb-b486-d8480cca7520}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="cmc_description" disabled="false" uniqueid="{b2835881-c1c5-53b6-87bc-1ab0a85836a4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d18b994-9c46-8ab7-3eb5-4b957133732b}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Copy From Campus Survey Template" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_copyfromstaffsurveytemplateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_copyfromstaffsurveytemplateid" disabled="false" uniqueid="{8ae0cb23-31a0-d913-4d8e-329e3d72bc06}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4632DF7D-3B01-4BEB-B953-85184EE93989}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Start Date" id="{c734b2d6-ee2e-395e-9bc9-a4d01e623407}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Start Date" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" showlabel="false" showbar="false" locklevel="0" id="{325dd4b1-d3b9-8a28-736c-d3be0526c548}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b7e74e43-0739-6e65-dcae-0797386ec0b5}" showlabel="true" locklevel="0" labelid="{878266cd-7469-4048-89c7-e900c8db852b}">
+                        <labels>
+                          <label description="Calculation Type" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdatecalculationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_startdatecalculationtype" disabled="false" />
+                      </cell>
+                      <cell id="{336c4596-999a-5815-7bb1-d333db0aa317}" showlabel="true" locklevel="0" labelid="{ac8eaffc-d632-4c89-9f83-a9f168643e80}">
+                        <labels>
+                          <label description="Number Of Days" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdatenumberofdays" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_startdatenumberofdays" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c41b9ca-be04-3ad0-1340-32537be58442}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{83d1a5d9-4051-2382-4a16-256941d455b6}" showlabel="true" locklevel="0" labelid="{3a415e2f-4d24-48cd-81b6-afc43ed4d553}">
+                        <labels>
+                          <label description="Days Direction" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdatedaysdirection" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_startdatedaysdirection" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a4328b5-4353-e206-84c7-740267a94ce1}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{471a7ee6-b90c-3d32-3a30-a902a6ce26a0}" showlabel="true" locklevel="0" labelid="{45b445f4-1087-4b08-aa52-d2d8144d1993}">
+                        <labels>
+                          <label description="Calculation Field" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdatecalculationfield" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_startdatecalculationfield" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b93de9a8-3c29-0943-61a3-867a600ec5c8}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{ca3e919e-22ce-dd3d-46e1-8c56136eca0b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Date Static" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdatestatic" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_startdatestatic" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Due Date" id="{d7ae42d6-c7bc-39a5-aa31-cb82eac609c9}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Due Date" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{2e821119-9abb-0612-aa78-b36244b1bb9c}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b03b3a0b-6ee0-7155-2948-39a6e5d611d2}" showlabel="true" locklevel="0" labelid="{58623515-73f5-4d40-810c-eb1a3f650579}">
+                        <labels>
+                          <label description="Calculation Type" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_duedatecalculationtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_duedatecalculationtype" disabled="false" uniqueid="{d65cd691-55e6-2118-8175-a344c8b8823e}" />
+                      </cell>
+                      <cell id="{b740cc29-5ed7-8692-08d8-90ba6e043b52}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number Of Days" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_duedatenumberofdays" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_duedatenumberofdays" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c219c24c-e6e3-a6d7-e5d7-33258d956a3a}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{58c8ab9e-e03e-ea31-ce2a-0d2a7158d2b4}" showlabel="true" locklevel="0" labelid="{102a2b8d-af66-4ce6-b51b-be9ba4d4441e}">
+                        <labels>
+                          <label description="Days Direction" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_duedatedaysdirection" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_duedatedaysdirection" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b2bb315-31d5-e6ba-c77a-b1297c512b1e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{24c62c78-cc30-3028-3ac7-9c8cdc64a599}" showlabel="true" locklevel="0" labelid="{a8c38da3-80e3-4ff1-aafd-ce1a9e34a183}">
+                        <labels>
+                          <label description="Calculation Field" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_duedatecalculationfield" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_duedatecalculationfield" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25a9dd86-1ca8-9639-31ea-759e17747588}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{ca9899b9-3247-e065-3d74-a5ba4206aded}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Due Date Static" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_duedatestatic" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_duedatestatic" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="{b1e32229-41a3-158d-828a-c9d70a9e0215}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Description" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_2" showlabel="false" showbar="false" locklevel="0" id="{63e54717-cb38-40c3-3054-9028d0dbc71d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e5b72eea-d34b-5cbd-79d3-08c64d303819}" showlabel="false" colspan="1" auto="false" rowspan="13">
+                        <labels>
+                          <label description="DescriptionEditor" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_DescriptionEditor" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/Pages/editor.html</Url>
+                            <Data>fieldName=cmc_description</Data>
+                            <PassParameters>true</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{7642B440-5984-E711-8101-C4346BDC3221}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0822c27b-cbd4-4af5-b7b0-52bb7a80deb9}" columns="111">
+        <rows>
+          <row>
+            <cell id="{e9226ea4-cee1-b391-73ab-105ab97a9964}" showlabel="false" labelid="{e38ef82f-952d-40fb-bc6d-ab09c8927c1e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0739286e-6c13-91d0-4041-2c5b9eb2ae65}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{19533075-3799-b3da-3071-2628b43e4c2d}" showlabel="true" locklevel="0" labelid="{d29b368d-1350-43f0-ac3f-8dab21f173c8}" visible="false">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" uniqueid="{cb903003-c714-8432-b200-100e4a5d3449}" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{85367db9-980e-49ff-890f-5c50b296257a}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{8d69d0eb-1485-5627-5725-812ac41e676d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{e0696b3d-5310-c3b1-6505-a358b1e93364}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{716b5919-d9a8-494c-d86e-c9dd2c2d588c}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+            <cell id="{81187338-c20e-b028-64b1-9ed9139c7965}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/Scripts/Libraries/sonomaCmc.js" libraryUniqueId="{69074603-342b-6a45-432d-635d01ac4580}" />
+        <Library name="cmc_/Scripts/Libraries/jquery_1.12.3.min.js" libraryUniqueId="{0a0b0695-1708-ea5c-407a-b846d8139e72}" />
+        <Library name="cmc_/dist/app/Common/CommonUiControls.js" libraryUniqueId="{8e6644e8-6870-12ab-5acd-240bb0398b62}" />
+      </formLibraries>
+      <DisplayConditions Order="1">
+        <Role Id="{E8FEE62F-83A9-E711-8105-C4346BDC42D1}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Campus Survey Template" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Campus Survey Template" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

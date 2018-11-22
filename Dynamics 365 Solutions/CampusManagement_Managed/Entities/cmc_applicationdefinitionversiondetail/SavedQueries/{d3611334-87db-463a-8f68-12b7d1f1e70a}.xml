@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d3611334-87db-463a-8f68-12b7d1f1e70a}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_applicationdefinitionversiondetailname" select="1" icon="1" preview="1">
+        <row name="cmc_applicationdefinitionversiondetail" id="cmc_applicationdefinitionversiondetailid">
+          <cell name="cmc_applicationdefinitionversiondetailname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_applicationperiod" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_startdate" width="100" />
+          <cell name="cmc_enddate" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationdefinitionversiondetail">
+          <attribute name="cmc_applicationdefinitionversiondetailname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationdefinitionversiondetailname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_enddate" />
+          <attribute name="cmc_applicationperiod" />
+          <attribute name="cmc_startdate" />
+          <attribute name="cmc_applicationdefinitionversiondetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Application Definition Version Detail Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

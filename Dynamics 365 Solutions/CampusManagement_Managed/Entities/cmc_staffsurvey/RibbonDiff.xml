@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.cmc_staffsurvey.Button2.Button.CustomAction" Location="Mscrm.Form.cmc_staffsurvey.MainTab.Collaborate.Controls._children" Sequence="34">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_staffsurvey.Button2.Button.Alt" Command="cmc.cmc_staffcourse.submitStaffSurveyForm.Command" Id="cmc.cmc_staffsurvey.Button2.Button" Image32by32="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" Image16by16="$webresource:cmc_/Images/AssignSuccessPlan_16px.png" LabelText="$LocLabels:cmc.cmc_staffsurvey.Button2.Button.LabelText" Sequence="34" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.cmc_staffsurvey.Button2.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_staffsurvey.Button2.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AssignSuccessPlan_32px.png" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.cmc_staffcourse.submitStaffSurveyForm.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_staffsurvey.HideSurveySubmit.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.cmc_staffsurvey.FeedbackForm_OnSubmit" Library="$webresource:cmc_/dist/app/ribbon/cmc_staffsurvey.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="cmc.cmc_staffsurvey.HideSurveySubmit.EnableRule">
+        <ValueRule Field="statecode" Value="0" Default="true" InvertResult="false" />
+        <FormStateRule State="Create" Default="true" InvertResult="true" />
+        <CustomRule FunctionName="CampusManagement.ribbon.cmc_staffsurvey.checkForm" Library="$webresource:cmc_/dist/app/ribbon/cmc_staffsurvey.js" Default="true" InvertResult="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.cmc_staffsurvey.Button2.Button.Alt">
+      <Titles>
+        <Title description="Submit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffsurvey.Button2.Button.LabelText">
+      <Titles>
+        <Title description="Submit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffsurvey.Button2.Button.ToolTipDescription">
+      <Titles>
+        <Title description="The Campus Survey will be submitted to an advisor." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_staffsurvey.Button2.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Submit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

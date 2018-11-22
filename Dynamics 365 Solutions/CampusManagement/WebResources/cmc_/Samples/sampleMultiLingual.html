@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <script type="text/javascript" src="../../ClientGlobalContext.js.aspx"></script>
+    <script src="../Scripts/Libraries/sonomaCmc.js"></script>
+    <script src="../Scripts/Common/retrieveMultiLingualValues.js"></script>
+    <script>
+        function onLoad() {
+            var keys = ["cancelButton", "AssignSuccessPlanDialog_title", "missingLabel"];
+            CampusManagement.retrieveMultiLingualValues.get(keys)
+                .then(function (ret) {
+                    document.getElementById('loading').style.display = "none";
+                    keys.forEach(function (k) {
+                        if (!ret[k]) {
+                            console.log("Multilingual value is missing for " + k);
+                        }
+                        else {
+                            document.getElementById(k).innerText = ret[k];
+                        }
+                    })
+                })
+                .catch(function (error) {
+                    alert(error);
+                });
+        }
+    </script>
+</head>
+<body onload="onLoad()">
+    <div id="loading">Loading...</div>
+    <div id="AssignSuccessPlanDialog_title"></div>
+    <div id="missingLabel"></div>
+    <button id="cancelButton"></button>
+</body>
+</html>

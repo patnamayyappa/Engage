@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e88cd310-4a13-4ae3-8a56-b28ebc349aeb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_successplantemplatename" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_successplantemplateid">
+          <cell name="cmc_successplantemplatename" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_successplantemplate">
+          <attribute name="cmc_successplantemplateid" />
+          <attribute name="cmc_successplantemplatename" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_successplantemplatename" operator="like" value="{0}" />
+          </filter>
+          <order attribute="cmc_successplantemplatename" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Success Plan Templates" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

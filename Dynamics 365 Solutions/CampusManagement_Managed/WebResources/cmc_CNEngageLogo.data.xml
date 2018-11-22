@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{7802e0be-fb3b-e811-a961-000d3a14b26e}</WebResourceId>
+  <Name>cmc_CNEngageLogo</Name>
+  <DisplayName>CampusNexus Engage Logo</DisplayName>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>6</WebResourceType>
+  <IntroducedVersion>1.0.0.57</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_CNEngageLogo7802E0BE-FB3B-E811-A961-000D3A14B26E</FileName>
+</WebResource>

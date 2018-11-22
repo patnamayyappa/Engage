@@ -1,0 +1,72 @@
+
+  <div >
+    <div  style="margin:10px;display:flex">
+      <div  [style.background-color]="defaultTheme.navbarbackgroundcolor" *ngIf="!survey.showQuestions"  class="questionContainer navigateLeft">
+        <i tabindex="0" [attr.title]=surveyStrings.showQuestions class="iconSize" (keyup)="onShowQuestions($event)" (click)='onShowQuestions($event)' [ngClass]="survey.hideClass"></i>
+        {{surveyStrings.questionsContainerText}}
+      </div>
+      <div  tabindex="0" *ngIf="survey.showQuestions" class="col-md-7 questionsDiv"> 
+
+        <div  [style.background-color]="defaultTheme.navbarbackgroundcolor" class="questionContainer navigateRight">
+          <i tabindex="0" [attr.title]=surveyStrings.hideQuestions class="iconSize" (keyup)="onHideQuestions($event)" (click)='onHideQuestions($event)'  [ngClass]="survey.activeClass"></i>
+          {{surveyStrings.questionsContainerText}}
+        </div>
+
+        <div  *ngFor="let question of survey.questions index as i" class="accordion"  >
+          <div [style.background-color]="defaultTheme.pageheaderbackgroundcolor" class="question" (click)='onAccordionClick(question,i,$event)' >
+           
+            <div  title="question.title" class="questiontext"> {{question.title || surveyStrings.questionTitle}} </div>
+              <i tabindex="0" [attr.title]="question.expandCollapseTitle" class ="iconSize" (keyup)="onAccordionClick(question,i,$event)" (click)='onAccordionClick(question,i,$event)' [ngClass]="question.activeClass"></i>
+              <i tabindex="0" [attr.title]=surveyStrings.deleteQuestion style="margin-right: 5px;" class="fa fa-trash-o iconSize" aria-hidden="true" (keyup)="deleteQuestion(question, survey.questions,$event)" (click)="deleteQuestion(question, survey.questions,$event)" ></i>
+          </div>  
+    
+          <div  class="col-md-12 accordion-content accordion-border" id="questions"  *ngIf='question.showDiv'>
+           
+            <div class="form-group">
+              <select tabindex="0"  [(ngModel)]="question.type" (change)="valueChanged(question)" class="questionType">
+                <option *ngFor="let c of questionTypes" [value]="c.id">{{c.name}}</option>
+              </select>
+              <div>
+                <label *ngIf="question.type!=0">{{surveyStrings.question}}</label>
+              <input tabindex="0" type="text" class="form-control" (ngModelChange)="handleModelChange($event)" [(ngModel)]="question.title" *ngIf="question.type!=0" [attr.placeholder]=surveyStrings.enterQuestion/>
+              </div>
+            </div>
+            <div  class="row">
+              <div >
+                <label *ngIf="question.type!=0 && question.type!=1" style="margin-left: 15px;">{{surveyStrings.options}}</label>
+              </div>
+           
+              <div  class="col-xs-12" id="answers" *ngFor="let answer of question.answers">
+                <div  class="form-group">
+                  <div  class="input-group col-md-12">
+                    <div  class="container">
+                      <div  class="row" *ngIf="question.type!=0">                         
+                        <div  class="col-sm">
+                          <input  *ngIf="question.type!=1" type="text" required="" [attr.placeholder]=surveyStrings.enterOption class="form-control questionResponse" (ngModelChange)="handleModelChange($event)" [(ngModel)]="answer.title"/>
+                        </div>
+                        <div  class="col-sm" *ngIf="question.type!=1">  
+                          <i tabindex="0" [attr.title]=surveyStrings.deleteOption class="fa fa-trash-o iconSize left" aria-hidden="true" (keyup)="deleteOption(answer, question.answers,$event)" (click)="deleteOption(answer, question.answers,$event)" *ngIf="question.answers.length > 1"></i>
+                        </div>
+                     
+                      </div>
+                    </div>              
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2" *ngIf="question.type!=0 && question.type!=1">  
+                <button tabindex="0" [attr.title]=surveyStrings.addOption [style.background-color]="defaultTheme.globallinkcolor" class="btn btn-primary btn-sm btnAnswer" (keyup)="addNewAnswer(question,$event)" (click)="addNewAnswer(question,$event)" *ngIf="(question.type!=4 && question.answers.length < 5) || ( question.type==4 && question.answers.length<2)  "> {{surveyStrings.addOption}}</button>
+                </div>
+            </div>
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+       
+        <button tabindex="0" [attr.title]=surveyStrings.addQuestion [style.background-color]="defaultTheme.globallinkcolor" class="btn btnAddNew"  (keyup)="addNewQuestion($event)" (click)="addNewQuestion($event)" *ngIf="survey.questions.length >=1 && survey.questions[survey.questions.length-1].title!='' ">{{surveyStrings.addQuestion}}</button>
+      </div>
+      
+  <app-preview  tabindex="0" [ngClass]="survey.previewClass"  [survey]="survey" [defaultTheme]="defaultTheme" [surveyStrings]="surveyStrings"></app-preview>
+      </div>
+
+  </div>
+
+

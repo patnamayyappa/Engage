@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{43bab262-23c3-418d-ace0-0eb3110d8aa3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_decisionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationdecisionid">
+          <cell name="cmc_decisionname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_applicationid" width="100" />
+          <cell name="cmc_decisionstatus" width="100" />
+          <cell name="cmc_publishstatus" width="100" />
+          <cell name="cmc_decisionviewdate" width="100" />
+          <cell name="cmc_enrollmentstatus" width="100" />
+          <cell name="cmc_isenrollmentsubmitted" width="100" />
+          <cell name="cmc_enrollmentsubmitteddatetime" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationdecision">
+          <attribute name="cmc_decisionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_decisionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cmc_publishstatus" />
+          <attribute name="cmc_enrollmentsubmitteddatetime" />
+          <attribute name="cmc_isenrollmentsubmitted" />
+          <attribute name="cmc_enrollmentstatus" />
+          <attribute name="cmc_decisionviewdate" />
+          <attribute name="cmc_decisionstatus" />
+          <attribute name="cmc_applicationid" />
+          <attribute name="cmc_applicationdecisionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Application Decisions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

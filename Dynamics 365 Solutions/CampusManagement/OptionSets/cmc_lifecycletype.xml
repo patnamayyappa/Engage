@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cmc_lifecycletype" localizedName="Lifecycle Type" description="Drives the BPF for the Lifecycle - which stages to show and hide.">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.65</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Lifecycle Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Drives the BPF for the Lifecycle - which stages to show and hide." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="175490001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Undergraduate Admissions" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Graduate Admissions" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="175490000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="New Donor" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

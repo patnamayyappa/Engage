@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{062B1D5C-6357-445D-8916-87261A1656F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>API_DCRM</RootNamespace>
+    <AssemblyName>API-DCRM</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>True</IsCodedUITest>
+    <TestProjectType>CodedUITest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\cmcdevmain.postman_environment.json" />
+    <None Include="Common\cmcdevmain1.postman_environment.json" />
+    <None Include="Common\cmcqaall.postman_environment.json" />
+    <None Include="Common\cmcqaall2.postman_environment.json" />
+    <None Include="Common\cmcqabase.postman_environment.json" />
+    <None Include="Common\mshied.postman_environment.json" />
+    <None Include="Ordertest\OrderedGeo.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Ordertest\OrderedCampus.orderedtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TestData\CampusSurvey.csv" />
+    <None Include="TestData\Casemgmt.csv" />
+    <None Include="TestData\ContactInboundLifecycle.csv" />
+    <None Include="TestData\CreatingActivitiesToContact.csv" />
+    <None Include="TestData\CreatingActivitiesToLifecycle.csv" />
+    <None Include="TestData\Datafile.xlsx" />
+    <None Include="TestData\DOMAccount.csv" />
+    <None Include="TestData\DOMContact.csv" />
+    <None Include="TestData\DOMLifecycle.csv" />
+    <None Include="TestData\Geocode.csv" />
+    <None Include="TestData\Inbound.csv" />
+    <None Include="TestData\Lifecycle.csv" />
+    <None Include="TestData\RetentionScoreRange.csv" />
+    <None Include="TestData\RetentionscoreValue.csv" />
+    <None Include="TestData\StaffCalender.csv" />
+    <None Include="TestData\StudentGroup.csv" />
+    <None Include="TestData\SuccessNetwork.csv" />
+    <None Include="TestData\Successplan.csv" />
+    <None Include="TestData\TestScore.csv" />
+    <None Include="TestData\TravelMgmt.csv" />
+    <None Include="Test\Common\Address\Geocode\Geocode.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Common\Address\Geocode\Geocode.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Common\Address\Geocode\Geocode.postman_collection.json" />
+    <None Include="Test\Common\Groups\StudentGroup\StudentGroups.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Common\Groups\StudentGroup\StudentGroup.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Common\Groups\StudentGroup\StudentGroups.postman_collection.json" />
+    <None Include="Test\Applications\TestScore\TestScore\TestScore.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Applications\TestScore\TestScore\TestScore.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Applications\TestScore\TestScore\TestScore.postman_collection.json" />
+    <None Include="Test\Communications\Casemgmt\Casemgmt.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Communications\Casemgmt\Casemgmt.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Communications\Casemgmt\Casemgmt.postman_collection.json" />
+    <None Include="Test\Communications\CreatingActivitiesToContact\CreatingActivitiesToContact.GenericTest" />
+    <None Include="Test\Communications\CreatingActivitiesToContact\CreatingActivitiesToContact.postman_collection.json" />
+    <None Include="Test\Communications\CreatingActivitiesToContact\CreatingActivitiesToContact.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Communications\CreatingActivitiesToLifecycle\CreatingActivitiesToLifecycle.GenericTest" />
+    <None Include="Test\Communications\CreatingActivitiesToLifecycle\CreatingActivitiesToLifecycle.postman_collection.json" />
+    <None Include="Test\Communications\CreatingActivitiesToLifecycle\CreatingActivitiesToLifecycle.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Communications\StaffCalender\StaffCalender.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Communications\StaffCalender\StaffCalender.GenericTest" />
+    <None Include="Test\Communications\StaffCalender\StaffCalender.postman_collection.json" />
+    <None Include="Test\Lifecycles\ContactInboundLifecycle\ContactInboundLifecycle.bat" />
+    <None Include="Test\Lifecycles\ContactInboundLifecycle\ContactInboundLifecycle.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\ContactInboundLifecycle\ContactInboundLifecycle.postman_collection.json" />
+    <None Include="Test\Lifecycles\DOM\DOMAccount\DOMAccount.bat" />
+    <None Include="Test\Lifecycles\DOM\DOMAccount\DOMAccount.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\DOM\DOMAccount\DOMAccount.postman_collection.json" />
+    <None Include="Test\Lifecycles\DOM\DOMContact\DOMContact.bat" />
+    <None Include="Test\Lifecycles\DOM\DOMContact\DOMContact.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\DOM\DOMContact\DOMContact.postman_collection.json" />
+    <None Include="Test\Lifecycles\DOM\DOMLifecycle\DOMLifecycle.bat" />
+    <None Include="Test\Lifecycles\DOM\DOMLifecycle\DOMLifecycle.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\DOM\DOMLifecycle\DOMLifecycle.postman_collection.json" />
+    <None Include="Test\Lifecycles\Inbound\InboundInterest.postman_collection.json" />
+    <None Include="Test\Lifecycles\Inbound\InboundInterest.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\Inbound\InboundInterest.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\Lifecycle\Lifecycle.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\Lifecycle\Lifecycle.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Lifecycles\Lifecycle\Lifecycle.postman_collection.json" />
+    <None Include="Test\Lifecycles\TravelMgmt\Travelmgmt.postman_collection.json" />
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreRange\RetentionScoreRange.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreRange\RetentionScoreRange.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreRange\RetentionScoreRange.postman_collection.json" />
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreValue\RetentionscoreValue.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreValue\RetentionscoreValue.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreValue\RetentionscoreValue.postman_collection.json" />
+    <None Include="Test\Retentions\SuccessNetwork\SuccessNetworkAssignment.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\SuccessNetwork\SuccessNetworkAssignment.GenericTest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\SuccessNetwork\SuccessNetworkAssignment.postman_collection.json" />
+    <None Include="Test\Retentions\SuccessPlan\SuccessPlanAssignment.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\SuccessPlan\SuccessPlanAssignment.GenericTest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\SuccessPlan\SuccessPlanAssignment.postman_collection.json" />
+    <None Include="Test\Retentions\CampusSurvey\CampusSurvey.bat" />
+    <None Include="Test\Retentions\CampusSurvey\CampusSurvey.GenericTest" />
+    <None Include="Test\Lifecycles\TravelMgmt\Travelmgmt.bat" />
+    <None Include="Test\Lifecycles\TravelMgmt\Travelmgmt.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\CampusSurvey\CampusSurvey.postman_collection.json" />
+  </ItemGroup>
+  <ItemGroup />
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' Or '$(VisualStudioVersion)' == '11.0') And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="UIAutomationTypes" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

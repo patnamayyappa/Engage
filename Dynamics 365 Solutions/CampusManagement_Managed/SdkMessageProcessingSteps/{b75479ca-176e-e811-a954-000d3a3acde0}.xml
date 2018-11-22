@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Retention.Plugins.CopyStaffSurveyTemplatePlugin: cmc_CopyStaffSurveyTemplate of  any Entity" SdkMessageProcessingStepId="{b75479ca-176e-e811-a954-000d3a3acde0}">
+  <PluginTypeName>Cmc.Engage.Retention.Plugins.CopyStaffSurveyTemplatePlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02</PluginTypeName>
+  <PluginTypeId>0121dd26-d908-4bb6-b9f5-647ed19e68ea</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ecb612f-d96e-e811-a954-000d3a3acde0}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

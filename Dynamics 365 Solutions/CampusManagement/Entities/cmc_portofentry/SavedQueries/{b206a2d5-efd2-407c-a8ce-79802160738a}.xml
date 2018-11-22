@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b206a2d5-efd2-407c-a8ce-79802160738a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_portofentryname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_portofentryid">
+          <cell name="cmc_portofentryname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_portofentry">
+          <attribute name="cmc_portofentryid" />
+          <attribute name="cmc_portofentryname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_portofentryname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Port of entry Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

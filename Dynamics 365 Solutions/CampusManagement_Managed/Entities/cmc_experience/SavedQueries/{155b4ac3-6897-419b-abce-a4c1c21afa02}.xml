@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{155b4ac3-6897-419b-abce-a4c1c21afa02}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_experiencetitle" select="1" icon="1" preview="1">
+        <row name="cmc_experience" id="cmc_experienceid">
+          <cell name="cmc_experiencetitle" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_experience">
+          <attribute name="cmc_experienceid" />
+          <attribute name="cmc_experiencetitle" />
+          <attribute name="createdon" />
+          <order attribute="cmc_experiencetitle" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Experience Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

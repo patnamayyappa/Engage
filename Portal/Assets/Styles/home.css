@@ -1,0 +1,146 @@
+.unauthenticated-home .row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.unauthenticated-home .landing_img {
+    padding: 0 3.5rem;
+}
+
+.unauthenticated-home .buttom_tabimg {
+    text-align: center;
+}
+
+.unauthenticated-home .buttom_tabimg img {
+    padding: 1rem;
+}
+
+.unauthenticated-home .buttom_tabimg .img-responsive {
+    display: inline;
+    max-width: 100%;
+}
+
+.unauthenticated-home .buttom_tab_icon {
+    margin: -4rem 0 4rem 0;
+}
+
+.unauthenticated-home .buttom_tab_icon div {
+    text-align: center;
+    margin: auto;
+}
+
+.unauthenticated-home .buttom_tab_icon p {
+    font-size: 22px;
+    padding: 1rem 0 .5rem 0;
+}
+
+.unauthenticated-home .divcenter {
+    text-align: center;
+}
+
+.unauthenticated-home .tab_icon {
+    border-radius: 50%;
+    padding: .2rem;
+}
+
+.unauthenticated-home .navbar-default {
+    padding: 0;
+    background-color: #174e80 !important;
+    border-color: #e7e7e7;
+}
+
+.unauthenticated-home .middle-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.unauthenticated-home .middle-text h3 {
+    padding: 1rem 0;
+    font-size: 30px;
+}
+
+.unauthenticated-home .middle-text p {
+    padding: .5rem 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+}
+
+@media (min-width: 1199px) and (max-width: 1340px) {
+    .unauthenticated-home .contentpart {
+        padding-bottom: .1rem;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 991px) and (max-width: 1199px) {
+    .unauthenticated-home .contentpart {
+        padding-bottom: 10rem;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .unauthenticated-home .contentpart {
+        padding-bottom: 10rem;
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+    .unauthenticated-home .contentpart {
+        padding-bottom: 10rem;
+    }
+
+    .unauthenticated-home .alignment {
+        text-align: left;
+    }
+
+    .unauthenticated-home .col-height {
+        display: block;
+        float: none;
+        height: auto;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .unauthenticated-home .contentpart {
+        padding-bottom: 10rem;
+    }
+
+    .unauthenticated-home .land_page_dropdown .dropdown-menu {
+        margin: 0;
+        min-width: 25rem !important;
+    }
+
+    .unauthenticated-home .middle-text h3 {
+        padding: 1rem 0 ;
+        font-size: 21px;
+    }
+
+    .unauthenticated-home .middle-text p {
+        padding: .5rem 1rem;
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+    }
+}
+
+.authenticated-home .knowledgebase {
+    overflow: auto;
+    margin-top: 2.5rem;
+}
+
+.authenticated-home .knowledgebase .kb-search .case-deflection {
+    margin-bottom: 0;
+}
+
+.authenticated-home .home-entity-list td {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+}

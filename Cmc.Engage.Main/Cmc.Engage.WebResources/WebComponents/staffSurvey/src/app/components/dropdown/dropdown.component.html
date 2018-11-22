@@ -1,0 +1,4 @@
+<select [name]="question.name" [disabled]="disabled" [id]="question.cmc_staffsurveyquestionid" [(ngModel)]="question.options">
+  <option value="0">--Select--</option>
+  <option *ngFor="let opt of question.cmc_choice" value={{opt.id}}>{{opt.title}}</option>
+</select>

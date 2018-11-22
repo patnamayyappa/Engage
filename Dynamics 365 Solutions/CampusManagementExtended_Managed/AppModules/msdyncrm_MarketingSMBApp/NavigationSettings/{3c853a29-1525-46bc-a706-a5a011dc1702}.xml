@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a706-a5a011dc1702}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a706-a5a011dc8a00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=entitylist&amp;etn=msevtmgt_eventadministration</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>1</SettingType>
+  <IconResourceId>{aaaa5501-0003-eeee-ffff-000d3a2243c9}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Event administration" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Event Management Settings" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

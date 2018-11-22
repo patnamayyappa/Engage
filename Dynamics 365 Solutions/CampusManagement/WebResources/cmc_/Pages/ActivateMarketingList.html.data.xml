@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{7be066a2-7e39-e811-a95e-000d3a11fc57}</WebResourceId>
+  <Name>cmc_/Pages/ActivateMarketingList.html</Name>
+  <DisplayName>ActivateMarketingList.html</DisplayName>
+  <Description>Activate Marketing List Html </Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0.0.57</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Pages/ActivateMarketingList.js" displayName="ActivateMarketingList.js" languagecode="1033" description="Activate Marketing List JavaScript " libraryUniqueId="{b6ca69db-e357-c05b-15d6-26c10ebce660}"/&gt;&lt;Library name="cmc_/dist/app/Pages/ActivateMarketingList.css" displayName="ActivateMarketingList.css" languagecode="1033" description="Activate Marketing List Css" libraryUniqueId="{0125452c-d95b-0413-1775-75ac1d2db77e}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_PagesActivateMarketingListhtml7BE066A2-7E39-E811-A95E-000D3A11FC57</FileName>
+</WebResource>

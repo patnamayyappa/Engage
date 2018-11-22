@@ -1,0 +1,18 @@
+{% fetchxml my_query %}
+  <fetch version="1.0" mapping="logical">
+      <entity name="cmc_department">
+          <attribute name="cmc_departmentname" />
+          <filter type="and"> 
+              <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="cmc_departmentname" descending="false" />
+      </entity>
+  </fetch>
+{% endfetchxml %} [
+  {% for department in my_query.results.entities %}
+      {
+        "Id": "{{department.Id}}",
+        "Name": "{{department.cmc_departmentname}}"
+      }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

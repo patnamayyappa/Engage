@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{364b1a4a-2589-4c2f-ac51-16301eaafba0}</formid>
+    <IntroducedVersion>0.7.0.56</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{89dda871-9db7-457e-a04b-6cd99db4e0cd}" name="tab_1" showlabel="false" labelid="{0b0ca298-7614-4872-a770-7db89891bfb4}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{cf50a44e-7eb4-4bae-a686-7e6f1bed8fda}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{928f8832-a79f-4487-93e3-c9b459f57f8e}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{428d5d29-da62-89a4-b815-31cd7a01b33b}" showlabel="true" locklevel="0" labelid="{6adf17ab-4d8a-4947-a4ec-5c83431bc513}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="customerid" disabled="false" uniqueid="{ea8e3ec9-b33a-e84b-1588-40c450801b46}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04a01613-ea24-c7d4-a8ce-3ee3e46598bb}" showlabel="true" locklevel="0" visible="false" labelid="{b8a9fede-ac61-4c37-aeb5-d9ca383361c6}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="companyname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="companyname" disabled="true" uniqueid="{573e8b0b-4d72-6597-cde8-16b3d8ece829}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="App for Outlook Inbound Interest Card (Engage)" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

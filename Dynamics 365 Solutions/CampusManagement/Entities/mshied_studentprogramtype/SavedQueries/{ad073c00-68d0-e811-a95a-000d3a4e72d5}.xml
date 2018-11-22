@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ad073c00-68d0-e811-a95a-000d3a4e72d5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" icon="1" preview="1">
+        <row name="result" id="mshied_studentprogramtypeid">
+          <cell name="mshied_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_code" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="mshied_studentprogramtype">
+          <attribute name="mshied_name" />
+          <order attribute="mshied_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_code" />
+          <attribute name="mshied_studentprogramtypeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.7.0.52</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Student Program Types(Engage)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

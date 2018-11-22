@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{16c4df68-77b6-4691-8f47-e5cb62595ed9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationid">
+          <cell name="cmc_applicationname" width="300" />
+          <cell name="cmc_contactid" width="100" />
+          <cell name="cmc_programid" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_application">
+          <attribute name="cmc_applicationname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cmc_programid" />
+          <attribute name="cmc_contactid" />
+          <attribute name="cmc_applicationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Applications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

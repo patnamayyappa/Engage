@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{31001fa9-8ed4-4791-b8aa-88806c8d46b8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationdefinitionversiondetailname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationdefinitionversiondetailid">
+          <cell name="cmc_applicationdefinitionversiondetailname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationdefinitionversiondetail">
+          <attribute name="cmc_applicationdefinitionversiondetailid" />
+          <attribute name="cmc_applicationdefinitionversiondetailname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationdefinitionversiondetailname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cmc_applicationdefinitionversiondetailname" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Application Definition Version Details" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{5d6ecbc2-fe81-47ca-9b4c-a2b6dc6c2096}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{49a7e877-732b-434e-8874-5b81114183c6}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c8312e8e-9a95-4a2e-8877-0420f440d5c4}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2759b333-e75c-6bee-2e8a-d6c8bde42ba0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Type" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationtype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51eb3bab-1a18-4927-1328-d42db32c0e75}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_startdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34578eb9-618a-385a-7679-e1eaa0178e16}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="End date" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_enddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83042fa5-60b8-4264-bc03-cc04fb3b9b9c}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdefinitionversionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationdefinitionversionname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64c9946a-fc2a-44bf-9870-a3f324a6fccc}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

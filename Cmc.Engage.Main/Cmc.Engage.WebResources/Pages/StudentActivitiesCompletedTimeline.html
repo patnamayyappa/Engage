@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../../ClientGlobalContext.js.aspx"></script>
+    <script type="text/javascript" src="../Scripts/Libraries/sonomaCmc.js"></script>
+    <script type="text/javascript" src="../Scripts/Libraries/jquery_1.12.3.min.js"></script>
+    <script type="text/javascript" src="../Scripts/Libraries/kendo.all.min.js"></script>
+    <script type="text/javascript" src="../dist/app/Common/resourcestrings.js"></script>
+    <script src="../dist/lib/moment-with-locales.min.js"></script>
+    <script src="../dist/lib/vis.min.js"></script>
+    <script src="../dist/app/Common/LanguageMappings.js"></script>
+  <script type="text/javascript" src="../dist/app/Common/constants.js"></script>
+  <script type="text/javascript" src="../dist/app/Common/XrmSystemInformation.js"></script>
+    <script type="text/javascript" src="../dist/app/Common/resourcestrings.js"></script>
+    <script type="text/javascript" src="../dist/app/Common/retrieveMultiLingualValues.js"></script>
+    <script type="text/javascript" src="../dist/app/Pages/StudentActivitiesCompletedTimeline.js"></script>
+    <script type="text/javascript" src="../dist/App/Common/Localization.js"></script>
+
+    <link href="../CSS/Libraries/vis/vis.min.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/Libraries/Font-Awesome/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/Libraries/kendo/kendo.common.min.css" rel="stylesheet" />
+    <link href="../CSS/Libraries/kendo/kendo.default.min.css" rel="stylesheet" />
+    <link href="../CSS/Libraries/kendo/kendo.default.mobile.min.css" rel="stylesheet" />
+    <link href="../dist/app/Pages/StudentActivitiesCompletedTimeline.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+</head>
+<body onload="CampusManagement.StudentActivitiesCompletedTimeline.executeOnLoad()">
+    <script type="text/x-kendo-template" id="CheckboxTemplate">
+        <li unselectable="on" class="k-item nowrap check-item">
+            <input type="checkbox" name="#= text #" value="#= value #" class="check-input" #=selected ? "" : "checked" # />            
+            <span>#= text #</span>
+        </li>
+    </script>
+    <div id="timeline-visualization">
+      <div class="menu">
+        <input type="button" id="phonecall" class="button phonecall" onclick="CampusManagement.StudentActivitiesCompletedTimeline.toggleHideItems.apply(this, [event])">
+        <input type="button" id="email" class="button email" onclick="CampusManagement.StudentActivitiesCompletedTimeline.toggleHideItems.apply(this, [event])">
+        <input type="button" id="to-do" class="button to-do" onclick="CampusManagement.StudentActivitiesCompletedTimeline.toggleHideItems.apply(this, [event])">
+        <input type="button" id="appointment" class="button appointment" onclick="CampusManagement.StudentActivitiesCompletedTimeline.toggleHideItems.apply(this, [event])">
+        <input type="button" id="event" class="button event" onclick="CampusManagement.StudentActivitiesCompletedTimeline.toggleHideItems.apply(this, [event])" style="display:none">
+        <input type="button" id="chat" class="button chat" onclick="CampusManagement.StudentActivitiesCompletedTimeline.toggleHideItems.apply(this, [event])" style="display:none">
+        <input id="dropDownList" class="dropDownList">
+      </div>
+    </div>
+    <div id="commands"></div>
+</body>
+</html>

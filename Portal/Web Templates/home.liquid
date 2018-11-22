@@ -1,0 +1,5 @@
+{%if user %}
+    {% include "snippet" snippet_name:'Home/Authenticated/Copy' %}
+{% else %}
+    {% include "snippet" snippet_name:'Home/Unauthenticated/Copy' %}
+{% endif %}

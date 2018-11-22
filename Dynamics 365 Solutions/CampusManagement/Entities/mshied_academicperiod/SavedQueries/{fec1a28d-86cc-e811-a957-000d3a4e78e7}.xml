@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{fec1a28d-86cc-e811-a957-000d3a4e78e7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="mshied_name" select="1" preview="1" icon="1">
+        <row name="result" id="mshied_academicperiodid">
+          <cell name="mshied_name" width="150" />
+          <cell name="mshied_code" width="100" />
+          <cell name="mshied_startdate" width="100" />
+          <cell name="mshied_enddate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="mshied_academicperiod">
+          <attribute name="mshied_name" />
+          <order attribute="mshied_name" descending="false" />
+          <attribute name="mshied_startdate" />
+          <attribute name="mshied_enddate" />
+          <attribute name="mshied_code" />
+          <attribute name="mshied_academicperiodid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.7.0.050</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Academic Periods (Engage)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

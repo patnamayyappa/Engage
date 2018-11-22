@@ -1,0 +1,101 @@
+@charset 'utf-8';
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+/* Header */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .navbar-brand {
+    float: none;
+    font-size: 24px;
+}
+
+.navbar .visible-xs-block .navbar-brand {
+    float: left;
+}
+
+/* Footer */
+
+footer {
+    background-color: #e6e6e6;
+    color: #333;
+    margin: 60px auto 0;
+    max-height: 120px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+}
+
+footer a,
+footer a:active,
+footer a:hover,
+footer a:visited {
+    color: #444;
+}
+
+footer li > a {
+    margin-left: 0;
+}
+
+/* Home */
+
+.page_section {
+    position: relative;
+}
+
+.section-landing {
+    background: url(landing.jpg) no-repeat center 50%;
+    background-size: cover;
+    height: 300px;
+    max-width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layer_down {
+    height: 50px;
+    background: url("layer_down.png") no-repeat bottom center;
+    position: absolute;
+    bottom: 0;
+    z-index: 900;
+    width: 100%;
+}
+
+.layer_up {
+    height: 40px;
+    background: url("layer_up.png") no-repeat bottom center;
+    position: relative;
+    z-index: 20;
+}
+
+/* Tables */
+
+table .info {
+    color: inherit;
+}
+
+ul.breadcrumb {
+    display: none;
+}
+
+.dropdown-toggle:focus {
+    border-width: 0 !important;
+}
+
+.crmEntityFormView .cell label {
+    font-weight: bold;
+}

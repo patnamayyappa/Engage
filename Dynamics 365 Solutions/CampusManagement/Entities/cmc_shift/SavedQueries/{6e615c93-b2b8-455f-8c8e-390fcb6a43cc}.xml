@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6e615c93-b2b8-455f-8c8e-390fcb6a43cc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_shiftname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_shiftid">
+          <cell name="cmc_shiftname" width="300" />
+          <cell name="cmc_code" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_programversiondetailid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_shift">
+          <attribute name="cmc_shiftname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_code" />
+          <order attribute="cmc_shiftname" descending="false" />
+          <attribute name="cmc_programversiondetailid" />
+          <attribute name="cmc_shiftid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Shifts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

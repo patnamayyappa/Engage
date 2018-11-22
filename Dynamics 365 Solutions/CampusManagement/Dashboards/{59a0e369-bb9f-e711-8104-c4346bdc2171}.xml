@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <LocalizedNames>
+    <LocalizedName description="Advising Manager" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{59a0e369-bb9f-e711-8104-c4346bdc2171}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{46874c43-aa63-4f59-bd2d-4c6ef262adaa}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{1ede9c79-f2ce-447a-ba85-416c9e217cce}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{3b042f8f-553a-4456-bd22-c6b6e87fb8c5}" auto="false">
+                          <labels>
+                            <label description="Contact" languagecode="1033" />
+                          </labels>
+                          <control id="avg_retention_score_by_advisor_chart" uniqueid="{d42b3911-7941-5823-b9eb-87eb1b281cc7}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>contact</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <ViewId>{406BBFE6-ABA3-E711-8103-5065F38B0191}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{406BBFE6-ABA3-E711-8103-5065F38B0191}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{8AC94A22-BC9F-E711-8104-C4346BDC2171}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{1bf8fb3f-5b1b-42af-a8f1-03cb3367205b}" auto="false">
+                          <labels>
+                            <label description="Retention Trend" languagecode="1033" />
+                          </labels>
+                          <control id="trent_component" uniqueid="{88c229a7-8c80-3652-442d-2a495976e269}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>cmc_retentionscorehistory</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <ViewId>{FF3DEB3B-A7A3-E711-8103-5065F38B0191}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{FF3DEB3B-A7A3-E711-8103-5065F38B0191}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{6591F4B5-BF9F-E711-8104-C4346BDC2171}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{b5f87bcd-7375-4d47-b2df-4da01371576d}" auto="false">
+                          <labels>
+                            <label description="Avg Retention Score by Academic Period" languagecode="1033" />
+                          </labels>
+                          <control id="avg_retention_score_academic_period_component" uniqueid="{5405b5a8-dc21-202c-c19b-7abc8d4aa24e}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>cmc_retentionscorehistory</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>12</RecordsPerPage>
+                              <ViewId>{8309FA08-C287-E711-8103-C4346BDC2171}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{8309FA08-C287-E711-8103-C4346BDC2171}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{09A4721A-C2A3-E711-8103-5065F38B0191}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{29840b9f-7e46-43c3-90ff-00ce2c47cc2c}" auto="false">
+                          <labels>
+                            <label description="My Open Activities" languagecode="1033" />
+                          </labels>
+                          <control id="my_open_activities_component" uniqueid="{143de14d-06b4-6658-4eb5-42348c6a31da}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>activitypointer</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <ViewId>{00000000-0000-0000-00AA-000010001899}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{00000000-0000-0000-00AA-000010001899}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{EDF35649-5293-DE11-97D4-00155DA3B01E}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{c9bdb6f9-2ef2-44dc-b59c-0ef7fc080f2c}" auto="false">
+                          <labels>
+                            <label description="My Team's Past Due Activities" languagecode="1033" />
+                          </labels>
+                          <control id="my_teams_past_due_activities_component" uniqueid="{5717ca9c-587d-2a65-d338-15c665330c8d}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>activitypointer</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <ViewId>{61D9DEBD-BC9F-E711-8104-C4346BDC2171}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{61D9DEBD-BC9F-E711-8104-C4346BDC2171}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{EDF35649-5293-DE11-97D4-00155DA3B01E}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions />
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.14</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

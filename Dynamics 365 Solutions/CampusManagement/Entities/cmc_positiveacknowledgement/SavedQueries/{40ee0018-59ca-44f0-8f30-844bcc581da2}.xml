@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{40ee0018-59ca-44f0-8f30-844bcc581da2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_positiveacknowledgementname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_positiveacknowledgementid">
+          <cell name="cmc_positiveacknowledgementname" width="300" />
+          <cell name="cmc_studentid" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="cmc_description" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="modifiedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_positiveacknowledgement">
+          <attribute name="cmc_positiveacknowledgementid" />
+          <attribute name="cmc_positiveacknowledgementname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_studentid" />
+          <attribute name="ownerid" />
+          <attribute name="cmc_description" />
+          <attribute name="modifiedon" />
+          <order attribute="cmc_positiveacknowledgementname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Positive Acknowledgements" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

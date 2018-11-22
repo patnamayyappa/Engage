@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ac1802c2-3090-47c6-98f7-d22f4dd41d4b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_privatenotename" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_privatenoteid">
+          <cell name="cmc_privatenotename" width="300" />
+          <cell name="cmc_note" width="300" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_studentid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_privatenote">
+          <attribute name="cmc_privatenotename" />
+          <attribute name="ownerid" />
+          <attribute name="cmc_note" />
+          <order attribute="cmc_privatenotename" descending="false" />
+          <attribute name="cmc_studentid" />
+          <attribute name="cmc_privatenoteid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Private Note Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{6b5bcedb-1e82-4e9a-a74c-c94e701eb964}</formid>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{fa2c3f65-36fa-447c-beea-66fa23b5b01a}" IsUserDefined="1" name="DOM_Definition_tab" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="DOM Definition" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6ecdf03c-d8e8-45b7-9222-ba51a087a662}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2dc58c73-2ad4-b0c3-1572-9ac1cc912c34}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DOM Master" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_dommasterid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_dommasterid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d9c5869-1dc6-52d0-01a3-09a40ad4055a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DOM Definition For" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_domdefinitionforid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_domdefinitionforid" disabled="false" uniqueid="{d078d807-a716-60ab-2aec-385c8444071c}">                         
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{266bafd6-f80b-4a3a-a465-3b7eddf9f602}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="DOM Definition Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_domdefinitionname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_domdefinitionname" uniqueid="{e29be203-a1d6-8a45-96d7-12ba84dd6b39}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0897f1d-6fbc-41f7-bcff-e95f560bab8f}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{8321967c-3641-15b2-415b-01e31559e34b}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="DOM_Definition_Logic" showlabel="true" showbar="false" locklevel="0" id="{2c17a712-1ea5-0be2-81e3-c67e3aae6b51}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="DOM DEFINITION LOGIC" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4b72e0d0-c76c-2ba2-0708-3d48cb8d47cd}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="DOM Definition Logic (DOM Definition)" languagecode="1033" />
+                        </labels>
+                        <control id="DOMDefinitionLogic" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{d0b4795a-4376-2e72-3c28-85093eae5ea8}">
+                          <parameters>
+                            <ViewId>{14B0F387-6C21-E811-A95F-000D3A11F5EE}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_domdefinition_domdefinitionlogic_domdefinitionid</RelationshipName>
+                            <TargetEntityType>cmc_domdefinitionlogic</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B4D47315-B6BF-4100-809D-7D3DA73EAD0A},{14B0F387-6C21-E811-A95F-000D3A11F5EE}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{72cb1a88-87d3-4eef-b43d-eb54f3538363}" columns="111">
+        <rows>
+          <row>
+            <cell id="{92f1b1ad-a8da-4d4f-93c2-4142bb6d94d5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2e3f765a-6209-401f-a355-0d06e199508e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cdb27e88-96c7-8d66-6317-3e9568a6a6ab}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{5a2b0bd1-744a-44cc-ba21-e7ba1f31aafd}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{29264499-d814-b7cc-644c-44c5b7859768}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{145c9222-8617-b26c-b595-ab6ea9a124b2}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{e1bc39d4-5e8c-5a5e-7cec-14608e4cc303}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{8e6765cc-77c4-8398-ad0a-8a37390737c2}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{d0b4795a-4376-2e72-3c28-85093eae5ea8}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <ViewId>{14B0F387-6C21-E811-A95F-000D3A11F5EE}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>cmc_domdefinition_domdefinitionlogic_domdefinitionid</RelationshipName>
+              <TargetEntityType>cmc_domdefinitionlogic</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <ViewIds>{B4D47315-B6BF-4100-809D-7D3DA73EAD0A},{14B0F387-6C21-E811-A95F-000D3A11F5EE}</ViewIds>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{14B0F387-6C21-E811-A95F-000D3A11F5EE}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>cmc_domdefinition_domdefinitionlogic_domdefinitionid</RelationshipName>
+                <TargetEntityType>cmc_domdefinitionlogic</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{B4D47315-B6BF-4100-809D-7D3DA73EAD0A},{14B0F387-6C21-E811-A95F-000D3A11F5EE}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{14B0F387-6C21-E811-A95F-000D3A11F5EE}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>cmc_domdefinition_domdefinitionlogic_domdefinitionid</RelationshipName>
+                <TargetEntityType>cmc_domdefinitionlogic</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{B4D47315-B6BF-4100-809D-7D3DA73EAD0A},{14B0F387-6C21-E811-A95F-000D3A11F5EE}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="cmc_/dist/app/Forms/cmc_domdefinition.js" libraryUniqueId="{663ddb0b-0a5b-a655-5055-ec673c0eaaed}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_domdefinition.onLoad" libraryName="cmc_/dist/app/Forms/cmc_domdefinition.js" handlerUniqueId="{337148bb-1e8b-3d7c-314e-81e9832b4594}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

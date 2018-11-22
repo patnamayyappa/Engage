@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginAssemblyId="cb1e4e41-9bbd-4a3f-a9d1-fe87bd4ba97f" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageRetentionPlugins-CB1E4E41-9BBD-4A3F-A9D1-FE87BD4BA97F/CmcEngageRetentionPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.AssociateDisassociateScoreDefinitionPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="4e74951f-1427-450d-82bd-809c8eff8172" Name="Cmc.Engage.Retention.Plugins.AssociateDisassociateScoreDefinitionPlugin">
+      <FriendlyName>1f60b229-cbf0-42d5-b01f-5e3f9d813771</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.CopyStaffSurveyTemplatePlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="0121dd26-d908-4bb6-b9f5-647ed19e68ea" Name="Cmc.Engage.Retention.Plugins.CopyStaffSurveyTemplatePlugin">
+      <FriendlyName>1e0eec2c-1265-4aaf-af23-45d08e642b40</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.CopySuccessPlanTemplatePlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="ee572750-2e5e-4eac-b615-79744c665df0" Name="Cmc.Engage.Retention.Plugins.CopySuccessPlanTemplatePlugin">
+      <FriendlyName>457d7c1b-9876-4953-97d8-02ea55f5f034</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.CreateStaffSurveyFromStaffSurveyTemplatePlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="3e35e781-c844-4226-a09b-0d7dd612dbf3" Name="Cmc.Engage.Retention.Plugins.CreateStaffSurveyFromStaffSurveyTemplatePlugin">
+      <FriendlyName>18cc1b4b-0317-4e83-9f65-ddbfa1ddf38b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.CreateStaffSurveyQuestionResponsePlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="454e2271-28dd-4821-9c9b-142635ac26e5" Name="Cmc.Engage.Retention.Plugins.CreateStaffSurveyQuestionResponsePlugin">
+      <FriendlyName>b48913fa-fb24-49ed-a222-3f32318a8dd2</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.ModifyRetrieveToDosPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="ed0b79b7-7114-4b25-a1cc-a4585013691b" Name="Cmc.Engage.Retention.Plugins.ModifyRetrieveToDosPlugin">
+      <FriendlyName>6c9ac245-9595-4a38-b1e5-4f380769cb2a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.SetSuccessPlanStatusPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="35910b8a-ac22-456b-ba8a-401c98c6814a" Name="Cmc.Engage.Retention.Plugins.SetSuccessPlanStatusPlugin">
+      <FriendlyName>affd496c-75d3-4743-bbfc-b0d8860323f0</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.StaffSurveyPostOperationPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="c7b94307-1e40-4f74-9ed1-a29e72345885" Name="Cmc.Engage.Retention.Plugins.StaffSurveyPostOperationPlugin">
+      <FriendlyName>fe7a9e74-ba9e-42da-b788-5eb89f11663a</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.StaffSurveyTemplatePlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="e9fad3cc-df99-4e65-b366-775fa8d7f5f2" Name="Cmc.Engage.Retention.Plugins.StaffSurveyTemplatePlugin">
+      <FriendlyName>70e5f917-8b4d-439a-b80a-cbcde54ba5f5</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.StaffSurveyValidationPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="d203dc23-60de-43a3-ba1d-d35034bede9b" Name="Cmc.Engage.Retention.Plugins.StaffSurveyValidationPlugin">
+      <FriendlyName>46d7f415-6376-484b-9947-54c939fca76c</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Retention.Plugins.UpdateStaffSurveyStatusPlugin, Cmc.Engage.Retention.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea40260dadb2bd02" PluginTypeId="5389a522-2dc4-4290-b999-7919825c5ffa" Name="Cmc.Engage.Retention.Plugins.UpdateStaffSurveyStatusPlugin">
+      <FriendlyName>fe6ac1d0-e497-4f27-adb4-b9efcaaee58b</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

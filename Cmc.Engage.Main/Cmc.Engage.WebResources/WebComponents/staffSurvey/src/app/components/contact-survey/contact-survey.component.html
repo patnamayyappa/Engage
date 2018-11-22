@@ -1,0 +1,48 @@
+
+  <div  >
+    <div style="margin:10px">       
+        <div *ngFor="let question of survey.questions index as i" class="accordion"  >
+          <div [style.background-color]="defaultTheme.pageheaderbackgroundcolor" class="question" >
+           
+            <div [attr.title] ="question.title" class ="questiontext applyfont">{{question.title}} </div>
+             
+          </div>  
+    
+          <div class="col-md-12 accordion-content accordion-border" id="questions" >
+           
+
+            <div >
+              <div *ngFor="let answer of question.answers" >
+                <div *ngIf="question.type!=3" >
+                  <label *ngIf="question.type==4"  class="applyfont">
+                    <input disabled type="radio"  [name]="optionsRadios" [value]="answer.id" [(ngModel)]="question.selectedAnswer" />
+                    {{answer.title}}
+                  </label>
+                  <label *ngIf="question.type==2"  class="applyfont" >
+                    <input disabled type="checkbox" [(ngModel)]="answer.checked" [value]="question.answer" />                 
+                    {{answer.title}}
+                  </label>
+                  <label *ngIf="question.type==1"  class="applyfont">
+                    {{question.selectedAnswer}}
+                  </label>
+                </div>
+               
+              </div>
+              <div *ngIf="question.type==3" class = "prvwInput"> 
+                <select disabled   [(ngModel)]="question.selectedAnswer" class="applyfont" >
+                  <option  class="applyfont" *ngFor="let c of question.answers" [value]="c.id">{{c.title}}</option>
+                </select>
+            </div>
+              
+            </div>
+          </div>
+         
+        </div>
+       
+        
+      </div>
+      </div>
+
+  
+
+

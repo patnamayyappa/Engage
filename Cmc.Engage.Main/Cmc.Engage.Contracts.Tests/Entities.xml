@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Model.xsd"
+    IncludeAllEntities="false" IncludeAllGlobalOptionSets="false">
+  <GlobalOptionSets>
+    <!--<GlobalOptionSet Name="cmc_accounttype" />-->
+    <GlobalOptionSet Name="cmc_attributenametobeassigned" />
+    <GlobalOptionSet Name="cmc_conditiontype" />
+    <GlobalOptionSet Name="cmc_readunread" />
+    <GlobalOptionSet Name="cmc_requiredoptional" />
+    <GlobalOptionSet Name="cmc_runassignmentforentity" />
+    <GlobalOptionSet Name="cmc_todocancelreason" />
+    <!--<GlobalOptionSet Name="cmc_contacttype" />-->
+    <GlobalOptionSet Name="cmc_ownershiptype" />
+    <GlobalOptionSet Name="cmc_domstatus" />
+    <GlobalOptionSet Name="cmc_domconditiontype"/>
+    <!--<GlobalOptionSet Name="connectionrole_category"/>-->
+    <!--<GlobalOptionSet Name="createdfromcode"/>-->
+  </GlobalOptionSets>
+  <Entities>
+    <!-- System Defined Entities -->
+    <Entity Name="organization" >
+      <Attributes>
+        <Attribute Name="trackingprefix" PropertyName="TrackingPrefix"/>
+        <Attribute Name="trackingtokenidbase" PropertyName="TrackingTokenIdBase"/>
+        <Attribute Name="uniquespecifierlength" PropertyName="UniqueSpecifierLength"/>
+        <Attribute Name="trackingtokeniddigits" PropertyName="TrackingTokenIdDigits"/>
+        <Attribute Name="maximumtrackingnumber" PropertyName="MaximumTrackingNumber"/>
+        <Attribute Name="languagecode" PropertyName="languagecode"/>
+      </Attributes>
+    </Entity>
+    <Entity Name="activitymimeattachment" />
+    <Entity Name="activityparty" />
+    <Entity Name="appointment" />
+    <Entity Name="email" />
+    <Entity Name="connection" />
+    <Entity Name="connectionrole" />
+    <Entity Name="incident" ClassName="Case" />
+    <Entity Name="lead" />
+    <Entity Name="opportunity" />
+    <Entity Name="queue" ClassName="CrmQueue" />
+    <Entity Name="subject" />
+    <Entity Name="systemuser" />
+    <Entity Name="template" ClassName="EmailTemplate" >
+      <Attributes>
+        <Attribute Name="subject" PropertyName="Subject" />
+        <Attribute Name="subjectpresentationxml" PropertyName="SubjectPresentationXml" />
+        <Attribute Name="body" PropertyName="Body" />
+        <Attribute Name="presentationxml" PropertyName="PresentationXml" />
+      </Attributes>
+    </Entity>
+    <Entity Name="list" />
+    <Entity Name="listmember" />
+    <Entity Name="workflow"/>
+    <!--Custom Entities-->
+    <Entity Name="cmc_configuration" />
+    <Entity Name="cmc_department" />
+    <Entity Name="cmc_domdefinition" />
+    <Entity Name="cmc_domdefinitionlogic" />
+    <Entity Name="cmc_domdefinitionexecutionorder" />
+    <Entity Name="cmc_dommaster" />
+    <Entity Name="cmc_retentionscorehistory" />
+    <Entity Name="cmc_scoringfactor" />
+    <Entity Name="cmc_scoredefinition" />
+    <Entity Name="cmc_successplan" />
+    <Entity Name="cmc_successnetwork_successnetworkassignment" />
+    <Entity Name="cmc_successnetworkassignment" />
+    <Entity Name="cmc_successnetworkassignmentrule" />
+    <Entity Name="cmc_successplanassignment" />
+    <Entity Name="cmc_successplantemplate" />
+    <Entity Name="cmc_successplantodotemplate" />
+    <Entity Name="cmc_successnetwork" />
+    <Entity Name="cmc_todo" />
+    <Entity Name="cmc_officehours" />
+    <Entity Name="cmc_staffsurveytemplate" />
+    <Entity Name="cmc_staffsurveyquestion" />
+    <Entity Name="cmc_staffsurvey" />
+    <Entity Name="cmc_staffsurveyresponse" />
+    <Entity Name="cmc_staffsurveyquestionresponse" />
+    <Entity Name="cmc_tripactivity" />
+    <Entity Name="cmc_userlocation"  />
+    <Entity Name="cmc_trip"  />
+    <Entity Name="cmc_trip_contact"  />
+    <Entity Name="cmc_tripactivity_systemuser"  />
+    <Entity Name="cmc_testscoreconversion"  />
+        
+    <Entity Name="adx_portallanguage" />
+    <Entity Name="adx_websitelanguage" />
+    <Entity Name="cmc_title"  />
+    <Entity Name="cmc_languagevalue"  />
+    <Entity Name="cmc_trip_systemuser"/>
+    <Entity Name="msevtmgt_event"/>
+    <Entity Name="msevtmgt_venue"/>
+    <Entity Name="cmc_tripactivity_contact"/>
+
+    <Entity Name="account" />
+    <Entity Name="mshied_academicperiod"/>
+    <Entity Name="mshied_academicperioddetails"/>
+    <!--<Entity Name="cmc_address" />-->
+    <Entity Name="customeraddress" />
+    <Entity Name="contact" />
+    <Entity Name="mshied_coursesection"/>
+    <Entity Name="mshied_testscore"/>
+    <Entity Name="mshied_testtype"/>
+    <Entity Name="mshied_previouseducation"/>
+  </Entities>
+</Model>

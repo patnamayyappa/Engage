@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <LocalizedNames>
+    <LocalizedName description="Retention" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{76ce87c8-d1aa-e711-8106-c4346bdc2171}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{eb942ce5-9e17-4171-9575-9cdd4051975f}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{4f67ffbe-aab5-4f26-ba23-1da7da1e0e11}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{81e0aaea-3ca3-4278-61b5-0618a59c4808}" showlabel="false" colspan="4" auto="false" rowspan="27">
+                          <labels>
+                            <label description="PowerBIRetentionDashboard" languagecode="1033" />
+                          </labels>
+                          <control id="WebResource_PowerBIRetentionDashboard" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                            <parameters>
+                              <Url>sonoma_/Pages/PowerBIComponent.html</Url>
+                              <Data>type=report&amp;reportid=0bccc4b4-fb4e-4a40-80ab-a0116f6cbd8d&amp;groupid=54632b75-506e-4cc2-94b1-d3348eeb462b</Data>
+                              <PassParameters>false</PassParameters>
+                              <ShowOnMobileClient>true</ShowOnMobileClient>
+                              <Security>false</Security>
+                              <Scrolling>auto</Scrolling>
+                              <Border>true</Border>
+                              <WebResourceId>{26214CD6-A792-E711-80F7-C4346BAC4304}</WebResourceId>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4fac73e8-9c9d-4756-9e2c-300bd26dcbef}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_name" select="1" icon="1" preview="1">
+        <row id="cmc_applicationrequirementdefinitiondetailid" name="result">
+          <cell name="cmc_name" width="300" />
+          <cell name="cmc_requirementtype" width="100" />
+          <cell name="cmc_requirementdeadline" width="100" />
+          <cell name="cmc_requirementrequired" width="100" />
+          <cell name="cmc_testsourcetype" width="100" />
+          <cell name="cmc_testscoretype" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationrequirementdefinitiondetail">
+          <attribute name="cmc_name" />
+          <attribute name="createdon" />
+          <order attribute="cmc_name" descending="false" />
+          <filter type="and">
+            <condition value="0" attribute="statecode" operator="eq" />
+          </filter>
+          <attribute name="cmc_requirementrequired" />
+          <attribute name="cmc_requirementdeadline" />
+          <attribute name="cmc_testscoretype" />
+          <attribute name="cmc_testsourcetype" />
+          <attribute name="cmc_requirementtype" />
+          <attribute name="cmc_applicationrequirementdefinitiondetailid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Application Requirement Definition Details" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>    
+    <PackageReference Include="Cmc.Core.Xrm.ServerExtension.Functions" Version="2.0.15" />    
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cmc.Engage.Common.Contracts\Cmc.Engage.Common.Contracts.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.Common\Cmc.Engage.Common.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.FunctionExtensions\Cmc.Engage.FunctionExtensions.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.Lifecycle\Cmc.Engage.Lifecycle.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.Retention.Contracts\Cmc.Engage.Retention.Contracts.csproj" />
+    <ProjectReference Include="..\Cmc.Engage.Retention\Cmc.Engage.Retention.csproj">
+      <Private>true</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

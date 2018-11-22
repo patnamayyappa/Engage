@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msdyncrm_MarketingSMBApp</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msdyncrm_MarketingSMBApp" />
+    <AppModuleComponent type="1" schemaName="activitypointer" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="campaign" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="incident" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyncrm_leadtoopportunity" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_question" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_questionresponse" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_responseoutcome" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_surveyresponse" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_surveylog" solutionaction="Added" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{70bca162-63e6-e811-a968-000d3a3301c8}" />
+    <Role id="{7c54ac52-9d1b-e711-80e1-00155d982906}" />
+    <Role id="{26fca5d6-c18f-e611-80d7-00155d4b201d}" />
+    <Role id="{7c1ba76d-c0ec-e811-a968-000d3a3301c8}" />
+    <Role id="{a31a2242-bf8f-e611-80d7-00155d4b201d}" />
+    <Role id="{e9133cb3-92e5-41c1-a242-9d17098e5f7b}" />
+    <Role id="{bf157a3a-cde8-e611-80d8-00155d4b205a}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{ce995e5a-cee8-e611-80d8-00155d4b205a}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{4b91f803-65e6-e811-a968-000d3a3301c8}" />
+  </AppModuleRoleMaps>
+  <AppConfig>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <AppModuleUniqueName>msdyncrm_MarketingSMBApp</AppModuleUniqueName>
+    <StatusCode>1</StatusCode>
+    <StateCode>0</StateCode>
+    <AppConfigInstances />
+  </AppConfig>
+  <LocalizedNames>
+    <LocalizedName description="Marketing" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Turn prospects into sales-ready leads with Dynamics 365 for Marketing. Features include multi-channel customer journeys, email marketing campaigns, marketing pages, lead scoring, event management, LinkedIn integration, Voice of the Customer and more." languagecode="1033" />
+  </Descriptions>
+</AppModule>

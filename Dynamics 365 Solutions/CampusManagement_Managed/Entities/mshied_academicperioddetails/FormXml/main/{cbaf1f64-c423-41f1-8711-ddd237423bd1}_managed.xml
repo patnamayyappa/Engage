@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{cbaf1f64-c423-41f1-8711-ddd237423bd1}</formid>
+    <IntroducedVersion>1.7.0.050</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{9563d18e-6d78-401a-80fb-b3a03bf348b9}" IsUserDefined="1" labelid="{5958d542-3101-494c-ac75-7eed914d01ab}" name="{9563d18e-6d78-401a-80fb-b3a03bf348b9}" expanded="true" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Academic Progress" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="true" IsUserDefined="0" id="{9ae3343c-08a6-4cfa-af2f-33874c625294}" labelid="{1be2709d-9720-4afc-8870-cf06ec143c77}" name="{9ae3343c-08a6-4cfa-af2f-33874c625294}" columns="1" locklevel="0" labelwidth="145" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="STUDENT DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0189cd36-7330-a622-dc06-b57c368100a1}" showlabel="true" locklevel="0" labelid="{c4a0695b-5eda-43ac-839a-33e935ce587f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_academicperiodid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_academicperiodid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5418dd99-4dea-b437-0786-de098c3ce162}" showlabel="true" locklevel="0" labelid="{cb8e5ed1-dd55-496a-b962-6e6dd618ac52}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_studentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_studentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec66cca0-da65-2d77-0854-65847b2123e7}" showlabel="true" locklevel="0" labelid="{6f8b77bd-f581-4b61-8530-93cd35a12283}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_programid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_programid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{adb4e776-e9d9-2534-9430-b8b0acdd2101}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_scholarshipcodes" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_scholarshipcodes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64e44d59-1be7-9eea-0679-0108c14e64aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_residence" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_residence" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{9563d18e-6d78-401a-80fb-b3a03bf348b9}_section_3" showlabel="true" showbar="true" locklevel="0" id="{61bb596b-8a58-b085-3256-e33187db2d77}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="145" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="STUDENT EDUCATION STATUS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ea4a2423-bd89-44dd-3e06-102042875353}" showlabel="true" locklevel="0" labelid="{5d406a97-4a39-4d27-8276-08de3cff2d80}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_educationlevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_educationlevelid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{09a80098-ad7a-8126-de67-d44026a3619b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_firstgeneration" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_firstgeneration" disabled="false" uniqueid="{c2b86024-37b7-dabe-ec78-2119c7619784}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ddc166ca-7eaa-dd80-547e-4510928b8099}" showlabel="true" locklevel="0" labelid="{dbf8350c-4639-4b3c-b10f-38a6e768f6a8}">
+                        <labels>
+                          <label description="Transfer Student" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_istransferstudent" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="mshied_istransferstudent" disabled="false" uniqueid="{640cd15e-814d-aa09-a35a-d7bceda5825e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20a617ab-423e-c7a6-9ce0-189652b16ba9}" showlabel="true" locklevel="0" labelid="{c9badef2-1755-4855-8b39-9082c3ad6ada}">
+                        <labels>
+                          <label description="International Student" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_isinternationalstudent" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="mshied_isinternationalstudent" disabled="false" uniqueid="{c755c347-1207-51d2-4d10-129010e73683}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{9563d18e-6d78-401a-80fb-b3a03bf348b9}_section_2" showlabel="true" showbar="true" locklevel="0" id="{1892dbb2-850e-7078-3ab8-62080a65e72b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="160" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="CREDITS/GPA" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{107a6526-7b9c-a18a-004a-c03590c2ba29}" showlabel="true" locklevel="0" labelid="{3fa3b350-a669-4b79-b607-bd0488896e29}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_creditload" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mshied_creditload" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee0ec1a1-d661-d55e-865c-369139509547}" showlabel="true" locklevel="0" labelid="{e67e46f6-367a-42cd-8e5e-3fe29f47e3c3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_termcreditsearned" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mshied_termcreditsearned" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed98db25-a0d0-83ce-3566-ae206222178e}" showlabel="true" locklevel="0" labelid="{67c21fd2-7c22-42b6-952b-6c416bc20a98}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_termgpa" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="mshied_termgpa" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0307e3b-9c11-704d-677c-22ac9518baac}" showlabel="true" locklevel="0" labelid="{4099d5bb-75c7-49be-837e-dc7573cd2e11}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_majorcreditearned" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mshied_majorcreditearned" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b4bc52a-807e-7e86-e0b8-25c185138073}" showlabel="true" locklevel="0" labelid="{e2078594-6849-412f-8474-d0e1e7855949}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_majorgpa" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="mshied_majorgpa" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{9563d18e-6d78-401a-80fb-b3a03bf348b9}_section_4" showlabel="true" showbar="true" locklevel="0" id="{2093685d-51b5-31a6-4256-9130d1e929ac}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="160" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="RETENTION ALERTS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cc34cecc-e403-0100-3b9b-1a50c6547e0a}" showlabel="true" locklevel="0" labelid="{b49014f7-de79-485b-9fc7-144ef3f619c2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_midtermdeficiency" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="mshied_midtermdeficiency" disabled="false" uniqueid="{19c30416-9d0e-4162-b43d-06053c3a8599}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5c8ae7c-174d-d981-cb31-a0a74860c2c5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_lowattendance" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_lowattendance" disabled="false" uniqueid="{bc9e54d7-355c-4872-3e55-abb52878dba7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c6c60bc-a185-40a8-1812-21ed50e13e47}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_lowefc" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_lowefc" disabled="false" uniqueid="{3952e344-db29-2860-9806-70cad7c7878b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cda6399c-63ab-192c-95dc-004acc9eae4e}" showlabel="true" locklevel="0" labelid="{2ae1024c-4f7c-4e95-8483-a408940cbe69}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_attendancetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_attendancetype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{b7907ba8-e318-485b-786e-577a194ea074}" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{a38c7a31-dbfc-46f8-a8ff-c6fa59a37049}" expanded="true">
+          <labels>
+            <label description="Academic Period Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="true" showbar="true" locklevel="0" id="{b22b1b0b-6947-03da-e714-4905de29b847}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="145" labelid="{068393fd-9868-4a71-adc1-47a9ba5b414e}" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="REGISTRATION DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c67317bc-6e89-a981-b756-bcc2add364b3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_inclassbutnotenrolled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_inclassbutnotenrolled" disabled="false" uniqueid="{9425610d-216b-ee51-a131-8ee4e33533d6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{918e9863-27d8-25a6-5a05-235c581b1487}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_completedverificationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_completedverificationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8e55448a-db1d-309d-027c-070013ec6032}" showlabel="true" locklevel="0" labelid="{31629688-4ccb-4ccc-bce9-a366312706e3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_isironfile" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="mshied_isironfile" disabled="false" uniqueid="{4a67a4c6-05c9-8783-58de-85ee72b342a4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b5a0ead5-4897-ddeb-d3ca-6448aa6737ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_transcriptrequestform" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_transcriptrequestform" disabled="false" uniqueid="{eea263de-3ad3-84c2-e28c-5e5c9ab263a5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5a69430-6776-564e-00bd-308844e3b711}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_nextpaymentduedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_nextpaymentduedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c460e0e-7072-db64-dd9c-b7247c75404c}" showlabel="true" locklevel="0" labelid="{ed527d75-a345-4574-8ad1-b031e2813fcf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_employedhoursperweek" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="mshied_employedhoursperweek" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_2_section_3" showlabel="true" showbar="true" locklevel="0" id="{664ae12d-244c-c322-b22a-e5c8a1dd794e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="145" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="OTHER" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6eb6053b-8295-88a6-c07a-9854da105ed7}" showlabel="true" locklevel="0" labelid="{50821b81-e4bb-4d21-9279-5f3677b9d09f}">
+                        <labels>
+                          <label description="Employed" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_isemployed" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="mshied_isemployed" disabled="false" uniqueid="{3b8c2b23-72d2-78d7-4001-bda48062196a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1586c195-b160-0d25-c1d1-303aea76e492}" showlabel="true" locklevel="0" labelid="{617128ba-cae8-48e0-9cf9-7703baddc673}">
+                        <labels>
+                          <label description="Athlete" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_isathlete" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="mshied_isathlete" disabled="false" uniqueid="{b2d74b9e-9d5b-063c-6a49-e765c138b7a1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0317647-33ee-d664-90ea-d652ac1539b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_nameofsport" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_nameofsport" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="true" showbar="true" locklevel="0" id="{e01048c2-134c-ce5a-295d-ba57b8d5baba}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="160" labelid="{486bee71-103b-455f-8e7e-6bad87b006fc}" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="SWIPES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3d6eed9a-ca0a-d640-040c-80a11c6358ba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_residenthalllastswipe" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_residenthalllastswipe" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e1902b2-5a30-56e6-0e01-4ecb55771ded}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_residenthalltotalswipes" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_residenthalltotalswipes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c9942975-b0e2-b41e-23c4-d7ec7d53cedd}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6dde7027-431c-9428-4578-559a4a4cd266}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_diningserviceslastswipe" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_diningserviceslastswipe" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{babdbbe7-2b48-2e83-a450-8c6c3e273166}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_diningservicestotalswipes" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_diningservicestotalswipes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ddb9655-b6b0-818d-5154-6d403803ec39}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d44e6996-3b2b-8d02-d10c-975c61003303}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_computerlablastswipe" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_computerlablastswipe" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d40442d1-5291-4e83-a55e-8a40117e37ec}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_computerlabtotalswipes" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_computerlabtotalswipes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ec521057-0d13-4873-5b48-573a21c64dc9}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b158d2ec-4e5e-a40e-a04b-022462b4419b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_librarylastswipe" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_librarylastswipe" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9a63c7d-015b-b7e0-deee-45158c0039b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_librarytotalswipes" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_librarytotalswipes" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="{c1ac1b94-cb63-25b7-b24b-a58ca2ab79c4}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Course Histories" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{830c4209-c6e0-d0db-d52c-c7d86231d47d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e7e84345-c08e-8ba1-6d35-57cb58a94719}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Course Histories (Academic Period Details)" languagecode="1033" />
+                        </labels>
+                        <control id="Course_Histories" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{8a7bb88a-970d-5c44-b767-dc5eb124e745}">
+                          <parameters>
+                            <ViewId>{3B7FEB99-E6CD-E811-A954-000D3A4E75EC}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_academicperioddetails_coursehistory_AcademicPeriodDetailsId</RelationshipName>
+                            <TargetEntityType>mshied_coursehistory</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{F68457BF-B78C-4D5B-83A4-F4045FB380A2},{3B7FEB99-E6CD-E811-A954-000D3A4E75EC}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{F9109A3A-27CE-E811-A967-000D3A1C53E4}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{5ab203e0-0878-adad-91bb-2aa5b750a515}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
+          <labels>
+            <label description="Hidden" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{71346474-b0cd-5b9a-66a2-816901036d2a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{16fb97aa-6e69-44f3-a779-6e6bd2d3b216}" labelid="{09e065a1-9ae6-4254-b388-06dd9c131928}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_3_section_2" showlabel="false" showbar="false" locklevel="0" id="{09652077-4119-1b89-3767-909d48113a00}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d362b6fc-4f41-4ff8-a78d-924f5fe80517}" labelid="{2ef9323b-a935-4eff-86da-586f1df3333f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d608ac56-8272-49b1-a000-159332346337}" columns="111">
+        <rows>
+          <row>
+            <cell id="{b164ed6c-1a87-445c-9dc5-1d26dfffe893}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2b4d1a81-e856-3552-acde-8624303d7a7d}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{980144d1-4b3a-918a-673e-50bb69e62c05}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{90354603-61a3-4e95-9101-8c31ddc93c00}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{6184a689-491d-b02b-bee9-5bccb6ada7aa}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{603319c5-11b0-1599-7eeb-25db6260e2ab}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{b05484e8-1e8e-ee35-4298-442a9e6a2652}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{7c863062-8b5c-e724-d87d-047e07cab810}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="2">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information (Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Information (Engage)" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

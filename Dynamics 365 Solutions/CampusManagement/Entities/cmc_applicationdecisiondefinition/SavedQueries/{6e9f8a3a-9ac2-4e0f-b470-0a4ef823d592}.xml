@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{6e9f8a3a-9ac2-4e0f-b470-0a4ef823d592}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationdecisiondefinitionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationdecisiondefinitionid">
+          <cell name="cmc_applicationdecisiondefinitionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationdecisiondefinition">
+          <attribute name="cmc_applicationdecisiondefinitionid" />
+          <attribute name="cmc_applicationdecisiondefinitionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationdecisiondefinitionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Application Decision Definitions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

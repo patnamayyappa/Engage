@@ -1,0 +1,14 @@
+.success-plan-template-label {
+  padding-right: 2rem;
+}
+.k-list-scroller,
+.k-nodata {
+  max-height: 6rem;
+}
+.k-nodata {
+  min-height: initial;
+}
+.k-autocomplete,
+.k-autocomplete > input {
+  width: 12rem;
+}

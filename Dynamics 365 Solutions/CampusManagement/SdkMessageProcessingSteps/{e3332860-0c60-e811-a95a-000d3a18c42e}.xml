@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Lifecycle.Plugins.OverrideInitialSourceDetailsForContactPlugin: Update of lead" SdkMessageProcessingStepId="{e3332860-0c60-e811-a95a-000d3a18c42e}">
+  <PluginTypeName>Cmc.Engage.Lifecycle.Plugins.OverrideInitialSourceDetailsForContactPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833</PluginTypeName>
+  <PluginTypeId>2f1a4aa3-b3c8-4c7b-9baa-c63d09ada7f8</PluginTypeId>
+  <PrimaryEntity>lead</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>customerid,cmc_primary,cmc_sourcecampaignid,cmc_sourcecampusid,cmc_sourcecategoryid,cmc_sourcedate,cmc_expectedstartid,cmc_sourcemethodid,cmc_sourceprgmid,cmc_sourceprgmlevelid,cmc_sourcereferringcontactid,cmc_sourcereferringorganizationid,cmc_sourcereferringstaffid,cmc_sourcesubcategoryid,statecode</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="Lead">
+      <SdkMessageProcessingStepImageId>{8be217d5-0c60-e811-a956-000d3a18c970}</SdkMessageProcessingStepImageId>
+      <Attributes>customerid,cmc_primary,cmc_sourcecampaignid,cmc_sourcecampusid,cmc_sourcecategoryid,cmc_sourcedate,cmc_expectedstartid,cmc_sourcemethodid,cmc_sourceprgmid,cmc_sourceprgmlevelid,cmc_sourcereferringcontactid,cmc_sourcereferringorganizationid,cmc_sourcereferringstaffid,cmc_sourcesubcategoryid,statecode</Attributes>
+      <EntityAlias>Lead</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+    <SdkMessageProcessingStepImage Name="Lead">
+      <SdkMessageProcessingStepImageId>{f214359f-0c60-e811-a956-000d3a18c970}</SdkMessageProcessingStepImageId>
+      <Attributes>customerid,cmc_primary</Attributes>
+      <EntityAlias>Lead</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

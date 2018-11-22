@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ce6d12c1-86a3-46ed-b92d-2dba075572d6}</formid>
+    <IntroducedVersion>1.0.0.24</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{74860cbc-cc85-4231-9bf4-35c6daf35e6f}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{e8b3a1d1-0b89-400f-a802-05d404039fcb}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b9773636-eb89-36d6-41ad-b49bb2398663}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_studentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_studentid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{0276e3dd-0f0b-4f50-a31b-3179bbf2286a}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5d35a219-c614-ab6e-09bb-1c32258569b2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Staff Member" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffmemberid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_staffmemberid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{482bb310-9a23-48d5-ac36-877317882902}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e9e71d16-7451-43c8-75a2-5b64862c01ce}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Staff Role" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffroleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_staffroleid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

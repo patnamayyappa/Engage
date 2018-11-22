@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationSetting>
+  <NavigationSettingId>{3c853a29-1525-46bc-a703-5f15ca629e04}</NavigationSettingId>
+  <ParentNavigationSettingId>{3c853a29-1525-46bc-a703-5f15ca629e00}</ParentNavigationSettingId>
+  <PageUrl>/main.aspx?pagetype=control&amp;controlName=MscrmControls.DuplDetectionTControl.DuplDetectionTControl</PageUrl>
+  <QuickSettingOrder>0</QuickSettingOrder>
+  <SettingType>0</SettingType>
+  <IconResourceId>{155c8cdc-2222-404e-8a5c-bfc7aacc1c40}</IconResourceId>
+  <Privileges>6</Privileges>
+  <AdvancedSettingOrder>0</AdvancedSettingOrder>
+  <LocalizedNames>
+    <LocalizedName description="Duplicate detection" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Duplicate Detection" languagecode="1033" />
+  </Descriptions>
+</NavigationSetting>

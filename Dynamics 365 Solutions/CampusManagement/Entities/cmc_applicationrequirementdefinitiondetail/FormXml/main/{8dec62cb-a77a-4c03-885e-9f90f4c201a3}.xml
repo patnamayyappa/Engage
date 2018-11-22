@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{8dec62cb-a77a-4c03-885e-9f90f4c201a3}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab id="{eedef74f-a9da-447e-b174-81c3436bf154}" verticallayout="true" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{8d1489b3-26af-40e4-871e-6ae9596c6f9a}" IsUserDefined="0" showlabel="false" showbar="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{879da096-90db-ec62-cbdb-b311010bd3b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Requirement Definition" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="cmc_applicationrequirementdefinition" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationrequirementdefinition" uniqueid="{b45d123b-4cd7-d0d6-4de1-18703164a177}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{6B9D3D7D-D83E-458A-A07A-50532B64A91B}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a86a48b-569a-3805-3a21-35c9bbd058ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Requirement Type" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_requirementtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_requirementtype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d715573c-13fd-48bf-b8b4-64a96ce344e1}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c0b22b05-26a3-60d5-37d7-016c6c60dd51}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Deadline" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_requirementdeadline" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_requirementdeadline" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ac77361-10e3-e4c1-8248-4a60b4e8a7ba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Required" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_requirementrequired" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_requirementrequired" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21ddac6b-486a-c9ae-6138-11594555e174}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Testscore Type" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_testscoretype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_testscoretype" uniqueid="{7d17d9da-9494-1280-16e6-db2c6bcca26a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{876FE72F-AA87-4955-8464-D1C31A919841}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee434046-46c7-6b11-3846-21d24176c5b9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Test Source Type" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_testsourcetype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_testsourcetype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b33a4d8-223b-dc2d-4ea7-1bc3dc26763a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status On Submit" languagecode="1033" />
+                        </labels>
+                        <control disabled="false" id="cmc_statusonsubmit" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_statusonsubmit" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fc02ca7d-4acf-47c2-aedd-f4212fe882ef}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Process Sessions" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/dist/app/Forms/cmc_applicationrequirementdefinitiondetail.js" libraryUniqueId="{1e1384eb-b51a-16e3-2118-0d99da0158d2}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.cmc_applicationrequirementdefinitiondetail.onLoad" libraryName="cmc_/dist/app/Forms/cmc_applicationrequirementdefinitiondetail.js" handlerUniqueId="{babd3924-ba60-4801-5e4d-5ee24a1e0d46}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="studentsSuccessNetworkMain.css" />
+<div id="app" class="app"></div>
+<script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        global.StudentPortal = global.StudentPortal || {};
+        global.StudentPortal.SuccessNetwork = global.StudentPortal.SuccessNetwork || {};
+
+        {% if user %}
+        global.StudentPortal.SuccessNetwork.authenticated = true;
+        {% else %}
+        global.StudentPortal.SuccessNetwork.authenticated = false;
+        {% endif %}
+    }(this));
+</script>
+<script type="text/javascript" src="studentssuccessnetworkmain.js"></script>

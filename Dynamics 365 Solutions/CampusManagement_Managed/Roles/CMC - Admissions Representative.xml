@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{f1f7f893-19e4-e811-a966-000d3a3307f1}" name="CMC - Admissions Representative">
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendConnection" level="Global" />
+    <RolePrivilege name="prvAppendConnectionRole" level="Global" />
+    <RolePrivilege name="prvAppendContact" level="Local" />
+    <RolePrivilege name="prvAppendLead" level="Local" />
+    <RolePrivilege name="prvAppendmshied_academicperiod" level="Global" />
+    <RolePrivilege name="prvAppendmshied_areaofinterest" level="Global" />
+    <RolePrivilege name="prvAppendmshied_coursehistory" level="Global" />
+    <RolePrivilege name="prvAppendmshied_extracurricularactivities" level="Global" />
+    <RolePrivilege name="prvAppendmshied_previouseducation" level="Local" />
+    <RolePrivilege name="prvAppendmshied_testscore" level="Local" />
+    <RolePrivilege name="prvAppendmshied_testtype" level="Global" />
+    <RolePrivilege name="prvAppendOpportunity" level="Local" />
+    <RolePrivilege name="prvAppendToConnection" level="Global" />
+    <RolePrivilege name="prvAppendToConnectionRole" level="Global" />
+    <RolePrivilege name="prvAppendToContact" level="Local" />
+    <RolePrivilege name="prvAppendToLead" level="Local" />
+    <RolePrivilege name="prvAppendTomshied_academicperiod" level="Global" />
+    <RolePrivilege name="prvAppendTomshied_areaofinterest" level="Global" />
+    <RolePrivilege name="prvAppendTomshied_coursehistory" level="Global" />
+    <RolePrivilege name="prvAppendTomshied_extracurricularactivities" level="Global" />
+    <RolePrivilege name="prvAppendTomshied_previouseducation" level="Local" />
+    <RolePrivilege name="prvAppendTomshied_testscore" level="Local" />
+    <RolePrivilege name="prvAppendTomshied_testtype" level="Global" />
+    <RolePrivilege name="prvAppendToOpportunity" level="Local" />
+    <RolePrivilege name="prvAppendToUser" level="Local" />
+    <RolePrivilege name="prvAppendUser" level="Local" />
+    <RolePrivilege name="prvAssignContact" level="Local" />
+    <RolePrivilege name="prvAssignmshied_testscore" level="Basic" />
+    <RolePrivilege name="prvAssignOpportunity" level="Basic" />
+    <RolePrivilege name="prvCreateConnection" level="Local" />
+    <RolePrivilege name="prvCreateContact" level="Local" />
+    <RolePrivilege name="prvCreateLead" level="Local" />
+    <RolePrivilege name="prvCreatemshied_previouseducation" level="Local" />
+    <RolePrivilege name="prvCreatemshied_testscore" level="Basic" />
+    <RolePrivilege name="prvCreateOpportunity" level="Basic" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadcmc_trip" level="Local" />
+    <RolePrivilege name="prvReadcmc_tripactivity" level="Local" />
+    <RolePrivilege name="prvReadConnection" level="Local" />
+    <RolePrivilege name="prvReadConnectionRole" level="Global" />
+    <RolePrivilege name="prvReadContact" level="Local" />
+    <RolePrivilege name="prvReadLead" level="Local" />
+    <RolePrivilege name="prvReadmshied_academicperiod" level="Global" />
+    <RolePrivilege name="prvReadmshied_areaofinterest" level="Global" />
+    <RolePrivilege name="prvReadmshied_coursehistory" level="Global" />
+    <RolePrivilege name="prvReadmshied_extracurricularactivities" level="Global" />
+    <RolePrivilege name="prvReadmshied_previouseducation" level="Local" />
+    <RolePrivilege name="prvReadmshied_testscore" level="Local" />
+    <RolePrivilege name="prvReadmshied_testtype" level="Global" />
+    <RolePrivilege name="prvReadOpportunity" level="Local" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadUser" level="Local" />
+    <RolePrivilege name="prvShareContact" level="Local" />
+    <RolePrivilege name="prvWriteConnection" level="Local" />
+    <RolePrivilege name="prvWriteContact" level="Local" />
+    <RolePrivilege name="prvWriteLead" level="Local" />
+    <RolePrivilege name="prvWritemshied_previouseducation" level="Local" />
+    <RolePrivilege name="prvWritemshied_testscore" level="Basic" />
+    <RolePrivilege name="prvWriteOpportunity" level="Basic" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

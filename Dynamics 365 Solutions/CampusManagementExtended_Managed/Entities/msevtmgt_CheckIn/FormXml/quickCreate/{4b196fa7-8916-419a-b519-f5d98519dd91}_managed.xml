@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{4b196fa7-8916-419a-b519-f5d98519dd91}</formid>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <tabs>
+        <tab id="{2fa32dc4-94af-4ab7-9c1f-516a1fe0e39e}" name="GeneralTab" showlabel="false" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="1">
+              <sections>
+                <section id="{40eda82c-a697-4541-94fd-e29bfaf67126}" name="GeneralTab_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{0c8c51de-67b6-c22c-e3e4-22b386d8a1b7}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{bd348967-885a-2bbc-95e5-5c1877c81e68}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{2d00633b-9db5-bd50-25da-e723b049a377}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{2e4ea474-081b-9a27-8cd7-e965316c0bab}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Modified">
+                        <control disabled="false" id="msevtmgt_checkintype" datafieldname="msevtmgt_checkintype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" uniqueid="{4182021b-e047-3e18-bd7e-e98388c10d2d}" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a9648a9-7246-ed63-21d5-59e6ed078747}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{0a6b88a7-a939-b12d-764d-0e6bec0c8043}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{5323a297-ceed-a8b2-1359-4087ac81dace}" showlabel="true" visible="false" locklevel="0" ordinalvalue="10007" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{d585ed0d-4c6d-cc1a-13a7-1ced4d04ac2e}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{d79b2202-b3de-db87-e741-691ae75ebd56}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_scanqrcode" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cmc_scanqrcode" disabled="false" uniqueid="{42176dee-4907-e825-0a5e-8a74696cc796}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section id="{b010b2f4-ec55-4b82-b431-a3215e9a1225}" name="GeneralTab_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{3d21a076-6442-87e0-92c0-9851a7ed8bec}" showlabel="false" ordinalvalue="10000" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{9f944c1b-3345-4592-aed7-8a59cd98c7ff}" showlabel="false" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{42176dee-4907-e825-0a5e-8a74696cc796}" solutionaction="Added">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="2">
+            <parameters>
+              <datafieldname>cmc_scanqrcode</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.BarCodeScannerControl">
+            <parameters>
+              <value>cmc_scanqrcode</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.BarCodeScannerControl">
+            <parameters>
+              <value>cmc_scanqrcode</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <formLibraries>
+        <Library name="cmc_/dist/app/Forms/checkin.js" libraryUniqueId="{34d5bc24-1063-aa80-c49a-70dccb5ebbe1}" solutionaction="Added" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="CampusManagement.checkin.onLoad" libraryName="cmc_/dist/app/Forms/checkin.js" handlerUniqueId="{3e37bdc3-2500-932d-216e-da6eb6be13ba}" enabled="true" parameters="" passExecutionContext="false" solutionaction="Added" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions FallbackForm="false" Order="2" solutionaction="Modified" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b5e05753-c175-4281-964e-7aaeee70708b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_shiftname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_shiftid">
+          <cell name="cmc_shiftname" width="300" />
+          <cell name="cmc_code" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_programversiondetailid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_shift">
+          <attribute name="cmc_shiftname" />
+          <attribute name="cmc_code" />
+          <order attribute="cmc_shiftname" descending="false" />
+          <attribute name="cmc_programversiondetailid" />
+          <attribute name="cmc_shiftid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Shift Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

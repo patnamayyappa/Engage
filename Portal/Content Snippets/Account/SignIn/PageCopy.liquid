@@ -1,0 +1,82 @@
+<!-- DO NOT REMOVE -->
+{% fetchxml link_query %}
+  <fetch version="1.0" mapping="logical">
+      <entity name="cmc_configuration">
+          <attribute name="cmc_value"></attribute>
+          <filter type="and">
+            <condition attribute="cmc_configurationname" operator="eq" value="Portal Password Reset Link"></condition>
+            <condition attribute="statecode" operator="eq" value="0"></condition>
+          </filter>
+      </entity>
+  </fetch>
+{% endfetchxml %}
+
+<script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        global.StudentPortal = global.StudentPortal || {};
+
+        {% for result in link_query.results.entities %}
+            global.StudentPortal.resetPasswordLink = '{{ result.cmc_value }}'.trim();
+        {% endfor %}
+    }(this));
+</script>
+
+{% assign websiteid = website.id %}
+{% if user %}
+{% assign contactid = user.id %}
+{% else %}
+{% assign contactid = '' %}
+{% endif %}
+
+{% fetchxml translation_query %}
+  <fetch version="1.0" mapping="logical">
+      <entity name="cmc_portalaction">
+          <attribute name="cmc_data"></attribute>
+          <filter> 
+              <condition attribute="cmc_data" operator="eq" value="{'ContactId':'{{contactid}}', 'WebsiteId': '{{websiteid}}', 'Keys': 'Portal_SignIn~|~Portal_ResetPassword'}"></condition>
+              <condition attribute="cmc_logicclassname" operator="eq" value="Cmc.Engage.Common.PortalRetrieveMultiLingualValues"></condition>
+          </filter>
+      </entity>
+  </fetch>
+{% endfetchxml %}
+
+<!-- Load Template results into JavaScript in separate script tags to avoid one error breaking the page -->
+<script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        {% for result in translation_query.results.entities %}
+            global.StudentPortal.translations = '{{ result.cmc_data }}'.trim();
+        {% endfor %}
+    }(this));
+</script>
+
+<script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        $(function() {
+            var $signInButton,
+                resetPasswordLink,
+                translations = {};
+
+            translations = global.StudentPortal.translations
+                ?  JSON.parse(global.StudentPortal.translations)
+                : {};
+
+            $signInButton = $('form[action^="/Account/Login/ExternalLogin"] button:contains(Azure AD)');
+            $signInButton.text(translations.Portal_SignIn || 'Sign In');
+
+            resetPasswordLink = global.StudentPortal.resetPasswordLink;
+            if (resetPasswordLink) {
+                $signInButton.parent().append('<p>' +
+                    '<a href="' + resetPasswordLink + '">' +
+                        (translations.Portal_ResetPassword || 'Reset Password') +
+                    '</a></p>');
+            }
+        });
+
+    }(this));
+</script>

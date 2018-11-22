@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebHelpSystem DefaultUrl="Content/DCRMHelp/Managing_Inb_Ints.htm" Toc="Data/Tocs/DCRM_Master_TOC.js" Index="Data/Index.js" Concepts="Data/Concepts.js" BrowseSequence="Data/BrowseSequences/Browse_Sequences__BrowseSequence.js" SearchDatabase="Data/Search.js" Alias="Data/Alias.xml" Synonyms="Data/Synonyms.xml" SearchFilterSet="Data/Filters.js" PathToScriptsFolder="Resources/Scripts/" SkinName="CMC_HTML5_NexusCRM" SkinID="CMC_HTML5_NexusCRM" Multilingual="false" Skins="CMC_HTML5_NexusCRM" BuildTime="7/20/2018 3:06:55 PM" BuildVersion="13.3.6547.24746" TargetType="WebHelp2" SkinTemplateFolder="Skin/" InPreviewMode="false" TopNavTocPath="true" MoveOutputContentToRoot="false" ReplaceReservedCharacters="false" MakeFileLowerCase="false" UseCustomTopicFileExtension="false" PreventExternalUrls="false" EnableResponsiveOutput="true" IncludeGlossarySearchResults="true" ResultsPerPage="20" xml:lang="en-us" LanguageName="English" SearchEngine="MadCapSearch">
+    <!-- saved from url=(0016)http://localhost -->
+    <CatapultSkin Version="2" SkinType="WebHelp2" Comment="HTML5 Default Tripane skin" Anchors="Width,Height" Width="800" Height="600" Top="0" Left="2880px" Bottom="0" Right="0" Tabs="TOC,Index" DefaultTab="TOC" UseBrowserDefaultSize="true" UseDefaultBrowserSetup="false" EnableResponsiveOutput="True" Title="CampusNexus Engage Help" RemoveImagesOnSave="true" BrowserSetup="Toolbar,Resizable" NavigationLinkTop="true" AutoSyncTOC="true" Name="CMC_HTML5_NexusCRM" SkinID="CMC_HTML5_NexusCRM" SkinClass="_Skins_CMC_HTML5_NexusCRM" HideNavOnStartup="False" LogoUrl="">
+        <WebHelpOptions NavigationPaneWidth="270" />
+        <Toolbar EnableCustomLayout="true" Buttons="EditUserProfile|NexusComponent|Filler|ExpandAll|Print|RemoveHighlight|Feedback|PreviousTopic|NextTopic">
+            <Script>$('&lt;link&gt;')
+			.appendTo($('head'))
+			.attr({type : 'text/css', rel : 'stylesheet'})
+			.attr('href', 'Content/Resources/Stylesheets/NavPanel_OpenSans.css');
+
+			$(document).ready(function(){
+			$(".button-group-container-left").text(document.title);
+			$(".button-group-container-left").css({"font-family":"Open Sans Light Regular", "font-size":"18pt", "margin-left":"4px", color:"#1f1f1f"});
+			$(".button-group-container-left").offset({top:52})
+			});
+		</Script>
+        </Toolbar>
+    </CatapultSkin>
+</WebHelpSystem>

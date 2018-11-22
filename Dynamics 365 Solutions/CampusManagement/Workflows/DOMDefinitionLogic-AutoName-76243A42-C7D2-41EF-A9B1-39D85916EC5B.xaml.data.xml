@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{76243a42-c7d2-41ef-a9b1-39d85916ec5b}" Name="DOM Definition Logic - Auto Name">
+  <XamlFileName>/Workflows/DOMDefinitionLogic-AutoName-76243A42-C7D2-41EF-A9B1-39D85916EC5B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>cmc_value,cmc_minimum,cmc_maximum,cmc_domdefinitionid,cmc_conditiontype,cmc_attribute</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.48</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>cmc_domdefinitionlogic</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="DOM Definition Logic - Auto Name" />
+  </LocalizedNames>
+</Workflow>

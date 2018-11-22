@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7e935ac6-2740-4d42-bc7e-668772bdc981}" Name="Test Score - Concatenate">
+  <XamlFileName>/Workflows/TestScore-Concatenate-7E935AC6-2740-4D42-BC7E-668772BDC981.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>mshied_toeflwritingsection,mshied_toefltotalscore,mshied_toeflspeakingsection,mshied_toeflreadingsection,mshied_toefllisteningsection,mshied_satessaywriting,mshied_satessayreading,mshied_satessayanalysis,mshied_sattotalscore,mshied_satmathsection,mshied_satevidencebasedreadingandwritingsection,mshied_ieltswriting,mshied_ieltsspeakingscore,mshied_ieltsreading,mshied_ieltsoverallbandscore,mshied_ieltslistening,mshied_ieltscefr,mshied_greverbalreasoning,mshied_gretotalscore,mshied_grequantitativereasoning,mshied_greanalyticalreasoning,mshied_gmatverbalreasoning,mshied_gmattotal,mshied_gmatquantitativereasoning,mshied_gmatintegratedreasoning,mshied_gmatanalyticalwriting,mshied_actequivalentscore,mshied_actwriting,mshied_actstem,mshied_actscience,mshied_actreading,mshied_actmath,mshied_actenglish,mshied_actela,mshied_actcomposite</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>40</UpdateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>0.7.0.52</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>mshied_testscore</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Test Score - Concatenate" />
+  </LocalizedNames>
+</Workflow>

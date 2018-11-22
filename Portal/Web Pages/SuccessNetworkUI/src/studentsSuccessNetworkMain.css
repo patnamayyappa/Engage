@@ -1,0 +1,400 @@
+.app {
+    position: relative;
+}
+.equal-height {
+    display: -webkit-flex;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.select-container {
+    display: table;
+}
+
+.select-container > label,
+.select-container > div.select-control {
+    display: table-cell;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.select-container > label {
+    padding-right: 1em;
+}
+
+.select-container > div.select-control {
+    width: 100%;
+}
+
+.card-group {
+    margin-top: 2rem;
+    overflow: auto;
+}
+
+.card-group-title h3, .card-group-title hr {
+    margin-top: 0;
+}
+
+.card {
+    margin-top: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card.small-card {
+    text-align: initial;
+}
+
+.card img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.card.small-card img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.card.small-card > span {
+    display: inline-block;
+}
+
+.card.small-card > span span.title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+
+.card div.full-name {
+    margin-top: 1rem;
+}
+
+.card h4 {
+    margin: 0;
+}
+
+.contact-details-window {
+    max-height: calc(100vh - 30rem);
+    overflow-y: auto;
+}
+
+.contact-details .contact-information {
+    display: table;
+}
+
+.contact-details .contact-information > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.contact-details .contact-information > div:first-child {
+    width: 12.5rem;
+}
+
+.contact-details .contact-information > div:first-child img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.contact-details .contact-information > div.small-image {
+    width: 6.5rem;
+}
+
+.contact-details .contact-information > div.small-image img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.contact-details .contact-information > div h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-details .contact-information > div h5{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.contact-details .contact-information > div .icon-row {
+    margin-top: .2rem;
+    overflow: hidden;
+}
+
+.contact-details .contact-information > div .icon-row.first-row {
+    margin-top: 1rem;
+}
+
+.contact-details .contact-information > div .icon-row span {
+    vertical-align: middle;
+}
+
+.contact-details .contact-information > div .icon-row > span {
+    display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+}
+
+.contact-details .contact-information > div .icon-row span.glyphicon {
+    width: 2rem;
+}
+
+.contact-details > div.tab-container .nav-tabs {
+    margin-top: 3rem;
+}
+
+.contact-details > div.tab-container .tab-content {
+    min-height: 29rem;
+    margin-top: 1rem;
+}
+
+.contact-details > div.tab-container .tab-content .staff-hours .hours-table-container {
+    margin-top: 2rem;
+    position: relative;
+    padding-left: 10rem;
+}
+
+.contact-details .hours-table-container > .hours-table-inner-container {
+    overflow-x: auto;
+}
+
+.contact-details .hours-table-container > .hours-table-inner-container > .table {
+    display: table;
+    padding: 0;
+    margin: 0;
+    table-layout: fixed;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > ul.table {
+    list-style: none;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > .table li {
+    display: table-row;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > .table li.hours-column-group {
+    display: table-column-group;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > .table li > div {
+    display: table-cell;
+    padding: 0 .5em;
+    width: 15em;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > .table li > div:first-child {
+    position: absolute;
+    left: 0;
+    width: 7em;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > .table li > div:last-child {
+    width: 100%;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > .table li > div.header-cell {
+    font-weight: bold;
+}
+
+.contact-details  .hours-table-container > .hours-table-inner-container > .table li.sunday-row > div {
+    padding-top: .5rem;
+}
+
+.contact-details .schedule-appointment ul.dropdown-menu {
+    width: 100%;
+}
+
+.contact-details .schedule-appointment ul.dropdown-menu a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.contact-details .schedule-appointment.full-width ul.dropdown-menu a {
+    text-align: center;
+}
+
+.btn-group.full-width {
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+.btn-group.full-width .btn {
+    display: table-cell;
+}
+
+.btn-group.full-width .btn:first-child {
+    width: 100%;
+    float: none;
+}
+
+.modal-footer .small-buttons > .btn + .btn,
+.modal-footer .small-buttons > .btn + .btn-group,
+.modal-footer .small-buttons > .btn-group + .btn {
+    margin-left: 0;
+    margin-top: 1.5rem;
+}
+
+.modal-footer .btn + .btn-group,
+.modal-footer .btn-group + .btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    webkit-transition: opacity 0.2s, visibility 0s 0s;
+    transition: opacity 0.2s, visibility 0s 0s;
+    background: rgba(255, 255, 255, 0.93);
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    z-index: 5000;
+  }
+
+  .loading.hidden {
+    webkit-transition: opacity 0.2s, visibility 0s 0.2s;
+    transition: opacity 0.2s, visibility 0s 0.2s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .loading p {
+    font-size: 2.8em;
+    font-weight: 100;
+    color: #333;
+    line-height: 1.21429;
+    position: relative;
+    top: -5.4rem;
+    left: .7rem;
+  }
+
+  @-webkit-keyframes spinner-animation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes spinner-animation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .spinner {
+    display: inline-block;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .spinner i {
+    position: absolute;
+    top: 8.8rem;
+    left: 9.7rem;
+    display: inline-block;
+    -webkit-animation: spinner-animation 1s linear infinite;
+    animation: spinner-animation 1s linear infinite;
+    width: .3rem;
+    height: 1.2rem;
+    background: #007acc;
+  }
+
+  .spinner i:nth-of-type(1) {
+    -webkit-animation-delay: -0.41667s;
+    animation-delay: -0.41667s;
+    -webkit-transform: rotate(0deg) translate(0, -2.2rem);
+    transform: rotate(0deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(2) {
+    -webkit-animation-delay: -0.33333s;
+    animation-delay: -0.33333s;
+    -webkit-transform: rotate(30deg) translate(0, -2.2rem);
+    transform: rotate(30deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(3) {
+    -webkit-animation-delay: -0.25s;
+    animation-delay: -0.25s;
+    -webkit-transform: rotate(60deg) translate(0, -2.2rem);
+    transform: rotate(60deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(4) {
+    -webkit-animation-delay: -0.16667s;
+    animation-delay: -0.16667s;
+    -webkit-transform: rotate(90deg) translate(0, -2.2rem);
+    transform: rotate(90deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(5) {
+    -webkit-animation-delay: -0.08333s;
+    animation-delay: -0.08333s;
+    -webkit-transform: rotate(120deg) translate(0, -2.2rem);
+    transform: rotate(120deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(6) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform: rotate(150deg) translate(0, -2.2rem);
+    transform: rotate(150deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(7) {
+    -webkit-animation-delay: 0.08333s;
+    animation-delay: 0.08333s;
+    -webkit-transform: rotate(180deg) translate(0, -2.2rem);
+    transform: rotate(180deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(8) {
+    -webkit-animation-delay: 0.16667s;
+    animation-delay: 0.16667s;
+    -webkit-transform: rotate(210deg) translate(0, -2.2rem);
+    transform: rotate(210deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(9) {
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-transform: rotate(240deg) translate(0, -2.2rem);
+    transform: rotate(240deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(10) {
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+    -webkit-transform: rotate(270deg) translate(0, -2.2rem);
+    transform: rotate(270deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(11) {
+    -webkit-animation-delay: 0.41667s;
+    animation-delay: 0.41667s;
+    -webkit-transform: rotate(300deg) translate(0, -2.2rem);
+    transform: rotate(300deg) translate(0, -2.2rem);
+  }
+
+  .spinner i:nth-of-type(12) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-transform: rotate(330deg) translate(0, -2.2rem);
+    transform: rotate(330deg) translate(0, -2.2rem);
+  }

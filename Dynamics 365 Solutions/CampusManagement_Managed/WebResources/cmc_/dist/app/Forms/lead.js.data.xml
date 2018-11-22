@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{20cf10cc-633f-e811-a961-000d3a14b26e}</WebResourceId>
+  <Name>cmc_/dist/app/Forms/lead.js</Name>
+  <DisplayName>lead.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.60</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/constants.js" displayName="constants.js" languagecode="1033" description="application constants are maintained here." libraryUniqueId="{521ae695-e21c-2dbb-b2d7-18e88211b008}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappFormsleadjs20CF10CC-633F-E811-A961-000D3A14B26E</FileName>
+</WebResource>

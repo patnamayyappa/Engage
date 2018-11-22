@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{a3eaa8af-626d-e811-a954-000d3a3acde0}" Name="End Date Validation" Description="Click to add description">
+  <XamlFileName>/Workflows/EndDateValidation-A3EAA8AF-626D-E811-A954-000D3A3ACDE0.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.72</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>cmc_tripactivity</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="End Date Validation" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{15c07b03-ed7f-4d9f-b58a-b36bcf625f10}">
+      <label languagecode="1033" description="End  Date/Time cannot be less than Start Date/Time" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{2a200ae7-f572-e811-a954-000d3a3ac3f8}">
+      <controltype>1</controltype>
+      <formid>{bff96ac6-e97b-44ec-a2f7-ecd0c2edb840}</formid>
+      <scope>1</scope>
+      <controlname>cmc_startdatetime</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_tripactivity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2b200ae7-f572-e811-a954-000d3a3ac3f8}">
+      <formid>{bff96ac6-e97b-44ec-a2f7-ecd0c2edb840}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_tripactivity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2c200ae7-f572-e811-a954-000d3a3ac3f8}">
+      <controltype>1</controltype>
+      <formid>{bff96ac6-e97b-44ec-a2f7-ecd0c2edb840}</formid>
+      <scope>1</scope>
+      <controlname>cmc_enddatetime</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_tripactivity</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{2d200ae7-f572-e811-a954-000d3a3ac3f8}">
+      <formid>{bff96ac6-e97b-44ec-a2f7-ecd0c2edb840}</formid>
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>cmc_tripactivity</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

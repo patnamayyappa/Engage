@@ -1,0 +1,105 @@
+{% entitylist id:listId %}
+  {% entityview id:params.view, search:params.search, order:params.order, page:params.page, pagesize:params.pagesize, metafilter:params.mf %}
+    {% assign order = params.order | default: entityview.sort_expression %}
+    <h3>
+      <a href="{{ titleHyperLink }}">
+        {{ listTitle }}
+      </a>
+    </h3>
+    <table class="table table-striped table-fluid home-entity-list" data-order="{{ order }}">
+      <colgroup>
+         {% for c in entityview.columns -%}
+          <col style="width: {{ c.width}}px" />
+         {% endfor -%}
+      </colgroup>
+      <thead>
+        <tr>
+          {% for c in entityview.columns -%}
+            <th data-logicalname="{{ c.logical_name }}">
+              {% if c.logical_name == columnOverrideLogicalName and columnOverrideLabel %}
+                {{ columnOverrideLabel }}
+              {% elsif c.logical_name == columnOverrideTwoLogicalName and columnOverrideTwoLabel %}
+                {{ columnOverrideTwoLabel }}
+              {% else %}
+                {{ c.name }}
+              {% endif %}
+            </th>
+          {% endfor -%}
+          <th width="1"></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for e in entityview.records -%}
+          <tr>
+            {% for c in entityview.columns -%}
+              {% assign attr = e[c.logical_name] %}
+              {% assign attr_type = c.attribute_type | downcase %}
+
+              <td data-logicalname="{{ c.logical_name }}">
+                {% if attr.is_entity_reference -%}
+                  {{ attr.name }}
+                {% elsif attr_type == 'datetime' %}
+                  {% if attr %}
+                    <time datetime="{{ attr | date_to_iso8601 }}">
+                      {{ attr }}
+                    </time>
+                  {% endif %}
+                {% elsif attr_type == 'picklist' %}
+                  {{ attr.label }}
+                {% elsif entitylist.detail_enabled and forloop.first and entityview.entity_logical_name != 'knowledgearticle' %}
+                  <a href="{{ entitylist.detail_url }}?{{ entitylist.detail_id_parameter }}={{ e.id }}">
+                    {{ attr }}
+                  </a>
+                {% elsif entitylist.detail_enabled and entityview.entity_logical_name == 'knowledgearticle' and c.logical_name == 'articlepublicnumber' %}
+                  <a href="{{ entitylist.detail_url }}/{{ attr }}">
+                    {{ attr }}
+                  </a>
+                {% elsif hyperLinkField == c.logical_name %}
+                  <a href="{{ attr }}" target="_blank">
+                    {% if hyperLinkText %}
+                        {{ hyperLinkText }}
+                    {% else %}
+                        {{ attr }}
+                    {% endif %}
+                  </a>
+                {% else %}
+                  {{ attr }}
+                {% endif -%}
+              </td>
+            {% endfor -%}
+            <td>
+            </td>
+          </tr>
+        {% endfor -%}
+      </tbody>
+    </table>
+
+    {% if entityview.total_records == 0 %}
+      <h5>
+        {% if entitylist.empty_list_text %}
+          {{ entitylist.empty_list_text }}
+        {% else %}
+          {{ defaultEmptyListText }}
+        {% endif %}
+      </h5>
+    {% endif %}
+
+    {% if entityview.total_pages > 1 %}
+      <h5>
+        <a href="{{ titleHyperLink }}">
+          {{ snippets["Home/Authenticated/ViewMore"] }}
+        </a>
+      </h5>
+    {% endif %}
+
+    {% if postTableLinkText %}
+      <h5>
+        <a href="{{ postTableLink }}">
+          {{ postTableLinkText }}
+        </a>
+      </h5>
+    {% endif %}
+    
+  {% endentityview %}
+{% endentitylist %}

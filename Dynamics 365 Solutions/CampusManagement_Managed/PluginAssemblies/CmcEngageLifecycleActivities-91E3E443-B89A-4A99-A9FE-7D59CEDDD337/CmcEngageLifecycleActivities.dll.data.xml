@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginAssemblyId="91e3e443-b89a-4a99-a9fe-7d59ceddd337" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageLifecycleActivities-91E3E443-B89A-4A99-A9FE-7D59CEDDD337/CmcEngageLifecycleActivities.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.AttachTripActivityICalFileActivity, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="083db05e-b6e0-4dfa-982f-19932d4e485a" Name="Attach Trip Schedule in Email">
+      <FriendlyName>c3949b59-4f64-4bab-8a70-bbeb3d3cb167</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.GetTripActivityTimezoneInformationActivity, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="1b31af11-c409-45a1-8f23-5978df7044eb" Name="Retrieves the time zone of the trip activity.">
+      <FriendlyName>2e291e39-a49f-4ded-b578-f1546cda3793</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveContactOpenLifecycle, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="c313e68d-c7ec-4a8f-92c6-f0951dbdc301" Name="Get Active Life Cycle">
+      <FriendlyName>87080d55-1588-434f-8761-9879c6a11415</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactCurrentAcademicPeriod, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="1c9dddaf-2e61-4826-90d5-44fadec237f7" Name="Get current Academic Period of Inbound Interest's Contact">
+      <FriendlyName>c08cb5bb-af32-4da8-bdca-e4ffd49e918d</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactCurrentCampus, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="c813afa1-eae6-4874-85df-1dd83d341c31" Name="Get current Campus of Inbound Interest's Contact">
+      <FriendlyName>8923e42e-441a-47ce-b0ed-324409462261</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactCurrentProgram, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="71c1b059-a594-41be-aff8-fff0bea5fa66" Name="Get current Program of Inbound Interest's Contact">
+      <FriendlyName>77771903-e66b-464a-9809-075137b9d8a4</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactCurrentProgramLevel, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="d0a37473-0b17-400f-afa5-91deb8cbe4dc" Name="Get current Program Level of Inbound Interest's Contact">
+      <FriendlyName>26ebcb22-c520-47aa-b366-51c675127c3f</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSchoolStatus, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="ac3d94d4-7a38-4495-bae9-23f43f033c53" Name="Get current School Status of Inbound Interest's Contact">
+      <FriendlyName>3f7942d6-70b3-4b66-a822-40770fa794a7</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceCampaign, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="3b1428c1-2d52-4b14-87b3-07801bf2c3fa" Name="Get source Campaign of Inbound Interest's Contact">
+      <FriendlyName>94196642-8379-4954-93fe-4e1456798841</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceCampus, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="85c929c0-ebee-4a41-9b14-7a535e073880" Name="Get source Campus of Inbound Interest's Contact">
+      <FriendlyName>3d921df9-9183-424a-a943-e4d6c1ae8b58</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceCategory, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="cf223e46-9019-423d-a024-5fea19cd9a75" Name="Get source Category of Inbound Interest's Contact">
+      <FriendlyName>4f28c9b6-22f5-4c5f-9447-d3b44ca3c7c6</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceExpectedStart, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="932b85f7-61b6-49cb-8232-f218bd26b8f8" Name="Get source Expected Start of Inbound Interest's Contact">
+      <FriendlyName>50ce1ee8-9606-452a-be2f-51e53eed4de5</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceMethod, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="81149080-ca40-4fa3-82a9-9a21292181de" Name="Get source Method of Inbound Interest's Contact">
+      <FriendlyName>7e7c0f6d-ee5c-491f-aa25-f4e4ca7293b4</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceProgram, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="41d936cf-70db-467a-9433-8df29a86236d" Name="Get source Program of Inbound Interest's Contact">
+      <FriendlyName>96213d2b-8a36-4614-820e-375ea136590c</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceProgramLevel, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="0833f2c5-ba00-40b5-a953-11ff18522872" Name="Get source Program Level of Inbound Interest's Contact">
+      <FriendlyName>1160c426-f915-4432-810a-7c7b8c43e5d6</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceReferringOrganization, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="6347323c-d317-4f12-8e23-729ea9b7f744" Name="Get source Referring Organization of Inbound Interest's Contact">
+      <FriendlyName>b4ac5a48-9a82-41f1-9608-b781233b9121</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceReferringStaff, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="142be96f-aff9-4a50-8709-8c2f12d88c3c" Name="Get source Referring Staff of Inbound Interest's Contact">
+      <FriendlyName>8757f09f-62bd-4810-ba7e-1dc5a639c16a</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Lifecycle.Activities.RetrieveInboundInterestRelatedContactSourceSubCategory, Cmc.Engage.Lifecycle.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ad2c01e841a9904d" PluginTypeId="eb3c50f1-d547-478f-b9ac-8ec4f2468c37" Name="Get source Sub-category of Inbound Interest's Contact">
+      <FriendlyName>21ac1d73-f5c7-41c5-ba02-0a012499d4de</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

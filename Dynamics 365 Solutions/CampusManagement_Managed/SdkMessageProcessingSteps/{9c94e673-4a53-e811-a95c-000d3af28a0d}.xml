@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Common.Plugins.GeocodeAddressPlugin: Update of customeraddress" SdkMessageProcessingStepId="{9c94e673-4a53-e811-a95c-000d3af28a0d}">
+  <PluginTypeName>Cmc.Engage.Common.Plugins.GeocodeAddressPlugin, Cmc.Engage.Common.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87e4b4aa71c88538</PluginTypeName>
+  <PluginTypeId>0bde137c-767f-4cfc-9125-d5f4e32802d6</PluginTypeId>
+  <PrimaryEntity>customeraddress</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes>city,country,stateorprovince,line1,line2,line3,postalcode</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{afe6da9c-4a53-e811-a95b-000d3af2823b}</SdkMessageProcessingStepImageId>
+      <Attributes>customeraddressid,addressnumber,addresstypecode,city,country,latitude,longitude,parentid,stateorprovince,line1,line2,line3,postalcode</Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+    <SdkMessageProcessingStepImage Name="Target">
+      <SdkMessageProcessingStepImageId>{a177c1e2-4a53-e811-a95e-000d3af28edd}</SdkMessageProcessingStepImageId>
+      <Attributes>customeraddressid,addresstypecode,city,country,latitude,longitude,parentid,stateorprovince,line1,line2,line3,postalcode</Attributes>
+      <EntityAlias>Target</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f9315927-6bb4-4160-87d8-3d36ae509636}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_retentionscorehistoryname" select="1" icon="1" preview="0">
+        <row name="cmc_retentionscorehistory" id="cmc_retentionscorehistoryid">
+          <cell name="cmc_retentionscorehistoryname" width="300" />
+          <cell name="cmc_scoredefinitionid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_score" width="100" />
+          <cell name="cmc_targetattribute" width="100" />
+          <cell name="createdon" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_lastcalculateddate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_retentionscorehistory">
+          <attribute name="cmc_retentionscorehistoryid" />
+          <attribute name="cmc_retentionscorehistoryname" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_score" />
+          <order attribute="cmc_retentionscorehistoryname" descending="false" />
+          <attribute name="cmc_scoredefinitionid" />
+          <attribute name="cmc_targetattribute" />
+          <attribute name="cmc_lastcalculateddate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Score History Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5e59f939-086b-4837-8129-62e5bf40c9e6}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_departmentname" select="1" icon="1" preview="0">
+        <row name="cmc_department" id="cmc_departmentid">
+          <cell name="cmc_departmentname" width="300" />
+          <cell name="cmc_administrativeassistantid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_phonenumber" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_code" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_department">
+          <attribute name="cmc_departmentid" />
+          <attribute name="cmc_departmentname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_phonenumber" />
+          <attribute name="cmc_administrativeassistantid" />
+          <attribute name="cmc_code" />
+          <order attribute="cmc_departmentname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.13</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Department Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

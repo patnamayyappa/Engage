@@ -1,0 +1,25 @@
+<div>
+  {% assign faculty_url = sitemarkers["Campus - Faculty"].url | default: "/faculty" %}
+  
+  <script type="text/javascript">
+    (function(global) {
+      'use strict';
+
+      $(function() {
+        var $userName = $('#ownerid_name'),
+            $userId = $('#ownerid'),
+            name = $userName.val(),
+            id = $userId.val(),
+            url = '{{ faculty_url }}?id=' + id;
+
+        if (name && id && url) {
+            $userName.replaceWith($("<a />").attr({
+                "href": url,
+                "target": "_blank"
+            }).text(name));
+        }
+      });
+
+    }(this));
+  </script>
+</div>

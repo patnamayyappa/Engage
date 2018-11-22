@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{6cdf2adc-7ada-4e7b-8242-c0ba64a7903e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_paymentname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_paymentid">
+          <cell name="cmc_paymentname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_payment">
+          <attribute name="cmc_paymentid" />
+          <attribute name="cmc_paymentname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_paymentname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Payments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

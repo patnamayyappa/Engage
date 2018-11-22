@@ -1,0 +1,24 @@
+<div>
+  <table>
+    <tr>
+      <td class="dropdown-label" [ngStyle]="{'padding-right':showLabel === 'true' ? '20px' : '0px', 'display':showLabel === 'true' ? 'inline' : 'none' }">
+        <label>{{ entityPicker.entityPicker_Label }} </label>
+      </td>
+      <td class="dropdown">
+        <kendo-combobox [data]="entityList"
+                        [textField]="'entityLabel'"
+                        [valueField]="'entity'"
+                        (valueChange)="setValues($event)"
+                        [(ngModel)]="selectedItem"
+                        [disabled]="disabled"
+                        (open)="onPopUpOpen()"
+                        (close)="onPopUpClose()"
+                        class="metadata">
+          <ng-template kendoComboBoxItemTemplate let-dataItem>
+            <div class="full-width">{{ dataItem.entityLabel }}</div>
+          </ng-template>
+        </kendo-combobox>
+      </td>
+    </tr>
+  </table>
+</div>

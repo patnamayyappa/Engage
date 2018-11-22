@@ -1,0 +1,88 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Arial;
+    box-sizing: border-box;
+}
+
+.form-row {
+    width: 100%;
+    display: table;
+}
+
+.form-row > div {
+    height: 23px;
+    display: table-cell;
+    padding: 0px 15px;
+    position: relative;
+    vertical-align: top;
+}
+
+.form-row > div:first-child {
+    padding-left: 10px;
+    padding-right: 0px;
+    width: 139px;
+}
+
+.field-label {
+    color: #828181;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Arial;
+    line-height: 16px;
+}
+
+.required {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.input-label {
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-style: normal;
+    color: #505050;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 4px 0px 3px;
+    margin-left: 5px;
+    min-height: 16px;
+}
+
+.input-label.no-value {
+    padding: 2px 0px 4px;
+    border-top: 0.6px dashed #828181;
+    position: relative;
+    top: 10px;
+    border-width: 1px;
+}
+
+.input-label:not(.disabled):hover {
+    margin-left: 1px;
+    padding: 2px 0px 3px 0px;
+    top: 0px;
+    box-shadow: 1px 1px 2px #ccc;
+    border: 1px solid #ccc;
+}
+
+.dropdown select {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    margin: 1px 0 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.warning-icon {
+    top: 0px;
+    height: 16px;
+    background: transparent none;
+    margin: 3px 0 0 -15px;
+    padding: 0;
+    position: absolute;
+}

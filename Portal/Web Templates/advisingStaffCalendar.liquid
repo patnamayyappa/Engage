@@ -1,0 +1,980 @@
+<div>
+    <div id='calendar'></div>
+    <div class="container">
+        <div class="page-heading">
+            <h1 class="text-left">Schedule Appointment</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                <div class="form-group">
+                    <label class="control-label" for="location">Location</label>
+                    <select class="form-control" id="locationSelect" disabled>
+                        <option value="" selected disabled>Select...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                <div class="form-group">
+                    <label class="control-label" for="department">Department</label>
+                    <select class="form-control" id="departmentSelect" disabled>
+                        <option value="" selected disabled>Select...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-4 col-xs-12">
+                <div class="form-group">
+                    <label class="control-label" for="advisor">Advisor</label>
+                    <select class="form-control" id="userIdSelect" disabled>
+                        <option value="" selected disabled>Select...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 hidden-sm hidden-xs text-right">
+                <ul class="availability-key">
+                    <li>
+                        <span></span>
+                        <p>Available</p>
+                    </li>
+                    <li>
+                        <span class="unavailable"></span>
+                        <p>Unavailable</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-xs-12 visible-sm visible-xs text-right">
+                <ul class="availability-key single-line">
+                    <li>
+                        <span></span>
+                        <p>Available</p>
+                    </li>
+                    <li>
+                        <span class="unavailable"></span>
+                        <p>Unavailable</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="scheduler"></div>
+    </div>
+    <script src="/kendo.scheduler.min.js" type="text/javascript"></script>
+    <script id="customEditorTemplate" type="text/x-kendo-template">
+        <div class="k-edit-label"><label for="title">Title</label></div>
+        <div data-container-for="title" class="k-edit-field">
+            <input type="text" class="k-input k-textbox" name="title" required="required" maxlength="150" data-bind="value:title">
+        </div>
+        <div class="k-edit-label">
+            <label for="start">Start</label>
+        </div>
+        <div data-container-for="start" class="k-edit-field">
+            <input type="text" data-role="datetimepicker" data-interval="15" data-type="date" data-bind="value:start,invisible:isAllDay" name="start" disabled />
+            <input type="text" data-type="date" data-role="datepicker" data-bind="value:start,visible:isAllDay" name="start" disabled />
+            <span data-bind="text: startTimezone" disabled></span>
+            <span data-for="start" class="k-invalid-msg" style="display: none;" disabled></span>
+        </div>
+        <div class="k-edit-label"><label for="end">End</label></div>
+        <div data-container-for="end" class="k-edit-field">
+            <input type="text" data-type="date" data-role="datetimepicker" data-bind="value:end,invisible:isAllDay" name="end" data-datecompare-msg="End date should be greater than or equal to the start date" disabled />
+            <input type="text" data-type="date" data-role="datepicker" data-bind="value:end,visible:isAllDay" name="end" data-datecompare-msg="End date should be greater than or equal to the start date" disabled />
+            <span data-bind="text: endTimezone" disabled></span>
+            <span data-bind="text: startTimezone, invisible: endTimezone" disabled></span>
+            <span data-for="end" class="k-invalid-msg" style="display: none;" disabled></span>
+        </div>
+        <div class="k-edit-label"><label for="location">Location</label></div>
+        <div data-container-for="location" class="k-edit-field">
+            <input type="text" class="k-input k-textbox" name="location" disabled>
+        </div>
+        <div class="k-edit-label"><label for="advisor">Advisor</label></div>
+        <div data-container-for="location" class="k-edit-field">
+            <input type="text" class="k-input k-textbox" name="advisor" disabled>
+        </div>
+        <div class="k-edit-label"><label for="description">Description</label></div>
+        <div data-container-for="description" class="k-edit-field">
+            <textarea name="description" class="k-textbox" maxlength="1000" data-bind="value:description"></textarea>
+        </div>
+        </div>
+    </script>
+    <script>
+        $(function() {
+            var _availabilities = [],
+                locationId = "{{request.params['locationId']}}",
+                departmentId = "{{request.params['departmentId']}}",
+                userId = "{{request.params['userId']}}";
+
+                window.Scheduler = window.Scheduler || {};
+                window.Scheduler.editEvent = null;
+
+            // polyfill array.find to make cross-browser compatible
+            if (!Array.prototype.find) {
+                polyfillArrayDotFind();
+            }
+        
+            initializeSchedulerData(locationId, departmentId, userId);
+
+            $("#scheduler").kendoScheduler({
+                date: new Date(),
+                showWorkHours: false,
+                allDaySlot: false,
+                footer: false,
+                height: 600,
+                minorTickCount: 2,
+                views: [
+                    { type: "day", title: "Day" },
+                    { type: "week", title: "Week", selected: true },
+                    { type: "month", title: "Month" }
+                ],
+                editable: {
+                    template: $("#customEditorTemplate").html(),
+                },
+                resize: preventAction,
+                resizeEnd: preventAction,
+                move: preventAction,
+                moveEnd: preventAction,
+                edit: editAppointment, 
+                cancel: clearEditEvent,       
+                save: createAppointment,
+                remove: deleteAppointment,
+                navigate: changeView,
+                dataBound: function(e) {
+                    if ((e.sender.view().name === "week" || e.sender.view().name === "day") && localStorage.getItem("changedView") === "true") {
+                        getFacultyMemberAvailability();
+                        localStorage.removeItem("changedView");
+                    }
+                },
+                dataSource: {
+                    data: new kendo.data.ObservableArray([]),
+                    schema: {
+                        model: {
+                            id: 'id'
+                        }
+                    }
+                },
+                resources: [
+                    {
+                        field: "status",
+                        title: "Status",
+                        dataSource: [
+                            { text: "Pending", value: 5, color: "#51a0ed" },
+                            { text: "Complete", value: 3, color: "#ff0000" }
+                        ]
+                    }
+                ]
+            });
+
+            $(window).resize(function () {
+                var $focusedElement,
+                    $scheduler;
+                if (window.Scheduler.editEvent) {
+                    if (document.activeElement) {
+                        $focusedElement = $(document.activeElement);
+                        $focusedElement.blur();
+                    }
+                    $scheduler = $("#scheduler").data("kendoScheduler");
+                    $scheduler.cancelEvent();
+                    
+                    if (window.Scheduler.editEvent.id) {
+                        $scheduler.editEvent(window.Scheduler.editEvent);
+                    }
+                    else {
+                        $scheduler.addEvent(window.Scheduler.editEvent);
+                    }
+                    if ($focusedElement) {
+                        $($focusedElement[0].tagName + "[name=" + $focusedElement.attr("name") + "]").focus();
+                    }
+                }
+            });
+
+            $("div#scheduler.k-widget.k-scheduler.k-floatwrap").on("touchend",
+                ".k-scheduler-content td:not(.unavailable)", function (e) {
+                    var $target = $(e.target),
+                        now = new Date().getTime(),
+                        lastTouchDate = $target.data("last-touch")
+                                        ? $target.data("last-touch")
+                                        : null,
+                        timeSinceLastTouch = lastTouchDate
+                                             ? now - lastTouchDate
+                                             : 0,
+                        scheduler,
+                        slot;
+                    
+                    if (timeSinceLastTouch < 300 && timeSinceLastTouch > 30) {
+                        $target.removeData("last-touch");
+
+                        scheduler = $("#scheduler").data("kendoScheduler");
+                        slot = scheduler.slotByElement($target[0]);
+                        scheduler.addEvent({start: slot.startDate, end: slot.endDate});
+                    }
+                    else {
+                        $target.data("last-touch", now);
+                    }
+                });
+        });
+
+        $("#locationSelect").change(function(e) {
+            var selectedLocation = this.value,
+                selectedDepartment = $("#departmentSelect option:selected").val(),
+                $userSelect = $("#userIdSelect");
+
+            toggleUserSelect(selectedLocation, selectedDepartment);
+        });
+
+        $("#departmentSelect").change(function(e) {
+            var selectedDepartment = this.value,
+                $userSelect = $("#userIdSelect"),
+                selectedLocation = $("#locationSelect option:selected").val();
+
+            toggleUserSelect(selectedLocation, selectedDepartment);
+        });
+
+        $("#userIdSelect").change(function(e) {
+            var userId = this.value;
+
+            clearDatasource();
+
+            if (!userId) {
+                _availabilities = [];
+                grayOutUnavailableSlots();
+                return; 
+            }
+            
+            retrieveUserAppointments()
+                .then(
+                    function (result) {
+                        getFacultyMemberAvailability();
+                    },
+                    function (error) {
+                        //multiLingualAlert("ErrorPrefix", "An unexpected error has occurred", error);
+                    }
+                );
+        });
+        
+        function toggleUserSelect(selectedLocation, selectedDepartment) {
+            var $userSelect = $("#userIdSelect");
+            
+            clearSelect($userSelect);
+            clearDatasource();
+
+            if (selectedDepartment && selectedLocation) {
+                $userSelect.prop("disabled", false);
+                initUserSelect();
+            }
+            else {
+                $userSelect.prop("disabled", true);
+            }
+        }
+
+        function initializeSchedulerData(locationId, departmentId, userId) {
+            if (!locationId || !departmentId || !userId) {
+                initLocationSelect();
+                return;
+            }
+
+            $.when(retrieveLocations(), retrieveDepartments(), retrieveUsers(departmentId, locationId))
+                .done(function(locationResults, departmentResults, userResults){
+                    var locations = locationResults[0],
+                        departments = departmentResults[0],
+                        users = userResults[0],
+                        locationSuccess = locationResults[1],
+                        departmentSuccess = departmentResults[1],
+                        userSuccess = userResults[1],
+                        $locationSelect = $("#locationSelect"),
+                        $departmentSelect = $("#departmentSelect"),
+                        $userSelect = $("#userIdSelect"),
+                        matchedLocation,
+                        matchedDepartment,
+                        matchedUser;
+
+                    matchedLocation = locations.find(function(location) {
+                        return location.Id == locationId.toLowerCase();
+                    });
+
+                    matchedDepartment = departments.find(function(department) {
+                        return department.Id == departmentId.toLowerCase();
+                    });
+
+                    matchedUser = users.find(function(user) {
+                        return user.userId == userId.toLowerCase();
+                    });
+
+                    if (locationSuccess !== "success" 
+                        || departmentSuccess !== "success" 
+                        || userSuccess !== "success" 
+                        || matchedLocation == undefined 
+                        || matchedDepartment == undefined
+                        || matchedUser == undefined) {
+                        
+                        initLocationSelect();
+                        return;
+                    }
+
+                    $locationSelect.append($('<option value="' + matchedLocation.Id + '">' + matchedLocation.Name + '</option>'));
+                    $departmentSelect.append($('<option value="' + matchedDepartment.Id + '">' + matchedDepartment.Name + '</option>'));
+                    $userSelect.append($('<option value="' + matchedUser.userId + '">' + matchedUser.fullname + '</option>'));
+                    $locationSelect.val(matchedLocation.Id);
+                    $departmentSelect.val(matchedDepartment.Id);
+                    $userSelect.val(matchedUser.userId);
+                    $userSelect.trigger('change');
+                });
+        }
+
+        function initLocationSelect() {
+            $("#locationSelect").prop("disabled", false);
+
+            retrieveLocations()
+                .then(function(locations) {
+                    var locationSelect = $("#locationSelect"),
+                        options = [];
+                    
+                    locations.forEach(function(location) {
+                        options.push($('<option value="' + location.Id + '">' + location.Name + '</option>'));
+                    });
+                    
+                    locationSelect.append(options);
+
+                    initDepartmentSelect();
+                });
+        }
+        
+        function initDepartmentSelect() {
+            var $departmentSelect = $("#departmentSelect"),
+                options = [];
+
+            $("#departmentSelect").prop("disabled", false);
+
+            retrieveDepartments()
+                .then(function(departments) {
+                    departments.forEach(function(department) {
+                        options.push($('<option value="' + department.Id + '">' + department.Name + '</option>'));
+                    });
+                    
+                    $departmentSelect.append(options);
+                    $departmentSelect.trigger('change');
+                });
+        }
+
+        function initUserSelect() {
+            var $departmentSelect = $("#departmentSelect"),
+                departmentId = $departmentSelect[0].value,
+                $locationSelect = $("#locationSelect"),
+                accountId = $locationSelect[0].value,
+                userIdSelect = $("#userIdSelect"),
+                options = [];
+
+            retrieveUsers(departmentId, accountId)
+                .then(function(userDataJson) {
+                    var userIds = {};
+                    userDataJson.forEach(function(user) {
+                        if (userIds[user.userId]) {
+                            return;
+                        }
+
+                        userIds[user.userId] = true;
+                        options.push($('<option value="' + user.userId + '">' + user.fullname + '</option>'));
+                    });
+                    
+                    userIdSelect.append(options);
+                    userIdSelect.trigger('change');
+                });
+        }
+
+        function retrieveLocations() {
+            return $.ajax({
+                dataType:"json",
+                url:"/locations/",
+                cache: false
+            })
+            .fail(function(xhr, status, err) {
+                console.log("Error retrieving locations: " + err);
+            });
+        }
+
+        function retrieveDepartments() {
+            return $.ajax({
+                dataType:"json",
+                url:"/departments/",
+                cache: false
+            })
+            .fail(function(xhr, status, err) {
+                console.log("Error retrieving usrs: " + err);
+            });
+        }
+
+        function retrieveUsers(departmentId, accountId) {
+            return $.ajax({
+                dataType:"json",
+                url:"/calendar-users/?stopCache=" + (+new Date()) + "&departmentId=" + departmentId + "&accountId=" + accountId,
+                cache: false
+            })
+            .fail(function(xhr, status, err) {
+                console.log("Error retrieving usrs: " + err);
+            });
+        }
+
+        function getFacultyMemberAvailability() {
+            var scheduler = $("#scheduler").data("kendoScheduler"),
+                $selectedUser = $("#userIdSelect option:selected"),
+                userId = $selectedUser.length > 0 ? $selectedUser[0].value : null,
+                $selectedAccount = $("#locationSelect option:selected"),
+                accountId = $selectedAccount.length > 0 ? $selectedAccount[0].value : null;
+
+            if (!userId || !accountId || scheduler.view().name === "month") {
+                return;
+            }
+
+            $.ajax({
+                dataType:"json",
+                url: "/user-availability/?stopCache=" + (+new Date()) + "&userId=" + userId + "&accountId=" + accountId,
+                cache: false
+            })
+            .done(function(userDataJson) {
+                var availabilities = JSON.parse(userDataJson);
+                _availabilities = availabilities;
+                updateTickCounts();
+                updateStartAndEndTime();
+                scheduler.view(scheduler.view().name);
+                grayOutUnavailableSlots();
+            })
+            .fail(function(xhr, status, err) {
+                console.log("Error retrieving user availability: " + err);
+            });
+        }
+        
+        function grayOutUnavailableSlots() {
+            var scheduler = $("#scheduler").data("kendoScheduler"),
+                allSlots = $(".k-scheduler-table td"),
+                $selectedUser = $("#userIdSelect option:selected"),
+                userId = $selectedUser.length > 0 ? $selectedUser[0].value : null,
+                rangesOnDate;
+
+                if (!userId) {
+                    // No advisor selected, make all slots available
+                    allSlots.each(function (i, item) {
+                        toggleSlot(item, true);
+                    });
+
+                    return;
+                }
+                
+                if (_availabilities.length === 0) {
+                    // No office hours for selected user, make all slots unavailable
+                    allSlots.each(function (i, item) {
+                        toggleSlot(item, false);
+                    });
+
+                    return;
+                }
+                
+                // Sort slots by day of month in order to re-use availability ranges for several loop iterations without recalculating
+                allSlots.sort(compareSlots);
+                
+                allSlots.each(function (i, item) {
+                    var slot = scheduler.slotByElement(item),
+                        slotDayOfMonth = slot.startDate.getDate();
+                    
+                    if (!rangesOnDate || rangesOnDate.dayOfMonth != slotDayOfMonth) {
+                        rangesOnDate = getUnavailableRangesForDateOfMonth(slot.startDate);
+                    }
+
+                    toggleSlot(item, !isUnavailableDuringSlot(slot.startDate, slot.endDate, rangesOnDate));
+                });
+        }
+
+        function toggleSlot(slot, toggle) {
+            if (toggle) {
+                $(slot).removeClass("unavailable");
+            } 
+            else {
+                $(slot).addClass("unavailable");
+            }
+        }
+        
+        function isUnavailableDuringSlot(slotStart, slotEnd, rangesOnDate) {
+            if (rangesOnDate.allDay) {
+                return true;
+            }
+
+            return rangesOnDate.unavailableRanges.some(function (range) {
+                return doDatesOverlap(range.start, range.end, slotStart, slotEnd);
+            });
+        }
+
+        function doDatesOverlap(date1Start, date1End, date2Start, date2End) {
+            return date1Start < date2End && date1End > date2Start;
+        }
+        
+        function getUnavailableRangesForDateOfMonth(selectedDate) {
+            var rangesOnDate = { 
+                "dayOfMonth": selectedDate.getDate(),
+                "allDay": false,
+                "duration": 0,
+                "userLocationId": "",
+                "unavailableRanges": []
+            };
+            
+            _availabilities.forEach(function(avail) {
+                avail.DateRanges.forEach(function(dateRange) {
+                    var start = new Date(Date.parse(dateRange.Start)),
+                        end = new Date(Date.parse(dateRange.End));
+
+                    if (dateRange.IsConflictingAppointmentRange) {
+                        start.setTime(start.getTime() - start.getTimezoneOffset() * 60 * 1000);
+                        end.setTime(end.getTime() - end.getTimezoneOffset() * 60 * 1000);
+                    }
+                    
+                    if (start.getDate() === selectedDate.getDate() && start.getMonth() === selectedDate.getMonth() && start.getFullYear() === selectedDate.getFullYear()) {
+                        rangesOnDate.duration = avail.Duration;
+                        rangesOnDate.userLocationId = avail.UserLocationId;
+                        rangesOnDate.unavailableRanges.push({ "start": start, "end": end, "duration": avail.Duration, "isConflictingAppointment": dateRange.IsConflictingAppointmentRange });
+
+                    }
+                });
+            });
+            
+            if (rangesOnDate.unavailableRanges.length === 0) {
+                rangesOnDate.allDay = true;
+            }
+            
+            return rangesOnDate;
+        }
+
+        function updateTickCounts() {
+            var scheduler = $("#scheduler").data("kendoScheduler"),
+                ranges = [],
+                allOfficeHoursDurations = [],
+                distinctOfficeHoursDurations = [],
+                minorTick,
+                needsFifteenMinuteSlots,
+                needsHalfHourSlots,
+                availabilityStartsOrEndsOnQuarterHour = false,
+                availabilityStartsOrEndsOnHalfHour = false;
+            
+            if (scheduler.view().name === "day") {
+                ranges.push(getUnavailableRangesForDateOfMonth(scheduler.view().startDate()));
+            }
+            else if (scheduler.view().name === "week") {
+                var datesBetweenRange = getDatesBetweenRange(scheduler.view().startDate(), scheduler.view().endDate());
+                datesBetweenRange.forEach(function(date) {
+                    ranges.push(getUnavailableRangesForDateOfMonth(date));
+                });
+            }
+            else {
+                return;
+            }
+
+            allOfficeHoursDurations = ranges.map(function (range) {
+                return range.duration;
+            });
+
+            distinctOfficeHoursDurations = allOfficeHoursDurations.filter(function (value, index, self) {
+                return self.indexOf(value) === index && value !== 0;
+            });
+
+            availabilityStartsOrEndsOnQuarterHour = ranges.some(function (range) {
+                var unavailable = range.unavailableRanges;
+
+                return unavailable.some(function (avail) {
+                    return !avail.isConflictingAppointment
+                        && ((avail.start.getMinutes() % 15 === 0 && avail.start.getMinutes() % 30 !== 0)
+                        || (avail.end.getMinutes() % 15 === 0 && avail.end.getMinutes() % 30 !== 0));
+                });
+            });
+
+            availabilityStartsOrEndsOnHalfHour = ranges.some(function (range) {
+                var unavailable = range.unavailableRanges;
+
+                return unavailable.some(function (avail) {
+                    return !avail.isConflictingAppointment
+                        && ((avail.start.getMinutes() !== 0 && avail.start.getMinutes() % 30 === 0)
+                        || (avail.start.getMinutes() !== 0 && avail.end.getMinutes() % 30 === 0));
+                });
+            });
+
+            needsFifteenMinuteSlots = distinctOfficeHoursDurations.some(function (duration) {
+                // returns true if time starts/ends on quarter hour OR duration is a quarter hour increment AND duration is not a half hour increment, ie .25, .75, or 1.25
+                return availabilityStartsOrEndsOnQuarterHour || (duration !== 0 && duration % 0.25 === 0 && duration % 0.5 !== 0);
+            });
+
+            needsHalfHourSlots = distinctOfficeHoursDurations.some(function (duration) {
+                // returns true if time starts/ends on half hour OR duration is not an hour long AND duration is a half hour increment, ie .5, or 1.5
+                return availabilityStartsOrEndsOnHalfHour || (duration !== 0 && duration !== 1 && duration % 0.5 === 0);
+            });
+
+            if (needsFifteenMinuteSlots) {
+                minorTick = 4;
+            }
+            else if (needsHalfHourSlots) {
+                minorTick = 2;
+            }
+            else {
+                minorTick = 1;
+            }
+            
+            scheduler.setOptions({
+                minorTickCount: minorTick
+            });
+        }
+
+        function updateStartAndEndTime() {
+            var scheduler = $("#scheduler").data("kendoScheduler"),
+                now = new Date(),
+                earliestAvailableDate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 6, 0, 0, 0),
+                latestAvailableDate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 0, 0),
+                earliestAvailableHour = earliestAvailableDate.getHours(),
+                latestAvailableHour = latestAvailableDate.getHours(),
+                originalEarliestHour = earliestAvailableHour,
+                originalLatestHour = latestAvailableHour;
+
+            _availabilities.forEach(function(avail) {
+                avail.DateRanges.forEach(function(dateRange) {
+                    var start = new Date(Date.parse(dateRange.Start)),
+                        end = new Date(Date.parse(dateRange.End));
+                    
+                    if (!dateTimeIsMidnight(end) && end.getHours() < earliestAvailableHour) {
+                        earliestAvailableHour = end.getHours();
+                    }
+
+                    if (!dateTimeIsMidnight(start) && start.getHours() > latestAvailableHour) {
+                        latestAvailableHour = start.getHours();
+                    }
+                });
+            });
+
+            earliestAvailableHour = earliestAvailableHour !== originalEarliestHour ? earliestAvailableHour - 1 : earliestAvailableHour;
+            earliestAvailableHour = earliestAvailableHour < 0 ? 0 : earliestAvailableHour;
+            latestAvailableHour = latestAvailableHour !== originalLatestHour ? latestAvailableHour + 1 : latestAvailableHour;
+            latestAvailableHour = latestAvailableHour > 23 ? 23 : latestAvailableHour;
+
+            scheduler.setOptions({
+                startTime: new Date(earliestAvailableDate.getFullYear(), earliestAvailableDate.getMonth(), earliestAvailableDate.getDate(), earliestAvailableHour, 0, 0),
+                endTime: new Date(latestAvailableDate.getFullYear(), latestAvailableDate.getMonth(), latestAvailableDate.getDate(), latestAvailableHour, 0, 0)
+            });
+        }
+
+        function dateTimeIsMidnight(date) {
+            return date.getHours() == 0 && date.getMinutes() == 0;
+        }
+
+        function getDatesBetweenRange(startDate, endDate) {
+            var dates = [],
+                currentDate = startDate,
+                addDays = function(days) {
+                    var date = new Date(this.valueOf());
+                    date.setDate(date.getDate() + days);
+                    return date;
+                };
+            while (currentDate <= endDate) {
+                dates.push(currentDate);
+                currentDate = addDays.call(currentDate, 1);
+            }
+            return dates;
+        }
+        
+        function compareSlots(a, b) {
+            var scheduler = $("#scheduler").data("kendoScheduler"),
+                slotADate = scheduler.slotByElement(a).startDate.getDate(),
+                slotBDate = scheduler.slotByElement(b).startDate.getDate();
+                
+            if (slotADate < slotBDate) {
+                return -1;
+            }
+            else if (slotADate > slotBDate) {
+                return 1;
+            }
+            else {
+                return 0;
+            }
+        }
+
+        function createAppointment(e) {
+            var scheduler = $("#scheduler").data("kendoScheduler"),
+                selectedUser = $("#userIdSelect option:selected"),
+                userId = selectedUser.length > 0 ? $("#userIdSelect option:selected")[0].value : null,
+                start = e.event.start.toISOString(),
+                end = e.event.end.toISOString(),
+                title = $('input[name="title"]').val(),
+                description = $('textarea[name="description"]').val(),
+                rangesOfDate = getUnavailableRangesForDateOfMonth(e.event.start),
+                locationId = rangesOfDate.userLocationId;
+
+            clearEditEvent();
+
+            if (!description) {
+                description = "";
+            }
+
+            $.ajax({
+                url: "/create-staff-appointment/?stopCache=" + (+new Date()) + "&startDate=" + start + "&endDate=" + end + "&userId=" + userId + "&locationId=" + locationId + "&title=" + title + "&description=" + description,
+                dataType: "json",
+                success: function(result) {
+                    var parsedAppts = JSON.parse(result),
+                        appt,
+                        data;
+
+                    if (parsedAppts.length === 0) {
+                        return;
+                    }
+
+                    appt = parsedAppts[0];
+
+                    data = new kendo.data.SchedulerEvent({
+                        id: appt.appointmentId,
+                        appointmentId: appt.appointmentId,
+                        userId: userId,
+                        title: appt.title,
+                        start: new Date(moment(appt.start)),
+                        end: new Date(moment(appt.end)),
+                        status: appt.status,
+                    });
+
+                    removeEmptyIdsFromDataSource(scheduler);
+                    scheduler.dataSource.pushCreate(data);
+                    
+                    getFacultyMemberAvailability();
+                },
+                error: function(result) {
+                }
+            });
+        }
+
+        // Remove objects from the datasource without an id
+        // These objects are added when an event is created, but we are adding our own event manually
+        function removeEmptyIdsFromDataSource(scheduler) {
+            var indexes = $.map(scheduler.dataSource.data(), function (obj, index) {
+                if (obj.id == "") {
+                    return index;
+                }
+            });
+
+            while (indexes.length > 0) {
+                scheduler.dataSource.data().splice(indexes.shift(), 1)
+            }
+        }
+
+        function deleteAppointment(e) {
+            var appointmentId = e.event.appointmentId;
+            
+            $.ajax({
+                url: "/delete-staff-appointment/?stopCache=" + (+new Date()) + "&appointmentId=" + appointmentId,
+                dataType: "json",
+                success: function(result) {
+                    getFacultyMemberAvailability();
+                },
+                error: function(result) {
+                }
+            });
+        }
+
+        function retrieveUserAppointments() {
+            var selectedOption = $("#userIdSelect option:selected"),
+                userId = selectedOption.length > 0 ? $("#userIdSelect option:selected")[0].value : null,
+                scheduler = $("#scheduler").data("kendoScheduler");
+            
+            return $.ajax({
+                url: "/staff-appointments-action/?stopCache=" + (+new Date()) + "&userId=" + userId,
+                dataType: "json",
+                success: function(result) {
+                    var appointments = JSON.parse(result);
+
+                    appointments.forEach(function (appt) {
+                        var start = new Date(Date.parse(appt.start)),
+                            end = new Date(Date.parse(appt.end)),
+                            data;
+
+                        start.setTime(start.getTime() - start.getTimezoneOffset() * 60 * 1000);
+                        end.setTime(end.getTime() - end.getTimezoneOffset() * 60 * 1000);
+
+                        data = new kendo.data.SchedulerEvent({
+                            id: appt.appointmentId,
+                            appointmentId: appt.appointmentId,
+                            userId: userId,
+                            title: appt.title ? appt.title : "",
+                            start: start,
+                            end: end,
+                            status: appt.status,
+                        });
+
+                        scheduler.dataSource.pushCreate(data);
+                    });
+                },
+                error: function(result) {
+                }
+            });
+        }
+
+        function clearDatasource() {
+            var scheduler = $("#scheduler").data("kendoScheduler"),
+                data = scheduler.dataSource._data;
+            
+            for (var i = data.length - 1; i >= 0; i--) {
+                var dataItem = data.at(i);
+                if (dataItem != null) {
+                    data.remove(dataItem);
+                }
+            }
+        }
+        
+        function changeView(e) {
+            localStorage.setItem("changedView", "true");
+        }
+
+        function clearEditEvent() {
+            window.Scheduler.editEvent = null;
+        }
+        
+        function editAppointment(e) {
+            var rangesOfDate = getUnavailableRangesForDateOfMonth(e.event.start),
+                eventLengthInHours = Math.abs(e.event.end - e.event.start) / 3.6e6,
+                now = new Date(),
+                scheduler = $("#scheduler").data("kendoScheduler"),
+                startIsValidTime,
+                endDate = rangesOfDate.duration !== eventLengthInHours
+                    ? new Date(e.event.end.setMinutes(e.event.end.getMinutes() + (rangesOfDate.duration - eventLengthInHours) * 60))
+                    : e.event.end;
+
+            window.Scheduler.editEvent = e.event;
+            if (scheduler.view().name === "month") {
+                e.preventDefault();
+
+                removeEmptyIdsFromDataSource(scheduler);
+                scheduler.date(e.event.start);
+                scheduler.view("day");
+                return;
+            }
+
+            if (!e.event.isNew()) {
+                e.preventDefault();
+                return;
+            }
+            
+            if (e.event.start < now) {
+                e.preventDefault();
+                alert("Cannot schedule an appointment on a past date.");
+                return;
+            }
+            
+            if (isEventOverlappingWithAnyExistingAppointments(e.event.start, endDate, e.event.uid) || isUnavailableDuringSlot(e.event.start, endDate, rangesOfDate)) {
+                e.preventDefault();
+                alert("Cannot schedule an appointment at this time, the selected staff member is busy.");
+                return;
+            }
+
+            startIsValidTime = isStartTimeValid(rangesOfDate, e.event.start.getTime());
+
+            if (!startIsValidTime) {
+                e.preventDefault();
+                alert('Cannot schedule an appointment at this time.  An appointment can only begin every ' + (rangesOfDate.duration) + ' hours from the earliest available time.');
+                return;
+            }
+            
+            if(rangesOfDate.duration !== eventLengthInHours) {
+                var start = e.container.find("[name=start][data-role=datetimepicker]"),
+                    end = e.container.find("[name=end][data-role=datetimepicker]"); 
+                
+                $(end).data("kendoDateTimePicker").value(endDate);
+            }
+
+            // Change event window header from Event to Appointment
+            $('.k-window-title').text('Appointment');
+            
+            // Default Location/Advisor fields
+            $('input[name="location"]').val($("#locationSelect option:selected")[0].label);
+            $('input[name="advisor"]').val($("#userIdSelect option:selected")[0].label);
+        }
+
+        function isEventOverlappingWithAnyExistingAppointments(start, end, eventUid) {
+            var allEvents = $("#scheduler").data("kendoScheduler").dataSource.view();
+            
+            return allEvents.some(function (event) {
+                return eventUid !== event.uid && doDatesOverlap(start, end, event.start, event.end);
+            });
+        }
+
+        function isStartTimeValid(rangesOfDate, eventStartTime) {
+            var ranges = rangesOfDate.unavailableRanges,
+                earliestAvailable,
+                latestAvailable,
+                validStartTimes = [];
+
+            ranges.forEach(function (range) {
+                var start = range.start,
+                    end = range.end;
+
+                if (!earliestAvailable || (!dateTimeIsMidnight(end) && end < earliestAvailable)) {
+                    earliestAvailable = end;
+                }
+
+                if (!latestAvailable || (!dateTimeIsMidnight(start) && start > latestAvailable)) {
+                    latestAvailable = start;
+                }
+            });
+
+            if (!earliestAvailable || !latestAvailable || earliestAvailable > latestAvailable) {
+                return [];
+            }
+
+            while (earliestAvailable < latestAvailable) {
+                if (earliestAvailable.getTime() === eventStartTime) {
+                    return true;
+                }
+
+                earliestAvailable = new Date(earliestAvailable.setMinutes(earliestAvailable.getMinutes() + (rangesOfDate.duration * 60)))
+            }
+
+            return false;
+        }
+
+        function preventAction(e) {
+            e.preventDefault();
+        }
+
+        function clearSelect($select) {
+            $select.find("option:gt(0)").remove();
+            $select.val('');
+            $select.trigger('change');
+        }
+
+        // https://tc39.github.io/ecma262/#sec-array.prototype.find
+        function polyfillArrayDotFind() {
+            Object.defineProperty(Array.prototype, 'find', {
+                value: function(predicate) {
+                // 1. Let O be ? ToObject(this value).
+                if (this == null) {
+                    throw new TypeError('"this" is null or not defined');
+                }
+
+                var o = Object(this);
+
+                // 2. Let len be ? ToLength(? Get(O, "length")).
+                var len = o.length >>> 0;
+
+                // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+                if (typeof predicate !== 'function') {
+                    throw new TypeError('predicate must be a function');
+                }
+
+                // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+                var thisArg = arguments[1];
+
+                // 5. Let k be 0.
+                var k = 0;
+
+                // 6. Repeat, while k < len
+                while (k < len) {
+                    // a. Let Pk be ! ToString(k).
+                    // b. Let kValue be ? Get(O, Pk).
+                    // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+                    // d. If testResult is true, return kValue.
+                    var kValue = o[k];
+                    if (predicate.call(thisArg, kValue, k, o)) {
+                    return kValue;
+                    }
+                    // e. Increase k by 1.
+                    k++;
+                }
+
+                // 7. Return undefined.
+                return undefined;
+                }
+            });
+        }
+    </script>
+</div>

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{ae7721e8-5ccf-4b16-af88-6697c546ba8f}</formid>
+    <IntroducedVersion>0.7.0.58</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true">
+      <ancestor id="{dc997a6b-d4a8-48e0-be9a-a9a7ac1d4039}" />
+      <hiddencontrols>
+        <data id="emailrouteraccessapproval" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="emailrouteraccessapproval" />
+        <data id="outgoingemaildeliverymethod" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="outgoingemaildeliverymethod" />
+        <data id="incomingemaildeliverymethod" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" datafieldname="incomingemaildeliverymethod" />
+      </hiddencontrols>
+      <tabs>
+        <tab id="{b4df8366-c804-4b62-a973-97d00cf9898b}" name="SUMMARY_TAB" expanded="true" showlabel="true" IsUserDefined="0" labelid="{07af512c-ebe4-4a2a-830f-ea6c92d4fa2e}">
+          <labels>
+            <label description="Summary" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="28%">
+              <sections>
+                <section id="{861c0ea7-e1bf-41c6-af29-44620286f46a}" name="onpremise account information" showlabel="true" IsUserDefined="0" locklevel="0" showbar="true" labelid="{c9b69b09-af05-485f-a3d7-829e700f0050}">
+                  <labels>
+                    <label description="Account Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{27a1c94b-2260-453c-902d-ea8c733452b0}" showlabel="true" locklevel="0" colspan="1" rowspan="1" auto="false" labelid="{8eedf42f-65bc-4d14-9c06-d0a8be796096}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control disabled="true" id="domainname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="domainname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{658f6715-944b-42a6-aec4-7ebcb66501f5}" labelid="{f5f9ca62-a7c4-411c-bcc3-6f6e35e7918c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="applicationid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="applicationid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2f89c8b0-e957-4c99-a61b-0b1a9294394f}" labelid="{1fe33f0c-9f5c-477d-bb25-a17a65137914}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="applicationiduri" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="applicationiduri" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0673139a-042b-41d9-9958-ab151cb6e059}" labelid="{8de498fa-5e7c-4100-baec-e38c801e87cf}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="azureactivedirectoryobjectid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="azureactivedirectoryobjectid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{9386e20c-b937-4b04-a112-eadb556f7d47}" name="user information" showlabel="true" IsUserDefined="0" locklevel="0" showbar="true" labelid="{67aa5054-5eda-4f3c-b75a-8a6f59cddc68}">
+                  <labels>
+                    <label description="User Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e0cb0ab8-8532-4a1d-aa24-c926da926f0c}" labelid="{4f2eb784-591d-426c-8cbb-2d8b5429cd90}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fullname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8bdbd9da-3986-4a1e-8c4f-3b977f04361b}" labelid="{54baac96-d3d7-493b-a9dd-06bff4738018}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="internalemailaddress" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="internalemailaddress" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{70d00118-9d66-4a82-b2e9-3fb7bab29cb9}">
+        <rows>
+          <row>
+            <cell id="{d9bca1fc-3281-4acb-84ed-c87a6c94c0e5}" labelid="{9554b81f-0bf9-423f-b6be-0a2631905966}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_isdisabled" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="isdisabled" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="/_static/_controls/lookup/lookup.js" />
+            <internaljscriptfile src="/_static/_grid/cmds/util.js" />
+            <internaljscriptfile src="/_static/biz/users/systemuser.js" />
+            <internaljscriptfile src="/_static/biz/teams/members.js" />
+            <internaljscriptfile src="$webresource:SystemUser_main_system_library.js" />
+          </clientincludes>
+          <clientvariables>
+            <internaljscriptvariable name="LOCID_REASSIGNINGRECORDS" resourceid="Message_Reassigning_Records" />
+          </clientvariables>
+        </internalresources>
+      </clientresources>
+      <events>
+        <event name="onchange" attribute="domainname" active="true" application="true">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="d3b227fb-f3b5-4106-ab55-1cbd9edd1946" libraryName="SystemUser_main_system_library.js" functionName="Mscrm.domainname_onchange">
+              <dependencies>
+                <dependency id="domainname" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" attribute="applicationid" active="true" application="true">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="503d7cdc-acf4-4b02-9569-85ad1cbfad7b" libraryName="SystemUser_main_system_library.js" functionName="applicationIdOnChange">
+              <dependencies>
+                <dependency id="applicationid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" attribute="internalemailaddress" active="true" application="true">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="156053f1-0eee-4c98-89de-e317a7733ecc" libraryName="SystemUser_main_system_library.js" functionName="primaryemailOnChange">
+              <dependencies>
+                <dependency id="internalemailaddress" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onload" active="true" application="true">
+          <InternalHandlers>
+            <Handler enabled="true" handlerUniqueId="de67cc7a-a007-412e-a011-fcc38a62ca01" libraryName="SystemUser_main_system_library.js" functionName="Mscrm.Form_onload">
+              <dependencies />
+            </Handler>
+          </InternalHandlers>
+        </event>
+      </events>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navMonthlyCalendar" Sequence="1" Area="Info" Id="navMonthlyCalendar">
+            <Titles>
+              <Title LCID="1033" Text="Work Hours" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navRoles" Area="Info" Sequence="2" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navRoles">
+            <Titles>
+              <Title Text="Security Roles" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navFieldSecurityProfiles" Area="Info" Sequence="2" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navFieldSecurityProfiles">
+            <Titles>
+              <Title Text="Field Security Profiles" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navServices" Area="Service" Sequence="3" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navServices">
+            <Titles>
+              <Title Text="Services" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="navResourceGroups" Area="Service" Sequence="3" RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navResourceGroups">
+            <Titles>
+              <Title Text="Resource Groups" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_systemuser_cmc_trip_ApprovedBy" Sequence="10001" Area="Info" Id="nav_cmc_systemuser_cmc_trip_ApprovedBy">
+            <Titles>
+              <Title LCID="1033" Text="Trips" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_systemuser_contact_sourcereferringstaffid" Sequence="10002" Area="Info" Id="nav_cmc_systemuser_contact_sourcereferringstaffid">
+            <Titles>
+              <Title LCID="1033" Text="Contacts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_systemuser_domdefinition_domdefinitionforid" Sequence="10003" Area="Info" Id="nav_cmc_systemuser_domdefinition_domdefinitionforid">
+            <Titles>
+              <Title LCID="1033" Text="DOM Definitions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_systemuser_dommaster_fallbackuserid" Sequence="10004" Area="Info" Id="nav_cmc_systemuser_dommaster_fallbackuserid">
+            <Titles>
+              <Title LCID="1033" Text="DOM Masters" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_systemuser_lead_sourcereferringstaffid" Sequence="10005" Area="Info" Id="nav_cmc_systemuser_lead_sourcereferringstaffid">
+            <Titles>
+              <Title LCID="1033" Text="Inbound Interests" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_systemuser_opportunity_sourcereferringstaffid" Sequence="10006" Area="Info" Id="nav_cmc_systemuser_opportunity_sourcereferringstaffid">
+            <Titles>
+              <Title LCID="1033" Text="Lifecycles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_systemuser_coursesection_InstructorId" Sequence="10007" Area="Info" Id="nav_mshied_systemuser_coursesection_InstructorId" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Course Section" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_cmc_systemuser_department_administrativeassistantid" Area="Info" Sequence="10008" RelationshipName="cmc_systemuser_department_administrativeassistantid">
+            <Titles>
+              <Title Text="Departments" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_cmc_systemuser_userlocation_userid" Area="Info" Sequence="10009" RelationshipName="cmc_systemuser_userlocation_userid">
+            <Titles>
+              <Title Text="User Locations" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_cmc_systemuser_successnetwork_staffmemberid" Area="Info" Sequence="10010" RelationshipName="cmc_systemuser_successnetwork_staffmemberid">
+            <Titles>
+              <Title Text="Success Networks" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_cmc_systemuser_successnetworkassignment_assigntoid" Area="Info" Sequence="10011" RelationshipName="cmc_systemuser_successnetworkassignment_assigntoid">
+            <Titles>
+              <Title Text="Success Network Assignments" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Id="nav_cmc_systemuser_staffcourse_staffid" Area="Info" Sequence="10012" RelationshipName="cmc_systemuser_staffcourse_staffid" Show="false">
+            <Titles>
+              <Title Text="Staff Courses" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title Text="Common" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title Text="Sales" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title Text="Service" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title Text="Marketing" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title Text="Processes" LCID="1033" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions FallbackForm="true" Order="10">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Application User(Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Application User Form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.288" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>CampusManagementExtended</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Campus Management Extended" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A Campus Management Solution Extended for Microsoft Dynamics 365 that provide the actionable insight and engagement tools for institution needs to drive student and institutional success." languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.60</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>campusmanagement</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Campus Management Corp." languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cmc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>17549</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="annotation" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="appointment" behavior="2" />
+      <RootComponent type="1" schemaName="cmc_portalaction" behavior="0" />
+      <RootComponent type="1" schemaName="cmc_positiveacknowledgement" behavior="2" />
+      <RootComponent type="1" schemaName="cmc_todo" behavior="1" />
+      <RootComponent type="1" schemaName="cmc_tripactivity" behavior="2" />
+      <RootComponent type="1" schemaName="incident" behavior="1" />
+      <RootComponent type="1" schemaName="knowledgearticle" behavior="2" />
+      <RootComponent type="1" schemaName="msdyn_surveyinvite" behavior="2" />
+      <RootComponent type="1" schemaName="msdyn_surveyresponse" behavior="2" />
+      <RootComponent type="1" schemaName="msevtmgt_checkin" behavior="2" />
+      <RootComponent type="1" schemaName="msevtmgt_event" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_academicperioddetails" behavior="2" />
+      <RootComponent type="1" schemaName="mshied_coursehistory" behavior="2" />
+      <RootComponent type="1" schemaName="systemuser" behavior="2" />
+      <RootComponent type="1" schemaName="msevtmgt_eventpurchase" behavior="2" />
+      <RootComponent type="1" schemaName="msgdpr_gdprconsentchangerecord" behavior="2" />
+      <RootComponent type="20" id="{8fc534bd-7d37-e811-a962-000d3a11f5ee}" behavior="0" />
+      <RootComponent type="20" id="{70bca162-63e6-e811-a968-000d3a3301c8}" behavior="0" />
+      <RootComponent type="20" id="{7c1ba76d-c0ec-e811-a968-000d3a3301c8}" behavior="0" />
+      <RootComponent type="20" id="{4b91f803-65e6-e811-a968-000d3a3301c8}" behavior="0" />
+      <RootComponent type="20" id="{4370e1c2-dea6-e711-8104-c4346bdc2171}" behavior="0" />
+      <RootComponent type="29" id="{1c264c7d-0cbd-4580-83ea-699a3593fd5c}" behavior="0" />
+      <RootComponent type="29" id="{0dda45c1-cb0f-42ee-ac6d-14e7bcdf2c5a}" behavior="0" />
+      <RootComponent type="29" id="{5c9a8421-c2c9-4ef0-84f7-9a764d7c998d}" behavior="0" />
+      <RootComponent type="29" id="{c4562b0d-081c-4637-be55-c72e49821c3e}" behavior="0" />
+      <RootComponent type="29" id="{ef892677-9103-44f7-9041-579ada35b5a7}" behavior="0" />
+      <RootComponent type="60" id="{0813d8b9-58fe-e111-a227-00155d230e13}" behavior="0" />
+      <RootComponent type="60" id="{1786b061-3962-4085-9e47-a53614363d41}" behavior="0" />
+      <RootComponent type="60" id="{31dbaf65-57fe-e111-a227-00155d230e13}" behavior="0" />
+      <RootComponent type="60" id="{3ac59837-f6c5-e111-a6b5-00155d230e08}" behavior="0" />
+      <RootComponent type="60" id="{419299a1-18c4-4cf2-bd23-6feeb4b807a4}" behavior="0" />
+      <RootComponent type="60" id="{48dc677c-4b92-e211-8ead-00155d230e1c}" behavior="0" />
+      <RootComponent type="60" id="{4b196fa7-8916-419a-b519-f5d98519dd91}" behavior="0" />
+      <RootComponent type="60" id="{71a5f6c1-5afe-e111-a227-00155d230e13}" behavior="0" />
+      <RootComponent type="60" id="{75988fec-d110-41b3-9283-4dff685772a1}" behavior="0" />
+      <RootComponent type="60" id="{854b1705-4a92-e211-8ead-00155d230e1c}" behavior="0" />
+      <RootComponent type="60" id="{87409e9b-dbba-49d3-b54e-9eac17897bf3}" behavior="0" />
+      <RootComponent type="60" id="{a77e85f5-22cb-4e4a-9e79-4afe48c31363}" />
+      <RootComponent type="60" id="{bff96ac6-e97b-44ec-a2f7-ecd0c2edb840}" behavior="0" />
+      <RootComponent type="60" id="{f1ce6664-59f6-4cdf-8704-72dbeb2c2f58}" behavior="0" />
+      <RootComponent type="60" id="{f6f62b48-4892-e211-8ead-00155d230e1c}" behavior="0" />
+      <RootComponent type="60" id="{fd1adb55-c194-e311-9438-415645000030}" behavior="0" />
+      <RootComponent type="60" id="{ff4689f0-5fde-4d71-9c8e-d4913ad04c18}" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/checkin.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/App/Forms/msdyn_surveyinvite.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Ribbon/checkin.js" behavior="0" />
+      <RootComponent type="80" schemaName="msdyncrm_MarketingSMBApp" behavior="0" />
+      <RootComponent type="80" schemaName="cmc_FacultySurvey" behavior="0" />
+      <RootComponent type="80" schemaName="cmc_ProjectEngage" behavior="0" />
+      <RootComponent type="80" schemaName="cmc_StudentSuccess" behavior="0" />
+      <RootComponent type="91" id="{a1af3697-9ae4-4ede-b37e-dca859ca570f}" schemaName="Cmc.Engage.Marketing.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f09da32b13e1936f" behavior="0" />
+      <RootComponent type="92" id="{53c87e8f-0ba6-e811-a969-000d3a33eb4e}" behavior="0" />
+      <RootComponent type="92" id="{aa714128-a6aa-e811-a969-000d3a33eb4e}" behavior="0" />
+      <RootComponent type="92" id="{ad57eecc-9faa-e811-a969-000d3a33eb4e}" behavior="0" />
+      <RootComponent type="92" id="{fe527c5a-c06e-e811-a954-000d3a3acde0}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msevtmgt_event" displayName="Event" solution="MicrosoftDynamics_EventManagement (1.4.1006.0)" />
+        <Dependent key="0" type="1" schemaName="msevtmgt_event" displayName="Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="1" schemaName="msdyn_surveyinvite" displayName="Survey Activity" solution="VoiceOfTheCustomer (9.0.1162.11)" />
+        <Dependent key="1" type="1" schemaName="msdyn_surveyinvite" displayName="Survey Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="cmc_tripactivity" displayName="Trip Activity" solution="CampusManagement (0.6.0.107)" />
+        <Dependent key="2" type="1" schemaName="cmc_tripactivity" displayName="Trip Activity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="msdyn_surveyresponse" displayName="Survey Response" solution="VoiceOfTheCustomer (9.0.1162.11)" />
+        <Dependent key="3" type="1" schemaName="msdyn_surveyresponse" displayName="Survey Response" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

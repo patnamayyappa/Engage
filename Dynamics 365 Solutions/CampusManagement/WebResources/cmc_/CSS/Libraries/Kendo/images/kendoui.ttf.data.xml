@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{c72ee84e-437d-e711-8101-c4346bdc3221}</WebResourceId>
+  <Name>cmc_/CSS/Libraries/Kendo/images/kendoui.ttf</Name>
+  <DisplayName>kendoui.ttf</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_CSSLibrariesKendoimageskendouittfC72EE84E-437D-E711-8101-C4346BDC3221</FileName>
+</WebResource>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bc02f0d5-4673-426d-aa4a-8615d0a07325}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_paymentdetailname" select="1" icon="1" preview="0">
+        <row name="cmc_paymentdetail" id="cmc_paymentdetailid">
+          <cell name="cmc_paymentdetailname" width="300" />
+          <cell name="cmc_paymentid" width="100" />
+          <cell name="cmc_paymentamount" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_paymentdetail">
+          <attribute name="cmc_paymentdetailid" />
+          <attribute name="cmc_paymentdetailname" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="cmc_paymentdetailname" descending="false" />
+          <attribute name="cmc_paymentamount" />
+          <attribute name="cmc_paymentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Payment Detail Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.cmc_trip.Approve.CustomAction" Location="Mscrm.Form.cmc_trip.MainTab.Save.Controls._children" Sequence="63">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_trip.Approve.Alt" Command="cmc.cmc_trip.Approve.Command" Id="cmc.cmc_trip.Approve" Image32by32="$webresource:cmc_/Images/Approve_32X32.png" Image16by16="$webresource:cmc_/Images/Approve_16X16.png" LabelText="$LocLabels:cmc.cmc_trip.Approve.LabelText" Sequence="63" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_trip.Approve.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_trip.Approve.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.cmc_trip.Cancel.CustomAction" Location="Mscrm.Form.cmc_trip.MainTab.Save.Controls._children" Sequence="66">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_trip.Cancel.Alt" Command="cmc.cmc_trip.Cancel.Command" Id="cmc.cmc_trip.Cancel" Image32by32="$webresource:cmc_/Images/Cancel_32X32.png" Image16by16="$webresource:cmc_/Images/Cancel_16X16.png" LabelText="$LocLabels:cmc.cmc_trip.Cancel.LabelText" Sequence="66" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_trip.Cancel.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_trip.Cancel.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.cmc_trip.Complete.CustomAction" Location="Mscrm.Form.cmc_trip.MainTab.Save.Controls._children" Sequence="65">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_trip.Complete.Alt" Command="cmc.cmc_trip.Complete.Command" Id="cmc.cmc_trip.Complete" Image32by32="$webresource:cmc_/Images/Complete_32X32.png" Image16by16="$webresource:cmc_/Images/Complete_16X16.png" LabelText="$LocLabels:cmc.cmc_trip.Complete.LabelText" Sequence="65" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_trip.Complete.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_trip.Complete.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.cmc_trip.Reject.CustomAction" Location="Mscrm.Form.cmc_trip.MainTab.Save.Controls._children" Sequence="64">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:cmc.cmc_trip.Reject.Alt" Command="cmc.cmc_trip.Reject.Command" Id="cmc.cmc_trip.Reject" Image32by32="$webresource:cmc_/Images/Reject_32X32.png" Image16by16="$webresource:cmc_/Images/Reject_16X16.png" LabelText="$LocLabels:cmc.cmc_trip.Reject.LabelText" Sequence="64" TemplateAlias="o2" ToolTipTitle="$LocLabels:cmc.cmc_trip.Reject.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.cmc_trip.Reject.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.cmc_trip.Approve.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_trip.Approve.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.Ribbon.cmc_trip.OnApprove" Library="$webresource:cmc_/dist/app/Ribbon/cmc_trip.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.cmc_trip.Cancel.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="cmc.cmc_trip.CompleteorCancel.CreateDisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.Ribbon.cmc_trip.onCompleteorCancelTripAction" Library="$webresource:cmc_/dist/app/Ribbon/cmc_trip.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <StringParameter Value="Cancel" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.cmc_trip.Complete.Command">
+      <EnableRules />
+      <DisplayRules>
+        <DisplayRule Id="cmc.cmc_trip.CompleteorCancel.CreateDisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.Ribbon.cmc_trip.onCompleteorCancelTripAction" Library="$webresource:cmc_/dist/app/Ribbon/cmc_trip.js">
+          <CrmParameter Value="FirstPrimaryItemId" />
+          <StringParameter Value="Complete" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.cmc_trip.Reject.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.cmc_trip.Approve.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.Ribbon.cmc_trip.OnReject" Library="$webresource:cmc_/dist/app/Ribbon/cmc_trip.js" />
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="cmc.cmc_trip.CompleteorCancel.CreateDisplayRule">
+        <FormStateRule State="Create" Default="true" InvertResult="true" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="cmc.cmc_trip.Approve.EnableRule">
+        <CustomRule FunctionName="CampusManagement.Ribbon.cmc_trip.showApproveRejectOption" Library="$webresource:cmc_/dist/app/Ribbon/cmc_trip.js" Default="true" InvertResult="false" />
+        <FormStateRule State="Create" Default="true" InvertResult="true" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.cmc_trip.Approve.Alt">
+      <Titles>
+        <Title description="Approve" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Approve.LabelText">
+      <Titles>
+        <Title description="Approve" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Approve.ToolTipDescription">
+      <Titles>
+        <Title description="To Approve the Trip." languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Approve.ToolTipTitle">
+      <Titles>
+        <Title description="Approve" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Cancel.Alt">
+      <Titles>
+        <Title description="Cancel" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Cancel.LabelText">
+      <Titles>
+        <Title description="Cancel" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Cancel.ToolTipDescription">
+      <Titles>
+        <Title description="Mark this Trip as Canceled. " languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Cancel.ToolTipTitle">
+      <Titles>
+        <Title description="Cancel" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Complete.Alt">
+      <Titles>
+        <Title description="Complete" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Complete.LabelText">
+      <Titles>
+        <Title description="Complete" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Complete.ToolTipDescription">
+      <Titles>
+        <Title description="Mark this Trip as Completed. " languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Complete.ToolTipTitle">
+      <Titles>
+        <Title description="Complete" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Reject.Alt">
+      <Titles>
+        <Title description="Reject" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Reject.LabelText">
+      <Titles>
+        <Title description="Reject" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Reject.ToolTipDescription">
+      <Titles>
+        <Title description="To Reject the Trip" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.cmc_trip.Reject.ToolTipTitle">
+      <Titles>
+        <Title description="Reject" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

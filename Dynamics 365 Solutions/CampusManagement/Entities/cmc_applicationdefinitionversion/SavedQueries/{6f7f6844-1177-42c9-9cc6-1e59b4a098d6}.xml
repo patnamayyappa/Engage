@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6f7f6844-1177-42c9-9cc6-1e59b4a098d6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationdefinitionversionname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationdefinitionversionid">
+          <cell name="cmc_applicationdefinitionversionname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationdefinitionversion">
+          <attribute name="cmc_applicationdefinitionversionid" />
+          <attribute name="cmc_applicationdefinitionversionname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationdefinitionversionname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Application Definition Version Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

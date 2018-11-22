@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{1cf1a719-9057-4eb8-821b-ee5792562fa0}</formid>
+    <IntroducedVersion>1.7.0.050</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{20724084-f49b-458a-ab6f-aaf41114453e}" IsUserDefined="1" labelid="{26649c3e-4974-45a5-9863-2884c205b2fc}">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b96139d2-b7ec-4a5c-8bed-604b4bc0325e}" labelid="{8a247677-b6f7-42ff-b34b-2987c7af38d2}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c7d616b2-7c5b-46b2-8123-6ddb7a3e2fc6}" labelid="{401cdb85-6c9f-4292-90f8-7f2a65b83694}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d65ecae-9460-8be2-485d-8d7492a953d1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_coursenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_coursenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb61cbbf-0b0e-4d6d-88be-a73ed1426d59}" labelid="{2d16e778-8752-449b-8eee-2347390bbc02}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Instructor" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{470c90a1-38a9-d6d3-826b-206624c317ea}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information (Engage)" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

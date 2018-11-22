@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Cmc.Engage.Communication.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=00fd17e5255b3c71" PluginAssemblyId="3524f320-9ac6-4c92-bdb5-9ee9613a43a9" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CmcEngageCommunicationActivities-3524F320-9AC6-4C92-BDB5-9EE9613A43A9/CmcEngageCommunicationActivities.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Communication.Activities.AttachAppointmentICalFileActivity, Cmc.Engage.Communication.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=00fd17e5255b3c71" PluginTypeId="4fbd57dc-184a-4b08-89d8-ab1d149e3957" Name="Attach Appointment in Email">
+      <FriendlyName>c8b4cf3e-d176-4be8-b145-020fb3f0e376</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Cmc.Engage.Communication.Activities.RetrieveDepartmentPhoneNumberActivity, Cmc.Engage.Communication.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=00fd17e5255b3c71" PluginTypeId="793501ac-c36b-411e-b7ff-ab54965d8ffc" Name="Retrieve Student Department Phone Number">
+      <FriendlyName>f5fecd3d-7cf6-4f44-ab4c-ce9aa46f91a4</FriendlyName>
+      <WorkflowActivityGroupName>CampusNexus Engage</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

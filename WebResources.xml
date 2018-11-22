@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Setting />
+  <Resources>
+    <Resource ActualFileName="kendoui.ttf.css" DisplayName="kendoui.ttf" Description="" CrmFileName="kendoui.ttf" CrmNamespace="/CSS/Libraries/Kendo/images/" Id="32bd7f66-6c3d-4253-8607-bb2dc1da351b" DoMinify="false" />
+    <Resource ActualFileName="kendoui.woff.css" DisplayName="kendoui.woff" Description="" CrmFileName="kendoui.woff" CrmNamespace="/CSS/Libraries/Kendo/images/" Id="b3a840d4-1084-4177-9484-d86ffd3e10a3" DoMinify="false" />
+    <Resource ActualFileName="WebComponentsIcons.ttf.css" DisplayName="WebComponentsIcons.ttf" Description="" CrmFileName="WebComponentsIcons.ttf" CrmNamespace="/CSS/Libraries/Kendo/fonts/glyphs/" Id="e37f2570-ad5c-4d88-82eb-b520ed4a0814" DoMinify="false" />
+    <Resource ActualFileName="WebComponentsIcons.woff.css" DisplayName="WebComponentsIcons.woff" Description="" CrmFileName="WebComponentsIcons.woff" CrmNamespace="/CSS/Libraries/Kendo/fonts/glyphs/" Id="cd5e5040-5741-4b07-a4ba-b950c3c75bc5" DoMinify="false" />
+  </Resources>
+</Root>

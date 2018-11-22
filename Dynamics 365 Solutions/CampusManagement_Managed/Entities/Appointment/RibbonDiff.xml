@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="cmc.Mscrm.Form.appointment.MainTab.MaxSize.0.CustomAction" Location="Mscrm.Form.appointment.MainTab.Scaling._children" Sequence="10">
+      <CommandUIDefinition>
+        <MaxSize GroupId="cmc.Mscrm.Form.appointment.MainTab.NewGroup" Id="cmc.Mscrm.Form.appointment.MainTab.MaxSize.0" Sequence="10" Size="LargeLargeMedium" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.Mscrm.Form.appointment.MainTab.NewGroup.CustomAction" Location="Mscrm.Form.appointment.MainTab.Groups._children" Sequence="15">
+      <CommandUIDefinition>
+        <Group Command="Mscrm.Enabled" Description="$LocLabels:cmc.Mscrm.Form.appointment.MainTab.NewGroup.Title" Id="cmc.Mscrm.Form.appointment.MainTab.NewGroup" Sequence="15" Template="Mscrm.Templates.Flexible3" Title="$LocLabels:cmc.Mscrm.Form.appointment.MainTab.NewGroup.Title">
+          <Controls Id="cmc.Mscrm.Form.appointment.MainTab.NewGroup.Controls">
+            <Button Alt="$LocLabels:cmc.appointment.Accept.Button.Alt" Command="cmc.appointment.Accept.Command" Id="cmc.appointment.Accept.Button" Image32by32="$webresource:cmc_/Images/AcceptAppointment_32px.png" Image16by16="$webresource:cmc_/Images/AcceptAppointment_16px.png" LabelText="$LocLabels:cmc.appointment.Accept.Button.LabelText" Sequence="3" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.appointment.Accept.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.appointment.Accept.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AcceptAppointment_32px.svg" />
+            <Button Alt="$LocLabels:cmc.appointment.Decline.Button.Alt" Command="cmc.appointment.Decline.Command" Id="cmc.appointment.Decline.Button" Image32by32="$webresource:cmc_/Images/DeclineAppointment_32px.png" Image16by16="$webresource:cmc_/Images/DeclineAppointment_16px.png" LabelText="$LocLabels:cmc.appointment.Decline.Button.LabelText" Sequence="5" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.appointment.Decline.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.appointment.Decline.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/DeclineAppointment_32px.svg" />
+          </Controls>
+        </Group>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.Mscrm.HomepageGrid.appointment.MainTab.Group7.CustomAction" Location="Mscrm.HomepageGrid.appointment.MainTab.Groups._children" Sequence="15">
+      <CommandUIDefinition>
+        <Group Command="Mscrm.Enabled" Description="$LocLabels:cmc.Mscrm.HomepageGrid.appointment.MainTab.Group7.Title" Id="cmc.Mscrm.HomepageGrid.appointment.MainTab.Group7" Sequence="15" Template="Mscrm.Templates.Flexible3" Title="$LocLabels:cmc.Mscrm.HomepageGrid.appointment.MainTab.Group7.Title">
+          <Controls Id="cmc.Mscrm.HomepageGrid.appointment.MainTab.Group7.Controls">
+            <Button Alt="$LocLabels:cmc.appointment.Button3.Button.Alt" Command="cmc.appointment.Subgrid.Accept" Id="cmc.appointment.Button3.Button" Image32by32="$webresource:cmc_/Images/AcceptAppointment_32px.png" Image16by16="$webresource:cmc_/Images/AcceptAppointment_16px.png" LabelText="$LocLabels:cmc.appointment.Button3.Button.LabelText" Sequence="3" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.appointment.Button3.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.appointment.Button3.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AcceptAppointment_32px.svg" />
+            <Button Alt="$LocLabels:cmc.appointment.Button2.Button.Alt" Command="cmc.appointment.Subgrid.Decline" Id="cmc.appointment.Button2.Button" Image32by32="$webresource:cmc_/Images/DeclineAppointment_32px.png" Image16by16="$webresource:cmc_/Images/DeclineAppointment_16px.png" LabelText="$LocLabels:cmc.appointment.Button2.Button.LabelText" Sequence="5" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.appointment.Button2.Button.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.appointment.Button2.Button.ToolTipDescription" ModernImage="$webresource:cmc_/Images/DeclineAppointment_32px.svg" />
+          </Controls>
+        </Group>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.Mscrm.HomepageGrid.appointment.MainTab.MaxSize.0.CustomAction" Location="Mscrm.HomepageGrid.appointment.MainTab.Scaling._children" Sequence="10">
+      <CommandUIDefinition>
+        <MaxSize GroupId="cmc.Mscrm.HomepageGrid.appointment.MainTab.Group7" Id="cmc.Mscrm.HomepageGrid.appointment.MainTab.MaxSize.0" Sequence="10" Size="LargeLargeMedium" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.Mscrm.SubGrid.appointment.MainTab.MaxSize.0.CustomAction" Location="Mscrm.SubGrid.appointment.MainTab.Scaling._children" Sequence="10">
+      <CommandUIDefinition>
+        <MaxSize GroupId="cmc.Mscrm.SubGrid.appointment.MainTab.SubgridGroup1" Id="cmc.Mscrm.SubGrid.appointment.MainTab.MaxSize.0" Sequence="10" Size="LargeLargeMedium" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="cmc.Mscrm.SubGrid.appointment.MainTab.SubgridGroup1.CustomAction" Location="Mscrm.SubGrid.appointment.MainTab.Groups._children" Sequence="15">
+      <CommandUIDefinition>
+        <Group Command="Mscrm.Enabled" Description="$LocLabels:cmc.Mscrm.SubGrid.appointment.MainTab.SubgridGroup1.Title" Id="cmc.Mscrm.SubGrid.appointment.MainTab.SubgridGroup1" Sequence="15" Template="Mscrm.Templates.Flexible3" Title="$LocLabels:cmc.Mscrm.SubGrid.appointment.MainTab.SubgridGroup1.Title">
+          <Controls Id="cmc.Mscrm.SubGrid.appointment.MainTab.SubgridGroup1.Controls">
+            <Button Alt="$LocLabels:cmc.appointment.Subgrid.Accept.Alt" Command="cmc.appointment.Subgrid.Accept" Id="cmc.appointment.Subgrid.Accept" Image32by32="$webresource:cmc_/Images/AcceptAppointment_32px.png" Image16by16="$webresource:cmc_/Images/AcceptAppointment_16px.png" LabelText="$LocLabels:cmc.appointment.Subgrid.Accept.LabelText" Sequence="3" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.appointment.Subgrid.Accept.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.appointment.Subgrid.Accept.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AcceptAppointment_32px.svg" />
+            <Button Alt="$LocLabels:cmc.appointment.Subgrid.Decline.Alt" Command="cmc.appointment.Subgrid.Decline" Id="cmc.appointment.Subgrid.Decline" Image32by32="$webresource:cmc_/Images/DeclineAppointment_32px.png" Image16by16="$webresource:cmc_/Images/DeclineAppointment_16px.png" LabelText="$LocLabels:cmc.appointment.Subgrid.Decline.LabelText" Sequence="5" TemplateAlias="o1" ToolTipTitle="$LocLabels:cmc.appointment.Subgrid.Decline.ToolTipTitle" ToolTipDescription="$LocLabels:cmc.appointment.Subgrid.Decline.ToolTipDescription" ModernImage="$webresource:cmc_/Images/AcceptAppointment_32px.svg" />
+          </Controls>
+        </Group>
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="cmc.appointment.Accept.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.appointment.invitationPending.EnableRule" />
+        <EnableRule Id="cmc.appointment.CurrentUserIsOwner.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="cmc.appointment.FormExisting.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.appointment.acceptAppointment" Library="$webresource:cmc_/dist/app/Ribbon/cmc_appointment.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.appointment.Decline.Command">
+      <EnableRules>
+        <EnableRule Id="cmc.appointment.invitationPending.EnableRule" />
+        <EnableRule Id="cmc.appointment.CurrentUserIsOwner.EnableRule" />
+      </EnableRules>
+      <DisplayRules>
+        <DisplayRule Id="cmc.appointment.FormExisting.DisplayRule" />
+      </DisplayRules>
+      <Actions>
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.appointment.declineAppointment" Library="$webresource:cmc_/dist/app/Ribbon/cmc_appointment.js" />
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.appointment.Subgrid.Accept">
+      <EnableRules>
+        <EnableRule Id="cmc.appointment.Subgrid.ItemSelected.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Common/retrieveMultiLingualValues.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.appointment.acceptListAppointment" Library="$webresource:cmc_/dist/app/Ribbon/cmc_appointment.js">
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="cmc.appointment.Subgrid.Decline">
+      <EnableRules>
+        <EnableRule Id="cmc.appointment.Subgrid.ItemSelected.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" />
+        <JavaScriptFunction FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Common/retrieveMultiLingualValues.js" />
+        <JavaScriptFunction FunctionName="CampusManagement.ribbon.appointment.declineListAppointment" Library="$webresource:cmc_/dist/app/Ribbon/cmc_appointment.js">
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+          <CrmParameter Value="SelectedControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules>
+      <DisplayRule Id="cmc.appointment.FormExisting.DisplayRule">
+        <FormStateRule State="Existing" Default="false" />
+      </DisplayRule>
+    </DisplayRules>
+    <EnableRules>
+      <EnableRule Id="cmc.appointment.CurrentUserIsOwner.EnableRule">
+        <CustomRule FunctionName="isNaN" Library="$webresource:cmc_/Scripts/Libraries/sonomaCmc.js" Default="true" />
+        <CustomRule FunctionName="CampusManagement.ribbon.appointment.isCurrentUserOwner" Library="$webresource:cmc_/dist/app/Ribbon/cmc_appointment.js" Default="false" />
+      </EnableRule>
+      <EnableRule Id="cmc.appointment.invitationPending.EnableRule">
+        <ValueRule Field="cmc_invitestatus" Value="175490000" Default="false" />
+      </EnableRule>
+      <EnableRule Id="cmc.appointment.Subgrid.ItemSelected.EnableRule">
+        <SelectionCountRule AppliesTo="SelectedEntity" Minimum="1" Default="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="cmc.appointment.Accept.Button.Alt">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Accept.Button.LabelText">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Accept.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Accept the Invitation" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Accept.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button2.Button.Alt">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button2.Button.LabelText">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button2.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Decline the Invitation" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button2.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button3.Button.Alt">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button3.Button.LabelText">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button3.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Accept the Invitation" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Button3.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Decline.Button.Alt">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Decline.Button.LabelText">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Decline.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Decline the Invitation" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Decline.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Accept.Alt">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Accept.LabelText">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Accept.ToolTipDescription">
+      <Titles>
+        <Title description="Accept the Invitation" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Accept.ToolTipTitle">
+      <Titles>
+        <Title description="Accept" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Decline.Alt">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Decline.LabelText">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Decline.ToolTipDescription">
+      <Titles>
+        <Title description="Decline the Invitation" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.appointment.Subgrid.Decline.ToolTipTitle">
+      <Titles>
+        <Title description="Decline" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.Mscrm.Form.appointment.MainTab.NewGroup.Title">
+      <Titles>
+        <Title description="Invite Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.Mscrm.HomepageGrid.appointment.MainTab.Group7.Title">
+      <Titles>
+        <Title description="Invite Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="cmc.Mscrm.SubGrid.appointment.MainTab.SubgridGroup1.Title">
+      <Titles>
+        <Title description="Invite Status" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

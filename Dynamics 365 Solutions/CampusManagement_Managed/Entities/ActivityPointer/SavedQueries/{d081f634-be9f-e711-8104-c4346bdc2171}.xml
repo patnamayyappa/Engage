@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d081f634-be9f-e711-8104-c4346bdc2171}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+        <row name="result" id="activityid" multiobjectidfield="activitytypecode">
+          <cell name="activitytypecode" width="100" />
+          <cell name="subject" width="300" />
+          <cell name="regardingobjectid" width="100" />
+          <cell name="prioritycode" width="100" />
+          <cell name="scheduledstart" width="140" />
+          <cell name="scheduledend" width="140" />
+          <cell name="instancetypecode" width="100" ishidden="1" />
+          <cell name="community" width="100" ishidden="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="activitypointer">
+          <attribute name="subject" />
+          <attribute name="scheduledstart" />
+          <attribute name="regardingobjectid" />
+          <attribute name="prioritycode" />
+          <attribute name="scheduledend" />
+          <attribute name="activitytypecode" />
+          <attribute name="instancetypecode" />
+          <attribute name="community" />
+          <order attribute="scheduledend" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>3</value>
+            </condition>
+            <condition attribute="isregularactivity" operator="eq" value="1" />
+            <condition attribute="scheduledend" operator="today" />
+          </filter>
+          <link-entity name="activityparty" from="activityid" to="activityid" alias="aa">
+            <filter type="and">
+              <condition attribute="partyid" operator="eq-userid" />
+            </filter>
+          </link-entity>
+          <link-entity name="email" from="activityid" to="activityid" link-type="outer" alias="email_engagement">
+            <attribute name="isemailfollowed" />
+            <attribute name="lastopenedtime" />
+            <attribute name="delayedemailsendtime" />
+          </link-entity>
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.14</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Open Activities Due Today" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

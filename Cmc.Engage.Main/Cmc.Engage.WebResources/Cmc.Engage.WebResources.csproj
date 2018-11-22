@@ -1,0 +1,497 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5335A938-CB1D-4F4C-9B25-67F90EEB8811}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cmc.Engage.WebResources</RootNamespace>
+    <AssemblyName>Cmc.Engage.WebResources</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TypeScriptCompileBlocked>True</TypeScriptCompileBlocked>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\Libraries\Font-Awesome\font-awesome.min.css" />
+    <Content Include="Images\CreateInvoice_16X16.png" />
+    <Content Include="Images\Approve_16X16.png" />
+    <Content Include="Images\Approve_32X32.png" />
+    <Content Include="Images\Cancel_16X16.png" />
+    <Content Include="Images\Cancel_32X32.png" />
+    <Content Include="Images\Complete_16X16.png" />
+    <Content Include="Images\Complete_32X32.png" />
+    <Content Include="Images\ContactActivitiesTimeline\Appointment-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\Chat-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\event-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\IncomingTelephone-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\MailReply-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\MailSend-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\MarketingEmail-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\OutgoingTelephone-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\TodoComplete-32x32.svg" />
+    <Content Include="Images\ContactActivitiesTimeline\TodoInComplete-32x32.svg" />
+    <Content Include="CSS\Pages\AttributeSelector.css" />
+    <Content Include="Images\CreateInvoice_32X32.png" />
+    <Content Include="Images\Reject_16X16.png" />
+    <Content Include="Images\Reject_32X32.png" />
+    <Content Include="Scripts\Libraries\kendo.culture.en-US.min.js" />
+    <Content Include="Scripts\Libraries\kendo.messages.en-US.min.js" />
+    <Content Include="WebComponents\entityPicker-e2e\protractor.conf.js" />
+    <Content Include="WebComponents\entityPicker\browserslist" />
+    <Content Include="WebComponents\entityPicker\src\app\components\entity-picker\entity-picker.component.less" />
+    <Content Include="WebComponents\entityPicker\src\app\components\entity-picker\entity-picker.component.html" />
+    <Content Include="WebComponents\entityPicker\src\assets\.gitkeep" />
+    <Content Include="WebComponents\entityPicker\tsconfig.app.json" />
+    <Content Include="WebComponents\entityPicker\tsconfig.spec.json" />
+    <Content Include="WebComponents\entityPicker\tslint.json" />
+    <Content Include="WebComponents\entityPicker-e2e\tsconfig.e2e.json" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_application.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_applicationrequirement.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_applicationrequirementdefinitiondetail.ts" />
+    <TypeScriptCompile Include="src\app\Forms\addresscountrystatedependentoptionset.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_domdefinition.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_invoicedefinitiondetail.ts" />
+    <Content Include="WebComponents\attributePicker-e2e\protractor.conf.js" />
+    <Content Include="WebComponents\attributePicker\karma.conf.js" />
+    <Content Include="WebComponents\attributePicker\src\app\app.component.html" />
+    <Content Include="WebComponents\attributePicker\src\app\components\attribute-picker\attribute-picker.component.html" />
+    <Content Include="WebComponents\attributePicker\src\favicon.ico" />
+    <Content Include="WebComponents\attributePicker\src\index.html" />
+    <Content Include="WebComponents\entityPicker\karma.conf.js" />
+    <Content Include="WebComponents\entityPicker\src\app\app.component.less" />
+    <Content Include="WebComponents\entityPicker\src\app\app.component.html" />
+    <Content Include="WebComponents\entityPicker\src\favicon.ico" />
+    <Content Include="WebComponents\entityPicker\src\index.html" />
+    <Content Include="WebComponents\entityPicker\src\styles.less" />
+    <Content Include="WebComponents\internalConnections-e2e\protractor.conf.js" />
+    <Content Include="WebComponents\internalConnections\karma.conf.js" />
+    <Content Include="WebComponents\internalConnections\src\app\app.component.html" />
+    <Content Include="WebComponents\internalConnections\src\app\components\internalConnections\internal-connections.component.html" />
+    <Content Include="WebComponents\internalConnections\src\index.html" />
+    <Content Include="CSS\Libraries\auroraDialog.css" />
+    <Content Include="CSS\Libraries\bootstrap.lumen.min.css" />
+    <Content Include="CSS\Libraries\bootstrapv4.css" />
+    <Content Include="CSS\Libraries\Kendo\Default\indeterminate.gif" />
+    <Content Include="CSS\Libraries\Kendo\Default\loading.gif" />
+    <Content Include="CSS\Libraries\Kendo\fonts\glyphs\WebComponentsIcons.ttf.css" />
+    <Content Include="CSS\Libraries\Kendo\fonts\glyphs\WebComponentsIcons.woff.css" />
+    <Content Include="CSS\Libraries\Kendo\images\kendoui.ttf.css" />
+    <Content Include="CSS\Libraries\Kendo\images\kendoui.woff.css" />
+    <Content Include="CSS\Libraries\Kendo\kendo.common.min.css" />
+    <Content Include="CSS\Libraries\Kendo\kendo.default.min.css" />
+    <Content Include="CSS\Libraries\Kendo\kendo.default.mobile.min.css" />
+    <Content Include="CSS\Libraries\scheduler.customui.css" />
+    <Content Include="CSS\Libraries\Vis\vis.min.css" />
+    <Content Include="CSS\Pages\AssignSuccessPlan.css" />
+    <Content Include="CSS\Pages\CompleteToDosProgressBar.css" />
+    <Content Include="CSS\Pages\RetentionScoreGauge.css" />
+    <Content Include="CSS\Pages\StaffCalendar.css" />
+    <Content Include="CSS\Pages\StudentActivitiesCompletedTimeline.css" />
+    <Content Include="gulp\config\gulpfile.config.js" />
+    <Content Include="gulp\helper\logger.js" />
+    <Content Include="Images\AcceptAppointment_16px.png" />
+    <Content Include="Images\AcceptAppointment_32px.png" />
+    <Content Include="Images\AssignSuccessPlan_16px.png" />
+    <Content Include="Images\AssignSuccessPlan_32px.png" />
+    <Content Include="Images\DeclineAppointment_16px.png" />
+    <Content Include="Images\DeclineAppointment_32px.png" />
+    <Content Include="Images\gauge-container.png" />
+    <Content Include="Images\progress.gif" />
+    <Content Include="package.json" />
+    <Content Include="package-lock.json" />
+    <Content Include=".editorconfig" />
+    <Content Include="angular.json" />
+    <Content Include="json\lifecyclestatusmapping.json" />
+    <TypeScriptCompile Include="src\app\Common\addresscountrystatemapping.ts" />
+    <None Include="packages.config" />
+    <Content Include="Pages\ActivateMarketingList.html" />
+    <Content Include="Pages\AssignStaffCourse.html" />
+    <Content Include="Pages\AssignSuccessPlan.html" />
+    <Content Include="Pages\AttributeSelector.html" />
+    <Content Include="Pages\CompleteToDosProgressBar.html" />
+    <Content Include="Pages\ConnectionsPowerBIChart.html" />
+    <Content Include="Pages\editor.html" />
+    <Content Include="Pages\RetentionScoreGauge.html" />
+    <Content Include="Pages\StaffCalendar.html" />
+    <Content Include="Pages\StudentActivitiesCompletedTimeline.html" />
+    <Content Include="Samples\sampleMultiLingual.html" />
+    <Content Include="Scripts\Libraries\jquery_1.12.3.min.js" />
+    <Content Include="Scripts\Libraries\kendo.all.min.js" />
+    <Content Include="Scripts\Libraries\kendo.autocomplete.min.js" />
+    <Content Include="Scripts\Libraries\kendo.dataviz.min.js" />
+    <Content Include="Scripts\Libraries\kendo.editor.min.js" />
+    <Content Include="Scripts\Libraries\kendo.progressbar.min.js" />
+    <Content Include="Scripts\Libraries\kendo.scheduler.min.js" />
+    <Content Include="Scripts\Libraries\powerbi.min.js" />
+    <Content Include="Scripts\Libraries\qs.min.js" />
+    <Content Include="Scripts\Libraries\sonomaCmc.debug.js" />
+    <Content Include="Scripts\Libraries\sonomaCmc.js" />
+    <Content Include="Scripts\Libraries\vis.min.js" />
+    <Content Include="tsconfig.json" />
+    <Content Include="src\app\Pages\ActivateMarketingList.less" />
+    <Content Include="src\app\Pages\AssignSuccessPlan.less" />
+    <Content Include="src\app\Pages\auroraDialog.less" />
+    <Content Include="src\app\Pages\CompleteToDosProgressBar.less" />
+    <Content Include="src\app\Pages\RetentionScoreGauge.less" />
+    <Content Include="src\app\Pages\scheduler.customui.less" />
+    <Content Include="src\app\Pages\StaffCalendar.less" />
+    <Content Include="src\app\Pages\StudentActivitiesCompletedTimeline.less" />
+    <Content Include="src\app\Pages\AttributeSelector.less" />
+    <Content Include="src\app\Pages\editor.less" />
+    <Content Include="tslint.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="WebComponents\e2e\tsconfig.e2e.json" />
+    <Content Include="WebComponents\staffSurvey-e2e\protractor.conf.js" />
+    <Content Include="WebComponents\staffSurvey\karma.conf.js" />
+    <Content Include="WebComponents\staffSurvey\src\app\app.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\checkbox\checkbox.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\contact-survey\contact-survey.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\dropdown\dropdown.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\faculty-survey-grid\faculty-survey-grid.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\preview\preview.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\radiobutton\radiobutton.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\staff-survey\staff-survey.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\text\text.component.html" />
+    <Content Include="WebComponents\staffSurvey\src\app\fonts\fontawesome-webfont.svg" />
+    <Content Include="WebComponents\staffSurvey\src\index.html" />
+    <Content Include="WebComponents\tripMaps-e2e\protractor.conf.js" />
+    <Content Include="WebComponents\tripMaps\karma.conf.js" />
+    <Content Include="WebComponents\tripMaps\src\app\app.component.html" />
+    <Content Include="WebComponents\tripMaps\src\app\components\trip-maps\trip-maps.component.html" />
+    <Content Include="WebComponents\tripMaps\src\index.html" />
+    <Content Include="WebComponents\attributePicker\browserslist" />
+    <Content Include="WebComponents\attributePicker\src\app\app.component.less" />
+    <Content Include="WebComponents\attributePicker\src\app\components\attribute-picker\attribute-picker.component.less" />
+    <Content Include="WebComponents\attributePicker\src\assets\.gitkeep" />
+    <Content Include="WebComponents\attributePicker\src\styles.less" />
+    <Content Include="WebComponents\internalConnections\browserslist" />
+    <Content Include="WebComponents\internalConnections\src\app\app.component.less" />
+    <Content Include="WebComponents\internalConnections\src\app\components\internalConnections\internal-connections.component.less" />
+    <Content Include="WebComponents\internalConnections\src\assets\.gitkeep" />
+    <Content Include="WebComponents\internalConnections\src\styles.less" />
+    <Content Include="WebComponents\staffSurvey\browserslist" />
+    <Content Include="WebComponents\staffSurvey\src\app\app.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\checkbox\checkbox.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\contact-survey\contact-survey.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\dropdown\dropdown.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\faculty-survey-grid\faculty-survey-grid.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\preview\preview.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\radiobutton\radiobutton.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\staff-survey\staff-survey.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\components\text\text.component.less" />
+    <Content Include="WebComponents\staffSurvey\src\app\fonts\fontawesome-webfont.eot" />
+    <Content Include="WebComponents\staffSurvey\src\app\fonts\fontawesome-webfont.ttf" />
+    <Content Include="WebComponents\staffSurvey\src\app\fonts\fontawesome-webfont.woff" />
+    <Content Include="WebComponents\staffSurvey\src\app\fonts\fontawesome-webfont.woff2" />
+    <Content Include="WebComponents\staffSurvey\src\app\fonts\FontAwesome.otf" />
+    <Content Include="WebComponents\staffSurvey\src\assets\.gitkeep" />
+    <Content Include="WebComponents\staffSurvey\src\styles.less" />
+    <Content Include="WebComponents\tripMaps\browserslist" />
+    <Content Include="WebComponents\tripMaps\src\app\app.component.less" />
+    <Content Include="WebComponents\tripMaps\src\app\components\trip-maps\trip-maps.component.less" />
+    <Content Include="WebComponents\tripMaps\src\assets\.gitkeep" />
+    <Content Include="WebComponents\tripMaps\src\styles.less" />
+    <Content Include="WebComponents\staffSurvey\tsconfig.app.json" />
+    <Content Include="WebComponents\staffSurvey\tsconfig.spec.json" />
+    <Content Include="WebComponents\staffSurvey\tslint.json" />
+    <Content Include="WebComponents\internalConnections\tsconfig.app.json" />
+    <Content Include="WebComponents\internalConnections\tsconfig.spec.json" />
+    <Content Include="WebComponents\internalConnections\tslint.json" />
+    <Content Include="WebComponents\tripMaps\tsconfig.app.json" />
+    <Content Include="WebComponents\tripMaps\tsconfig.spec.json" />
+    <Content Include="WebComponents\tripMaps\tslint.json" />
+    <Content Include="WebComponents\attributePicker\tsconfig.app.json" />
+    <Content Include="WebComponents\attributePicker\tsconfig.spec.json" />
+    <Content Include="WebComponents\attributePicker\tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gulpfile.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="WebComponents\attributePicker\src\app\services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\Common\CommonActivityLogic.ts" />
+    <TypeScriptCompile Include="src\app\Common\CommonInboundInterestLogic.ts" />
+    <TypeScriptCompile Include="src\app\Common\CommonUiControls.ts" />
+    <TypeScriptCompile Include="src\app\Common\constants.ts" />
+    <TypeScriptCompile Include="src\app\Common\LanguageMappings.ts" />
+    <TypeScriptCompile Include="src\app\Common\localization.ts" />
+    <TypeScriptCompile Include="src\app\Common\resourcestrings.ts" />
+    <TypeScriptCompile Include="src\app\Common\retrieveMultiLingualValues.ts" />
+    <TypeScriptCompile Include="src\app\Common\Themes.ts" />
+    <TypeScriptCompile Include="src\app\Common\utilities.ts" />
+    <TypeScriptCompile Include="src\app\Forms\appointment.ts" />
+    <TypeScriptCompile Include="src\app\Forms\checkin.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_positiveacknowledgement.ts" />
+    <TypeScriptCompile Include="src\app\Common\XrmSystemInformation.ts" />
+    <TypeScriptCompile Include="src\app\Forms\address.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_domdefinitionexecutionorder.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_domdefinitionlogic.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_dommaster.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_officehours.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_scoredefinition.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_scoringfactor.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_staffsurvey.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_staffsurveytemplate.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_testscore.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_todo.ts" />
+    <TypeScriptCompile Include="src\app\Forms\account.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_trip.ts" />
+    <TypeScriptCompile Include="src\app\Forms\cmc_tripactivity.ts" />
+    <TypeScriptCompile Include="src\app\Forms\contact.ts" />
+    <TypeScriptCompile Include="src\app\Forms\email.ts" />
+    <TypeScriptCompile Include="src\app\Forms\invoice.ts" />
+    <TypeScriptCompile Include="src\app\Forms\lead.ts" />
+    <TypeScriptCompile Include="src\app\Forms\marketinglist.ts" />
+    <TypeScriptCompile Include="src\app\Forms\msdyn_surveyinvite.ts" />
+    <TypeScriptCompile Include="src\app\Forms\opportunity.ts" />
+    <TypeScriptCompile Include="src\app\Pages\ActivateMarketingList.ts" />
+    <TypeScriptCompile Include="src\app\Pages\AssignStaffSurvey.ts" />
+    <TypeScriptCompile Include="src\app\Pages\AssignSuccessPlan.ts" />
+    <TypeScriptCompile Include="src\app\Pages\AttributeSelector.ts" />
+    <TypeScriptCompile Include="src\app\Pages\CompleteToDosProgressBar.ts" />
+    <TypeScriptCompile Include="src\app\Pages\ConnectionsPowerBIChart.ts" />
+    <TypeScriptCompile Include="src\app\Pages\editor.ts" />
+    <TypeScriptCompile Include="src\app\Pages\RetentionScoreGuage.ts" />
+    <TypeScriptCompile Include="src\app\Pages\StaffCalendar.ts" />
+    <TypeScriptCompile Include="src\app\Pages\StudentActivitiesCompletedTimeline.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\checkin.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_application.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_appointment.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_apprecommendation.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_staffcourse.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_staffsurvey.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_StaffSurveyTemplate.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_successplantemplate.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_trip.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\cmc_tripactivity.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\contact.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\marketinglist.ts" />
+    <TypeScriptCompile Include="src\app\Ribbon\opportunity.ts" />
+    <TypeScriptCompile Include="src\app\Views\retentionView.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker-e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker-e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\app\app.component.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\app\app.module.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\app\components\attribute-picker\attribute-picker.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\app\components\attribute-picker\attribute-picker.component.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\app\models\metadata.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\environments\environment.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\main.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\polyfills.ts" />
+    <TypeScriptCompile Include="WebComponents\attributePicker\src\test.ts" />
+    <TypeScriptCompile Include="WebComponents\common\app-constants\app-constants.module.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\common\app-constants\app-constants.module.ts" />
+    <TypeScriptCompile Include="WebComponents\common\services\utility.service.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\common\services\utility.service.ts" />
+    <TypeScriptCompile Include="WebComponents\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="WebComponents\e2e\app.po.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker-e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker-e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\app\app.component.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\app\app.module.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\app\components\entity-picker\entity-picker.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\app\components\entity-picker\entity-picker.component.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\app\services\entity-picker.service.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\app\services\entity-picker.service.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\environments\environment.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\main.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\polyfills.ts" />
+    <TypeScriptCompile Include="WebComponents\entityPicker\src\test.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections-e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections-e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\app.component.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\app.module.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\components\internalConnections\internal-connections.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\components\internalConnections\internal-connections.component.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\directives\network-vis.directive.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\directives\network-vis.directive.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\models\internal-connection.model.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\services\internal-connections.service.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\app\services\internal-connections.service.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\environments\environment.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\main.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\polyfills.ts" />
+    <TypeScriptCompile Include="WebComponents\internalConnections\src\test.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey-e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey-e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\app.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\app.module.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\checkbox\checkbox.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\checkbox\checkbox.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\contact-survey\contact-survey.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\contact-survey\contact-survey.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\dropdown\dropdown.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\dropdown\dropdown.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\faculty-survey-grid\faculty-survey-grid.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\faculty-survey-grid\faculty-survey-grid.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\preview\preview.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\preview\preview.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\radiobutton\radiobutton.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\radiobutton\radiobutton.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\staff-survey\staff-survey.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\staff-survey\staff-survey.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\text\text.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\components\text\text.component.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\services\staff-survey.service.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\app\services\staff-survey.service.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\environments\environment.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\main.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\polyfills.ts" />
+    <TypeScriptCompile Include="WebComponents\staffSurvey\src\test.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps-e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps-e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\app\app.component.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\app\app.module.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\app\components\trip-maps\trip-maps.component.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\app\components\trip-maps\trip-maps.component.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\app\services\trip-maps.service.spec.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\app\services\trip-maps.service.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\environments\environment.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\main.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\polyfills.ts" />
+    <TypeScriptCompile Include="WebComponents\tripMaps\src\test.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\ResourceStrings.1046.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceStrings.1046.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ResourceStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceStrings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ResourceStrings.1046.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceStrings.1046.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ResourceStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25543</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25543/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{cdfa0946-7e3e-e811-a962-000d3a11f5ee}</WebResourceId>
+  <Name>cmc_/dist/app/Forms/cmc_dommaster.js</Name>
+  <DisplayName>cmc_dommaster.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.59</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/Localization.js" displayName="Localization.js" languagecode="" description="library to retrieve the localized strings" libraryUniqueId="{a5686287-849a-381d-ce45-a25cd2294cad}"/&gt;&lt;Library name="cmc_/dist/app/Common/constants.js" displayName="constants.js" languagecode="1033" description="application constants are maintained here." libraryUniqueId="{1a109a2e-eea0-b461-9048-53a193456234}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappFormscmc_dommasterjsCDFA0946-7E3E-E811-A962-000D3A11F5EE</FileName>
+</WebResource>

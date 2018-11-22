@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Application.Plugins.SetTestSuperandBestScoresPlugin: Update of mshied_testscore" SdkMessageProcessingStepId="{4bd95aef-1bd9-e811-a95d-000d3a3ac3f8}">
+  <PluginTypeName>Cmc.Engage.Application.Plugins.SetTestSuperandBestScoresPlugin, Cmc.Engage.Application.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5420fce4e329b67d</PluginTypeName>
+  <PluginTypeId>4ad0d35b-5aac-4fe5-8af3-10cc628b561f</PluginTypeId>
+  <PrimaryEntity>mshied_testscore</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Cmc.Engage.Application.Plugins.SetTestSuperandBestScoresPlugin: Update of mshied_testscore</Description>
+  <FilteringAttributes>mshied_actcomposite,mshied_actenglish,mshied_actmath,mshied_actreading,mshied_actscience,cmc_includeinscorecalculations,mshied_satevidencebasedreadingandwritingsection,mshied_satmathsection,mshied_sattotalscore,statecode</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{20bebb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="PostImage">
+      <SdkMessageProcessingStepImageId>{b44b84f7-1bd9-e811-a962-000d3a3acde0}</SdkMessageProcessingStepImageId>
+      <Attributes></Attributes>
+      <EntityAlias>PostImage</EntityAlias>
+      <ImageType>1</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

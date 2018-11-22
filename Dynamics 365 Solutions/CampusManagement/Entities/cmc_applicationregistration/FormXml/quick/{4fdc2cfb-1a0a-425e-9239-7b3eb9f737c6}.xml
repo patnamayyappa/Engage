@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{4fdc2cfb-1a0a-425e-9239-7b3eb9f737c6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5c40db66-e85c-4978-b7ba-359dcc99aabe}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7f986a40-e97f-4866-a695-d1a633f88018}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{94041e52-f3e8-4fbb-b222-b58148a51c51}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationregistration" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_applicationregistration" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3dcb3a3-a779-3d14-2b7a-c1e190d48d73}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Definition Version" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationdefinitionversionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_applicationdefinitionversionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25672eb7-9e36-037e-6aa6-4553eda2b370}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b00579c6-9806-0360-57e3-562ee2555c80}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application Status" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_applicationstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{015e1ada-5e68-c85b-629d-87156579a89e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Application submitted" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_applicationsubmitted" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cmc_applicationsubmitted" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{722a174c-5a7d-e886-bb21-974e7ee895de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Submitted Date" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_submitteddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_submitteddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f1ebc895-bb71-4d96-a440-97d33c5e104c}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ad96e4d-29e6-844d-0784-de21309bb5a5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified On" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24908e95-4ced-861d-80a4-ccb280e82c79}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Modified By" languagecode="1033" />
+                        </labels>
+                        <control id="modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

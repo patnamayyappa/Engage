@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print" data-mc-toc-path="[%=System.LinkedTitle%]" data-mc-ignored-words="campusmgmt;www;campusmanagement">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Describes troubleshooting tips for Azure functions" /><title>Azure Functions</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/CMC_styles1_OpenSans.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#DCRMHelp/Azure_Functions.htm">Open topic with navigation</a>
+        </p>
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="4" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+            </div>
+        </div>
+        <h1>Azure Functions</h1>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="14" width="16" alt="Closed" data-mc-alt2="Open" />Values in Configuration Keys</a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <ol>
+                    <li value="1">Log on to  <a href="https://portal.azure.com/">https://portal.azure.com</a> and click <b>Function Apps</b> in the left pane.</li>
+                    <li value="2">Select the App Service and then click <b>Application Settings</b>.<br /><img src="../Resources/Images/Confg_Keys.png" style="width: 515px;height: 346px;" /><br />Ensure that values are specified in the following configuration keys:ClientId, ClientSecret, CrmOrgUrl, TenantId.</li>
+                    <li value="3">To verify scheduled time in Azure functions, note the key named <b>RetentionScoreCalculatorSchedule</b> with the value  0 0 */8 * * * (indicates that it runs every 8 hours).<br />The schedule is specified using the on CRON format.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="14" width="16" alt="Closed" data-mc-alt2="Open" />Checking Logs</a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <p>Click <b>Application Insights</b> and then click <b>Search</b>  to view  trace records.</p>
+            </div>
+        </div>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="14" width="16" alt="Closed" data-mc-alt2="Open" />Verifying if the CMC - Azure FunctionApp Security Role is Available on the Engage Portal</a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <p>From the Security Roles page, verify that the CMC - Azure FunctionApp is available.</p>
+                <p class="Indent">
+                    <img src="../Resources/Images/Security_Page.png" style="width: 640px;height: 354px;" />
+                </p>
+                <p class="Indent">
+                    <img src="../Resources/Images/Azure_FunctionApp.png" style="width: 636px;height: 457px;" />
+                    <br />This security role must be assigned to the user running the Azure function. This security role must always be in place in a client’s organization.</p>
+            </div>
+        </div>
+        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="14" width="16" alt="Closed" data-mc-alt2="Open" />Application User Credentials</a></span>
+            <div class="MCDropDownBody dropDownBody">
+                <p>At least one application user must be created with Application ID details that are identical to the value in the ClientId field.</p>
+                <ul>
+                    <li value="1">On the Users page, select the <b>Application Users</b> view.<br />Verify that the value in the Application ID field is identical to the value in the ClientId field on the Azure portal.<br /><img src="../Resources/Images/Application_ID.png" style="width: 879px;height: 274px;" /></li>
+                </ul>
+            </div>
+        </div>
+        <p>&#160;</p>
+        <hr width="100%" size="0" align="center" />
+        <p class="Copyright" style="text-align: center;">Help Build: <span style="font-size: 9pt;" class="SystemLongDate">Friday, July 20, 2018</span></p>
+        <p class="Copyright" style="text-align: center;"> Campus Management Corp.&#160;|&#160;<span style="font-size: 9pt;"><a href="http://www.campusmanagement.com/">www.campusmanagement.com </a></span></p>
+    </body>
+</html>

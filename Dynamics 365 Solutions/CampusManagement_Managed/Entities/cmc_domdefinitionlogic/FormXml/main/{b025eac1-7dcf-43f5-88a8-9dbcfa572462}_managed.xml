@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{b025eac1-7dcf-43f5-88a8-9dbcfa572462}</formid>
+    <IntroducedVersion>1.0.0.47</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{2aa1d75e-d0b1-4fe6-a89b-67e2f8b76da3}" IsUserDefined="1" name="DOM_Definition_Logic_tab" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="DOM Definition Logic" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{934c1612-e14b-4bc7-9bfb-712f997aa969}" name="{934c1612-e14b-4bc7-9bfb-712f997aa969}" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8ae7a625-ddcb-d845-d057-58b34bcc0428}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_domdefinitionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_domdefinitionid" disabled="false" uniqueid="{895b1055-880b-0707-cd42-549e8753597c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8342975-c385-4893-947a-9d2746276bb7}" showlabel="true" locklevel="0" visible="false" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_domdefinitionlogicname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_domdefinitionlogicname" uniqueid="{241045dd-541b-2064-7ed6-b0a27a263952}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b98f363-a9f8-4e86-bc94-4dd4d9e6c918}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{d4c96cd8-09d6-04c8-4886-c13b00d8e090}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3060ae25-5a91-97ed-45d5-6239b5ae5279}" showlabel="true" colspan="1" locklevel="1" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_attributeschema" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_attributeschema" disabled="true" uniqueid="{cead9b33-93a8-0bd9-6d97-32bb0901c18d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{835dca85-c725-27a5-c314-cc8439a26774}" showlabel="false" colspan="1" auto="false" rowspan="15">
+                        <labels>
+                          <label description="AttributePicker" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_AttributePicker" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/attributePicker/index.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{1034480F-5FA1-E811-A954-000D3A3AB637}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="DOM_Definition_Logic_tab_section_2" showlabel="false" showbar="false" locklevel="0" id="{dc65d8b3-8947-bac3-1978-6b44960d7051}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" visible="false">
+                  <labels>
+                    <label description="Logic Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{73a7eddb-337e-ae8a-40a1-3e1d560d2671}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_attribute" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_attribute" disabled="true" uniqueid="{e25eb21a-8ba0-50b0-1937-abdee3c9add7}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbc0c3eb-2128-d4c6-ae92-6bdce966376a}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_conditiontype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_conditiontype" disabled="false" uniqueid="{eed92709-83a7-ad39-5b01-9a02ddbbd543}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{717b5250-93cb-5720-23a4-b1a2cb23b94e}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_value" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_value" disabled="false" uniqueid="{db5688ea-8bdb-b929-0447-d8b7e79236d2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a867daac-4a15-1953-c85a-07ce2c6e5e8d}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_minimum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_minimum" disabled="false" uniqueid="{47400be5-446c-e910-a6dd-e8e2921a446d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3866b040-33a5-7d1c-2d83-6387233ceabb}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_maximum" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_maximum" disabled="false" uniqueid="{6e2068cb-c245-2536-43b2-7d5a41ad5c4a}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{e1f8102f-f038-4492-97f0-3c859afe677f}" columns="111">
+        <rows>
+          <row>
+            <cell id="{d48fc67b-75ec-4853-a8aa-a33dcf466419}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ade4bb11-177f-4f9c-8c39-3f75b21f2d61}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{aad1513e-2588-1eea-8bae-3b48ad33e458}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{17a309f1-bd4b-4605-bd27-9eff78494fcd}" columns="1111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{b64a4732-9c3a-3d79-a463-7acbba6aba77}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{e2040275-c67e-4c47-7cd0-920c13792476}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{5e00c268-dc59-bd4e-e025-2a097b00dc08}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{6a9769bb-1cdd-aa68-4091-99de60da6b65}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <formLibraries>
+        <Library name="cmc_/Scripts/Libraries/sonomaCmc.js" libraryUniqueId="{3901d683-d0da-6de6-db37-eb7c35b94a8b}" />
+        <Library name="cmc_/dist/app/common/retrieveMultiLingualValues.js" libraryUniqueId="{b044038e-037b-6409-b507-b2a20966bd84}" />
+        <Library name="cmc_/dist/app/Forms/cmc_domdefinitionlogic.js" libraryUniqueId="{5555720a-3b20-2034-ded1-77dc8c60b064}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <dependencies>
+            <dependency id="cmc_attributeschema" />
+            <dependency id="cmc_domdefinitionid" />
+            <dependency id="cmc_attribute" />
+          </dependencies>
+          <Handlers>
+            <Handler functionName="CMC.Engage.cmc_domdefinitionlogic.onLoad" libraryName="cmc_/dist/app/Forms/cmc_domdefinitionlogic.js" handlerUniqueId="{36db1820-aa7c-b48a-2db4-492b730b6d3d}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

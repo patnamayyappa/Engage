@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{102cccfc-2dc3-4a14-9027-94121924abda}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_configurationname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_configurationid">
+          <cell name="cmc_configurationname" width="300" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_configuration">
+          <attribute name="cmc_configurationname" />
+          <order attribute="cmc_configurationname" descending="false" />
+          <attribute name="statecode" />
+          <attribute name="cmc_configurationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Configuration Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{b560bde9-c8a3-e811-a96b-000d3a3ac0c2}</WebResourceId>
+  <Name>cmc_/dist/app/forms/cmc_testscore.js</Name>
+  <DisplayName>cmc_testscore.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.6.0.108</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"&gt;&lt;Library name="cmc_/dist/app/Common/Localization.js" displayName="Localization.js" languagecode="" description="library to retrieve the localized strings" libraryUniqueId="{837940aa-8a4c-429d-d8ed-0e0718b81b78}"/&gt;&lt;Library name="cmc_/dist/app/Common/CommonUiControls.js" displayName="CommonUiControls.js" languagecode="1033" description="" libraryUniqueId="{e6c67bb0-3019-e529-5686-a3768da55425}"/&gt;&lt;Library name="cmc_/dist/app/Common/constants.js" displayName="constants.js" languagecode="1033" description="application constants are maintained here." libraryUniqueId="{0b8acd1d-85d6-dc83-3592-b10ec20c20e5}"/&gt;&lt;/Dependency&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappformscmc_testscorejsB560BDE9-C8A3-E811-A96B-000D3A3AC0C2</FileName>
+</WebResource>

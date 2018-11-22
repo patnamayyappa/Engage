@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Invoice Product" OriginalName="Invoice Product">InvoiceDetail</Name>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

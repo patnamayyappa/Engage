@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{0fd9b20a-7ad7-e811-a95c-000d3a4e75c3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" preview="1" icon="1">
+        <row name="result" id="leadid">
+          <cell name="fullname" width="300" />
+          <cell name="cmc_sourcedate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcecampusid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourceprgmid" width="100" />
+          <cell name="cmc_sourceprgmlevelid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_expectedstartid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcemethodid" width="100" />
+          <cell name="cmc_sourcecategoryid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcesubcategoryid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcereferringcontactid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcereferringorganizationid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcereferringstaffid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_sourcecampaignid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ownerid" width="100" />
+          <cell name="companyname" ishidden="1" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="lead">
+          <attribute name="fullname" />
+          <attribute name="cmc_sourcesubcategoryid" />
+          <attribute name="cmc_sourcereferringstaffid" />
+          <attribute name="cmc_sourcereferringorganizationid" />
+          <attribute name="cmc_sourcereferringcontactid" />
+          <attribute name="cmc_sourcemethodid" />
+          <attribute name="cmc_sourcedate" />
+          <attribute name="cmc_sourcecategoryid" />
+          <attribute name="cmc_sourcecampusid" />
+          <attribute name="cmc_sourcecampaignid" />
+          <attribute name="companyname" />
+          <attribute name="ownerid" />
+          <order attribute="fullname" descending="true" />
+          <attribute name="cmc_sourceprgmlevelid" />
+          <attribute name="cmc_sourceprgmid" />
+          <attribute name="cmc_expectedstartid" />
+          <attribute name="leadid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.00</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Campaign Inbound Interests(Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Displays Inbound Interests for the Campaign record." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

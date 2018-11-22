@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <LocalizedNames>
+    <LocalizedName description="Success Coach" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{390e85a1-b99f-e711-8104-c4346bdc2171}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{254ec5d4-a261-40b8-b54b-e5427e577e28}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{200b900b-123b-492f-8801-2adbce0a2722}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{06e2170d-4317-46c9-b9ba-91d30e34136d}" auto="false">
+                          <labels>
+                            <label description="My Active Contacts" languagecode="1033" />
+                          </labels>
+                          <control id="my_active_contacts_component" uniqueid="{30b27b13-484b-5635-755a-3a6dca032239}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>contact</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>9</RecordsPerPage>
+                              <ViewId>{00000000-0000-0000-00AA-000010001003}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{00000000-0000-0000-00AA-000010001003}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{8AC94A22-BC9F-E711-8104-C4346BDC2171}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{ac8805d1-4c3a-42eb-bb78-3d609bb5ad92}" auto="false">
+                          <labels>
+                            <label description="My Contacts No Activity 30 Days" languagecode="1033" />
+                          </labels>
+                          <control id="my_contacts_no_activity_30days_component" uniqueid="{db248722-3503-5da6-c6c0-4d207c0e5e3d}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>contact</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>9</RecordsPerPage>
+                              <ViewId>{112DC39D-F988-E711-8102-5065F38B0191}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{112DC39D-F988-E711-8102-5065F38B0191}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{8AC94A22-BC9F-E711-8104-C4346BDC2171}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{8cb6f2e8-beb1-457d-8420-fac514e4d9bf}" auto="false">
+                          <labels>
+                            <label description="My Appointments" languagecode="1033" />
+                          </labels>
+                          <control id="appointments_component" uniqueid="{906c8558-ea14-cb82-b911-05673e3e963d}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>appointment</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>9</RecordsPerPage>
+                              <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId></VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{7d262eaf-be67-47e5-8775-0696cc053415}" auto="false">
+                          <labels>
+                            <label description="My Open Activities Due Today" languagecode="1033" />
+                          </labels>
+                          <control id="my_open_activities_due_today_component" uniqueid="{72618c26-bd1d-c461-a52d-21c472b8aa21}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>activitypointer</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>9</RecordsPerPage>
+                              <ViewId>{D081F634-BE9F-E711-8104-C4346BDC2171}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{D081F634-BE9F-E711-8104-C4346BDC2171}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{EDF35649-5293-DE11-97D4-00155DA3B01E}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{1fb39fd8-67be-4e26-bb09-72008cada76a}" auto="false">
+                          <labels>
+                            <label description="My At Risk Students" languagecode="1033" />
+                          </labels>
+                          <control id="my_at_risk_students_components" uniqueid="{332dae29-68b1-e018-be23-8d60a7de9935}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>contact</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>9</RecordsPerPage>
+                              <ViewId>{5F3C306E-BA9F-E711-8104-C4346BDC2171}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{5F3C306E-BA9F-E711-8104-C4346BDC2171}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{8AC94A22-BC9F-E711-8104-C4346BDC2171}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName></RelationshipName>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                      <row></row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions />
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.14</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

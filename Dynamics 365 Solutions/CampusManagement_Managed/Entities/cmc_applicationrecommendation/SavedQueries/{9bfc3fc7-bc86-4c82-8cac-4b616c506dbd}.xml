@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{9bfc3fc7-bc86-4c82-8cac-4b616c506dbd}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_applicationrecommendationname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_applicationrecommendationid">
+          <cell name="cmc_applicationrecommendationname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_applicationrecommendation">
+          <attribute name="cmc_applicationrecommendationid" />
+          <attribute name="cmc_applicationrecommendationname" />
+          <attribute name="createdon" />
+          <order attribute="cmc_applicationrecommendationname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Application Recommendations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

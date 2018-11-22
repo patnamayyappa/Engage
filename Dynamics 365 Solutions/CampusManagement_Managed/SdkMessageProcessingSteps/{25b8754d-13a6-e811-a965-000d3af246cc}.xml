@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Cmc.Engage.Lifecycle.Plugins.CompleteOrCancelTripPlugin: cmc_CompleteorCancelTrip of  any Entity" SdkMessageProcessingStepId="{25b8754d-13a6-e811-a965-000d3af246cc}">
+  <PluginTypeName>Cmc.Engage.Lifecycle.Plugins.CompleteOrCancelTripPlugin, Cmc.Engage.Lifecycle.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dae0b0bf5ce25833</PluginTypeName>
+  <PluginTypeId>8bcd77b7-83e5-44e5-ad80-3c9430fef396</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{f49f559c-74a1-e811-a964-000d3af24950}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

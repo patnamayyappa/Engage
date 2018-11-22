@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{392c6623-adef-48b7-b4ab-128e53b23e3b}" Name="Build Attributes Display" Description="Converts 1 or more Attribute Names consisting of logical names to display names in the current user’s language.">
+  <XamlFileName>/Workflows/BuildAttributesDisplay-392C6623-ADEF-48B7-B4AB-128E53B23E3B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{0514ad6e-a85e-e811-a957-000d3a18c23c}</SdkMessageId>
+  <UniqueName>buildattributedisplay</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.68</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{00000000-0000-0000-0000-000000000000}</FormId>
+  <PrimaryEntity>none</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Build Attributes Display" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Converts 1 or more Attribute Names consisting of logical names to display names in the current user’s language." />
+  </Descriptions>
+</Workflow>

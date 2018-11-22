@@ -1,0 +1,66 @@
+{% fetchxml translation_query %}
+  <fetch version="1.0" mapping="logical">
+      <entity name="cmc_portalaction">
+          <attribute name="cmc_data"></attribute>
+          <filter> 
+              <condition attribute="cmc_data" operator="eq" value="{'ContactId':'{{contactid}}', 'WebsiteId': '{{websiteid}}', 'Keys': 'Portal_MySurveysLinkText'}"></condition>
+              <condition attribute="cmc_logicclassname" operator="eq" value="Cmc.Engage.Common.PortalRetrieveMultiLingualValues"></condition>
+          </filter>
+      </entity>
+  </fetch>
+{% endfetchxml %}
+
+<!-- Load Template results into JavaScript in separate script tags to avoid one error breaking the page -->
+<script type="text/javascript">
+    (function(global) {
+        'use strict';
+
+        global.StudentPortal = global.StudentPortal || {};
+        global.StudentPortal.MySurveys = global.StudentPortal.MySurveys || {};
+
+        {% for result in translation_query.results.entities %}
+            global.StudentPortal.MySurveys.translations = '{{ result.cmc_data }}'.trim();
+        {% endfor %}
+    }(this));
+</script>
+
+<script type="text/javascript">
+  (function(global) {
+    "use strict"
+    $(document).ready(function() {
+      var $target = $('.entitylist'),
+          translations = global.StudentPortal.MySurveys.translations
+                         ? JSON.parse(global.StudentPortal.MySurveys.translations)
+                         : {};
+
+      if (!window.MutationObserver || $target.length === 0) {
+        // MutationObserver is Not supported in older browsers
+        return;
+      }
+
+      // create an observer instance
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          console.log(mutation)
+          console.log(mutation.target.tagName);
+          if (mutation.target && mutation.target.tagName &&
+            mutation.target.tagName.toLowerCase() === 'table' &&
+            mutation.addedNodes.length) {
+            $('[data-attribute=msdyn_invitationlink] a').html(translations.Portal_MySurveysLinkText || 'Begin Survey');
+          }
+        });
+      });
+
+      // configuration of the observer:
+      var config = {
+        attributes: false,
+        childList: true,
+        characterData: false,
+        subtree: true
+      };
+
+      // pass in the target node, as well as the observer options
+      observer.observe($target[0], config);
+    })
+  }(this));
+</script>

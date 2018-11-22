@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{566d7e1f-5d55-4877-8bdf-39df05a6d0cb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_todocategoryname" select="1" icon="1" preview="1">
+        <row name="result" id="cmc_todocategoryid">
+          <cell name="cmc_todocategoryname" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_todocategory">
+          <attribute name="cmc_todocategoryid" />
+          <attribute name="cmc_todocategoryname" />
+          <order attribute="cmc_todocategoryname" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="To Do Category Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

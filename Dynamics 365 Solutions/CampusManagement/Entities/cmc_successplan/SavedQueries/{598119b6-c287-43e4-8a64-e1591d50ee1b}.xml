@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{598119b6-c287-43e4-8a64-e1591d50ee1b}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="cmc_successplanname" select="1" icon="1" preview="1">
+        <row name="cmc_successplan" id="cmc_successplanid">
+          <cell name="cmc_successplanname" width="300" />
+          <cell name="statecode" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="cmc_successplantemplateid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_assignedtoid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cmc_successplan">
+          <attribute name="cmc_successplanname" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_assignedtoid" />
+          <attribute name="cmc_successplantemplateid" />
+          <attribute name="statuscode" />
+          <attribute name="statecode" />
+          <order attribute="cmc_successplanname" descending="false" />
+          <attribute name="cmc_successplanid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Success Plan Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

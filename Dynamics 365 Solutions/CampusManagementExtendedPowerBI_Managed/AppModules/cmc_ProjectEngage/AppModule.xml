@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>cmc_ProjectEngage</UniqueName>
+  <IntroducedVersion>1.0.0.32</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <AppModuleComponents>
+    <AppModuleComponent type="60" id="{76ce87c8-d1aa-e711-8106-c4346bdc2171}" solutionaction="Added" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{aaf44bf1-87a9-e711-8105-c4346bdc42d1}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{e8fee62f-83a9-e711-8105-c4346bdc42d1}" />
+    <Role id="{58dc1e73-dba6-e711-8104-c4346bdc2171}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="CampusNexus Engage" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8a0859fc-28a5-e711-8105-c4346bdc3221}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cmc_todoname" select="1" preview="1" icon="1">
+        <row name="result" id="cmc_todoid">
+          <cell name="cmc_todoname" width="150" />
+          <cell name="cmc_assignedtostudentid" width="100" />
+          <cell name="cmc_duedate" width="100" />
+          <cell name="cmc_ownershiptype" width="100" />
+          <cell name="cmc_readdate" width="100" />
+          <cell name="cmc_readunread" width="100" />
+          <cell name="overriddencreatedon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_requiredoptional" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_todocategoryid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cmc_successplanid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="cmc_todo">
+          <attribute name="cmc_todoname" />
+          <order attribute="cmc_ownershiptype" descending="true" />
+          <order attribute="cmc_duedate" descending="false" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cmc_todocategoryid" />
+          <attribute name="cmc_successplanid" />
+          <attribute name="cmc_requiredoptional" />
+          <attribute name="overriddencreatedon" />
+          <attribute name="cmc_readunread" />
+          <attribute name="cmc_readdate" />
+          <attribute name="cmc_ownershiptype" />
+          <attribute name="cmc_duedate" />
+          <attribute name="cmc_assignedtostudentid" />
+          <attribute name="cmc_todoid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.17</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Assigned By To Do's" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="To Do's where I am the &quot;Assigned By&quot;" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

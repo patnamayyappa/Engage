@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<Mapping>  
+       <!--
+       <FileToFile map="CampusManagement.Crm.Plugins.dll" to="..\..\a\CampusManagement.Crm.Plugins.dll" />  
+       <FileToFile map="CampusManagement.Crm.WorkflowActivities.dll" to="..\..\a\CampusManagement.Crm.WorkflowActivities.dll" />  
+       -->
+       <!--removes the dots when packing from the solution-->
+       
+       <FileToFile map="CmcEngageApplicationPlugins.dll"  to="..\..\..\a\Cmc.Engage.Application.Plugins.dll" />
+       <FileToFile map="CmcEngageCommonPlugins.dll" to="..\..\..\a\Cmc.Engage.Common.Plugins.dll" />
+       <FileToFile map="CmcEngageCommunicationPlugins.dll" to="..\..\..\a\Cmc.Engage.Communication.Plugins.dll" />
+       <FileToFile map="CmcEngageLifecyclePlugins.dll" to="..\..\..\a\Cmc.Engage.Lifecycle.Plugins.dll" />
+       <FileToFile map="CmcEngageRetentionPlugins.dll" to="..\..\..\a\Cmc.Engage.Retention.Plugins.dll" />  
+	   <FileToFile map="CmcEngageMarketingPlugins.dll" to="..\..\..\a\Cmc.Engage.Marketing.Plugins.dll" />  
+
+       <FileToFile map="CmcEngageCommonActivities.dll" to="..\..\..\a\Cmc.Engage.Common.Activities.dll" />
+       <FileToFile map="CmcEngageCommunicationActivities.dll" to="..\..\..\a\Cmc.Engage.Communication.Activities.dll" />
+       <FileToFile map="CmcEngageLifecycleActivities.dll" to="..\..\..\a\Cmc.Engage.Lifecycle.Activities.dll" />
+       <FileToFile map="CmcEngageRetentionActivities.dll" to="..\..\..\a\Cmc.Engage.Retention.Activities.dll" />
+	   
+     
+       <!-- Match any file in and under WebResources to an alternate set of sub-folders -->  
+     <!--  <FileToPath map="WebResources\cmc_\*.*" to="..\..\s\CampusManagement.Crm.WebResources\**" />  -->
+    <!--   <FileToPath map="WebResources\sonoma_\*.*" to="..\..\s\CampusManagement.Crm.WebResources\**" />  -->
+       <!--<FileToPath map="WebResources\*.*" to="..\..\s\CampusManagement.Crm.WebResources\**" />  -->
+       <Folder map="WebResources\cmc_\Scripts\Libraries" to="..\..\Cmc.Engage.Main\Cmc.Engage.WebResources\Scripts\Libraries" />     
+       <Folder map="WebResources\cmc_\dist" to="..\..\Cmc.Engage.Main\Cmc.Engage.WebResources\dist" />  
+       <Folder map="WebResources\cmc_\Resources" to="..\..\Cmc.Engage.Main\Cmc.Engage.WebResources\Resources" /> 
+       <Folder map="WebResources\cmc_\Pages" to="..\..\Cmc.Engage.Main\Cmc.Engage.WebResources\Pages" /> 
+       <Folder map="WebResources\cmc_\Images" to="..\..\Cmc.Engage.Main\Cmc.Engage.WebResources\Images" /> 
+       <Folder map="WebResources\cmc_\fonts" to="..\..\Cmc.Engage.Main\Cmc.Engage.WebResources\fonts" />
+      <Folder map="WebResources\cmc_\json" to="..\..\Cmc.Engage.Main\Cmc.Engage.WebResources\json" />
+
+</Mapping>  

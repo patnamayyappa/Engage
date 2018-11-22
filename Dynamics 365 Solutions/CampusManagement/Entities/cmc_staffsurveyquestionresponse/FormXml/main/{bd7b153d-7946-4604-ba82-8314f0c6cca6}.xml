@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{bd7b153d-7946-4604-ba82-8314f0c6cca6}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{05585297-838d-4078-9b50-558ed1458b54}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ac3ea6d5-1ad4-4ebf-85fa-11cec76948e9}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ef2e6968-7f1f-406f-bcb1-1da3b8051ccb}">
+                        <labels>
+                          <label description="Campus Survey Question Response Name" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffsurveyquestionresponsename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_staffsurveyquestionresponsename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ed339ff-b934-4715-8c59-c7d0bd6eb63f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b6be17a3-4840-dda5-6c0b-bae36b204ca6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Campus Survey Question" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffsurveyquestionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_staffsurveyquestionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85627a15-3943-672a-a147-05ce700991e4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Campus Survey Response" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_staffsurveyresponseid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_staffsurveyresponseid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -542,16 +542,7 @@
               <labels>
                 <label description="Campus" languagecode="1033" />
               </labels>
-              <control id="header_parentaccountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentaccountid" disabled="false" uniqueid="{83506e3a-6881-b923-be1e-db284365b817}">
-                <parameters>
-                  <AutoResolve>true</AutoResolve>
-                  <DisableMru>false</DisableMru>
-                  <DisableQuickFind>false</DisableQuickFind>
-                  <DisableViewPicker>false</DisableViewPicker>
-                  <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
-                  <AllowFilterOff>false</AllowFilterOff>
-                </parameters>
-              </control>
+              <<control id="header_cmc_campusid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_campusid" disabled="false" />
             </cell>
             <cell id="{d9002ebe-3d57-445d-8fb7-459cfb40f437}" labelid="{603099e3-c3d4-4bce-affd-490c89f82e90}">
               <labels>

@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="A Campus Management Solution Extended for Microsoft Dynamics 365 that provide the actionable insight and engagement tools for institution needs to drive student and institutional success." languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.60</Version>
+    <Version>1.0.0.61</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>campusmanagement</UniqueName>

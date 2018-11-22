@@ -9,6 +9,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.58")]
-[assembly: AssemblyInformationalVersion("1.0.0.58")]
+[assembly: AssemblyFileVersion("1.0.0.61")]
+[assembly: AssemblyInformationalVersion("1.0.0.61")]
 [assembly: Microsoft.Xrm.Sdk.Client.ProxyTypesAssemblyAttribute]

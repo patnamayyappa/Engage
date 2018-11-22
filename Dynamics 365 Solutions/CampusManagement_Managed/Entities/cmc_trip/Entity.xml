@@ -10,7 +10,7 @@
         <LocalizedCollectionName description="Trips" languagecode="1033" />
       </LocalizedCollectionNames>
       <Descriptions>
-        <Description description="" languagecode="1033" />
+        <Description description="Stores trip details including dates, location, primary traveler, estimated expenses, owning department, and approval status." languagecode="1033" />
       </Descriptions>
       <attributes>
         <attribute PhysicalName="cmc_engagetripid">

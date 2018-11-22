@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="A Campus Management Solution for Microsoft Dynamics 365 that provide the actionable insight and engagement tools for institution needs to drive student and institutional success" languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.60</Version>
+    <Version>1.0.0.61</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>campusmanagement</UniqueName>
@@ -158,7 +158,7 @@
       <RootComponent type="1" schemaName="opportunity" behavior="1" />
       <RootComponent type="1" schemaName="phonecall" behavior="2" />
       <RootComponent type="1" schemaName="pricelevel" behavior="1" />
-      <RootComponent type="1" schemaName="product" behavior="1" />	  
+      <RootComponent type="1" schemaName="product" behavior="1" />
       <RootComponent type="1" schemaName="systemuser" behavior="2" />
       <RootComponent type="1" schemaName="cmc_applicationdecisiondefinition" behavior="0" />
       <RootComponent type="1" schemaName="cmc_applicationdecisiondefinitiondetail" behavior="0" />
@@ -306,7 +306,7 @@
       <RootComponent type="29" id="{6e3fc85f-2f2b-4ee0-9115-292cb5881e0e}" behavior="0" />
       <RootComponent type="29" id="{48e2b968-a919-48d2-a8e9-00336cf44af3}" behavior="0" />
       <RootComponent type="29" id="{d5f4bf2a-5b66-4111-8bdd-d559d8435c72}" behavior="0" />
-	  <RootComponent type="36" id="{97edd2e4-cea2-e711-8103-c4346bdc42d1}" behavior="0" />
+      <RootComponent type="36" id="{97edd2e4-cea2-e711-8103-c4346bdc42d1}" behavior="0" />
       <RootComponent type="60" id="{14ea0ae5-0cf8-4f0e-b0d0-684c93010317}" behavior="0" />
       <RootComponent type="60" id="{156f49ed-4ab8-4c37-b8e8-47fa7dc0f95b}" behavior="0" />
       <RootComponent type="60" id="{1cf1a719-9057-4eb8-821b-ee5792562fa0}" behavior="0" />
@@ -418,12 +418,12 @@
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/account.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/address.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/appointment.js" behavior="0" />
-      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_application.js" behavior="0" />	  
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_application.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_applicationrequirement.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_domdefinitionexecutionorder.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_domdefinitionlogic.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_dommaster.js" behavior="0" />
-	  <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_domdefinition.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_domdefinition.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_officehours.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/app/Forms/cmc_positiveacknowledgement.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/App/Forms/cmc_staffsurvey.js" behavior="0" />
@@ -511,7 +511,7 @@
       <RootComponent type="61" schemaName="cmc_/Images/CreateInvoice32X32.png" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/Images/CreateInvoice_16X16.png" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/Images/CreateInvoice_SVG.svg" behavior="0" />
-	  <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_appdecisiondefinition_16x16.png" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_appdecisiondefinition_16x16.png" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_appdecisiondefinition_32x32.png" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdecisions16x16.png" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/Images/Application/cmc_applicationdecisions_32x32.png" behavior="0" />
@@ -820,6 +820,8 @@
       <RootComponent type="61" schemaName="cmc_/dist/entityPicker/polyfills.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/entityPicker/runtime.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/entityPicker/styles.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/addresscountrystatemapping.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/addresscountrystatedependentoptionset.js" behavior="0" />
       <RootComponent type="62" schemaName="cmc_ProjectEngage" behavior="0" />
       <RootComponent type="62" schemaName="cmc_StudentSuccess" behavior="0" />
       <RootComponent type="62" schemaName="cmc_FacultySurvey" behavior="0" />

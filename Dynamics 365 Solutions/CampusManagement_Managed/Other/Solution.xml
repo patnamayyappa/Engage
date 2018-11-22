@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="A Campus Management Solution for Microsoft Dynamics 365 that provide the actionable insight and engagement tools for institution needs to drive student and institutional success" languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.60</Version>
+    <Version>1.0.0.61</Version>
     <Managed>1</Managed>
     <Publisher>
       <UniqueName>campusmanagement</UniqueName>
@@ -819,6 +819,8 @@
       <RootComponent type="61" schemaName="cmc_/dist/entityPicker/polyfills.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/entityPicker/runtime.js" behavior="0" />
       <RootComponent type="61" schemaName="cmc_/dist/entityPicker/styles.css" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Common/addresscountrystatemapping.js" behavior="0" />
+      <RootComponent type="61" schemaName="cmc_/dist/app/Forms/addresscountrystatedependentoptionset.js" behavior="0" />
       <RootComponent type="62" schemaName="cmc_FacultySurvey" behavior="0" />
       <RootComponent type="62" schemaName="cmc_ProjectEngage" behavior="0" />
       <RootComponent type="62" schemaName="cmc_StudentSuccess" behavior="0" />

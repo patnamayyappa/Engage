@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{89135311-3bee-e811-a968-000d3a3301c8}</WebResourceId>
+  <Name>cmc_/dist/app/Forms/addresscountrystatedependentoptionset.js</Name>
+  <DisplayName>addresscountrystatedependentoptionset.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cmc_distappFormsaddresscountrystatedependentoption89135311-3BEE-E811-A968-000D3A3301C8</FileName>
+</WebResource>

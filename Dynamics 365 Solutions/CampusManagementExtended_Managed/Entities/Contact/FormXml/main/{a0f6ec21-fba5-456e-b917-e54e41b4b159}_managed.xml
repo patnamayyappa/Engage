@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{a0f6ec21-fba5-456e-b917-e54e41b4b159}</formid>
+    <IntroducedVersion>0.7.0.53</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true">
+      <tabs>
+        <tab name="SUMMARY_TAB" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{72871fb4-3558-4015-bd04-7b97fb2252e6}" ordinalvalue="1">
+          <columns>
+            <column width="28%" id="0">
+              <sections>
+                <section name="gdprsection" showlabel="true" showbar="true" locklevel="0" id="{1ca8b87c-8097-ad74-a031-e1c243e66888}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2" solutionaction="Added">
+                  <labels>
+                    <label description="Data protection" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{15582cae-0d46-1aa5-d657-e6b626e5aa6e}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msgdpr_gdprconsent" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msgdpr_gdprconsent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d740ea16-17d3-450d-99d5-c796e444b663}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msgdpr_gdprischild" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msgdpr_gdprischild" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d11b30a-799e-81c3-6c62-12dbb0bad89c}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msgdpr_gdprparentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msgdpr_gdprparentid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="44%" id="1">
+              <sections>
+                <section name="SUMMARY_TAB_section_14" showlabel="true" showbar="false" locklevel="0" id="{d24949ad-7cd2-e1a3-11b5-70729d0b651e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="3" solutionaction="Added">
+                  <labels>
+                    <label description="Address" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0e9d9341-eaed-3a03-d75e-71a741d2e149}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels>
+                          <label description="Addresses (Parent)" languagecode="1033" />
+                        </labels>
+                        <control id="Address" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{98F8A370-A3CC-4181-986A-75D2D5FC71BA}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>Contact_CustomerAddress</RelationshipName>
+                            <TargetEntityType>customeraddress</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{98F8A370-A3CC-4181-986A-75D2D5FC71BA}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="28%" id="2">
+              <sections>
+                <section name="TalkingPoints_section" showlabel="false" showbar="false" locklevel="0" id="{493e163e-b936-e24d-83e0-e52dcecc5da9}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" visible="false" labelid="{332f01e1-2449-4e3d-bbe6-5648ea291ac1}" ordinalvalue="3" solutionaction="Modified" />
+                <section name="SUMMARY_TAB_section_15" showlabel="false" showbar="false" locklevel="0" id="{197587a8-4194-cda7-6de5-0300315e9e2a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="2" solutionaction="Added">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1d31cbbc-1e81-6409-c9a4-86a1103d3060}" showlabel="true" colspan="1" auto="false" rowspan="8" ordinalvalue="10000">
+                        <labels>
+                          <label description="Recent cases" languagecode="1033" />
+                        </labels>
+                        <control id="contactcasessgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{08845c27-1bab-1387-d9a6-9ab5cece5237}">
+                          <parameters>
+                            <ViewId>{EBD1D24A-EEA7-E211-9FB6-00155DD0EA05}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>incident_customer_contacts</RelationshipName>
+                            <TargetEntityType>incident</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001028},{EBD1D24A-EEA7-E211-9FB6-00155DD0EA05}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{4143B74E-4A07-4D01-9FFE-2CDCAA4208FD}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{07a4c013-4750-7398-7b55-6bbe099205ae}" showlabel="true" colspan="1" auto="false" rowspan="9" ordinalvalue="10001">
+                        <labels>
+                          <label description="Entitlements" languagecode="1033" />
+                        </labels>
+                        <control id="subgrid_Entitlement" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{36e9cc8c-39ac-5ab6-b570-86ba385b6cdc}">
+                          <parameters>
+                            <ViewId>{AA69E7E2-913A-4A5A-8609-8CA443554909}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>contact_entitlement_Customer</RelationshipName>
+                            <TargetEntityType>entitlement</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{AA69E7E2-913A-4A5A-8609-8CA443554909}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{FDB919BB-C6FC-4FC8-8FA5-67ACE68E41D1}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_8" id="{a394c416-77a8-ae83-31a1-e7c581730810}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{88b69905-0ce3-43b3-821f-244de1ed65d0}" ordinalvalue="5" solutionaction="Modified" />
+        <tab name="Event_tab_6" id="{1024a600-87d1-9c66-a8d9-152b74639dc1}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="6" solutionaction="Added">
+          <labels>
+            <label description="Events" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="EVENTS_ATTENDED_TAB_section_1" showlabel="true" showbar="false" locklevel="0" id="{240de8a3-63b3-6693-9948-03376a1007d1}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <labels>
+                    <label description="Registered events" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2469be7b-a446-65c7-6eb4-6ac179302a80}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels>
+                          <label description="Event Registrations (Contact)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_EventSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{36989E15-D3F3-4065-84C1-9DD3B27210DF}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_eventregistration_Contact</RelationshipName>
+                            <TargetEntityType>msevtmgt_eventregistration</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{36989E15-D3F3-4065-84C1-9DD3B27210DF}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{0B2E9F4D-3E1C-E611-80D3-00155DF8BFF9}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="EVENTS_ATTENDED_TAB_section_2" showlabel="true" showbar="false" locklevel="0" id="{111e1568-d882-815c-827d-14d8e8670457}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <labels>
+                    <label description="Registered sessions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aa315732-c957-867b-5d57-2920e07e8192}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels>
+                          <label description="Session Registrations (Contact)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_SessionSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{C9B4FE24-D2AA-4776-AB00-B53F92DE99B3}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_sessionregistration_contactid</RelationshipName>
+                            <TargetEntityType>msevtmgt_sessionregistration</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{C9B4FE24-D2AA-4776-AB00-B53F92DE99B3}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{711AA88D-7A17-E611-80D3-00155DB852B2}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="EVENTS_ATTENDED_TAB_section_3" showlabel="true" showbar="false" locklevel="0" id="{85a47083-2495-6e1c-7a42-b597e02652d5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="2">
+                  <labels>
+                    <label description="Checked-in events" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{50cd6ddd-1da6-95a8-e8ce-20d8d317e237}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels>
+                          <label description="Check-ins (Attendee)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_EventCheckInsSubrgid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_checkin_Contact</RelationshipName>
+                            <TargetEntityType>msevtmgt_checkin</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{B0F24FF0-9221-E611-80D3-00155DB852B2}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="EVENTS_ATTENDED_TAB_section_4" showlabel="true" showbar="false" locklevel="0" id="{be9014c9-7373-5e14-1b81-5a564c8272dc}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="3">
+                  <labels>
+                    <label description="Checked-in sessions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1d9ac964-5be1-4c15-9a8e-9e8ba60543e6}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels>
+                          <label description="Check-ins (Attendee)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_SessionCheckInsSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_checkin_Contact</RelationshipName>
+                            <TargetEntityType>msevtmgt_checkin</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{B0F24FF0-9221-E611-80D3-00155DB852B2}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="conflictstab" id="{2c5b6721-0e3a-1209-c19e-3a3dc3570ed7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="7" solutionaction="Added">
+          <labels>
+            <label description="Conflicts Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="conflictssection" showlabel="false" showbar="false" locklevel="0" id="{828b15b2-a382-e7a8-8d69-82230c00aa58}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <labels>
+                    <label description="Conflicts Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ac69c193-56b4-6930-10ea-904a5a9488e8}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="marketingonly" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="marketingonly" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c203a16-a0d3-d54c-569d-4a921e4a4e78}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Source journey" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_customerjourneyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_customerjourneyid" disabled="true" uniqueid="{dc82e545-65e7-0b20-8396-6b05d448c1b8}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{28E2B7B3-744F-46D8-A1A2-3ABC8A0E5BEA}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b46bb8c-a242-e8ea-6bda-47265877b20b}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_emailid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_emailid" disabled="true" uniqueid="{3cb3c674-bb80-1bd8-7dd3-9b0c050409c0}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{5745A72E-19BF-470B-8205-AF424CF46B05}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e931ca29-3c44-94da-ebe1-35b97e9c9e24}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Source marketing page" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_marketingpageid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_marketingpageid" disabled="true" uniqueid="{7e81c734-dc4d-70e3-717b-d4079a28c46c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{7CED298C-502E-443F-8528-2CD725E50613}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3070694b-a3c8-a888-35db-ebec4dbdccd3}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Source marketing form" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_marketingformid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_marketingformid" disabled="true" uniqueid="{b8e590e5-bb60-c6d9-6395-e5a40225344c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2B934ADB-14E3-4BF4-9F99-6E46F73E187C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a48ea31-67e7-7c4a-d639-38ca23c546e2}" showlabel="true" locklevel="0" ordinalvalue="10005">
+                        <labels>
+                          <label description="Prefill marketing form" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_rememberme" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyncrm_rememberme" disabled="false" uniqueid="{8894c481-3218-44c2-24c7-9a9a7207d4a7}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="mshied_mshied_areaofinterest_contact" Sequence="10012" Area="Info" Id="nav_mshied_mshied_areaofinterest_contact" Show="false" solutionaction="Removed" />
+          <NavBarByRelationshipItem RelationshipName="mshied_mshied_areaofstudy_contact" Sequence="10014" Area="Info" Id="nav_mshied_mshied_areaofstudy_contact" Show="false" solutionaction="Removed" />
+        </NavBar>
+      </Navigation>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Contact(Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Contact form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

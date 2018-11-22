@@ -228,6 +228,23 @@
       <DisplayConditions Order="2">
         <Everyone />
       </DisplayConditions>
+      <formLibraries>
+        <Library name="cmc_/dist/app/Forms/addresscountrystatedependentoptionset.js" libraryUniqueId="{61b82a2d-b5a7-1199-4757-b480a1678912}" />
+        <Library name="cmc_/dist/app/Common/addresscountrystatemapping.js" libraryUniqueId="{6a742b4b-a117-5386-5e13-53d7d5ad8ae1}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="DO.DependentOptionSet.init" libraryName="cmc_/dist/app/Forms/addresscountrystatedependentoptionset.js" handlerUniqueId="{63d75912-5136-3084-66cb-d507c07d0566}" enabled="true" parameters="&quot;addresscountrystatemapping.js&quot;" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cmc_country">
+          <Handlers>
+            <Handler functionName="DO.DependentOptionSet.filterDependentField" libraryName="cmc_/dist/app/Forms/addresscountrystatedependentoptionset.js" handlerUniqueId="{51359539-b251-ac34-e645-528c563aa45c}" enabled="true" parameters="&quot;cmc_country&quot;, &quot;cmc_stateprovince&quot;" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

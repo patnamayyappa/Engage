@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="A Campus Management Solution Extended for Microsoft Dynamics 365 that provide the actionable insight and engagement tools for institution needs to drive student and institutional success." languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.60</Version>
+    <Version>1.0.0.61</Version>
     <Managed>1</Managed>
     <Publisher>
       <UniqueName>campusmanagement</UniqueName>
@@ -80,7 +80,7 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-          <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
       <RootComponent type="1" schemaName="annotation" behavior="2" />
       <RootComponent type="1" schemaName="appointment" behavior="2" />
       <RootComponent type="1" schemaName="cmc_portalaction" behavior="0" />

@@ -56,6 +56,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Common\600003.postman_environment.json" />
+    <None Include="Common\620001.postman_environment.json" />
+    <None Include="Common\620003.postman_environment.json" />
     <None Include="Common\cmcdevmain.postman_environment.json" />
     <None Include="Common\cmcdevmain1.postman_environment.json" />
     <None Include="Common\cmcqaall.postman_environment.json" />
@@ -80,6 +83,9 @@
     <None Include="TestData\Geocode.csv" />
     <None Include="TestData\Inbound.csv" />
     <None Include="TestData\Lifecycle.csv" />
+    <None Include="TestData\RetentionScoreAccount.csv" />
+    <None Include="TestData\RetentionScoreContact.csv" />
+    <None Include="TestData\RetentionScoreInbound.csv" />
     <None Include="TestData\RetentionScoreRange.csv" />
     <None Include="TestData\RetentionscoreValue.csv" />
     <None Include="TestData\StaffCalender.csv" />
@@ -166,20 +172,34 @@
     </None>
     <None Include="Test\Lifecycles\Lifecycle\Lifecycle.postman_collection.json" />
     <None Include="Test\Lifecycles\TravelMgmt\Travelmgmt.postman_collection.json" />
-    <None Include="Test\Retentions\RetentionScore\RetentionScoreRange\RetentionScoreRange.GenericTest">
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreAccount\RetentionScoreAccount.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Test\Retentions\RetentionScore\RetentionScoreRange\RetentionScoreRange.bat">
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreAccount\RetentionScoreAccount.GenericTest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Test\Retentions\RetentionScore\RetentionScoreRange\RetentionScoreRange.postman_collection.json" />
-    <None Include="Test\Retentions\RetentionScore\RetentionScoreValue\RetentionscoreValue.bat">
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreAccount\RetentionScoreAccount.postman_collection.json" />
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreContact\RetentionScoreContact.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Test\Retentions\RetentionScore\RetentionScoreValue\RetentionscoreValue.GenericTest">
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreContact\RetentionScoreContact.GenericTest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Test\Retentions\RetentionScore\RetentionScoreValue\RetentionscoreValue.postman_collection.json" />
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreContact\RetentionScoreContact.postman_collection.json" />
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreDefaultInbound\RetentionScoreDefaultInbound.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreDefaultInbound\RetentionScoreDefaultInbound.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreDefaultInbound\RetentionScoreDefaultInbound.postman_collection.json" />
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreInbound\RetentionScoreInbound.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreInbound\RetentionScoreInbound.GenericTest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\Retentions\RetentionScore\RetentionScoreInbound\RetentionScoreInbound.postman_collection.json" />
     <None Include="Test\Retentions\SuccessNetwork\SuccessNetworkAssignment.bat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -202,7 +222,9 @@
     </None>
     <None Include="Test\Retentions\CampusSurvey\CampusSurvey.postman_collection.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Test\Retentions\RetentionScore\RetentionScoreAccount\RetentionScoreInbound\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -1,0 +1,2807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{a0f6ec21-fba5-456e-b917-e54e41b4b159}</formid>
+    <IntroducedVersion>0.7.0.53</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true">
+      <ancestor id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      <hiddencontrols>
+        <data id="fullname" datafieldname="fullname" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="address1_addressid" datafieldname="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      </hiddencontrols>
+      <tabs>
+        <tab name="key_information_tab" id="{7d4d29e7-ba80-69bc-cc20-857bd12560ad}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{14ac38d3-bc53-4d61-a093-e265b4f290bf}">
+          <labels>
+            <label description="Key Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="67%">
+              <sections>
+                <section name="timeline_section" showlabel="true" showbar="true" locklevel="0" id="{5c40a463-6b7d-6210-688b-6220b2ebb536}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto" celllabelalignment="Left" celllabelposition="Left" labelid="{b0226ae4-c2b4-4d80-a057-c15df47433d6}">
+                  <labels>
+                    <label description="TIMELINE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a75b8250-b1e6-55ed-217a-2d9759cda6c4}" showlabel="false" colspan="1" rowspan="15" auto="false" labelid="{95888b02-8c2d-4314-8e93-fce48aadd11e}">
+                        <labels>
+                          <label description="ActivitiesCompletedTimeline" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_ActivitiesCompletedTimeline" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/Pages/StudentActivitiesCompletedTimeline.html</Url>
+                            <PassParameters>true</PassParameters>
+                            <ShowOnMobileClient>true</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{A358830A-8499-E711-8105-C4346BDC3221}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="key_information_tab_section_4" showlabel="true" showbar="false" locklevel="0" id="{6321d6a9-e046-cb8c-44d6-9e172aec3451}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Contact Summary" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{478da87b-c749-e8ad-128d-940ac23c5100}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" uniqueid="{49bcae30-4a0c-4b93-5a65-3ca4e14cd9ab}" />
+                      </cell>
+                      <cell id="{7d538a97-98eb-b438-72de-57a808b9a308}" showlabel="true" labelid="{7723e501-385f-4930-9c05-7420950738d0}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" uniqueid="{192b9882-0cc9-7618-7418-5517ca7eda8c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{49cd791a-d7a9-a8d3-7748-9de7526ba3db}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Middle Name" languagecode="1033" />
+                        </labels>
+                        <control id="middlename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="middlename" disabled="false" uniqueid="{add6ac20-7474-7b12-a547-c09e26616e49}" />
+                      </cell>
+                      <cell id="{290b48ba-c0cc-7746-6dda-93e240e4cc78}" showlabel="true" locklevel="0" labelid="{325f0fca-1c6d-453b-98da-0aef0897ba9e}">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                        </labels>
+                        <control id="mobilephone" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="mobilephone" disabled="false" uniqueid="{2cd96455-440b-3c25-408b-d8c4a3bc897c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91d113a7-5a7a-de0e-b3be-92315ada16bb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" uniqueid="{7ec7ddc6-912d-0158-0637-b6149632b8b5}" />
+                      </cell>
+                      <cell id="{215da2d0-2b64-3481-8d2d-16107d4d7e5b}" showlabel="true" locklevel="0" labelid="{43166de4-5388-4eae-ad20-a8118575802d}">
+                        <labels>
+                          <label description="Work Phone" languagecode="1033" />
+                        </labels>
+                        <control id="telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" uniqueid="{46676e7a-8783-6821-3728-99426272895d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d8270d5-8570-0188-dea3-301e80244420}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Maiden Name" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_maidenname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_maidenname" disabled="false" uniqueid="{c073313c-0d13-5250-2745-94c957859cab}" />
+                      </cell>
+                      <cell id="{6129c726-a156-7e10-02ce-496744574966}" showlabel="true" locklevel="0" labelid="{6a432819-e245-445a-89c6-71ea1b3b10d1}">
+                        <labels>
+                          <label description="Work Phone Extn." languagecode="1033" />
+                        </labels>
+                        <control id="cmc_phone2extension" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cmc_phone2extension" disabled="false" uniqueid="{5bca0042-b2bd-a4ac-cc9c-922164089767}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65c31eee-e558-e160-0e70-b7b4a8c8d09c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_titleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_titleid" disabled="false" />
+                      </cell>
+                      <cell id="{1b54cdb3-1582-c29e-cc9e-9d4bc2a5700b}" showlabel="true" labelid="{d856de92-6770-489d-ac8e-bada7380bbde}">
+                        <labels>
+                          <label description="Fax" languagecode="1033" />
+                        </labels>
+                        <control id="fax" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fax" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84200633-5d4c-158e-31b7-dcc6c2d2342d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Contact Type" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_contacttype" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="mshied_contacttype" disabled="false" uniqueid="{8ad254cc-48bd-e570-5ab8-749b6c5e9747}" />
+                      </cell>
+                      <cell id="{55628a79-656b-a370-9867-dc52b414b4c7}" showlabel="true" locklevel="0" labelid="{f23326e1-e50b-4d9e-be65-aa2c3ec9a45c}">
+                        <labels>
+                          <label description="Primary Address" languagecode="1033" />
+                        </labels>
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="true" uniqueid="{1e443dc7-666b-38db-2bee-53656d3ccce4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e1e28ce-727a-d968-9752-6caba6e3e509}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="DOM Status" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_domstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cmc_domstatus" disabled="false" />
+                      </cell>
+                      <cell id="{a54c19c9-4722-ce25-60c5-2bb9452680d2}" showlabel="true" locklevel="1" labelid="{ba9e8920-bb76-4c72-9845-67111de7600b}">
+                        <labels>
+                          <label description="Current Campus" languagecode="1033" />
+                        </labels>
+                        <control id="parentcustomerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcustomerid" disabled="false" uniqueid="{9226d4a0-8193-440b-62c7-9aed78569691}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{407d8c53-25d3-2c32-9bd8-8dd35b37eb3d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Legacy" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_legacy" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="mshied_legacy" disabled="false" uniqueid="{a217158e-11aa-ecd2-1d9a-23ba2e78679d}" />
+                      </cell>
+                      <cell id="{a032424c-6ac4-5667-2c4b-9ea5da68c9b5}" showlabel="true" locklevel="0" labelid="{9854fc67-70a1-4465-873c-ce31e2ecf084}">
+                        <labels>
+                          <label description="Miles from Campus" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_milesfromcampus" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="cmc_milesfromcampus" disabled="true" uniqueid="{4eb38976-3ae1-4727-91c6-a6447167dc5a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a350917b-d750-30a2-10d8-9516483195c4}" showlabel="true" locklevel="0" labelid="{bd382192-636a-46f8-af83-b68ceeebb34a}">
+                        <labels>
+                          <label description="Website" languagecode="1033" />
+                        </labels>
+                        <control id="websiteurl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="websiteurl" disabled="false" />
+                      </cell>
+                      <cell id="{ca654590-4c56-6e16-d646-03d4a246cbe4}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="internal_connections" showlabel="true" showbar="true" locklevel="0" id="{1867d5ac-ec2e-a9e5-15a5-d7ec52dae877}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{315fe05a-3e15-40c5-97c7-92a647123a90}">
+                  <labels>
+                    <label description="CONNECTIONS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ccb0b184-3ba8-a800-43b8-c0c49486417b}" showlabel="false" colspan="1" auto="false" rowspan="15" labelid="{096df770-5975-4452-8105-c564d0cdf512}">
+                        <labels>
+                          <label description="Connections" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_ConnectionsDashboard" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/dist/internalConnections/index.html</Url>
+                            <Data>component=internalConnections</Data>
+                            <PassParameters>true</PassParameters>
+                            <ShowOnMobileClient>true</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{1F81C686-44A1-E811-A954-000D3A3AB637}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="key_information_tab_section_6" showlabel="true" showbar="false" locklevel="0" id="{242be1da-18bb-569a-7ca4-ee72d3e22017}" IsUserDefined="0" layout="varwidth" columns="1111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="CONNECTIONS LIST" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a298d18b-b068-3a4d-1a29-384e85a583d3}" showlabel="false" colspan="4" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Connections (Connected From)" languagecode="1033" />
+                        </labels>
+                        <control id="Connection" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{7C0E0725-CCD9-4525-9313-665FD075652F}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>contact_connections1</RelationshipName>
+                            <TargetEntityType>connection</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="SUMMARY_TAB" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{72871fb4-3558-4015-bd04-7b97fb2252e6}">
+          <labels>
+            <label description="Contact Overview" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="28%">
+              <sections>
+                <section name="origin_section" showlabel="true" showbar="true" locklevel="0" id="{8c619985-d4c3-a032-a68b-a374777b65d5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="190" celllabelalignment="Left" celllabelposition="Left" labelid="{fde3c0ef-cf3a-4fa1-94d5-5dfa68d19f7d}">
+                  <labels>
+                    <label description="ORIGIN" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8b612834-eda2-d550-4742-d3123d02b0ec}" showlabel="true" locklevel="0" labelid="{7224c730-dcce-4a74-b46c-c31c35269707}">
+                        <labels>
+                          <label description="Date of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_dateofbirth" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_dateofbirth" disabled="false" uniqueid="{ae15933b-55b9-e866-0131-242e92b60b2b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e93459e1-175b-bbe4-4c6b-90c540936681}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Age" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_age" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_age" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db1e5ad9-69cd-2154-7723-9eb53239735b}" showlabel="true" locklevel="0" labelid="{346531a6-14d7-49a8-aa37-188aa93d535e}">
+                        <labels>
+                          <label description="Port Of Entry" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_portofentryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_portofentryid" disabled="false" uniqueid="{15ceb85a-d72c-05b0-ceb4-02eed31d2b75}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{42058EF5-BFB7-4E6C-92BA-3AF243A01E68}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3470d8a-b123-8446-266e-a7deb2b940cc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nationality" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_nationality" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_nationality" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26b5d550-505e-4996-718e-3838e538782b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ethnic Group" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_ethnicgroup" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_ethnicgroup" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b85bb28e-1b34-eeb6-aa65-7b97a5a23858}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Race" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_race" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="mshied_race" disabled="false" uniqueid="{2648d842-c78d-0024-0a43-a1c437ccd6ed}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="contact_preferences_section" showlabel="true" showbar="true" id="{42aa148d-17fa-4c73-8213-bd22400b74ea}" IsUserDefined="0" columns="1" labelwidth="170" celllabelposition="Left" locklevel="0" celllabelalignment="Left" labelid="{5d4153e3-3396-494f-89b9-259565f321c5}">
+                  <labels>
+                    <label description="CONTACT PREFERENCES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{408dda0b-48a7-c05c-e29a-56a93eb97172}" showlabel="true" locklevel="0" colspan="1" labelid="{3fa0d706-f68d-40c2-b065-961ac81c176a}">
+                        <labels>
+                          <label description="Preferred Contact Method" languagecode="1033" />
+                        </labels>
+                        <control id="preferredcontactmethodcode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="preferredcontactmethodcode" disabled="false" uniqueid="{61951aba-e64c-ed5e-5196-8028914ad4e4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0b4951b-b5ec-4103-b69d-7ac2ad176ee4}" showlabel="true" locklevel="0" labelid="{5ac22166-a56e-416f-b980-6f97f7ebb5e1}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="donotemail" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="donotemail" uniqueid="{38cb1a39-9cdd-336b-8ced-572c46a43737}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2344e926-ebe5-43a9-a634-98a98b1b9267}" showlabel="true" locklevel="0" labelid="{dc567b74-0838-4d1a-afe1-38bde70823f9}">
+                        <labels>
+                          <label description="Follow Email" languagecode="1033" />
+                        </labels>
+                        <control id="followemail" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="followemail" uniqueid="{de987673-9038-4160-7663-09c45b04dd03}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38e73996-b1b9-ce1a-4720-e8a579717425}" showlabel="true" locklevel="0" labelid="{3295867f-aa81-4d94-96af-fc7a978c16c9}">
+                        <labels>
+                          <label description="SMS Text" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_donotsmstext" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_donotsmstext" disabled="false" uniqueid="{2691abc1-8d13-b2da-199e-a99096044bd1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{041968bd-14fe-486a-baa0-719e7691e6ee}" showlabel="true" locklevel="0" labelid="{d2aa0f07-2767-4558-aeb9-39b38a24e6f4}">
+                        <labels>
+                          <label description="Bulk Email" languagecode="1033" />
+                        </labels>
+                        <control id="donotbulkemail" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="donotbulkemail" uniqueid="{77db47cc-750a-6ce3-bd96-e103162b599d}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{569cf3bd-3b14-46d8-a03a-22e6317d1d41}" showlabel="true" locklevel="0" labelid="{81a92db8-be00-414d-abde-2ab0bbe985c6}">
+                        <labels>
+                          <label description="Phone" languagecode="1033" />
+                        </labels>
+                        <control id="donotphone" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="donotphone" uniqueid="{889500cc-9881-00b8-4d41-d73171336645}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dfe9aafd-1acc-488d-b31e-feef6f63a34d}" showlabel="true" locklevel="0" labelid="{d6628795-d201-412b-a5d4-f15d8df33318}">
+                        <labels>
+                          <label description="Mail" languagecode="1033" />
+                        </labels>
+                        <control id="donotpostalmail" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="donotpostalmail" uniqueid="{ad9d86db-5a5a-a358-2878-b2d98c626c94}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28d804f2-b314-42f6-92f8-982f4929bd6f}" showlabel="true" locklevel="0" labelid="{b75d6178-cd93-4151-a061-94aa5a56b8bc}">
+                        <labels>
+                          <label description="Fax" languagecode="1033" />
+                        </labels>
+                        <control id="donotfax" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="donotfax" uniqueid="{aaa0046c-5d7c-3e27-4058-20493247c526}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca30bdd5-c089-1650-68ae-dbd659e4a16c}" showlabel="true" locklevel="0" labelid="{e4385b6b-669d-4290-8208-ccad2cd08fd0}">
+                        <labels>
+                          <label description="Auto Update Picture" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_autoupdatepicture" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="cmc_autoupdatepicture" disabled="false" uniqueid="{20d6091d-d2ab-8d05-a9e7-946139d97652}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="gdprsection" showlabel="true" showbar="true" locklevel="0" id="{1ca8b87c-8097-ad74-a031-e1c243e66888}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Data protection" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{15582cae-0d46-1aa5-d657-e6b626e5aa6e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Consent given" languagecode="1033" />
+                        </labels>
+                        <control id="msgdpr_gdprconsent" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msgdpr_gdprconsent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d740ea16-17d3-450d-99d5-c796e444b663}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="GDPR is child" languagecode="1033" />
+                        </labels>
+                        <control id="msgdpr_gdprischild" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msgdpr_gdprischild" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d11b30a-799e-81c3-6c62-12dbb0bad89c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent or custodian" languagecode="1033" />
+                        </labels>
+                        <control id="msgdpr_gdprparentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msgdpr_gdprparentid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="44%">
+              <sections>
+                <section name="PERSONAL INFORMATION" showlabel="true" showbar="true" id="{0F64B9A3-01F2-4411-B0B5-6C6C39D7B011}" IsUserDefined="0" columns="11" labelwidth="190" celllabelposition="Left" locklevel="0" celllabelalignment="Left" labelid="{292ddf90-9bee-4c71-a715-c2647935cc07}">
+                  <labels>
+                    <label description="PERSONAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4b6d1e02-c14c-52a5-21eb-4b93bd93b88a}" showlabel="true" locklevel="0" labelid="{1543186b-b349-40bd-8c12-dacd28617584}">
+                        <labels>
+                          <label description="Nickname" languagecode="1033" />
+                        </labels>
+                        <control id="nickname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nickname" disabled="false" uniqueid="{3e131984-a00c-32cd-dde7-c8bc455b7042}" />
+                      </cell>
+                      <cell id="{2088883e-127d-4686-0dc1-54d488b40145}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="SSN" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_nationalidentifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_nationalidentifier" disabled="false" uniqueid="{50e7dc87-6580-573e-c704-54136ce60a8e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36a328eb-14a8-0c90-9eac-eccbd771c85a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Deceased?" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_isdeceased" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="mshied_isdeceased" disabled="false" uniqueid="{d08e4d6b-99d8-3d90-979c-c53298e993cd}" />
+                      </cell>
+                      <cell id="{e7e73e48-bd43-739b-73d5-dc9a2cbadd67}" showlabel="true" locklevel="0" labelid="{89aa6422-0acb-4c8d-bed9-560827c1a248}">
+                        <labels>
+                          <label description="Job Title" languagecode="1033" />
+                        </labels>
+                        <control id="jobtitle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="jobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c6956b92-2265-4465-32ad-adeb32435e30}" showlabel="true" locklevel="0" labelid="{4e082dca-f795-4d38-9061-b9ba575ddcfe}">
+                        <labels>
+                          <label description="Credit Hold" languagecode="1033" />
+                        </labels>
+                        <control id="creditonhold" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="creditonhold" disabled="false" />
+                      </cell>
+                      <cell id="{850634a4-0a93-1374-4692-ca0b12dc253b}" showlabel="true" locklevel="0" labelid="{fc6a49bf-b195-4b2e-b748-4ec4ab4782a6}">
+                        <labels>
+                          <label description="Last On Hold Time" languagecode="1033" />
+                        </labels>
+                        <control id="lastonholdtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="lastonholdtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb391eb8-02ec-0ee6-9d92-6996d4311809}" showlabel="true" labelid="{69f8cb56-db74-41e3-a4a5-2dce106e2680}">
+                        <labels>
+                          <label description="Gender" languagecode="1033" />
+                        </labels>
+                        <control id="gendercode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="gendercode" disabled="false" uniqueid="{7d4cc252-b277-7b6a-aa48-3d574c1b331c}" />
+                      </cell>
+                      <cell id="{2d8cee50-7123-01e7-c2cc-0068c0ecc4c0}" showlabel="true" locklevel="0" labelid="{9df783e2-b4ca-491e-858c-e4fe2f2523b7}">
+                        <labels>
+                          <label description="Marital status" languagecode="1033" />
+                        </labels>
+                        <control id="familystatuscode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="familystatuscode" disabled="false" uniqueid="{28014c17-7b34-ce10-8211-a81457bc0001}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ba714204-2499-db47-78e0-d8795307301d}" showlabel="true" locklevel="0" labelid="{af7c5963-094c-460b-879a-feda68fc5fe9}">
+                        <labels>
+                          <label description="Anniversary" languagecode="1033" />
+                        </labels>
+                        <control id="anniversary" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="anniversary" disabled="false" uniqueid="{8468362c-470b-c4bc-b2ce-96cbbec18b8a}" />
+                      </cell>
+                      <cell id="{450c5a59-c7de-1289-0934-9a04bc4e1c72}" showlabel="true" labelid="{7fee31d7-e5e4-4cb5-8e51-837b4e1cd196}">
+                        <labels>
+                          <label description="Spouse/partner name" languagecode="1033" />
+                        </labels>
+                        <control id="spousesname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="spousesname" disabled="false" uniqueid="{85b575c2-3236-5b50-7ed5-bb7e8834a92d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8e19422-d8a7-9208-e64d-8e1518d76e7b}" showlabel="true" locklevel="0" labelid="{72e63b1d-8575-4085-b95a-0ffa955ad365}">
+                        <labels>
+                          <label description="No. of Children" languagecode="1033" />
+                        </labels>
+                        <control id="numberofchildren" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="numberofchildren" disabled="false" uniqueid="{7da93e5c-7799-ec83-e7a0-b58255e7c724}" />
+                      </cell>
+                      <cell id="{d929b5be-ba08-0778-0b1d-0e4e375027b5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="SUMMARY_TAB_section_13" showlabel="true" showbar="false" locklevel="0" id="{d866d797-8692-d8d6-d61a-99b3b94ebb8a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="CORRESPONDENCE DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{121428a3-4aec-d048-ad20-710ceb76d871}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Address" languagecode="1033" />
+                        </labels>
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="address1_composite" disabled="false" uniqueid="{1b4d7c22-ea9a-9a56-194a-2ed8d8eb9948}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a9b0cab-8981-eaa3-612a-3e38a85b5142}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{baeddb75-80a5-8cb3-242b-c517dabd7722}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                        </labels>
+                        <control id="mobilephone" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81468326-65de-da71-b348-66d530ec944b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nickname" languagecode="1033" />
+                        </labels>
+                        <control id="nickname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nickname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Address_TAB_section_11" showlabel="true" showbar="false" locklevel="0" id="{de919929-b948-6758-3179-53297d2985ba}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="ADDRESS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{22ca2786-56c0-93dc-641d-673be22510ad}" showlabel="false" colspan="1" auto="false" rowspan="4">
+                        <labels>
+                          <label description="Addresses (Parent)" languagecode="1033" />
+                        </labels>
+                        <control id="Address_grid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{cb780dc5-7a51-3a33-5243-c16add4d0913}">
+                          <parameters>
+                            <ViewId>{98F8A370-A3CC-4181-986A-75D2D5FC71BA}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>Contact_CustomerAddress</RelationshipName>
+                            <TargetEntityType>customeraddress</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{98F8A370-A3CC-4181-986A-75D2D5FC71BA}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>2</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="SUMMARY_TAB_section_14" showlabel="true" showbar="false" locklevel="0" id="{d24949ad-7cd2-e1a3-11b5-70729d0b651e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Address" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0e9d9341-eaed-3a03-d75e-71a741d2e149}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Addresses (Parent)" languagecode="1033" />
+                        </labels>
+                        <control id="Address" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{98F8A370-A3CC-4181-986A-75D2D5FC71BA}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>Contact_CustomerAddress</RelationshipName>
+                            <TargetEntityType>customeraddress</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{98F8A370-A3CC-4181-986A-75D2D5FC71BA}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="28%">
+              <sections>
+                <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="true" id="{bea579b8-8901-77b0-1128-351760e68bd4}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" height="auto" labelid="{fd54fe8e-c005-4afc-a893-68835546d367}">
+                  <labels>
+                    <label description="SOCIAL PANE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{db701364-1d99-369c-c409-11d17878e513}" showlabel="false" rowspan="23" auto="false" colspan="1" locklevel="0" labelid="{2fb4c7a4-a10e-4174-8021-81b5058566cd}">
+                        <labels>
+                          <label description="Notes Properties" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" uniqueid="{a8c20334-191a-03e9-dba4-984b0a9721be}">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <EmailConversationView>true</EmailConversationView>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="private_note_section" showlabel="true" showbar="true" locklevel="0" id="{76eaacc2-2b5a-ac6a-93b8-ce9c300d1aeb}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="170" celllabelalignment="Left" celllabelposition="Left" labelid="{645d8d7f-aab4-4ede-9417-6cee10de4d75}">
+                  <labels>
+                    <label description="PRIVATE NOTES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1976ca2b-42ac-4e19-0d2d-b76aa7a9cd5d}" showlabel="false" colspan="1" auto="false" rowspan="5" labelid="{d674e518-c19d-49f6-9588-e58d5f5e87e2}">
+                        <labels>
+                          <label description="PRIVATE NOTES" languagecode="1033" />
+                        </labels>
+                        <control id="private_notes_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{5d446b29-8b86-1938-adbd-484cd87add66}">
+                          <parameters>
+                            <ViewId>{05228531-0D0F-4A26-AFD5-61316CB44E75}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_privatenote_studentid</RelationshipName>
+                            <TargetEntityType>cmc_privatenote</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{05228531-0D0F-4A26-AFD5-61316CB44E75}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="SUMMARY_TAB_section_15" showlabel="false" showbar="false" locklevel="0" id="{197587a8-4194-cda7-6de5-0300315e9e2a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1d31cbbc-1e81-6409-c9a4-86a1103d3060}" showlabel="true" colspan="1" auto="false" rowspan="8">
+                        <labels>
+                          <label description="Recent cases" languagecode="1033" />
+                        </labels>
+                        <control id="contactcasessgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{08845c27-1bab-1387-d9a6-9ab5cece5237}">
+                          <parameters>
+                            <ViewId>{EBD1D24A-EEA7-E211-9FB6-00155DD0EA05}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>incident_customer_contacts</RelationshipName>
+                            <TargetEntityType>incident</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001028},{EBD1D24A-EEA7-E211-9FB6-00155DD0EA05}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{4143B74E-4A07-4D01-9FFE-2CDCAA4208FD}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{07a4c013-4750-7398-7b55-6bbe099205ae}" showlabel="true" colspan="1" auto="false" rowspan="9">
+                        <labels>
+                          <label description="Entitlements" languagecode="1033" />
+                        </labels>
+                        <control id="subgrid_Entitlement" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{36e9cc8c-39ac-5ab6-b570-86ba385b6cdc}">
+                          <parameters>
+                            <ViewId>{AA69E7E2-913A-4A5A-8609-8CA443554909}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>contact_entitlement_Customer</RelationshipName>
+                            <TargetEntityType>entitlement</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{AA69E7E2-913A-4A5A-8609-8CA443554909}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{FDB919BB-C6FC-4FC8-8FA5-67ACE68E41D1}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="TalkingPoints_section" showlabel="false" showbar="false" locklevel="0" id="{493e163e-b936-e24d-83e0-e52dcecc5da9}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" visible="false" labelid="{332f01e1-2449-4e3d-bbe6-5648ea291ac1}">
+                  <labels>
+                    <label description="Icebreakers" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{06cb0652-a8d8-bdae-eb58-b6a05bd93224}" showlabel="true" locklevel="0" rowspan="8" labelid="{0bab0627-267b-4ce1-83e0-64cb807c23a7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="TalkingPoints" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{5ca8c570-a541-4cf4-9209-99406ba7cbdf}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="DETAILS_TAB" id="{fe1c5c3b-d556-4552-a444-4781214a6d63}" IsUserDefined="0" showlabel="true" locklevel="0" expanded="true" labelid="{4da1bf3a-2654-46d7-9d02-6375c818facc}">
+          <labels>
+            <label description="Inbound Interest &amp; Lifecycle" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="marketing information" showlabel="true" showbar="true" locklevel="0" id="{a188d8ee-35d1-4f22-acf7-9588059a3f08}" IsUserDefined="0" layout="varheight" columns="1" labelwidth="170" celllabelposition="Left" celllabelalignment="Left" labelid="{d3775403-51e8-4053-8799-365f63ddfea1}">
+                  <labels>
+                    <label description="MARKETING" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13db9524-63e9-938e-d654-d499c8b950d9}" showlabel="true" locklevel="0" labelid="{402f4c9a-4f84-412f-a30d-2cdc8fe72fb2}">
+                        <labels>
+                          <label description="Most Recent Inbound Interest" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_mostrecentinboundinterest" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_mostrecentinboundinterest" disabled="true" uniqueid="{01585600-0319-53a6-77b4-1795d6633a64}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{75747bee-2170-46fe-b85b-732679103ee5}" labelid="{b0dcd965-74a1-4cc0-8bb5-1026fdf1a0df}">
+                        <labels>
+                          <label description="Last Campaign Date" languagecode="1033" />
+                        </labels>
+                        <control id="lastusedincampaign" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="lastusedincampaign" disabled="true" uniqueid="{2064d792-ebda-861c-56e8-3d8ade276d3c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{1a224ceb-1db9-40c6-981c-044971de7ccb}" labelid="{74774545-1b4c-4f0e-bc86-cdb98177edb3}">
+                        <labels>
+                          <label description="Marketing Materials" languagecode="1033" />
+                        </labels>
+                        <control id="donotsendmm" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="donotsendmm" disabled="false" uniqueid="{9e185d0c-3381-46c8-5d15-71398ec7b541}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="initial_source_section" showlabel="true" showbar="true" locklevel="0" id="{b13aece3-bc75-9c87-1c42-8ced94c2b506}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="170" celllabelalignment="Left" celllabelposition="Left" labelid="{b84883b5-1516-4fca-870b-8d46da9ecb41}">
+                  <labels>
+                    <label description="INITIAL SOURCE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bccc326d-d02a-2bc7-cee2-eed300558209}" showlabel="true" locklevel="0" labelid="{c95272d4-04c7-4e1b-a255-3a233afdb2a1}">
+                        <labels>
+                          <label description="Originating Inbound Interest" languagecode="1033" />
+                        </labels>
+                        <control id="originatingleadid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="originatingleadid" disabled="true" uniqueid="{bd9ab8dd-aee4-32bc-84d4-6c3523bb378c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{ECBAC1A3-F8D8-4423-8F7E-10B11119739A}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{69b38b2c-43ba-4e3b-41e3-c570c693dd66}" showlabel="true" locklevel="0" labelid="{21067c90-0feb-44bb-b145-171c27ff8686}">
+                        <labels>
+                          <label description="Date" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cmc_sourcedate" disabled="false" uniqueid="{d9d36436-ba6b-ba19-59c3-a1718c3de18a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94aab381-9360-ee69-aba5-3812b8791040}" showlabel="true" locklevel="0" labelid="{3fead78d-a2ad-4deb-ac75-bd9201737752}">
+                        <labels>
+                          <label description="Campus" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcecampusid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcecampusid" disabled="false" uniqueid="{4be82e20-4c6a-7618-8ae5-6c477d04ca61}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>true</DisableViewPicker>
+                            <DefaultViewId>{7B89B0CD-54A1-E711-8103-5065F38B0191}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60608a29-8692-b4e5-1236-8bdbd3cad844}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Program" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_srcprogramid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_srcprogramid" disabled="false" uniqueid="{c0763b1e-9e70-89d0-9e64-350ac38c8594}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{DF017C42-D66D-4B58-85CA-EF209E4046D7}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0eb3ebaa-8710-30e5-2088-c4c08020d721}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Program Level" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_srcpogramlevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_srcpogramlevelid" disabled="false" uniqueid="{e37d1bd3-9019-1ebd-24dc-de291bc54994}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{5254EFCF-B426-4A7F-B515-4979074FF097}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ecdd701-72ba-c719-5c01-4b12a5e8ae88}" showlabel="true" locklevel="0" labelid="{02a57cb1-4b85-4fce-9a26-ab488b3f95e8}">
+                        <labels>
+                          <label description="Method" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcemethodid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcemethodid" disabled="false" uniqueid="{542824dc-c837-d1a2-bd6b-68d20684c714}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{1F7D3DCC-6F4E-40B7-A210-CC264FE899F7}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40e2b844-1cb9-1309-0a05-8b268cd79678}" showlabel="true" locklevel="0" labelid="{2bfb4983-4154-4e53-9352-3dc73c160aee}">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcecategoryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcecategoryid" disabled="false" uniqueid="{0344d07c-009a-8ca5-b1cc-52b18d1901e1}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E7EEAD2D-9A3C-4014-AD2A-A8FBE8FBD00C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2dba40b1-0216-7dde-2792-ee4a9a1d5375}" showlabel="true" locklevel="0" labelid="{2cbd7b41-5d6a-43ba-959c-4fa51ee4afcc}">
+                        <labels>
+                          <label description="Sub-Category" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcesubcategoryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcesubcategoryid" disabled="false" uniqueid="{0c43bbe2-9456-b362-394b-b6b2eb14ec08}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{52F0F01F-6125-4606-818F-40AE8E8DC776}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3a84c012-67b5-5d78-d667-3a4c0a6b663b}" showlabel="true" locklevel="0" labelid="{2f22fc80-240b-4ecd-b23e-43cee6df2ecd}">
+                        <labels>
+                          <label description="Referring Contact" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcereferringcontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcereferringcontactid" disabled="false" uniqueid="{a0d5e205-5839-aa98-70ae-ca31ec008094}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6408bde7-93d2-bb04-499a-b4ea6e6437d7}" showlabel="true" locklevel="0" labelid="{c92aea44-623b-41b0-aeb8-9b066beaa825}">
+                        <labels>
+                          <label description="Referring Organization" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcereferringorganizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcereferringorganizationid" disabled="false" uniqueid="{6bd4c5b1-cea8-d3e4-2aab-8e55b6e9cd8a}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ee42490-e6bd-c625-3183-c40a7955dc92}" showlabel="true" locklevel="0" labelid="{bff74860-fafe-47e1-bc39-31c55824bc71}">
+                        <labels>
+                          <label description="Referring Staff" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcereferringstaffid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcereferringstaffid" disabled="false" uniqueid="{ee5ebc1d-73dc-4536-dc0e-42bc8cce85d3}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38cc7a53-4719-dc14-92cd-b0d43d819755}" showlabel="true" locklevel="0" labelid="{f44a7698-205c-42b5-aad6-1fc3fdd1fc44}">
+                        <labels>
+                          <label description="Campaign" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_sourcecampaignid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_sourcecampaignid" disabled="false" uniqueid="{428b862e-24ac-1917-a241-b0270679c166}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{0E76DC73-2052-484E-8C00-A760F8D522EC}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="tab_6_section_2" showlabel="true" showbar="false" locklevel="0" id="{810bcd4a-4669-bb5d-bee9-3510218b2d7b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{bc0c91ae-a875-4f07-b4b5-a5a4111c3f7c}">
+                  <labels>
+                    <label description="INBOUND INTERESTS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c1964704-9833-eb80-2b9b-abd7e66212c0}" showlabel="false" colspan="1" auto="false" rowspan="8" labelid="{17701955-0897-472d-aaeb-278934612d30}">
+                        <labels>
+                          <label description="Inbound Interests" languagecode="1033" />
+                        </labels>
+                        <control id="inbound_interest_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{e488488b-937a-6351-1685-0920671ec2b8}">
+                          <parameters>
+                            <ViewId>{C5B6DA59-78D7-E811-A95C-000D3A4E75C3}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>lead_customer_contacts</RelationshipName>
+                            <TargetEntityType>lead</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{C5B6DA59-78D7-E811-A95C-000D3A4E75C3},{5A926B99-3A5F-DF11-AE90-00155D2E3002}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{F5976C58-5693-DE11-97D4-00155DA3B01E}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="DETAILS_TAB_section_4" showlabel="true" showbar="false" locklevel="0" id="{5413b5e7-1c45-442a-c1db-2a13a2e4dc16}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{06021c96-d7e3-42e4-878a-ce27bad2944a}">
+                  <labels>
+                    <label description="LIFECYCLES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{14d5642e-3527-dddb-bc06-7eaa42c225a5}" showlabel="false" colspan="1" auto="false" rowspan="8" labelid="{56abca6b-9997-4aac-8de1-1e63f3533c34}">
+                        <labels>
+                          <label description="Lifecycles" languagecode="1033" />
+                        </labels>
+                        <control id="Lifecyclyes" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{bb214dee-ea29-914c-9a90-88b16567a7e8}">
+                          <parameters>
+                            <ViewId>{628DD120-64D7-E811-A958-000D3A4E75EC}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_opportunity_contactid</RelationshipName>
+                            <TargetEntityType>opportunity</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{628DD120-64D7-E811-A958-000D3A4E75EC},{C6F6FC1B-1B3E-E711-80E1-00155D871BB4},{00000000-0000-0000-00AA-000010003000}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId>{6C9FA801-973D-E811-A962-000D3A11F5EE}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_6" id="{ce98e9c2-e8ae-b760-7972-84897734add3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Student Records" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="school_details_section" showlabel="true" showbar="true" id="{e0109668-cb5b-4b6c-8ca6-9d0c4b24f385}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="175" celllabelposition="Left" locklevel="0" celllabelalignment="Left" labelid="{7448fb7c-a3d4-4b07-a1c8-b38fa84dd194}">
+                  <labels>
+                    <label description="SCHOOL DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d0b95d09-c72d-0d40-e5c9-e8472a2c9b54}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student Status" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_studentstatusid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_studentstatusid" disabled="false" uniqueid="{7ba80ebc-27ad-4e51-7b21-1118b6385372}" />
+                      </cell>
+                      <cell id="{4105e353-742c-e120-4e6b-d8b824657d32}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Generation" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_firstgeneration" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="mshied_firstgeneration" disabled="false" uniqueid="{7c8c3556-5cea-d783-a96c-ccb295e99a95}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84429934-c2b9-5d14-319e-72436a8c7c78}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Academic Period" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_currentacademicperiodid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_currentacademicperiodid" disabled="false" uniqueid="{25d5556b-4cca-326a-976a-57e3a0aa28b1}" />
+                      </cell>
+                      <cell id="{e879e948-4b7e-19e7-3de7-ec416288dd26}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Education Level" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_educationlevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cmc_educationlevelid" disabled="false" uniqueid="{a4265a24-2823-48c2-d315-e89a441427c5}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{5A2C4D84-EBD8-45C6-89A4-DED96EB1AA45}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{014c1a84-b940-21a5-d26c-24309b6d945b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Program" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_currentprogramid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_currentprogramid" disabled="false" uniqueid="{597a978e-7336-b843-6c33-77d81c45baae}" />
+                      </cell>
+                      <cell id="{415b4666-73d5-5e14-42ac-02e95798194d}" showlabel="true" locklevel="0" labelid="{101e0fa6-5d74-48db-a1f6-80d5ad657c0a}">
+                        <labels>
+                          <label description="Recent ACT" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recentact" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_recentact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58200655-b101-564e-8a57-2e03b8418257}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Current Program Level" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_currentprogramlevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mshied_currentprogramlevelid" disabled="false" uniqueid="{e31e3130-b757-10c6-1cda-6aaac6131aa7}" />
+                      </cell>
+                      <cell id="{5d49dc67-2341-d235-e363-91a30da9a3ab}" showlabel="true" locklevel="0" labelid="{ab401f4f-98a0-4aa9-9db5-1558db7bbdc2}">
+                        <labels>
+                          <label description="Recent SAT" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_recentsat" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_recentsat" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="student_login_section" showlabel="true" showbar="true" locklevel="0" id="{c9274b41-309e-0319-c562-74156920b653}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="150" celllabelalignment="Left" celllabelposition="Left" labelid="{757d42ff-27aa-4b1e-9910-0456f8dd6646}">
+                  <labels>
+                    <label description="STUDENT LOGIN" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{77e165e8-5269-3511-a9e6-571dd7e370b4}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External SIS ID" languagecode="1033" />
+                        </labels>
+                        <control id="mshied_externalidentifier" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mshied_externalidentifier" disabled="true" uniqueid="{e4e832ad-14b1-2db8-5ce0-3122c9db19ac}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_6_section_1" showlabel="true" showbar="false" locklevel="0" id="{dcce453c-8c50-1b48-d7d1-cabbe08073d5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="AREA OF INTEREST" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5e8cb553-9bbc-cc78-e2cc-e08a82be496d}" showlabel="false" colspan="1" auto="false" rowspan="8">
+                        <labels>
+                          <label description="Areas of Interest" languagecode="1033" />
+                        </labels>
+                        <control id="area_of_interest_subgrid2" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{6e8119c5-7ed9-ce96-0928-d88984e93338}">
+                          <parameters>
+                            <ViewId>{5516C0D7-C4A2-4F34-A745-5B2046907688}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_contact_areaofinterest</RelationshipName>
+                            <TargetEntityType>mshied_areaofinterest</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{5516C0D7-C4A2-4F34-A745-5B2046907688},{B5A6BF80-B2CB-E811-A957-000D3A4E78E7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>6</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="DETAILS_TAB_section_6" showlabel="true" showbar="false" locklevel="0" id="{4eacc956-4951-24cb-35a1-c30cdc8ebcaa}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{bc820bad-0bde-4c36-b77d-67f37a399755}">
+                  <labels>
+                    <label description="Scores" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8b2d232b-341e-8795-7245-68ab34b15ea1}" showlabel="true" locklevel="0" labelid="{ef22ac52-630d-4c4f-b952-521e5931bf6c}">
+                        <labels>
+                          <label description="ACT Superscore" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_actsuperscore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_actsuperscore" disabled="true" uniqueid="{76a5e972-daa0-9b57-459e-cd228e55a327}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5dc495bd-7276-3157-700e-c5c97d99e448}" showlabel="true" locklevel="0" labelid="{d55d2857-5e9e-48a3-92a0-7e77a129e8ef}">
+                        <labels>
+                          <label description="SAT Superscore" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_satsuperscore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_satsuperscore" disabled="true" uniqueid="{93a4eec7-ead3-e733-db4e-e95014c41ae5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d6e19423-1638-472b-4735-1021b5e3026e}" showlabel="true" locklevel="0" labelid="{f47e6402-e16f-4f4c-8216-5eff94c41618}">
+                        <labels>
+                          <label description="ACT Best" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_actbest" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_actbest" disabled="true" uniqueid="{53b88a5b-747d-83b2-6a17-2183ac247a5e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9026bd16-9b70-43a2-257c-c66a42a15328}" showlabel="true" locklevel="0" labelid="{6b494828-3441-489b-8ecd-f1bd3da14f5c}">
+                        <labels>
+                          <label description="SAT Best" languagecode="1033" />
+                        </labels>
+                        <control id="cmc_satbest" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cmc_satbest" disabled="true" uniqueid="{b06bb286-1432-5335-8813-b1772e6ccace}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="previous_education_section" showlabel="true" showbar="true" locklevel="0" id="{e92e35a5-08a4-895a-366e-6b8d40ec6ed8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{621a41b2-9f40-4a37-b997-f3c18d42f28d}">
+                  <labels>
+                    <label description="PREVIOUS EDUCATION" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1ce6e94c-3983-4119-e549-58166c810da7}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="PREVIOUS EDUCATION" languagecode="1033" />
+                        </labels>
+                        <control id="previous_education_section" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{365d4325-b155-68e2-ceb1-2db9e0eec752}">
+                          <parameters>
+                            <ViewId>{E983666E-25CD-E811-A957-000D3A4E75C3}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_contact_previouseducation_StudentId</RelationshipName>
+                            <TargetEntityType>mshied_previouseducation</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{892E78B6-D91E-47F4-B671-BF2CD6A09130},{E983666E-25CD-E811-A957-000D3A4E75C3}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="extra_curricular_section" showlabel="true" showbar="true" locklevel="0" id="{5e447b4c-1a62-139c-19d6-729061acdcad}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{a9cde003-fa5b-447c-a0a6-4ab9a8e6b43b}">
+                  <labels>
+                    <label description="EXTRA CURRICULAR ACTIVITIES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d824a4da-9bc3-9d29-e185-594820760137}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{64de31df-f1b6-46fe-b7dc-024f645b0959}">
+                        <labels>
+                          <label description="EXTRA CURRICULAR" languagecode="1033" />
+                        </labels>
+                        <control id="extra_curricular" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{42c42c22-280d-d7e5-0c61-5a1a44601d18}">
+                          <parameters>
+                            <ViewId>{2EA1362F-EBD5-E811-A95F-000D3A4E7FA7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_contact_extracurricularactivities_PrimaryContactId</RelationshipName>
+                            <TargetEntityType>mshied_extracurricularactivities</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D4501044-F941-4CE0-B9E8-B5CEFC74D031},{2EA1362F-EBD5-E811-A95F-000D3A4E7FA7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="key_information_tab_section_3" showlabel="true" showbar="false" locklevel="0" id="{2e50ea3e-7a7a-88d1-9b72-7d7a257772ce}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{ce3e9419-e4ff-4710-8bbb-6d85ba8d82ea}">
+                  <labels>
+                    <label description="TEST SCORES" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2b20da64-9a6d-45e4-28e9-ae49cb3b8c1e}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{0058a1e0-9488-46a7-8c62-b2929da4e4d2}">
+                        <labels>
+                          <label description="Test Scores" languagecode="1033" />
+                        </labels>
+                        <control id="TestScores" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{7dbda5c4-80dd-1818-bbc1-dd5ccd185568}">
+                          <parameters>
+                            <ViewId>{3517356C-9FCF-E811-A955-000D3A4E75EC}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_contact_testscore_StudentID</RelationshipName>
+                            <TargetEntityType>mshied_testscore</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{64631CC3-D83F-403B-843E-552799249F62},{3517356C-9FCF-E811-A955-000D3A4E75EC}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Current Student Profile" id="{11603e45-074d-180d-74bc-a08010667e75}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{e0a7ea08-40d6-4a55-ac3c-625b00b2b0da}">
+          <labels>
+            <label description="Student Progress" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="28%">
+              <sections>
+                <section name="academic_progress_section" showlabel="true" showbar="true" locklevel="0" id="{e1d13b16-74b2-bd68-78d2-e57d1d128494}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="125" celllabelalignment="Left" celllabelposition="Left" labelid="{4a6a6db4-1977-40e9-ad4e-b757c15c6be9}">
+                  <labels>
+                    <label description="ACADEMIC PROGRESS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e113aed6-ac81-8ccd-a71c-d61dc7d783ab}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{dca44081-a89a-4a48-8437-d2c191685798}">
+                        <labels>
+                          <label description="ACADEMIC PROGRESS" languagecode="1033" />
+                        </labels>
+                        <control id="student_academic_progress_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{85177ded-6c91-236c-dea4-a256c18be3c1}">
+                          <parameters>
+                            <ViewId>{E532F532-49CD-E811-A957-000D3A4E78E7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_contact_academicperioddetails_StudentId</RelationshipName>
+                            <TargetEntityType>mshied_academicperioddetails</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{92108403-8040-4BE3-AF5E-F051886F46A2},{E532F532-49CD-E811-A957-000D3A4E78E7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{DCF7BCB8-C8CC-E811-A96D-000D3A1C5CC0}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="44%">
+              <sections>
+                <section name="tab_5_section_1" showlabel="true" showbar="false" locklevel="0" id="{cc661c90-c485-c670-5874-e4c36a574187}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{bba6e555-5718-4766-8f48-6628770e4661}">
+                  <labels>
+                    <label description="CLASS SCHEDULE" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{50973244-dcb8-878d-1a64-e4096070babe}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{b204e7af-8575-4436-a13b-d3835bbc75aa}">
+                        <labels>
+                          <label description="Active Courses" languagecode="1033" />
+                        </labels>
+                        <control id="StudentSchedule" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{24a509a4-b999-bac3-04d6-ecdd9166a681}">
+                          <parameters>
+                            <ViewId>{FE54374D-E2CD-E811-A954-000D3A4E75EC}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>mshied_contact_coursehistory_StudentId</RelationshipName>
+                            <TargetEntityType>mshied_coursehistory</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{F68457BF-B78C-4D5B-83A4-F4045FB380A2},{FE54374D-E2CD-E811-A954-000D3A4E75EC}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="28%">
+              <sections>
+                <section name="success_network_section" showlabel="true" showbar="true" locklevel="0" id="{1a2912dc-98e2-984c-ca71-064bc35cb07d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="125" celllabelalignment="Left" celllabelposition="Left" labelid="{3547b217-6a28-4442-9f43-884c6a5172f9}">
+                  <labels>
+                    <label description="SUCCESS NETWORK" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9d4d0018-e59c-7590-9d71-5a93e8d66ebe}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{7b1fbcf3-6ea0-4eec-9278-70de9be96f6f}">
+                        <labels>
+                          <label description="SUCCESS NETWORK" languagecode="1033" />
+                        </labels>
+                        <control id="success_network_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{7bb449ae-b589-c65b-2813-1a924ba5d38c}">
+                          <parameters>
+                            <ViewId>{926E2EA9-E29B-41A9-A24C-3E3189CB989A}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_successnetwork_studentid</RelationshipName>
+                            <TargetEntityType>cmc_successnetwork</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{926E2EA9-E29B-41A9-A24C-3E3189CB989A}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_8" id="{a394c416-77a8-ae83-31a1-e7c581730810}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{88b69905-0ce3-43b3-821f-244de1ed65d0}">
+          <labels>
+            <label description="Student Success Profile" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="success_plan_section" showlabel="true" showbar="true" locklevel="0" id="{e77ab87c-a8e1-a0e7-8768-da858a71d563}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{1f10f97d-1842-4000-96c3-23d5f614e6f8}">
+                  <labels>
+                    <label description="SUCCESS PLANS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c6903062-4ed5-09e0-cb94-3a2531d6c8c7}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{f22befb4-7a34-441c-bf22-5c91ad564d74}">
+                        <labels>
+                          <label description="SUCCESS PLANS" languagecode="1033" />
+                        </labels>
+                        <control id="success_plans_section" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{bec45ce3-d3bd-ade9-d4a7-e92d26ce9178}">
+                          <parameters>
+                            <ViewId>{152707FB-A6C0-45FC-A4E7-2C1A91817391}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_successplan_assignedtoid</RelationshipName>
+                            <TargetEntityType>cmc_successplan</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{152707FB-A6C0-45FC-A4E7-2C1A91817391}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="SUMMARY_TAB_section_10" showlabel="true" showbar="false" locklevel="0" id="{5c460586-4a11-82b1-dae6-4e2dc30a7846}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{89f624bf-8b6d-45ae-9bfd-826d41e3ecc0}">
+                  <labels>
+                    <label description="POSITIVE ACKNOWLEDGEMENTS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{de925684-de7e-c4b8-0b43-7eb17d82e065}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{d3ecb037-cf0a-4fc5-84f6-17ece8a32f4f}">
+                        <labels>
+                          <label description="POSITIVE ACKNOWLEDGEMENTS" languagecode="1033" />
+                        </labels>
+                        <control id="POSITIVEACKNOWLEDGEMENTS" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{16ebd10c-7293-e4ab-e0b8-06d509220cb6}">
+                          <parameters>
+                            <ViewId>{40EE0018-59CA-44F0-8F30-844BCC581DA2}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_positiveacknowledgement_studentid</RelationshipName>
+                            <TargetEntityType>cmc_positiveacknowledgement</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{40EE0018-59CA-44F0-8F30-844BCC581DA2}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="to_do_section" showlabel="true" showbar="true" locklevel="0" id="{39a004a6-a629-ca74-4072-d92934ee15e0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="125" celllabelalignment="Left" celllabelposition="Left" labelid="{bc3ebc8a-3955-4fdb-97e7-9473043d4dc2}">
+                  <labels>
+                    <label description="TO DOs" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2e4cee3e-8da7-b888-04a7-72d15506c57e}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{1b9c7b40-2592-435b-8ce5-bc7ee98fad4c}">
+                        <labels>
+                          <label description="TO DOS" languagecode="1033" />
+                        </labels>
+                        <control id="to_do_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{6be9380d-627d-0b40-4732-eadc5651180c}">
+                          <parameters>
+                            <ViewId>{C8EBC06F-9CA6-441B-9B81-E51889BC9EE7}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_todo_assignedtostudentid</RelationshipName>
+                            <TargetEntityType>cmc_todo</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{C8EBC06F-9CA6-441B-9B81-E51889BC9EE7}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="staff_survey_responses" showlabel="true" showbar="true" locklevel="0" id="{099092dc-a26d-6e69-b776-5934d74a760e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{50f6dc08-a113-4e0f-af4e-41198d57996a}">
+                  <labels>
+                    <label description="INSTRUCTOR FEEDBACK" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b78c6040-0e17-20ee-5aa6-99e5e82d482a}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{4941ef62-52fc-4b1a-aff0-4a69125998a0}">
+                        <labels>
+                          <label description="INSTRUCTOR FEEDBACK" languagecode="1033" />
+                        </labels>
+                        <control id="staff_survey_responses_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{ad2080c4-ce87-b46c-329d-20eccc725c3e}">
+                          <parameters>
+                            <ViewId>{15CA9390-CD54-E811-A955-000D3AF262E1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_cmc_staffsurveyresponse</RelationshipName>
+                            <TargetEntityType>cmc_staffsurveyresponse</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{AE874C53-DA78-40A2-A971-08B41297127E},{15CA9390-CD54-E811-A955-000D3AF262E1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="SUMMARY_TAB_section_8" showlabel="false" showbar="false" locklevel="0" id="{9c918e7b-e0d0-c005-0e4e-b2c139470750}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Center" celllabelposition="Left" height="auto" labelid="{c03763bf-e129-4ed1-a291-d7c341603a8d}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b2d1e270-2e8e-5a10-b169-0a0010b486ed}" showlabel="false" colspan="1" auto="true" rowspan="10" labelid="{d83e5f14-51d5-4910-8f53-3e0636d81059}">
+                        <labels>
+                          <label description="WebResource_RetentionScoreGauge" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_WebResource_RetentionScoreGauge" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>cmc_/Pages/RetentionScoreGauge.html</Url>
+                            <PassParameters>true</PassParameters>
+                            <ShowOnMobileClient>true</ShowOnMobileClient>
+                            <Security>false</Security>
+                            <Scrolling>no</Scrolling>
+                            <Border>false</Border>
+                            <WebResourceId>{41047719-5983-E711-8101-C4346BDC3221}</WebResourceId>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies />
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+                <section name="tab_RetentionScore" showlabel="false" showbar="false" locklevel="0" id="{9c7c2223-9890-17e3-8dd6-89905bbe5309}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="175" celllabelalignment="Left" celllabelposition="Left" height="auto" labelid="{3f6e5b5b-505a-4d36-af04-a7d686b1bac3}">
+                  <labels>
+                    <label description="Retention Score" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4ba36589-9acd-b8c1-4772-3dd1c6024419}" showlabel="true" colspan="1" auto="false" rowspan="8" labelid="{b1c90cc4-9f46-4166-ad40-7310b35cbd1f}">
+                        <labels>
+                          <label description="Retention Score Trend Last 12 Weeks" languagecode="1033" />
+                        </labels>
+                        <control id="retention_score_histories_last12weeks_chart" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{715164e8-02a6-560b-2c67-5198e2e30359}">
+                          <parameters>
+                            <ViewId>{45F6B81C-60FA-43B4-B5B6-F1BE01A3DAF8}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>cmc_contact_retentionscorehistory_studentid</RelationshipName>
+                            <TargetEntityType>cmc_retentionscorehistory</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{45F6B81C-60FA-43B4-B5B6-F1BE01A3DAF8}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Chart</ChartGridMode>
+                            <VisualizationId>{6591F4B5-BF9F-E711-8104-C4346BDC2171}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>8</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Event_tab_6" id="{1024a600-87d1-9c66-a8d9-152b74639dc1}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Events" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="EVENTS_ATTENDED_TAB_section_1" showlabel="true" showbar="false" locklevel="0" id="{240de8a3-63b3-6693-9948-03376a1007d1}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Registered events" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2469be7b-a446-65c7-6eb4-6ac179302a80}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Event Registrations (Contact)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_EventSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{36989E15-D3F3-4065-84C1-9DD3B27210DF}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_eventregistration_Contact</RelationshipName>
+                            <TargetEntityType>msevtmgt_eventregistration</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{36989E15-D3F3-4065-84C1-9DD3B27210DF}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{0B2E9F4D-3E1C-E611-80D3-00155DF8BFF9}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="EVENTS_ATTENDED_TAB_section_2" showlabel="true" showbar="false" locklevel="0" id="{111e1568-d882-815c-827d-14d8e8670457}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Registered sessions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aa315732-c957-867b-5d57-2920e07e8192}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Session Registrations (Contact)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_SessionSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{C9B4FE24-D2AA-4776-AB00-B53F92DE99B3}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_sessionregistration_contactid</RelationshipName>
+                            <TargetEntityType>msevtmgt_sessionregistration</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{C9B4FE24-D2AA-4776-AB00-B53F92DE99B3}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{711AA88D-7A17-E611-80D3-00155DB852B2}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="EVENTS_ATTENDED_TAB_section_3" showlabel="true" showbar="false" locklevel="0" id="{85a47083-2495-6e1c-7a42-b597e02652d5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Checked-in events" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{50cd6ddd-1da6-95a8-e8ce-20d8d317e237}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Check-ins (Attendee)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_EventCheckInsSubrgid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_checkin_Contact</RelationshipName>
+                            <TargetEntityType>msevtmgt_checkin</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{B0F24FF0-9221-E611-80D3-00155DB852B2}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="EVENTS_ATTENDED_TAB_section_4" showlabel="true" showbar="false" locklevel="0" id="{be9014c9-7373-5e14-1b81-5a564c8272dc}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Checked-in sessions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1d9ac964-5be1-4c15-9a8e-9e8ba60543e6}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Check-ins (Attendee)" languagecode="1033" />
+                        </labels>
+                        <control id="msevtmgt_SessionCheckInsSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msevtmgt_contact_msevtmgt_checkin_Contact</RelationshipName>
+                            <TargetEntityType>msevtmgt_checkin</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{A607876D-CCCE-404F-BEB2-7531477015D1}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{B0F24FF0-9221-E611-80D3-00155DB852B2}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#f1f1f1</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="conflictstab" id="{2c5b6721-0e3a-1209-c19e-3a3dc3570ed7}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Conflicts Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="conflictssection" showlabel="false" showbar="false" locklevel="0" id="{828b15b2-a382-e7a8-8d69-82230c00aa58}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Conflicts Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ac69c193-56b4-6930-10ea-904a5a9488e8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Marketing Only" languagecode="1033" />
+                        </labels>
+                        <control id="marketingonly" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="marketingonly" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c203a16-a0d3-d54c-569d-4a921e4a4e78}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source journey" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_customerjourneyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_customerjourneyid" disabled="true" uniqueid="{dc82e545-65e7-0b20-8396-6b05d448c1b8}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{28E2B7B3-744F-46D8-A1A2-3ABC8A0E5BEA}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3b46bb8c-a242-e8ea-6bda-47265877b20b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source email" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_emailid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_emailid" disabled="true" uniqueid="{3cb3c674-bb80-1bd8-7dd3-9b0c050409c0}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{5745A72E-19BF-470B-8205-AF424CF46B05}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e931ca29-3c44-94da-ebe1-35b97e9c9e24}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source marketing page" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_marketingpageid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_marketingpageid" disabled="true" uniqueid="{7e81c734-dc4d-70e3-717b-d4079a28c46c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{7CED298C-502E-443F-8528-2CD725E50613}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3070694b-a3c8-a888-35db-ebec4dbdccd3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Source marketing form" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_marketingformid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msdyncrm_marketingformid" disabled="true" uniqueid="{b8e590e5-bb60-c6d9-6395-e5a40225344c}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2B934ADB-14E3-4BF4-9F99-6E46F73E187C}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a48ea31-67e7-7c4a-d639-38ca23c546e2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Prefill marketing form" languagecode="1033" />
+                        </labels>
+                        <control id="msdyncrm_rememberme" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msdyncrm_rememberme" disabled="false" uniqueid="{8894c481-3218-44c2-24c7-9a9a7207d4a7}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3ff9aa06-4e43-41ce-afa9-22a038af5c19}" celllabelposition="Top" columns="1111" labelwidth="145" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{24be01cc-16a6-8eea-8916-42d20a1097ae}" showlabel="true" locklevel="0" labelid="{c062f13e-7fcc-4844-b8ad-466b08f01954}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{a8a66d11-756a-6b1e-1ca3-322c88ddc7dc}" disabled="false">
+                <parameters>
+                  <AutoResolve>true</AutoResolve>
+                  <DisableMru>false</DisableMru>
+                </parameters>
+              </control>
+            </cell>
+            <cell id="{85c6918b-67e1-1253-7c54-b0c068a2ac32}" showlabel="true" locklevel="0" labelid="{0d029061-8c92-46e2-80cb-396554671e25}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" uniqueid="{05ca8425-1677-3293-7b41-8ee1941b9918}" />
+            </cell>
+            <cell id="{89b48a23-84cb-26a7-3101-10092359ca66}" showlabel="true" locklevel="0" labelid="{604067ab-df66-41b6-a955-3780131d9d21}">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+            <cell id="{ad698637-366e-2a07-a689-3c14086cc441}" showlabel="false" labelid="{d53feedc-1e0d-4cad-ad46-fe8f97ab8f2d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:AppCommon/Contact/Contact_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="invoice_customer_contacts" Id="navInvoices" Sequence="10" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Invoice" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="listcontact_association" Id="navListsInSFA" Sequence="11" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="List" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="quote_customer_contacts" Id="navQuotes" Sequence="12" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Quote" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="contract_customer_contacts" Id="navContracts" Sequence="13" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Contract" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="contact_customer_relationship_customer" Id="navRelationships" Sequence="14" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="CustomerRelationship" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="order_customer_contacts" Id="navOrders" Sequence="16" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="SalesOrder" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="contact_customer_contacts" Id="navSubConts" Sequence="17" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Contacts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Contact_ActivityPointers" Sequence="21" Area="Info" Id="navActivities">
+            <Titles>
+              <Title LCID="1033" Text="Activities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Show="true" Sequence="22" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Addresses" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Socialprofile_customer_contacts" Sequence="23" Area="Info" Id="navSocialprofile" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Social Profiles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="contact_entitlement_Customer" Sequence="24" Area="Info" Id="navEntitlement" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Entitlements" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_retentionscorehistory_studentid" Sequence="1000" Area="Service" Id="nav_cmc_contact_retentionscorehistory_studentid">
+            <Titles>
+              <Title LCID="1033" Text="Score Histories" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_successnetwork_studentid" Sequence="1001" Area="Service" Id="nav_cmc_contact_successnetwork_studentid">
+            <Titles>
+              <Title LCID="1033" Text="Success Networks" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_successplan_assignedtoid" Sequence="1002" Area="Service" Id="nav_cmc_contact_successplan_assignedtoid">
+            <Titles>
+              <Title LCID="1033" Text="Success Plans" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Id="navProcessSessions" Show="true" Area="ProcessCenter" Sequence="1003">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_todo_assignedtostudentid" Id="nav_cmc_contact_todo_assignedtostudentid" Show="true" Area="Service" Sequence="1004">
+            <Titles>
+              <Title LCID="1033" Text="To Dos" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Workflows" />
+              <Title LCID="1025" Text="عمليات سير العمل" />
+              <Title LCID="1026" Text="Работни потоци" />
+              <Title LCID="1027" Text="Fluxos de treball" />
+              <Title LCID="1029" Text="Pracovní postupy" />
+              <Title LCID="1030" Text="Arbejdsprocesser" />
+              <Title LCID="1031" Text="Workflows" />
+              <Title LCID="1032" Text="Ροές εργασιών" />
+              <Title LCID="3082" Text="Flujos de trabajo" />
+              <Title LCID="1061" Text="Töövood" />
+              <Title LCID="1069" Text="Lan-fluxuak" />
+              <Title LCID="1035" Text="Työnkulut" />
+              <Title LCID="1036" Text="Workflows" />
+              <Title LCID="1110" Text="Fluxos de traballo" />
+              <Title LCID="1037" Text="זרימות עבודה" />
+              <Title LCID="1081" Text="कार्य प्रवाह" />
+              <Title LCID="1050" Text="Tjekovi rada" />
+              <Title LCID="1038" Text="Munkafolyamatok" />
+              <Title LCID="1057" Text="Alur Kerja" />
+              <Title LCID="1040" Text="Flussi di lavoro" />
+              <Title LCID="1041" Text="ワークフロー" />
+              <Title LCID="1087" Text="Жұмыс ағындары" />
+              <Title LCID="1042" Text="워크플로" />
+              <Title LCID="1063" Text="Darbo eigos" />
+              <Title LCID="1062" Text="Darbplūsmas" />
+              <Title LCID="1086" Text="Aliran Kerja" />
+              <Title LCID="1044" Text="Arbeidsflyter" />
+              <Title LCID="1043" Text="Werkstromen" />
+              <Title LCID="1045" Text="Przepływy pracy" />
+              <Title LCID="1046" Text="Fluxos de Trabalho" />
+              <Title LCID="2070" Text="Fluxos de Trabalho" />
+              <Title LCID="1048" Text="Fluxuri de lucru" />
+              <Title LCID="1049" Text="Бизнес-процессы" />
+              <Title LCID="1051" Text="Pracovné postupy" />
+              <Title LCID="1060" Text="Poteki dela" />
+              <Title LCID="10266" Text="Токови посла" />
+              <Title LCID="9242" Text="Tokovi posla" />
+              <Title LCID="1053" Text="Arbetsflöden" />
+              <Title LCID="1054" Text="เวิร์กโฟลว์" />
+              <Title LCID="1055" Text="İş Akışları" />
+              <Title LCID="1058" Text="Робочі цикли" />
+              <Title LCID="1066" Text="Quy trình làm việc" />
+              <Title LCID="2052" Text="工作流" />
+              <Title LCID="3076" Text="工作流程" />
+              <Title LCID="1028" Text="工作流程" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9604" Area="Info" Id="navAudit">
+            <Titles>
+              <Title LCID="1033" Text="Audit History" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navFeedback" Sequence="9958" Area="Info" Id="navFeedback" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Feedback" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_areaofinterest" Sequence="10001" Area="Info" Id="nav_mshied_contact_areaofinterest">
+            <Titles>
+              <Title LCID="1033" Text="Areas of Interest" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_areaofstudy" Sequence="10001" Area="Info" Id="nav_mshied_contact_areaofstudy">
+            <Titles>
+              <Title LCID="1033" Text="Area of Studies" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="opportunity_parent_contact" Sequence="10002" Area="Sales" Id="navOppsContactParent">
+            <Titles>
+              <Title LCID="1033" Text="Opportunities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_opportunity_contactid" Sequence="10003" Area="Info" Id="nav_cmc_contact_opportunity_contactid">
+            <Titles>
+              <Title LCID="1033" Text="Lifecycles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_academicperioddetails_StudentId" Sequence="10004" Area="Info" Id="nav_mshied_contact_academicperioddetails_StudentId">
+            <Titles>
+              <Title LCID="1033" Text="Academic Period Details" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_extracurricularactivities_PrimaryContactId" Sequence="10008" Area="Info" Id="nav_mshied_contact_extracurricularactivities_PrimaryContactId">
+            <Titles>
+              <Title LCID="1033" Text="Extra Curricular Activities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_extracurricularparticipant_ContactId" Sequence="10009" Area="Info" Id="nav_mshied_contact_extracurricularparticipant_ContactId">
+            <Titles>
+              <Title LCID="1033" Text="Extra Curricular Participants" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_testscore_StudentID" Sequence="10011" Area="Info" Id="nav_mshied_contact_testscore_StudentID">
+            <Titles>
+              <Title LCID="1033" Text="Test Scores" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_cmc_staffsurveyresponse" Sequence="10015" Area="Info" Id="nav_cmc_contact_cmc_staffsurveyresponse">
+            <Titles>
+              <Title LCID="1033" Text="Staff Survey Responses" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="opportunity_customer_contacts" Id="navOpps" Show="false" Sequence="10016" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Customer Lifecycles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_opportunity_sourcereferringcontactid" Sequence="10017" Area="Info" Id="nav_cmc_contact_opportunity_sourcereferringcontactid">
+            <Titles>
+              <Title LCID="1033" Text="Referred Lifecycles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_contact_sourcereferringcontactid" Sequence="10018" Area="Info" Id="nav_cmc_contact_contact_sourcereferringcontactid">
+            <Titles>
+              <Title LCID="1033" Text="Referred Contacts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="incident_customer_contacts" Sequence="10019" Area="Info" Id="navService">
+            <Titles>
+              <Title LCID="1033" Text="Cases" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Id="navConnections" Show="true" Sequence="10020" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Connections" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_positiveacknowledgement_studentid" Id="nav_cmc_contact_positiveacknowledgement_studentid" Show="true" Sequence="10022" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Positive Acknowledgements" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_lead_sourcereferringcontactid" Id="nav_cmc_contact_lead_sourcereferringcontactid" Show="true" Sequence="10023" Area="Info">
+            <Titles>
+              <Title LCID="1033" Text="Inbound Interests" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="cmc_contact_privatenote_studentid" Area="Info" Id="nav_cmc_contact_privatenote_studentid" Sequence="10025">
+            <Titles>
+              <Title LCID="1033" Text="Private Notes" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_coursehistory_StudentId" Id="nav_mshied_contact_coursehistory_StudentId" Show="true" Sequence="103104" Area="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Course Histories" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="mshied_contact_previouseducation_StudentId" Id="nav_mshied_contact_previouseducation_StudentId" Show="true" Sequence="103105" Area="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Previous Education" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+              <Title LCID="1025" Text="Common" />
+              <Title LCID="1026" Text="Common" />
+              <Title LCID="1027" Text="Common" />
+              <Title LCID="1029" Text="Common" />
+              <Title LCID="1030" Text="Common" />
+              <Title LCID="1031" Text="Common" />
+              <Title LCID="1032" Text="Common" />
+              <Title LCID="3082" Text="Common" />
+              <Title LCID="1061" Text="Common" />
+              <Title LCID="1069" Text="Common" />
+              <Title LCID="1035" Text="Common" />
+              <Title LCID="1036" Text="Common" />
+              <Title LCID="1110" Text="Common" />
+              <Title LCID="1037" Text="Common" />
+              <Title LCID="1081" Text="Common" />
+              <Title LCID="1050" Text="Common" />
+              <Title LCID="1038" Text="Common" />
+              <Title LCID="1057" Text="Common" />
+              <Title LCID="1040" Text="Common" />
+              <Title LCID="1041" Text="Common" />
+              <Title LCID="1087" Text="Common" />
+              <Title LCID="1042" Text="Common" />
+              <Title LCID="1063" Text="Common" />
+              <Title LCID="1062" Text="Common" />
+              <Title LCID="1086" Text="Common" />
+              <Title LCID="1044" Text="Common" />
+              <Title LCID="1043" Text="Common" />
+              <Title LCID="1045" Text="Common" />
+              <Title LCID="1046" Text="Common" />
+              <Title LCID="2070" Text="Common" />
+              <Title LCID="1048" Text="Common" />
+              <Title LCID="1049" Text="Common" />
+              <Title LCID="1051" Text="Common" />
+              <Title LCID="1060" Text="Common" />
+              <Title LCID="10266" Text="Common" />
+              <Title LCID="9242" Text="Common" />
+              <Title LCID="1053" Text="Common" />
+              <Title LCID="1054" Text="Common" />
+              <Title LCID="1055" Text="Common" />
+              <Title LCID="1058" Text="Common" />
+              <Title LCID="1066" Text="Common" />
+              <Title LCID="2052" Text="Common" />
+              <Title LCID="3076" Text="Common" />
+              <Title LCID="1028" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+              <Title LCID="1025" Text="Sales" />
+              <Title LCID="1026" Text="Sales" />
+              <Title LCID="1027" Text="Sales" />
+              <Title LCID="1029" Text="Sales" />
+              <Title LCID="1030" Text="Sales" />
+              <Title LCID="1031" Text="Sales" />
+              <Title LCID="1032" Text="Sales" />
+              <Title LCID="3082" Text="Sales" />
+              <Title LCID="1061" Text="Sales" />
+              <Title LCID="1069" Text="Sales" />
+              <Title LCID="1035" Text="Sales" />
+              <Title LCID="1036" Text="Sales" />
+              <Title LCID="1110" Text="Sales" />
+              <Title LCID="1037" Text="Sales" />
+              <Title LCID="1081" Text="Sales" />
+              <Title LCID="1050" Text="Sales" />
+              <Title LCID="1038" Text="Sales" />
+              <Title LCID="1057" Text="Sales" />
+              <Title LCID="1040" Text="Sales" />
+              <Title LCID="1041" Text="Sales" />
+              <Title LCID="1087" Text="Sales" />
+              <Title LCID="1042" Text="Sales" />
+              <Title LCID="1063" Text="Sales" />
+              <Title LCID="1062" Text="Sales" />
+              <Title LCID="1086" Text="Sales" />
+              <Title LCID="1044" Text="Sales" />
+              <Title LCID="1043" Text="Sales" />
+              <Title LCID="1045" Text="Sales" />
+              <Title LCID="1046" Text="Sales" />
+              <Title LCID="2070" Text="Sales" />
+              <Title LCID="1048" Text="Sales" />
+              <Title LCID="1049" Text="Sales" />
+              <Title LCID="1051" Text="Sales" />
+              <Title LCID="1060" Text="Sales" />
+              <Title LCID="10266" Text="Sales" />
+              <Title LCID="9242" Text="Sales" />
+              <Title LCID="1053" Text="Sales" />
+              <Title LCID="1054" Text="Sales" />
+              <Title LCID="1055" Text="Sales" />
+              <Title LCID="1058" Text="Sales" />
+              <Title LCID="1066" Text="Sales" />
+              <Title LCID="2052" Text="Sales" />
+              <Title LCID="3076" Text="Sales" />
+              <Title LCID="1028" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+              <Title LCID="1025" Text="Service" />
+              <Title LCID="1026" Text="Service" />
+              <Title LCID="1027" Text="Service" />
+              <Title LCID="1029" Text="Service" />
+              <Title LCID="1030" Text="Service" />
+              <Title LCID="1031" Text="Service" />
+              <Title LCID="1032" Text="Service" />
+              <Title LCID="3082" Text="Service" />
+              <Title LCID="1061" Text="Service" />
+              <Title LCID="1069" Text="Service" />
+              <Title LCID="1035" Text="Service" />
+              <Title LCID="1036" Text="Service" />
+              <Title LCID="1110" Text="Service" />
+              <Title LCID="1037" Text="Service" />
+              <Title LCID="1081" Text="Service" />
+              <Title LCID="1050" Text="Service" />
+              <Title LCID="1038" Text="Service" />
+              <Title LCID="1057" Text="Service" />
+              <Title LCID="1040" Text="Service" />
+              <Title LCID="1041" Text="Service" />
+              <Title LCID="1087" Text="Service" />
+              <Title LCID="1042" Text="Service" />
+              <Title LCID="1063" Text="Service" />
+              <Title LCID="1062" Text="Service" />
+              <Title LCID="1086" Text="Service" />
+              <Title LCID="1044" Text="Service" />
+              <Title LCID="1043" Text="Service" />
+              <Title LCID="1045" Text="Service" />
+              <Title LCID="1046" Text="Service" />
+              <Title LCID="2070" Text="Service" />
+              <Title LCID="1048" Text="Service" />
+              <Title LCID="1049" Text="Service" />
+              <Title LCID="1051" Text="Service" />
+              <Title LCID="1060" Text="Service" />
+              <Title LCID="10266" Text="Service" />
+              <Title LCID="9242" Text="Service" />
+              <Title LCID="1053" Text="Service" />
+              <Title LCID="1054" Text="Service" />
+              <Title LCID="1055" Text="Service" />
+              <Title LCID="1058" Text="Service" />
+              <Title LCID="1066" Text="Service" />
+              <Title LCID="2052" Text="Service" />
+              <Title LCID="3076" Text="Service" />
+              <Title LCID="1028" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+              <Title LCID="1025" Text="Marketing" />
+              <Title LCID="1026" Text="Marketing" />
+              <Title LCID="1027" Text="Marketing" />
+              <Title LCID="1029" Text="Marketing" />
+              <Title LCID="1030" Text="Marketing" />
+              <Title LCID="1031" Text="Marketing" />
+              <Title LCID="1032" Text="Marketing" />
+              <Title LCID="3082" Text="Marketing" />
+              <Title LCID="1061" Text="Marketing" />
+              <Title LCID="1069" Text="Marketing" />
+              <Title LCID="1035" Text="Marketing" />
+              <Title LCID="1036" Text="Marketing" />
+              <Title LCID="1110" Text="Marketing" />
+              <Title LCID="1037" Text="Marketing" />
+              <Title LCID="1081" Text="Marketing" />
+              <Title LCID="1050" Text="Marketing" />
+              <Title LCID="1038" Text="Marketing" />
+              <Title LCID="1057" Text="Marketing" />
+              <Title LCID="1040" Text="Marketing" />
+              <Title LCID="1041" Text="Marketing" />
+              <Title LCID="1087" Text="Marketing" />
+              <Title LCID="1042" Text="Marketing" />
+              <Title LCID="1063" Text="Marketing" />
+              <Title LCID="1062" Text="Marketing" />
+              <Title LCID="1086" Text="Marketing" />
+              <Title LCID="1044" Text="Marketing" />
+              <Title LCID="1043" Text="Marketing" />
+              <Title LCID="1045" Text="Marketing" />
+              <Title LCID="1046" Text="Marketing" />
+              <Title LCID="2070" Text="Marketing" />
+              <Title LCID="1048" Text="Marketing" />
+              <Title LCID="1049" Text="Marketing" />
+              <Title LCID="1051" Text="Marketing" />
+              <Title LCID="1060" Text="Marketing" />
+              <Title LCID="10266" Text="Marketing" />
+              <Title LCID="9242" Text="Marketing" />
+              <Title LCID="1053" Text="Marketing" />
+              <Title LCID="1054" Text="Marketing" />
+              <Title LCID="1055" Text="Marketing" />
+              <Title LCID="1058" Text="Marketing" />
+              <Title LCID="1066" Text="Marketing" />
+              <Title LCID="2052" Text="Marketing" />
+              <Title LCID="3076" Text="Marketing" />
+              <Title LCID="1028" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+              <Title LCID="1025" Text="Process Sessions" />
+              <Title LCID="1026" Text="Process Sessions" />
+              <Title LCID="1027" Text="Process Sessions" />
+              <Title LCID="1029" Text="Process Sessions" />
+              <Title LCID="1030" Text="Process Sessions" />
+              <Title LCID="1031" Text="Process Sessions" />
+              <Title LCID="1032" Text="Process Sessions" />
+              <Title LCID="3082" Text="Process Sessions" />
+              <Title LCID="1061" Text="Process Sessions" />
+              <Title LCID="1069" Text="Process Sessions" />
+              <Title LCID="1035" Text="Process Sessions" />
+              <Title LCID="1036" Text="Process Sessions" />
+              <Title LCID="1110" Text="Process Sessions" />
+              <Title LCID="1037" Text="Process Sessions" />
+              <Title LCID="1081" Text="Process Sessions" />
+              <Title LCID="1050" Text="Process Sessions" />
+              <Title LCID="1038" Text="Process Sessions" />
+              <Title LCID="1057" Text="Process Sessions" />
+              <Title LCID="1040" Text="Process Sessions" />
+              <Title LCID="1041" Text="Process Sessions" />
+              <Title LCID="1087" Text="Process Sessions" />
+              <Title LCID="1042" Text="Process Sessions" />
+              <Title LCID="1063" Text="Process Sessions" />
+              <Title LCID="1062" Text="Process Sessions" />
+              <Title LCID="1086" Text="Process Sessions" />
+              <Title LCID="1044" Text="Process Sessions" />
+              <Title LCID="1043" Text="Process Sessions" />
+              <Title LCID="1045" Text="Process Sessions" />
+              <Title LCID="1046" Text="Process Sessions" />
+              <Title LCID="2070" Text="Process Sessions" />
+              <Title LCID="1048" Text="Process Sessions" />
+              <Title LCID="1049" Text="Process Sessions" />
+              <Title LCID="1051" Text="Process Sessions" />
+              <Title LCID="1060" Text="Process Sessions" />
+              <Title LCID="10266" Text="Process Sessions" />
+              <Title LCID="9242" Text="Process Sessions" />
+              <Title LCID="1053" Text="Process Sessions" />
+              <Title LCID="1054" Text="Process Sessions" />
+              <Title LCID="1055" Text="Process Sessions" />
+              <Title LCID="1058" Text="Process Sessions" />
+              <Title LCID="1066" Text="Process Sessions" />
+              <Title LCID="2052" Text="Process Sessions" />
+              <Title LCID="3076" Text="Process Sessions" />
+              <Title LCID="1028" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{5ca8c570-a541-4cf4-9209-99406ba7cbdf}">
+          <customControl formFactor="0" name="MscrmControls.TalkingPointsControl.TalkingPoints">
+            <parameters>
+              <fullname>fullname</fullname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.TalkingPointsControl.TalkingPoints">
+            <parameters>
+              <fullname>fullname</fullname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.TalkingPointsControl.TalkingPoints">
+            <parameters>
+              <fullname>fullname</fullname>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{2cd96455-440b-3c25-408b-d8c4a3bc897c}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>mobilephone</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>mobilephone</value>
+              <mask static="true" type="SingleLine.Text">#000#0000000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>mobilephone</value>
+              <mask static="true" type="SingleLine.Text">#000#0000000</mask>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.InputMask.InputMaskControl">
+            <parameters>
+              <value>mobilephone</value>
+              <mask static="true" type="SingleLine.Text">#000#0000000</mask>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer id="{a545a8cb-3ad5-40d4-b1c8-41cd3a05b08a}" columns="1111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{a3742429-5e3b-3c0d-0e26-672e1b07952a}" showlabel="true" locklevel="0" labelid="{65dd1dcd-c0e1-45bf-a66d-3027ac577dc7}">
+              <labels>
+                <label description="Created By" languagecode="1033" />
+              </labels>
+              <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+            </cell>
+            <cell id="{7a1988a0-08a1-8082-ee93-d578dbc47a1c}" showlabel="true" locklevel="0" labelid="{e7c2e588-ee1c-4726-93d4-3af56b28613b}">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+            </cell>
+            <cell id="{339db065-3850-097c-d069-b34b010cc6d9}" showlabel="true" locklevel="0" labelid="{060c6bc1-3a28-4657-a68a-58b6c41593e8}">
+              <labels>
+                <label description="Modified By" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+            </cell>
+            <cell id="{dba10973-3120-69e9-9d22-64b99d712b52}" showlabel="true" locklevel="0" labelid="{00825ddc-63a8-4e5d-8740-22f1f8fcd21d}">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+              </labels>
+              <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" />
+        <Library name="cmc_/dist/app/common/utilities.js" libraryUniqueId="{c71189a9-7287-c269-070e-24a599ea1734}" />
+        <Library name="cmc_/dist/App/Forms/contact.js" libraryUniqueId="{8d4201e0-01c4-89b0-5e54-3ca769437cd6}" />
+        <Library name="cmc_/dist/app/Common/CommonInboundInterestLogic.js" libraryUniqueId="{e81988b2-bc9b-abe5-8920-2c89c53069c4}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
+          </InternalHandlers>
+          <Handlers>
+            <Handler functionName="loadTalkingPoints" libraryName="msdyn_talkingpointsloader.js" handlerUniqueId="{a96425be-a853-9549-dc5a-1610151533dd}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="CampusManagement.contact.onLoad" libraryName="cmc_/dist/App/Forms/contact.js" handlerUniqueId="{1acadc89-8540-d7b7-43e0-30d5843ab8e8}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="CampusManagement.CommonInboundInterestLogic.onLoad" libraryName="cmc_/dist/app/Common/CommonInboundInterestLogic.js" handlerUniqueId="{a2d22480-5cd7-d94d-aede-9c25c0abe00c}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+          <dependencies>
+            <dependency id="parentcustomerid" />
+          </dependencies>
+        </event>
+      </events>
+      <DisplayConditions FallbackForm="true" Order="5">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Contact(Engage)" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Contact form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

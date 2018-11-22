@@ -155,13 +155,13 @@
               <sections>
                 <section name="assign_students_sections" showlabel="true" showbar="true" locklevel="0" id="{c5329321-eb4d-4dc1-3355-9d5206a3a850}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="STUDENT GROUPS" languagecode="1033" />
+                    <label description="MARKETING LIST" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{56199108-7c7a-ad2e-c48b-293c5b02a5ab}" showlabel="true" colspan="1" auto="false" rowspan="6">
                         <labels>
-                          <label description="STUDENT GROUPS" languagecode="1033" />
+                          <label description="MARKETING LIST" languagecode="1033" />
                         </labels>
                         <control id="student_groups_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{0e819519-3b29-0d7c-131d-60db05bd8789}">
                           <parameters>
